@@ -1,0 +1,620 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+.banner-section-development-services {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/development_services_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+/* .banner-section-about {
+  background: url(../assets/images/services_AppDevelopment/banner.svg) center;
+} */
+
+/* <!-- ***************************************************Our Expertise in Mobile App Design & Development******************** --> */
+
+#our-expertise-in-mobile-con > p {
+  margin-inline: 20%;
+}
+
+.our-expertise-in-mobile-main-circle-con {
+  margin-top: 37px;
+  display: flex;
+  gap: 113px;
+}
+
+.our-expertise-in-mobile-main-circle-con-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+}
+
+.our-expertise-in-mobile-main-circle-box {
+  width: 100%;
+  border-radius: 227px;
+  box-shadow: 0px 0px 21px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--white-color);
+  padding: 30px 20px;
+}
+
+.our-expertise-in-mobile-main-circle-box > h2 {
+  font-family: Rajdhani;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.88px;
+  text-align: center;
+}
+
+.our-expertise-in-mobile-main-circle-box > p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.48px;
+  text-align: center;
+}
+
+#our-expertise-in-mobile-main-circle-box-1 {
+  background: #307aac;
+  margin-left: 120%;
+  position: relative;
+  z-index: -22;
+}
+
+#our-expertise-in-mobile-main-circle-box-1::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/right-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: -42%;
+  bottom: -28px;
+  top: -29px;
+  z-index: 223;
+}
+
+#our-expertise-in-mobile-main-circle-box-2 {
+  background: #406aa7;
+  margin-left: 60%;
+  position: relative;
+  z-index: 22;
+}
+
+#our-expertise-in-mobile-main-circle-box-2::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/left-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: 42%;
+  bottom: -62px;
+  top: -62px;
+  z-index: 223;
+}
+
+#our-expertise-in-mobile-main-circle-box-2::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-2.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: -56px;
+  z-index: 22;
+  overflow: visible;
+}
+#our-expertise-in-mobile-main-circle-box-3 {
+  background: #4f549b;
+  position: relative;
+  z-index: -22;
+}
+
+#our-expertise-in-mobile-main-circle-box-3::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-1.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: -59px;
+  z-index: 22;
+  overflow: visible;
+}
+
+#our-expertise-in-mobile-main-circle-box-3::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/right-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: -42%;
+  bottom: -28px;
+  top: -29px;
+  z-index: 223;
+}
+
+#our-expertise-in-mobile-main-circle-box-4 {
+  background: #63388b;
+  margin-left: 60%;
+  position: relative;
+}
+
+#our-expertise-in-mobile-main-circle-box-4::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/left-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: 42%;
+  bottom: -62px;
+  top: -62px;
+  z-index: 223;
+}
+
+#our-expertise-in-mobile-main-circle-box-4::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-1.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: 59px;
+}
+#our-expertise-in-mobile-main-circle-box-5 {
+  background: #574690;
+  margin-left: 120%;
+  position: relative;
+  z-index: 22;
+}
+
+#our-expertise-in-mobile-main-circle-box-5::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-2.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: 59px;
+  z-index: 22;
+  overflow: visible;
+}
+
+#our-expertise-in-mobile-main-circle-box-5::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/right-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: -42%;
+  bottom: -28px;
+  top: -29px;
+  z-index: 223;
+}
+#our-expertise-in-mobile-main-circle-box-6 {
+  background: #574690;
+  margin-right: 120%;
+  position: relative;
+}
+
+#our-expertise-in-mobile-main-circle-box-6::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/left-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: 42%;
+  bottom: -62px;
+  top: -62px;
+  z-index: 223;
+}
+#our-expertise-in-mobile-main-circle-box-7 {
+  background: #63388b;
+  margin-right: 60%;
+  position: relative;
+}
+
+#our-expertise-in-mobile-main-circle-box-7::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-2.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: 59px;
+}
+
+#our-expertise-in-mobile-main-circle-box-7::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/right-curve-line.svg)
+    no-repeat center;
+  width: 50%;
+  right: -17%;
+  bottom: -28px;
+  top: -29px;
+  z-index: 223;
+}
+#our-expertise-in-mobile-main-circle-box-8 {
+  background: #4f549b;
+  z-index: -22;
+  position: relative;
+}
+
+#our-expertise-in-mobile-main-circle-box-8::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-1.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: 59px;
+  z-index: 22;
+  overflow: visible;
+}
+
+#our-expertise-in-mobile-main-circle-box-8::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/left-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: 42%;
+  bottom: -62px;
+  top: -62px;
+  z-index: 223;
+}
+#our-expertise-in-mobile-main-circle-box-9 {
+  background: #406aa7;
+  margin-right: 60%;
+  position: relative;
+}
+
+#our-expertise-in-mobile-main-circle-box-9::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-1.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: -59px;
+}
+
+#our-expertise-in-mobile-main-circle-box-9::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/right-curve-line.svg)
+    no-repeat center;
+  width: 27%;
+  right: -6%;
+  bottom: -28px;
+  top: -27px;
+  z-index: 223;
+}
+#our-expertise-in-mobile-main-circle-box-10 {
+  background: #307aac;
+  margin-right: 120%;
+  position: relative;
+  z-index: 22;
+}
+
+#our-expertise-in-mobile-main-circle-box-10::after {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/line-2.svg) no-repeat
+    center;
+  width: 100%;
+  bottom: 0;
+  top: -111%;
+  right: -59px;
+  z-index: 22;
+  overflow: visible;
+}
+
+#our-expertise-in-mobile-main-circle-box-10::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/images/services_AppDevelopment/left-curve-line.svg)
+    no-repeat center;
+  width: 100%;
+  right: 42%;
+  bottom: -62px;
+  top: -62px;
+  z-index: 223;
+}
+
+.our-expertise-in-mobile-main-circle-con-middle {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-expertise-in-mobile-main-circle-con-middle-img {
+  position: relative;
+  height: 414px;
+  width: 414px;
+  border-radius: 50%;
+  background: url(../assets/images/services_AppDevelopment/circle-section.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-expertise-in-mobile-main-circle-con-middle-text {
+  background: var(--white-color);
+  border-radius: 50%;
+  height: 323px;
+  width: 323px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 196px 0px #00000040;
+  padding: 75px;
+}
+
+.our-expertise-in-mobile-main-circle-con-middle-text > h1 {
+  font-family: Rajdhani;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50.82px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.services_appDevelopment .technology-frameworks-heading-con {
+  padding: 7px 0px;
+  margin-inline: 0px;
+  gap: 70px;
+}
+
+.services_appDevelopment .frameworks-image-box-con {
+  margin-inline: 10%;
+}
+
+@media only screen and (max-width: 1360px) {
+  .our-expertise-in-mobile-main-circle-con {
+    gap: 95px;
+  }
+
+  #our-expertise-in-mobile-main-circle-box-1::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-1::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-2::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-2::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-3::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-3::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-4::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-4::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-5::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-5::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-6::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-6::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-7::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-7::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-8::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-8::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-9::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-9::after {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-10::before {
+    width: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-10::after {
+    width: 0%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .our-expertise-in-mobile-main-circle-box > h2 {
+    font-size: 22px;
+    line-height: 24.88px;
+  }
+
+  .our-expertise-in-mobile-main-circle-box {
+    padding: 30px 43px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .our-expertise-in-mobile-main-circle-con-middle-img {
+    height: 0px;
+    width: 0px;
+  }
+
+  .our-expertise-in-mobile-main-circle-box {
+    padding: 30px 56px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .services_appDevelopment .technology-frameworks-heading-con {
+    overflow-x: scroll;
+    gap: 60px;
+  }
+
+  .services_appDevelopment .technology-frameworks-heading {
+    width: fit-content;
+  }
+
+  .our-expertise-in-mobile-main-circle-box {
+    padding: 30px 39px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .services_appDevelopment .frameworks-image-box-con {
+    margin-inline: 0%;
+  }
+
+  .our-expertise-in-mobile-main-circle-box {
+    padding: 30px 24px;
+  }
+  .wrapper-section {
+    padding-block: 40px;
+}
+  #our-expertise-in-mobile-con > p {
+    margin-inline: 0%;
+  }
+  .our-expertise-in-mobile-main-circle-con-middle-text {
+    height: 260px;
+    width: 275px;
+}
+.our-expertise-in-mobile-main-circle-con-middle-text > h1 {
+  font-size: 35px;
+  line-height: 44.82px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .services_appDevelopment .technology-frameworks-heading-con {
+    gap: 40px;
+  }
+
+  .our-expertise-in-mobile-main-circle-con {
+    flex-direction: column;
+  }
+
+  .our-expertise-in-mobile-main-circle-con-left {
+    width: 100%;
+  }
+
+  #our-expertise-in-mobile-main-circle-box-1 {
+    margin-left: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-2 {
+    margin-left: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-3 {
+    margin-left: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-4 {
+    margin-left: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-5 {
+    margin-left: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-6 {
+    margin-right: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-7 {
+    margin-right: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-8 {
+    margin-right: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-9 {
+    margin-right: 0%;
+  }
+  #our-expertise-in-mobile-main-circle-box-10 {
+    margin-right: 0%;
+  }
+
+  .our-expertise-in-mobile-main-circle-con {
+    gap: 40px;
+  }
+
+  .our-expertise-in-mobile-main-circle-con-middle-img {
+    height: 414px;
+    width: 414px;
+  }
+  .our-expertise-in-mobile-main-circle-con-middle-text {
+    height: 270px;
+    width: 275px;
+}
+.our-expertise-in-mobile-main-circle-box {
+  border-radius: 30px !important;
+  padding: 20px 20px;
+}
+.hiring-models-box > p {
+  margin-top: 24px;
+}
+}
+@media only screen and (max-width: 575px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 376px) {
+  .our-expertise-in-mobile-main-circle-con-middle-img {
+    height: 0px;
+    width: 0px;
+  }
+
+  .our-expertise-in-mobile-main-circle-con {
+    gap: 190px;
+  }
+  .our-expertise-in-mobile-main-circle-con-middle-text {
+    padding: 33px;
+    height: 215px;
+}
+  .our-expertise-in-mobile-main-circle-con-middle-img:before {
+    content: '';
+    background-repeat: no-repeat !important;
+    background: url(../assets/images/services_AppDevelopment/circle-section.svg);
+    position: absolute;
+    background-size: 100%;
+    height: 306px;
+    width: 303px;
+    z-index: -1;
+}
+}
+@media only screen and (max-width: 320px) {
+  .our-expertise-in-mobile-main-circle-con-middle-text {
+    height: 280px;
+    width: 280px;
+  }
+}

@@ -1,0 +1,277 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+.banner-section-uiux-services {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/UIUX_design_banner.png  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+/* .banner-section-about {
+  background: url(../assets/images/services_uiux/banner.svg) center;
+} */
+
+/* <!-- ********************************************Hire Our UI/UX Designers for End-to-End Services************************ --> */
+.owl-theme .owl-nav.disabled+.owl-dots #uiux-slider{
+  margin-top: 62px !important;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled #uiux-slider{
+  display: block !important;
+  /* margin-top: 70px !important; */
+}
+button.owl-dot.active {
+  border-radius: 50% !important;
+  padding: 10px !important;
+  width: 28px;
+  height: 28px;
+  border: 3px solid #613A83 !important;
+}
+.owl-theme .owl-dots .owl-dot{
+  margin: 0 20px !important;
+}
+#uiux-slider .owl-item img {
+  display: block;
+  width:unset ;
+}
+
+.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+  margin-top: 36px;
+  display: flex;
+  gap: 111px;
+}
+
+.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
+  width: 406px;
+  height: 339px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.layer {
+  padding: 26px 20px;
+  width: 100%;
+  height: 100%;
+  background: url(../assets/images/services_uiux/slider-hover.svg) no-repeat;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  overflow: hidden;
+  transition: bottom 0.6s;
+  background-size: cover;
+}
+
+.layer > h2 {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 38.22px;
+  text-align: left;
+  color: var(--white-color);
+  margin-top: 16px;
+}
+
+.layer > p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.52px;
+  text-align: justify;
+  color: var(--white-color);
+  margin-top: 24px;
+}
+
+.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box:hover:hover img {
+  transform: scale(1.1);
+}
+
+.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box:hover .layer {
+  bottom: 0%;
+}
+
+/* <!-- ******************************Why Should You Choose UI/UX Design Technology?****************************************** --> */
+
+.Why-Should-You-Choose-UIUX-Design-con {
+  display: flex;
+  gap: 68px;
+  align-items: center;
+}
+.Why-Should-You-Choose-UIUX-Design-con-left-img img {
+  width: 100%;
+}
+
+.Why-Should-You-Choose-UIUX-Design-con .our-services-info-box-right {
+  display: block;
+}
+
+@media only screen and (max-width: 1360px) {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+    gap: 61px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+    gap: 15px;
+  }
+  .layer > h2 {
+    font-size: 24px;
+    line-height: 26.22px;
+  }
+
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
+    width: calc(33% - 5px);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-con
+    .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+    gap: 15px;
+  }
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
+    width: calc(33% - 5px);
+  }
+
+  .layer > h2 {
+    font-size: 20px;
+  }
+
+  .layer > p {
+    line-height: 20.52px;
+    margin-top: 12px;
+  }
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+  .Why-Should-You-Choose-UIUX-Design-con {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+    margin-top: 15px;
+  }
+
+  .layer > p {
+    font-size: 13px;
+
+    line-height: 18.52px;
+  }
+
+  .layer > h2 {
+    line-height: 20.22px;
+    margin-top: 13px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-con
+    .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+    flex-direction: column;
+  }
+
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
+    width: 100%;
+  }
+
+  .layer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .layer > h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .layer > p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .layer > img {
+    margin-inline: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con-left {
+    gap: 10px;
+  }
+  .middle-slider-part-left-box-con {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (max-width:450px) {
+  #how-do-we-work-card-33::after {
+    top: 35%;
+}
+}
+@media only screen and (max-width: 376px) {
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .layer > h2 {
+    font-size: 23px;
+  }
+
+  .layer > p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .layer > h2 {
+    font-size: 19px;
+  }
+
+  .layer > p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,134 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+.banner-section-hire-dedicated {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/hire_dedicated_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+/* .banner-section-about {
+  background: url(../assets/images/services_hire/banner.svg) center;
+} */
+
+/* <!-- *****************************************Ready to Transform Your Projects?************************************** --> */
+
+.ready-to-transform-your-Project h1 {
+  font-family: Rajdhani;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.08px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.ready-to-transform-your-Project-p {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38.22px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 24px;
+}
+
+.ready-to-transform-your-Project-p span {
+  font-weight: 600;
+}
+
+.ready-to-transform-your-Project-p2 {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38.22px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 40px;
+}
+
+.schedule-interview-button {
+  padding: 12px 38px;
+  color: var(--white-color);
+  background: var(--gradient-color);
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.07px;
+  text-align: left;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 2px solid white;
+}
+
+.schedule-interview-button:hover {
+  background: transparent;
+  border: 2px solid var(--root-black-color);
+  color: var(--purple-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .ready-to-transform-your-Project h1 {
+    text-align: center;
+  }
+
+  .ready-to-transform-your-Project-p {
+    text-align: center;
+  }
+
+  .ready-to-transform-your-Project-p2 {
+    text-align: center;
+  }
+
+  .schedule-interview-button {
+    margin-inline: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ready-to-transform-your-Project h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .ready-to-transform-your-Project-p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .ready-to-transform-your-Project-p2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  .schedule-interview-button {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ready-to-transform-your-Project h1 {
+    font-size: 38px;
+    line-height: 35px;
+  }
+}

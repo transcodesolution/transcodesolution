@@ -1,0 +1,150 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+
+.banner-section-about {
+  background: url(../assets/images/realEstate/banner.svg) center;
+}
+
+/* ****************************************************case-study*********************************************** */
+
+.case-study .work-portfolio-cards-con {
+  gap: 60px;
+}
+
+.case-study .work-portfolio-card {
+  width: calc(33% - 20px);
+  padding: 13px 13px 30px 13px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.case-study .work-portfolio-card p {
+  margin-top: 13px;
+
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-bottom: 16px;
+}
+
+.case-study .work-portfolio-card .work-portfolio-read-more a {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--purple-color);
+}
+
+.case-study .work-portfolio-card .work-portfolio-read-more a i {
+  color: var(--purple-color);
+}
+
+.case-study .work-portfolio-card .work-portfolio-card-heading {
+  margin-top: 16px;
+}
+
+.case-study .work-portfolio-card .work-portfolio-card-heading h1 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.case-study .work-portfolio-card .work-portfolio-read-more {
+  margin-top: auto;
+}
+
+/* <!-- **************************************************technology-expertise************************************** --> */
+
+.realEstate .technology-expertise-container {
+  width: 1300px;
+}
+
+.realEstate .technology-expertise-con > p {
+  margin-inline: 14%;
+}
+
+.realEstate .frameworks-image-box-con {
+  margin-inline: 17%;
+}
+
+.frameworks-image-box {
+  padding: 27px;
+}
+
+.realEstate .technology-frameworks-heading-con {
+  padding: 7px 0px;
+  margin-inline: 0px;
+  gap: 65px;
+}
+@media only screen and (max-width: 1280px) {
+  .realEstate .technology-frameworks-heading-con {
+    gap: 59px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .realEstate .technology-frameworks-heading-con {
+    gap: 43px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .case-study .work-portfolio-cards-con {
+    gap: 45px;
+  }
+
+  .case-study .work-portfolio-card {
+    width: calc(33% - 15px);
+  }
+
+  .realEstate .technology-expertise-con > p {
+    margin-inline: 4%;
+  }
+
+  .realEstate .technology-expertise-container {
+    width: 100%;
+  }
+
+  .realEstate .technology-frameworks-heading {
+    width: fit-content;
+  }
+
+  .realEstate .technology-frameworks-heading-con {
+    overflow-x: scroll;
+    gap: 65px;
+  }
+
+  .realEstate .frameworks-image-box-con {
+    margin-inline: 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .case-study .work-portfolio-cards-con {
+    gap: 45px;
+  }
+
+  .case-study .work-portfolio-card {
+    width: 100%;
+  }
+
+  .realEstate .frameworks-image-box-con {
+    margin-inline: 0%;
+  }
+
+  .realEstate .technology-frameworks-heading-con {
+    gap: 35px;
+  }
+}

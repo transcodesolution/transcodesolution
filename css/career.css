@@ -1,0 +1,1077 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************career-banner********************************************** --> */
+.banner-section-career-main {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/career_background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+.banner-section-about {
+  background: url(../assets/images/career/banner.svg);
+}
+
+/* <!-- *********************************************career-at-transcodezy************************************************ --> */
+
+#career-at-transcodezy-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+.career-at-transcodezy-con {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.career-at-transcodezy-con h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.career-at-transcodezy-con p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  padding-inline: 130px;
+}
+
+/* <!-- ************************************************join-our-team-section*************************************************** --> */
+
+#join-our-team-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+.join-our-team-con {
+  display: flex;
+  align-items: center;
+}
+
+.join-our-team-left {
+  width: 30%;
+  padding-right: 77px;
+  position: relative;
+}
+
+.join-our-team-left::before {
+  content: "";
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+.join-our-team-left h1 {
+  font-family: Rajdhani;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 74.25px;
+  text-align: left;
+  color: var(--root-black-color);
+  border-radius: 21px;
+}
+
+.join-our-team-left h1 > span {
+  color: var(--purple-color);
+}
+
+.join-our-team-right {
+  flex: 1;
+  padding-left: 77px;
+}
+
+.join-our-team-right p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+/* <!-- ************************************************why-work-with-us-section************************************************ --> */
+
+#why-work-with-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+#why-work-with-us .container {
+  overflow: visible;
+}
+
+.why-work-with-us-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.why-work-with-us-con h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.why-work-with-us-con p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 16px;
+}
+
+.why-work-with-us-boxes-con {
+  margin-top: 57px;
+  display: flex;
+  gap: 50px;
+}
+
+.why-work-with-us-box {
+  box-shadow: 0px 0px 10.9px 0px #00000040;
+  border-radius: 14px;
+  display: flex;
+  padding-inline: 22px;
+  flex-direction: column;
+  width: calc(25% - 12.5px);
+  padding-top: 107px;
+  position: relative;
+  overflow: hidden;
+}
+
+.why-work-with-us-box:hover h1,
+.why-work-with-us-box:hover p {
+  color: white;
+}
+
+.why-work-with-us-box:hover {
+  box-shadow: none;
+}
+
+.why-work-with-us-box::after {
+  content: "";
+  width: 35%;
+  height: 20%;
+  background: var(--gradient-color-2);
+  position: absolute;
+  border-radius: 14px 0px 49px 0px;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.why-work-with-us-box:hover::after {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../assets/images/career/hover-after-image.svg) no-repeat;
+  background-size: cover;
+}
+
+.why-work-with-us-box:hover .arrow-con > img {
+  rotate: -90deg;
+  transition: all 0.5s ease-in-out;
+}
+
+.why-work-with-us-box > img {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.why-work-with-us-box h1 {
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35.28px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 30px;
+  position: relative;
+  z-index: 99;
+}
+
+.why-work-with-us-box p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.52px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 18px;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 99;
+}
+
+.arrow-con {
+  width: 63px;
+  height: 77px;
+  border-radius: 71px 71px 0px 0px;
+  background: var(--gradient-color-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: auto;
+  position: relative;
+  z-index: 99;
+}
+
+.image-hover {
+  display: none;
+  z-index: 99;
+  position: relative;
+}
+
+.why-work-with-us-box:hover .image-hover-before {
+  display: none;
+}
+
+.why-work-with-us-box:hover .image-hover {
+  display: block;
+}
+
+/* <!-- *****************************************************************our-current-openings************************************ --> */
+.slider_1 .owl-item img {
+  display: block;
+  width: auto !important;
+}
+
+button.owl-dot.active {
+  border-radius: 50% !important;
+  padding: 10px !important;
+  width: 28px;
+  height: 28px;
+  border: 2px solid transparent !important; 
+  background-image: linear-gradient(white, white), linear-gradient(180deg, #6236FF, #4897E8) !important; 
+  background-origin: border-box !important;
+  background-clip: content-box, border-box !important; 
+}
+#our-current-openings-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+.our-current-openings-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-current-opening-main-box {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin-top: 43px;
+}
+
+.our-current-opening-left-box {
+  width: 43%;
+}
+
+.our-current-opening-right-box {
+  flex: 1;
+}
+
+.our-current-opening-right-box > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56.14px;
+  text-align: left;
+  color: #8d8d8d;
+}
+
+.location-london-con {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.location-london-con-left {
+  width: 50%;
+  background: var(--gradient-color-2);
+  padding: 19px 40px 19px 50px;
+  position: relative;
+}
+
+.location-london-con-left::after {
+  content: "";
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 6px;
+  background: white;
+  top: 0;
+}
+
+.location-london-con-left p {
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.62px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.location-london-con-right {
+  padding-left: 13px;
+}
+
+.location-london-con-right p {
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.62px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.job-desc {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 25px;
+}
+
+.job-desc strong {
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.62px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.responsibilities-qualifications-con {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.responsibilities {
+  width: 50%;
+}
+
+.responsibilities > h1 {
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.62px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.checked-icon-list-con {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.checked-icon-list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.checked-icon-list p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.qualifications {
+  padding-left: 33px;
+}
+
+.responsibilities-og {
+  padding-right: 24px;
+  border-inline-end: 1px solid var(--purple-color);
+}
+
+/* <!-- **********************************************life at transcodezy************************************************** --> */
+
+#life-at-transcodezy-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+#life-at-transcodezy-wrapper .container {
+  overflow: visible;
+}
+
+.life-at-transcodezy-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.life-at-transcodezy-con > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 28px;
+}
+
+.life-at-transcodezy-main {
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.life-at-transcodezy-left-box {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.life-at-box {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.life-at-box-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.life-at-box-text > h3 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.28px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.life-at-box-text > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.life-at-transcodezy-right-box {
+  width: 50%;
+}
+
+.life-at-transcodezy-right-box > form {
+  padding: 26px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 0px 15px 0px #00000040;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  border-radius: 10px;
+}
+
+.form-field-con {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.life-at-form-input-box {
+  padding: 16px;
+  width: 50%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.4px;
+  color: var(--root-black-color);
+}
+
+.life-at-form-input-box::placeholder {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.4px;
+  text-align: left;
+  color: #949494;
+}
+
+.life-at-transcodezy-right-box #life-at-form-textarea {
+  padding: 16px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.4px;
+  color: var(--root-black-color);
+}
+
+.life-at-transcodezy-right-box #life-at-form-textarea::placeholder {
+  width: 100%;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.4px;
+  text-align: left;
+  color: #949494;
+}
+
+.life-at-send-now {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38.22px;
+  text-align: left;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: var(--gradient-color-2);
+  padding: 15px 45px;
+  width: fit-content;
+}
+
+/* ****************************************************how-to-apply-section*********************************************** */
+
+#how-to-apply-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+.how-to-apply-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.how-to-apply-con > p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 15px;
+}
+
+.how-to-apply-span {
+  font-family: 600;
+}
+
+.apply-info {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.apply-info-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.apply-info-first-p {
+  margin-left: 25px;
+}
+
+.apply-info-second-p {
+  margin-left: 15px;
+}
+
+.apply-info-text > strong {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27.18px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.apply-info-text > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.18px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+@media only screen and (max-width: 1024px) {
+  .why-work-with-us-boxes-con {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .why-work-with-us-box {
+    width: calc(50% - 15px);
+  }
+
+  .our-current-opening-main-box {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .our-current-opening-left-box {
+    width: 100%;
+  }
+
+  .our-current-opening-left-box img {
+    width: 100%;
+  }
+  .our-current-opening-right-box > h1 {
+    text-align: center;
+  }
+
+  .location-london-con-left {
+    width: fit-content;
+  }
+
+  .job-desc {
+    text-align: center;
+  }
+
+  .location-london-con {
+    justify-content: center;
+  }
+
+  .life-at-box {
+    flex-direction: column;
+  }
+
+  .life-at-box-text > p {
+    text-align: center;
+  }
+
+  .life-at-box-text > h3 {
+    text-align: center;
+  }
+
+  .life-at-transcodezy-left-box {
+    gap: 15px;
+  }
+
+  .life-at-transcodezy-right-box {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .life-at-transcodezy-main {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .life-at-transcodezy-left-box {
+    width: 100%;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .life-at-box {
+    flex-direction: unset;
+    width: calc(50% - 15px);
+  }
+
+  .life-at-box-text > p {
+    text-align: left;
+  }
+
+  .life-at-box-text > h3 {
+    text-align: left;
+  }
+  .life-at-transcodezy-right-box {
+    width: 100%;
+  }
+
+  #career-at-transcodezy-wrapper {
+    padding-block: 30px;
+  }
+
+  #join-our-team-wrapper {
+    padding-block: 30px;
+  }
+
+  #why-work-with-us {
+    padding-block: 30px;
+  }
+
+  .why-work-with-us-boxes-con {
+    margin-top: 40px;
+  }
+
+  #our-current-openings-wrapper {
+    padding-block: 30px;
+  }
+  #life-at-transcodezy-wrapper {
+    padding-block: 30px;
+  }
+
+  #how-to-apply-wrapper {
+    padding-block: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .career-at-transcodezy-con h1 {
+    font-size: 40px;
+    line-height: 40.24px;
+  }
+
+  .career-at-transcodezy-con p {
+    padding-inline: 0px;
+  }
+
+  .career-at-transcodezy-con {
+    gap: 15px;
+  }
+
+  .join-our-team-con {
+    flex-direction: column;
+  }
+
+  .career-at-transcodezy-con p {
+    line-height: 24.46px;
+  }
+
+  .join-our-team-left {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .join-our-team-left h1 {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .join-our-team-right {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 15px;
+  }
+
+  .join-our-team-right p {
+    text-align: center;
+    line-height: 24.24px;
+  }
+
+  .join-our-team-left::before {
+    width: 0%;
+  }
+
+  .why-work-with-us-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .why-work-with-us-con p {
+    line-height: 24.46px;
+  }
+
+  .why-work-with-us-boxes-con {
+    margin-top: 30px;
+  }
+
+  .why-work-with-us-box h1 {
+    font-size: 24px;
+
+    line-height: 30.28px;
+  }
+
+  .our-current-openings-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .our-current-opening-right-box > h1 {
+    font-size: 40px;
+
+    line-height: 40.14px;
+  }
+
+  .job-desc {
+    line-height: 24px;
+  }
+
+  .job-desc strong {
+    font-size: 22px;
+
+    line-height: 24.62px;
+  }
+
+  .responsibilities > h1 {
+    font-size: 22px;
+
+    line-height: 24.62px;
+  }
+
+  .responsibilities-qualifications-con {
+    align-items: flex-start;
+  }
+
+  .life-at-transcodezy-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .life-at-transcodezy-con > p {
+    margin-top: 15px;
+  }
+
+  .life-at-transcodezy-con > p {
+    line-height: 24.46px;
+  }
+
+  .life-at-box-text > h3 {
+    font-size: 22px;
+
+    line-height: 24.28px;
+  }
+
+  .life-at-box-text > p {
+    font-size: 18px;
+
+    line-height: 22.46px;
+  }
+  .life-at-form-input-box {
+    font-size: 20px;
+
+    line-height: 20.4px;
+  }
+
+  .life-at-send-now {
+    font-size: 22px;
+
+    line-height: 24.22px;
+  }
+
+  .how-to-apply-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+    text-align: center;
+  }
+
+  .how-to-apply-con > p {
+    font-size: 20px;
+
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .apply-info {
+    margin-top: 20px;
+    gap: 5px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .life-at-box {
+    width: 100%;
+  }
+
+  .life-at-transcodezy-left-box {
+    gap: 20px;
+  }
+
+  .life-at-form-input-box {
+    padding: 15px;
+  }
+
+  .life-at-transcodezy-right-box #life-at-form-textarea {
+    padding: 15px;
+  }
+
+  .how-to-apply-con > p {
+    font-size: 19px;
+  }
+
+  .apply-info-text > p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .why-work-with-us-box {
+    width: 100%;
+  }
+
+  .location-london-con-right p {
+    font-size: 18px;
+    line-height: 24.62px;
+  }
+
+  .location-london-con-left p {
+    font-size: 18px;
+
+    line-height: 24.62px;
+  }
+
+  .qualifications {
+    padding-left: 25px;
+  }
+
+  .life-at-form-input-box {
+    width: 100%;
+  }
+
+  .life-at-send-now {
+    font-size: 22px;
+
+    line-height: 22.22px;
+    text-align: center;
+
+    width: unset;
+  }
+
+  .apply-info-text {
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .apply-info {
+    gap: 5px;
+  }
+
+  .apply-info-first-p {
+    margin-left: 0px;
+  }
+
+  .apply-info-second-p {
+    margin-left: 0;
+  }
+
+  .apply-info-text > p {
+    text-align: center;
+  }
+
+  .life-at-form-input-box::placeholder {
+    font-size: 16px;
+  }
+
+  .life-at-transcodezy-right-box #life-at-form-textarea::placeholder {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .responsibilities-qualifications-con {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .responsibilities {
+    width: 100%;
+  }
+
+  .responsibilities-og {
+    padding-right: 0px;
+    border-inline-end: none;
+  }
+  .qualifications {
+    padding-left: 0px;
+  }
+
+  .checked-icon-list-con {
+    margin-top: 10px;
+  }
+
+  .life-at-box {
+    gap: 15px;
+  }
+
+  .life-at-box-text > h3 {
+    font-size: 19px;
+  }
+
+  .life-at-box-text > p {
+    font-size: 16px;
+    line-height: 20.46px;
+  }
+
+  .life-at-send-now {
+    font-size: 20px;
+  }
+  .career-at-transcodezy-con h1,.join-our-team-left h1,.why-work-with-us-con > h1,.our-current-openings-con > h1,.our-current-opening-right-box > h1,.life-at-transcodezy-con > h1 {
+    font-size: 35px;
+}
+.career-at-transcodezy-con p,.join-our-team-right p,.why-work-with-us-con p,.life-at-transcodezy-con > p {
+  font-size: 16px;
+}
+.life-at-transcodezy-right-box > form {
+  padding: 15px;
+  gap: 16px;
+}
+.form-field-con {
+  gap: 16px;
+}
+}
+@media only screen and (max-width: 320px) {
+}

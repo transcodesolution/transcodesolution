@@ -1,0 +1,520 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+.wrapper-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+/* <!-- ************************************************portfolio-banner********************************************** --> */
+.banner-section-portfolio-main {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/portfolio_background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+.banner-section-about {
+  background: url(../assets/images/portfolio/banner.svg);
+}
+
+/* <!-- *******************************************************success-stories******************************************** --> */
+
+.success-stories-con {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.success-stories-con-upper {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.success-stories-con-upper-left h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56.14px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.success-stories-con-upper-right p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.success-stories-view-all {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.96px;
+  text-align: center;
+  color: var(--white-color);
+  border-radius: 50px;
+  background: var(--gradient-color-2);
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  border: 2px solid white;
+}
+
+.success-stories-view-all:hover {
+  color: var(--purple-color);
+  background: transparent;
+  border: 2px solid var(--root-black-color);
+}
+
+.success-stories-view-all:hover i {
+  color: var(--purple-color);
+}
+
+.success-stories-view-all i {
+  margin-left: 10px;
+  color: white;
+}
+
+.success-stories-con-bottom p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.16px;
+  text-align: justify;
+  color: var(--root-black-color);
+}
+
+/* <!-- ********************************************************our-portfolio************************************************* --> */
+.our-portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-portfolio-wrapper .container {
+  overflow: visible;
+}
+
+.our-portfolio-con h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56.14px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-portfolio-container {
+  max-width: 930px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.our-portfolio-con > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-portfolio-headings-con {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.our-portfolio-hading {
+  width: calc(25% - 18.75px);
+  font-family: Rajdhani;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35.73px;
+  color: var(--root-black-color);
+  text-align: center;
+  white-space: nowrap;
+  padding-bottom: 8px;
+}
+
+.our-portfolio-cards-con {
+  margin-top: 45px;
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.our-portfoilo-card {
+  padding: 17px;
+  box-shadow: 0px 0px 15px 0px #00000040;
+  background: #fbfbfb;
+  width: calc(33% - 22.33px);
+}
+
+.our-portfoilo-card > img {
+  width: 100%;
+}
+
+.our-portfolio-spiceseed {
+  margin-top: 14px;
+  padding-bottom: 4px;
+  border-block-end: 0.5px solid var(--root-black-color);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-portfolio-spiceseed-detail {
+  margin-top: 6px;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18.12px;
+  text-align: left;
+
+  color: var(--root-black-color);
+}
+
+.view-case-study-btn {
+  margin-top: 12px;
+  font-family: Rubik;
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--white-color);
+  background: var(--gradient-color-2);
+  line-height: 10.67px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 7px 13px;
+  border: 2px solid white;
+}
+
+.view-case-study-btn:hover {
+  color: var(--purple-color);
+  background: transparent;
+  border: 2px solid var(--root-black-color);
+}
+
+.view-case-study-btn i {
+  margin-left: 6px;
+}
+
+/* <!-- *************************************************************why-should-you-choose***************************** --> */
+
+.why-should-you-con {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.why-should-you-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56.14px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.why-should-you-con > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.why-should-checked-list-con {
+  display: flex;
+  gap: 98px;
+  align-items: center;
+}
+
+.why-should-checked-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: calc(33% - 33px);
+}
+
+.why-should-checked-list > p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  text-align: left;
+  color: var(--root-black-color);
+  white-space: nowrap;
+}
+
+.schedule-consultation {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.44px;
+  text-align: left;
+  color: var(--white-color);
+  background: var(--gradient-color-2);
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 20px 33px;
+  border: 2px solid white;
+}
+
+.schedule-consultation:hover {
+  color: var(--purple-color);
+  background: transparent;
+  border: 2px solid var(--root-black-color);
+}
+
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1360px) {
+}
+@media only screen and (max-width: 1200px) {
+  .our-portfolio-cards-con {
+    gap: 39px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .our-portfolio-cards-con {
+    gap: 38px;
+  }
+  .our-portfoilo-card {
+    width: calc(33% - 22px);
+  }
+
+  .why-should-checked-list > p {
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .our-portfolio-cards-con {
+    gap: 34px;
+  }
+  .our-portfoilo-card {
+    width: calc(33% - 19.5px);
+  }
+
+  .why-should-checked-list > p {
+    white-space: unset;
+  }
+
+  .wrapper-section {
+    padding-block: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .success-stories-con-upper {
+    flex-direction: column;
+  }
+  .success-stories-con-upper-left h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .success-stories-con-upper {
+    gap: 15px;
+  }
+
+  .success-stories-con-upper-right p {
+    line-height: 24.04px;
+    text-align: center;
+  }
+
+  .success-stories-view-all {
+    display: block;
+    margin: 15px auto 0px;
+  }
+
+  .success-stories-con {
+    gap: 0px;
+  }
+
+  .success-stories-con-bottom p {
+    font-size: 20px;
+
+    line-height: 34.16px;
+    text-align: center;
+
+    margin-top: 41px;
+  }
+
+  .our-portfolio-con h1 {
+    font-size: 40px;
+
+    line-height: 40.14px;
+  }
+
+  .our-portfolio-con > p {
+    line-height: 25.04px;
+  }
+
+  .our-portfolio-headings-con {
+    flex-wrap: wrap;
+
+    gap: 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  .our-portfolio-headings-con::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: var(--root-black-color);
+    position: absolute;
+    left: 50%;
+  }
+
+  .our-portfolio-headings-con::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--root-black-color);
+    position: absolute;
+    top: 50%;
+  }
+
+  .our-portfolio-hading {
+    font-size: 24px;
+    width: calc(50% - 15px);
+    line-height: 24.73px;
+    border-block-end: none !important;
+    padding-bottom: 0;
+  }
+
+  .our-portfoilo-card {
+    width: calc(50% - 19.5px);
+  }
+
+  .why-should-you-con > h1 {
+    font-size: 40px;
+    line-height: 44.14px;
+  }
+  .why-should-you-con {
+    gap: 15px;
+  }
+
+  .why-should-checked-list > p {
+    font-size: 17px;
+  }
+
+  .schedule-consultation {
+    font-size: 18px;
+    line-height: 24.44px;
+    padding: 12px 25px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .why-should-checked-list-con {
+    gap: 45px;
+  }
+
+  .why-should-checked-list {
+    width: calc(33% - 15px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .our-portfoilo-card {
+    width: 100%;
+  }
+
+  .our-portfolio-cards-con {
+    margin-top: 35px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .our-portfolio-hading {
+    width: 100%;
+  }
+
+  .our-portfolio-headings-con::after {
+    width: 0;
+  }
+  .our-portfolio-headings-con::before {
+    width: 0;
+  }
+
+  .our-portfolio-headings-con {
+    gap: 10px;
+  }
+
+  .our-portfolio-hading {
+    border-block-end: 1px solid var(--root-black-color);
+    padding-bottom: 15px;
+    margin-inline: 35px;
+  }
+  .success-stories-con-upper-left h1,.our-portfolio-con h1,.why-should-you-con > h1 {
+    font-size: 35px;
+}
+.our-portfolio-con > p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.our-portfolio-hading {
+  font-size: 21px;
+}
+.our-portfolio-hading {
+  padding-bottom: 10px;
+}
+.success-stories-con-upper-right p,.why-should-you-con > p {
+  font-size: 16px;
+}
+.success-stories-con-bottom p {
+  font-size: 17px;
+  line-height: 29.16px;
+}
+  #desktop-software {
+    border-block-end: none;
+  }
+
+  .why-should-checked-list {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .why-should-checked-list-con {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .why-should-you-con {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+}

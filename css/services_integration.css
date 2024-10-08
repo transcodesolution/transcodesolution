@@ -1,0 +1,1531 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+.banner-section-integration-services-main {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/integration_services_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+
+/* .banner-section-about {
+  background: url(../assets/images/services_integration/banner.svg) center;
+} */
+
+/* <!-- *****************************************************integration service******************************************* --> */
+
+.integration-service>h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60.5px;
+  text-align: center;
+  color: var(--root-black-color);
+  width: max-content;
+  position: relative;
+}
+
+.integration-service>h1::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--root-black-color);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.integration-service>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+  text-align: justify;
+  color: var(--root-black-color);
+  margin-top: 26px;
+}
+
+/* <!-- ***************************************************our-integration-service********************************************* --> */
+
+.our-intergration-services-con-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-intergration-services-con-heading>h2 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-intergration-services-con-heading>button {
+  background: var(--gradient-color);
+  color: var(--white-color);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  text-align: left;
+}
+
+.our-intergration-services-con-heading>button:hover {
+  background: transparent;
+  border: 2px solid var(--root-black-color);
+  color: var(--purple-color);
+}
+
+.our-intergration-services-boxes-con {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.our-intergration-services-box {
+  box-shadow: 0px 0px 14.2px 0px #00000040;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  border: 1px solid transparent;
+  transition: all 0.7s ease-in-out;
+}
+
+.our-intergration-services-box:hover {
+  background: linear-gradient(244.73deg,
+      rgba(4, 191, 215, 0.3) -48.91%,
+      rgba(99, 56, 139, 0.3) 79.49%);
+  border: 1px solid #3f3f3f;
+}
+
+.our-intergration-services-box>img {
+  width: 8%;
+}
+
+.our-intergration-services-box-h2 {
+  width: 15%;
+}
+
+.our-intergration-services-box-h2>h2 {
+  font-family: Rajdhani;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.14px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-intergration-services-box-desc {
+  margin-left: 100px;
+  flex: 1;
+}
+
+.our-intergration-services-box-desc>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-intergration-services-box-lists-con {
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.our-intergration-services-box-lists-con>ul {
+  display: flex;
+  align-items: center;
+  gap: 91px;
+}
+
+.our-intergration-services-box-lists-con li {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.22px;
+  text-align: left;
+  color: var(--root-black-color);
+  list-style: disc;
+  width: 50%;
+}
+
+/* <!-- ***************************************************our-integration-service-2********************************************* --> */
+.our-integration-service-2-cards-con {
+  display: flex;
+  gap: 130px;
+  margin-top: 30px;
+}
+
+#our-integration-service-2-p {
+  margin-inline: 24%;
+}
+
+.our-integration-service-2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: calc(25% - 32.5px);
+}
+
+.our-integration-service-2-card>img {
+  width: 40%;
+}
+
+.our-integration-service-2-card>h3 {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32.34px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-integration-service-2-card>p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23.52px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+/* <!-- ***************************************************Integration Expertise Across Industries******************************* --> */
+
+.Integration-Expertise-Across-Industries-con {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.Integration-Expertise-Across-Industries-con-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.Integration-Expertise-Across-Industries-con-left-subbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Integration-Expertise-Across-Industries-con-left-subbox>h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.Integration-Expertise-Across-Industries-con-left-subbox>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.Integration-Expertise-Across-Industries-con-left>img {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.Integration-Expertise-Across-Industries-con-right {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  flex: 1;
+}
+
+.Integration-Expertise-Across-Industries-sub-boxes {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  padding: 23px 57px;
+  box-shadow: 0px 0px 5px 0px #00000040;
+  border-radius: 5px;
+}
+
+.Integration-Expertise-Across-Industries-sub-boxes>img {
+  width: 8%;
+  height: 35px;
+}
+
+.Integration-Expertise-Across-Industries-sub-boxes>p {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.28px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+/* <!-- ****************************************************Our Expertise in Integration************************************** --> */
+
+.Our-Expertise-in-Integration-con {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+}
+
+.Our-Expertise-in-Integration-con-left {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+  width: 46%;
+}
+
+.Our-Expertise-in-Integration-con-left-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  box-shadow: 0px 0px 10px 0px #00000040;
+  border-radius: 5px;
+  width: calc(50% - 22.5px);
+}
+
+.Our-Expertise-in-Integration-con-left-card>h2 {
+  font-family: Rajdhani;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.3px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 20px;
+}
+
+.Our-Expertise-in-Integration-con-left-card>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 12px;
+}
+
+.Our-Expertise-in-Integration-con-right {
+  flex: 1;
+}
+
+.Our-Expertise-in-Integration-con-right>h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.Our-Expertise-in-Integration-con-right>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  text-align: justify;
+  color: var(--root-black-color);
+
+  margin-top: 20px;
+}
+
+.Our-Expertise-in-Integration-con-right>button {
+  padding: 12px 26px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: var(--gradient-color);
+  color: var(--white-color);
+  border-radius: 50px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  text-align: left;
+  margin-top: 30px;
+  border: 2px solid white;
+}
+
+.Our-Expertise-in-Integration-con-right>button:hover {
+  background: transparent;
+  color: var(--purple-color);
+  border: 2px solid var(--root-black-color);
+}
+
+/* <!-- **********************************************Success Stories**************************************************** --> */
+
+.Success-Stories-services h1 {
+  font-family: Rajdhani;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.08px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.Success-Stories-services p {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38.22px;
+  text-align: left;
+  color: var(--white-color);
+  margin-right: 5%;
+}
+
+.Success-Stories-services .get-in-touch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font-family: Rubik;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22.52px;
+  text-align: left;
+}
+
+/* <!-- **************************************************technology-expertise************************************** --> */
+
+.services_integration .technology-frameworks-heading-con {
+  display: flex;
+  padding: 7px 0px;
+  margin-inline: 0px;
+  gap: 60px;
+  border-block-end: 1px solid #b0b0b0;
+}
+
+.services_integration .frameworks-image-box-con {
+  margin-top: 40px;
+  margin-inline: 10%;
+  gap: 40px;
+  display: none;
+}
+
+/* <!-- *******************************************how-do-we-works*********************************************** --> */
+
+.how-do-we-work-cards-con {
+  display: flex;
+  gap: 80px;
+}
+
+.how-do-we-work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(25% - 20px);
+  gap: 53px;
+  position: relative;
+  cursor: pointer;
+}
+
+.how-do-we-work-inner-box .heading {
+  position: relative;
+}
+
+#how-do-we-work-card-11::after {
+  content: "";
+  width: 100%;
+  height: 95px;
+  position: absolute;
+  background: #574690;
+  top: 35%;
+  left: 0%;
+  z-index: 1;
+}
+
+#how-do-we-work-card-22::after {
+  content: "";
+  width: 100%;
+  height: 95px;
+  position: absolute;
+  background: #4f549b;
+
+  top: 35%;
+  left: 0%;
+  z-index: 1;
+}
+
+#how-do-we-work-card-33::after {
+  content: "";
+  width: 100%;
+  height: 95px;
+  position: absolute;
+  background: #406aa7;
+
+  top: 35%;
+  left: 0%;
+  z-index: 1;
+}
+
+#how-do-we-work-card-44::after {
+  content: "";
+  width: 100%;
+  height: 95px;
+  position: absolute;
+  background: #307aac;
+
+  top: 35%;
+  left: 0%;
+  z-index: 1;
+}
+
+.how-do-we-work-cards-con {
+  margin-top: 13px;
+}
+
+.how-do-we-work-inner-box {
+  box-shadow: 0px 0px 15px 0px #00000040;
+  border-radius: 5px;
+  position: relative;
+  margin-inline: 15px;
+}
+
+.how-do-we-work-inner-box p {
+  padding: 0 33px 43px 33px;
+}
+
+.how-do-we-work-inner-box::after {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: transparent;
+  bottom: -2%;
+  left: 10%;
+}
+
+.how-do-we-work-card:hover .how-do-we-work-inner-box::after {
+  background: var(--purple-color);
+}
+
+#how-do-we-work-card-1::before {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: #574690;
+  top: -16%;
+  left: 10%;
+}
+
+#how-do-we-work-card-1::after {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: transparent;
+  bottom: -2%;
+  left: 10%;
+  transition: all 0.6s ease-in-out;
+}
+
+.how-do-we-work-card:hover #how-do-we-work-card-1::after {
+  background: #574690;
+}
+
+#how-do-we-work-card-2::before {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: #4f549b;
+
+  top: -16%;
+  left: 10%;
+}
+
+#how-do-we-work-card-2::after {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: transparent;
+  bottom: -2%;
+  left: 10%;
+  transition: all 0.6s ease-in-out;
+}
+
+.how-do-we-work-card:hover #how-do-we-work-card-2::after {
+  background: #4f549b;
+}
+
+#how-do-we-work-card-3::before {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: #406aa7;
+  top: -16%;
+  left: 10%;
+}
+
+#how-do-we-work-card-3::after {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: transparent;
+  bottom: -2%;
+  left: 10%;
+  transition: all 0.6s ease-in-out;
+}
+
+.how-do-we-work-card:hover #how-do-we-work-card-3::after {
+  background: #406aa7;
+}
+
+#how-do-we-work-card-4::before {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: #307aac;
+  top: -16%;
+  left: 10%;
+}
+
+#how-do-we-work-card-4::after {
+  content: "";
+  width: 80%;
+  height: 10px;
+  position: absolute;
+  background: transparent;
+  bottom: -2%;
+  left: 10%;
+  transition: all 0.6s ease-in-out;
+}
+
+.how-do-we-work-card:hover #how-do-we-work-card-4::after {
+  background: #307aac;
+}
+
+.how-do-we-work-inner-box>h1 {
+  font-family: Rajdhani;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36.3px;
+  text-align: center;
+  color: var(--white-color);
+  position: static;
+  z-index: 99;
+}
+
+.how-do-we-work-inner-box>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 44px;
+}
+
+/* <!-- ************************************************our-recent-work-slider**************************************** --> */
+
+.our-recent-work-slider-con {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#left-side-icon-our-slider {
+  position: absolute;
+  top: 59%;
+}
+
+/* #left-side-icon-our-slider {
+  position: absolute;
+  top: 59%;
+  left: 235px;
+  transform: translate(-50%, -50%);
+} */
+#right-side-icon-our-slider {
+  position: absolute;
+  top: 59%;
+  right: 70px;
+}
+/* #right-side-icon-our-slider {
+  position: absolute;
+  top: 59%;
+  right: 199px;
+  transform: translate(-50%, -50%);
+} */
+
+.left-side-icon {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px #00000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: var(--root-black-color);
+}
+
+.middle-slider-part {
+  display: flex;
+  align-items: flex-end;
+  gap: 43px;
+  margin-inline: 65px;
+
+}
+
+.middle-slider-part-left>h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.middle-slider-part-left>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 13px;
+}
+
+.middle-slider-part-left-box-con {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.middle-slider-part-left-box {
+  box-shadow: 0px 0px 5px 0px #00000040;
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+
+.middle-slider-part-left-box>h2 {
+  font-family: Rajdhani;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.62px;
+  text-align: left;
+  color: var(--root-black-color);
+  width: max-content;
+  position: relative;
+}
+
+.middle-slider-part-left-box>h2::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--root-black-color);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.middle-slider-part-left-box>p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.58px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 13px;
+}
+
+.middle-slider-part-right {
+  width: 80%;
+}
+
+.middle-slider-part-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.middle-slider-part-left {
+  width: 55%;
+  padding: 0 0 20px 0px;
+
+}
+
+#id1 .owl-dots {
+  display: none;
+}
+
+@media (max-width:1440px) {
+  #right-side-icon-our-slider {
+    right: 10px;
+    z-index: 200;
+  }
+
+  #left-side-icon-our-slider {
+    left: 15px;
+    z-index: 200;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .our-integration-service-2-cards-con {
+    gap: 100px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(25% - 25px);
+  }
+
+  .Integration-Expertise-Across-Industries-con-left {
+    width: 53%;
+  }
+  .middle-slider-part-left {
+    padding: 0 0 0px 0px;
+    margin-bottom: 10px;
+}
+.middle-slider-part-right {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 1280px) {
+  .our-intergration-services-box-desc {
+    margin-left: 0px;
+  }
+
+  .our-integration-service-2-cards-con {
+    gap: 80px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(25% - 20px);
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 22%;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left {
+    width: 56%;
+  }
+
+  .how-do-we-work-cards-con {
+    gap: 44px;
+  }
+
+  .how-do-we-work-inner-box>h1 {
+    font-size: 27px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .our-intergration-services-box {
+    padding: 25px 25px;
+  }
+
+  .our-intergration-services-box-h2>h2 {
+    font-size: 30px;
+
+    line-height: 30.14px;
+  }
+
+  .our-intergration-services-box {
+    gap: 40px;
+  }
+
+  .our-intergration-services-box-lists-con li {
+    font-size: 16px;
+
+    line-height: 26.22px;
+  }
+
+  .our-intergration-services-box-lists-con {
+    margin-top: 5px;
+  }
+
+  .our-integration-service-2-cards-con {
+    gap: 40px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(25% - 10px);
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 19px;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 16%;
+  }
+
+  .Integration-Expertise-Across-Industries-con {
+    gap: 70px;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left {
+    width: 50%;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes {
+    padding: 20px 57px;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes>img {
+    width: 11%;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes>p {
+    font-size: 22px;
+
+    line-height: 30.28px;
+  }
+
+  .Our-Expertise-in-Integration-con-left {
+    width: 60%;
+  }
+
+  .Our-Expertise-in-Integration-con {
+    gap: 50px;
+  }
+
+  .how-do-we-work-inner-box>h1 {
+    font-size: 22px;
+  }
+
+  .how-do-we-work-inner-box p {
+    padding: 0 15px 25px 15px;
+  }
+
+  .how-do-we-work-inner-box>p {
+    margin-top: 35px;
+  }
+  .middle-slider-part {
+    gap: 20px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+  .our-integration-service-2-cards-con {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(50% - 20px);
+  }
+
+  .our-intergration-services-box {
+    gap: 35px;
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 22px;
+  }
+
+  .our-integration-service-2-card>img {
+    width: 25%;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 15%;
+  }
+
+  .Success-Stories-services h1 {
+    font-size: 40px;
+
+    line-height: 40.08px;
+    text-align: center;
+  }
+
+  .Success-Stories-services p {
+    font-size: 22px;
+
+    line-height: 26.22px;
+    text-align: center;
+
+    margin-right: 0%;
+  }
+
+  .Success-Stories-services .cutting-edge-con {
+    padding-block: 30px;
+    gap: 20px;
+  }
+
+  .how-do-we-work-cards-con {
+    gap: 30px;
+  }
+
+  .services_integration .technology-frameworks-heading {
+    width: fit-content;
+  }
+
+  .services_integration .technology-frameworks-heading-con {
+    overflow-x: scroll;
+  }
+
+  .services_integration .frameworks-image-box-con {
+    margin-inline: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .our-intergration-services-box {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .our-intergration-services-box-h2 {
+    width: 100%;
+  }
+
+  .our-intergration-services-box>img {
+    width: 15%;
+  }
+
+  .our-intergration-services-box-lists-con {
+    margin-top: 7px;
+  }
+
+  .our-intergration-services-box-desc>p {
+    text-align: center;
+  }
+
+  .our-intergration-services-con-heading>h2 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .our-intergration-services-box-h2>h2 {
+    font-size: 30px;
+
+    line-height: 30.14px;
+  }
+
+  .integration-service>h1 {
+    font-size: 45px;
+    line-height: 45.5px;
+    width: unset;
+  }
+
+  .integration-service>h1::after {
+    width: 0%;
+  }
+
+  .integration-service>p {
+    line-height: 24.9px;
+    text-align: center;
+
+    margin-top: 15px;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 5%;
+  }
+
+  .Integration-Expertise-Across-Industries-con {
+    flex-direction: column;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left {
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left>img {
+    width: 40%;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
+    font-size: 40px;
+
+    line-height: 45.24px;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left-subbox>p {
+    line-height: 25.6px;
+  }
+
+  .Integration-Expertise-Across-Industries-con-right {
+    width: 100%;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes>img {
+    width: 5%;
+    height: 35px;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes>p {
+    font-size: 20px;
+    line-height: 20.28px;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes {
+    padding: 18px;
+  }
+
+  .Integration-Expertise-Across-Industries-con {
+    gap: 20px;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes {
+    gap: 20px;
+  }
+
+  .Our-Expertise-in-Integration-con {
+    flex-direction: column-reverse;
+  }
+
+  .Our-Expertise-in-Integration-con-left {
+    width: 100%;
+  }
+
+  .Our-Expertise-in-Integration-con-right>h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+    text-align: center;
+  }
+
+  .Our-Expertise-in-Integration-con-right>p {
+    font-size: 18px;
+    line-height: 24.6px;
+    text-align: center;
+
+    margin-top: 15px;
+  }
+
+  .Our-Expertise-in-Integration-con-right>button {
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+
+  .Our-Expertise-in-Integration-con-left-card>h2 {
+    font-size: 25px;
+    line-height: 25.3px;
+
+    margin-top: 15px;
+  }
+
+  .Our-Expertise-in-Integration-con-left-card>p {
+    line-height: 24.46px;
+  }
+
+  .how-do-we-work-cards-con {
+    flex-wrap: wrap;
+  }
+
+  .how-do-we-work-card {
+    width: calc(50% - 20px);
+  }
+
+  #how-do-we-work-card-11::after {
+    height: 70px;
+    top: 45%;
+  }
+
+  #how-do-we-work-card-22::after {
+    height: 70px;
+    top: 45%;
+  }
+
+  #how-do-we-work-card-33::after {
+    height: 70px;
+    top: 45%;
+  }
+
+  #how-do-we-work-card-44::after {
+    height: 70px;
+    top: 45%;
+  }
+
+  #how-do-we-work-card-1::before {
+    top: -25%;
+  }
+
+  #how-do-we-work-card-2::before {
+    top: -25%;
+  }
+
+  #how-do-we-work-card-3::before {
+    top: -25%;
+  }
+
+  #how-do-we-work-card-4::before {
+    top: -25%;
+  }
+
+  .services_integration .frameworks-image-box-con {
+    margin-inline: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .our-intergration-services-con-heading>h2 {
+    font-size: 35px;
+    line-height: 35.24px;
+  }
+
+  .our-intergration-services-box-lists-con>ul {
+    gap: 20px;
+  }
+
+  .our-intergration-services-box-lists-con {
+    margin-top: 10px;
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 20px;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 0;
+  }
+
+  .Integration-Expertise-Across-Industries-sub-boxes>img {
+    width: 12%;
+  }
+
+  .how-do-we-work-inner-box>h1 {
+    font-size: 23px;
+    line-height: 26px;
+  }
+
+  #how-do-we-work-card-11::after {
+    top: 41%;
+  }
+
+  #how-do-we-work-card-22::after {
+    top: 41%;
+  }
+
+  #how-do-we-work-card-33::after {
+    top: 41%;
+  }
+
+  #how-do-we-work-card-44::after {
+    top: 41%;
+  }
+
+  #how-do-we-work-card-1::before {
+    top: -20%;
+  }
+
+  #how-do-we-work-card-2::before {
+    top: -20%;
+  }
+
+  #how-do-we-work-card-3::before {
+    top: -20%;
+  }
+
+  #how-do-we-work-card-4::before {
+    top: -20%;
+  }
+
+  .services_integration .technology-frameworks-heading-con {
+    gap: 40px;
+  }
+
+  .services_integration .frameworks-image-box {
+    width: calc(50% - 20px);
+  }
+
+  .services_integration .frameworks-image-box-con {
+    margin-top: 30px;
+  }
+  .how-do-we-work-cards-con {
+    justify-content: space-between;
+}
+  .middle-slider-part {
+    flex-direction: column;
+}
+.middle-slider-part-left,.middle-slider-part-right {
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .integration-service>h1 {
+    font-size: 40px;
+    line-height: 40.5px;
+  }
+
+  .our-intergration-services-box>img {
+    width: 25%;
+  }
+
+  .our-intergration-services-con-heading>button {
+    width: 43%;
+  }
+
+  .our-integration-service-2-card>img {
+    width: 35%;
+  }
+
+  .our-integration-service-2-cards-con {
+    gap: 16px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(50% - 8px);
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 19px;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left {
+    flex-direction: column;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
+    text-align: center;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left-subbox>p {
+    text-align: center;
+  }
+
+  .Integration-Expertise-Across-Industries-con-left>img {
+    width: 70%;
+  }
+
+  .Our-Expertise-in-Integration-con-left {
+    gap: 30px;
+  }
+
+  .Our-Expertise-in-Integration-con-left-card {
+    padding: 16px;
+
+    width: calc(50% - 15px);
+  }
+
+  .how-do-we-work-cards-con {
+    gap: 20px;
+  }
+
+  .how-do-we-work-card {
+    width: calc(50% - 10px);
+  }
+
+  .how-do-we-work-inner-box>h1 {
+    font-size: 22px;
+  }
+
+  #how-do-we-work-card-11::after {
+    top: 38%;
+  }
+
+  #how-do-we-work-card-22::after {
+    top: 38%;
+  }
+
+  #how-do-we-work-card-33::after {
+    top: 38%;
+  }
+
+  #how-do-we-work-card-44::after {
+    top: 38%;
+  }
+
+  #how-do-we-work-card-1::before {
+    top: -17%;
+  }
+
+  #how-do-we-work-card-2::before {
+    top: -17%;
+  }
+
+  #how-do-we-work-card-3::before {
+    top: -17%;
+  }
+
+  #how-do-we-work-card-4::before {
+    top: -17%;
+  }
+
+  .services_integration .frameworks-image-box-con {
+    gap: 30px;
+  }
+
+  .services_integration .frameworks-image-box {
+    width: calc(50% - 15px);
+  }
+  .middle-slider-part {
+    padding-bottom: 30px;
+    margin-inline: 0px;
+}
+#left-side-icon-our-slider {
+  left: 40%;
+  top: unset;
+  bottom: -2%;
+  transform: translate(-50%, -50%);
+}
+#right-side-icon-our-slider {
+  right: 32%;
+  top: unset;
+  bottom: -2%;
+  transform: translate(-50%, -50%);
+}
+/* #right-side-icon-our-slider {
+  right: 37%;
+  top: unset;
+  bottom: -2%;  
+  transform: translate(-50%, -50%);
+} */
+}
+
+@media only screen and (max-width: 376px) {
+  .our-intergration-services-box-lists-con>ul {
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .our-intergration-services-box-lists-con li {
+    width: 100%;
+  }
+
+  .our-intergration-services-con-heading>button {
+    width: unset;
+  }
+
+  .our-intergration-services-con-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .our-integration-service-2-cards-con {
+    flex-direction: column;
+  }
+
+  .our-integration-service-2-card {
+    width: 100%;
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 21px;
+  }
+
+  .Our-Expertise-in-Integration-con-left {
+    flex-direction: column;
+  }
+
+  .Our-Expertise-in-Integration-con-left-card {
+    width: 100%;
+  }
+
+  .how-do-we-work-card {
+    width: 100%;
+  }
+
+  #how-do-we-work-card-11::after {
+    top: 44%;
+  }
+
+  #how-do-we-work-card-22::after {
+    top: 44%;
+  }
+
+  #how-do-we-work-card-33::after {
+    top: 44%;
+  }
+
+  #how-do-we-work-card-44::after {
+    top: 44%;
+  }
+
+  #how-do-we-work-card-1::before {
+    top: -30%;
+  }
+
+  #how-do-we-work-card-2::before {
+    top: -30%;
+  }
+
+  #how-do-we-work-card-3::before {
+    top: -30%;
+  }
+
+  #how-do-we-work-card-4::before {
+    top: -30%;
+  }
+  .our-intergration-services-con-heading {
+    gap: 20px;
+}
+.our-intergration-services-box>img {
+  width: 40%;
+}
+  .integration-service>h1,.h1,.Integration-Expertise-Across-Industries-con-left-subbox>h1,.Our-Expertise-in-Integration-con-right>h1,.Success-Stories-services h1,.hiring-models-con h1,.middle-slider-part-left>h1 {
+    font-size: 35px;
+}
+.integration-service>p,.p,.Integration-Expertise-Across-Industries-con-left-subbox>p,.Our-Expertise-in-Integration-con-right>p,.Success-Stories-services p,.hiring-models-con > p,.middle-slider-part-left>p{
+  font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .integration-service>h1 {
+    font-size: 36px;
+    line-height: 36.5px;
+  }
+
+  .our-intergration-services-con-heading>h2 {
+    font-size: 30px;
+    line-height: 35.24px;
+  }
+
+  .Success-Stories-services .get-in-touch {
+    font-size: 18px;
+  }
+
+  .how-do-we-work-inner-box>p {
+    font-size: 16px;
+  }
+
+  .how-do-we-work-inner-box>h1 {
+    font-size: 20px;
+  }
+}

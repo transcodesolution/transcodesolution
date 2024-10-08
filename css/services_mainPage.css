@@ -1,0 +1,430 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+/* .banner-section-technology-main {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/integration_services_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+} */
+.banner-section-about {
+  background: url(../assets/images/services_mainPage/banner.svg) center;
+}
+
+/* <!-- *********************************************Empowering Your Digital Journey**************************************** --*/
+.empowering-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 72px;
+}
+
+.empowering-desc {
+  width: 60%;
+}
+
+.empowering-desc > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.empowering-desc > h2 {
+  font-family: Rajdhani;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.35px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 23px;
+  margin-right: 33%;
+}
+
+.empowering-desc > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: justify;
+  color: var(--root-black-color);
+  margin-top: 40px;
+}
+
+.Explore-Our-Services {
+  padding: 12px 25px;
+  background: var(--gradient-color);
+  color: var(--white-color);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-top: 53px;
+}
+
+.Explore-Our-Services:hover {
+  background: transparent;
+  color: var(--purple-color);
+  border: 2px solid var(--root-black-color);
+}
+
+.Explore-Our-Services i {
+  margin-left: 6px;
+}
+
+.our-white-img {
+  display: none;
+}
+
+.empowering-card {
+  padding: 35px 50px;
+  box-shadow: 0px 0px 10px 0px #00000040;
+  width: 29%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.empowering-card:hover {
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.3) -48.91%,
+    rgba(99, 56, 139, 0.3) 79.49%
+  );
+}
+
+.empowering-card:hover .our-white-img {
+  display: block;
+}
+
+.empowering-card:hover .before-our-img {
+  display: none;
+}
+
+.empowering-card:hover .empowering-icon-con {
+  background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+}
+
+.empowering-card:hover .empower-read-more {
+  background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  color: var(--white-color);
+  border: none;
+}
+
+.empowering-icon-con {
+  width: 95px;
+  height: 95px;
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.3) -48.91%,
+    rgba(99, 56, 139, 0.3) 79.49%
+  );
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+
+.empowering-card > h2 {
+  font-family: Rajdhani;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.72px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 14px;
+}
+.empowering-card > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: justify;
+  color: var(--root-black-color);
+  margin-top: 15px;
+}
+
+.empower-read-more {
+  margin-top: 22px;
+  padding: 12px 21px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--root-black-color);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: center;
+  border: 2px solid var(--purple-color);
+}
+
+.empowering-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.empowering-card .empower-read-more {
+  margin-top: auto;
+  width: fit-content;
+}
+
+.empowering-card > p {
+  margin-bottom: 22px;
+}
+
+/* <!-- ***************************************************types of services we offer************************************** --> */
+
+.type-of-services-cards-con {
+  margin-top: 80px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+}
+
+.type-of-services-subcards-con {
+  display: flex;
+  gap: 116px;
+}
+
+.type-of-services-card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #00000040;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(33.33% - 29px);
+  flex: 1;
+}
+
+.type-of-services-card > p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 19px;
+}
+
+.number-outer-con {
+  height: 90px;
+  width: 90px;
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.39) -48.91%,
+    rgba(99, 56, 139, 0.39) 79.49%
+  );
+  padding: 15px;
+  border-radius: 50%;
+
+  margin-top: -75px;
+  margin-left: -130%;
+}
+
+.number-middle-con {
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.39) -48.91%,
+    rgba(99, 56, 139, 0.39) 79.49%
+  );
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.number-inner-con {
+  height: 54px;
+  width: 54px;
+  background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-inner-con > p {
+  font-family: Rajdhani;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 1360px) {
+}
+@media only screen and (max-width: 1200px) {
+  .empowering-desc-con {
+    gap: 100px;
+  }
+
+  .empowering-card {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .empowering-cards-con {
+    gap: 50px;
+  }
+
+  .empowering-con {
+    gap: 50px;
+  }
+  .type-of-services-subcards-con {
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .empowering-desc > h2 {
+    margin-right: 0%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .empowering-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .empowering-desc > h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 40.24px;
+  }
+  .empowering-desc > h2 {
+    font-size: 30px;
+    line-height: 35.35px;
+    text-align: center;
+  }
+
+  .Explore-Our-Services {
+    margin-top: 35px;
+    margin-inline: auto;
+    display: inline-block;
+  }
+
+  .empowering-desc > p {
+    font-size: 18px;
+
+    line-height: 24.46px;
+    text-align: center;
+
+    margin-top: 20px;
+  }
+  .empowering-desc-con {
+    flex-direction: column;
+  }
+
+  .empowering-desc {
+    width: 100%;
+  }
+
+  .empowering-card {
+    padding: 30px;
+    width: calc(50% - 25px);
+  }
+
+  .type-of-services-subcards-con {
+    flex-wrap: wrap;
+  }
+
+  .type-of-services-subcards-con {
+    column-gap: 116px;
+    row-gap: 80px;
+  }
+
+  .type-of-services-cards-con {
+    margin-left: 50px;
+  }
+
+  .type-of-services-card {
+    width: calc(50% - 58px);
+    flex: unset;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .empowering-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .empowering-icon-con {
+    margin: 0 auto;
+  }
+
+  .empowering-card > h2 {
+    font-size: 28px;
+
+    line-height: 27.72px;
+    text-align: center;
+  }
+
+  .empowering-card > p {
+    font-size: 18px;
+
+    line-height: 24.46px;
+    text-align: center;
+  }
+
+  .empowering-card .empower-read-more {
+    margin-inline: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .type-of-services-cards-con {
+    margin-left: 25px;
+  }
+
+  .type-of-services-subcards-con {
+    column-gap: 70px;
+  }
+
+  .type-of-services-card {
+    width: calc(50% - 35px);
+    flex: unset;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .type-of-services-card {
+    width: 100%;
+  }
+
+  .number-outer-con {
+    margin-left: 0%;
+  }
+
+  .type-of-services-cards-con {
+    margin-left: 0px;
+  }
+
+  .empowering-card {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+}

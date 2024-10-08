@@ -1,0 +1,720 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+.wrapper-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px;
+  position: relative;
+}
+
+/* <!-- ************************************************technology-banner********************************************** --> */
+.banner-section-technology-main {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/Technology_background_img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+/* .banner-section-about {
+  background: url(../assets/images/Technology_background_img.png) center;
+} */
+
+/* <!-- *************************************************technology-page************************************************ --> */
+
+.technology-page-con h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+  position: relative;
+  padding-left: 50px;
+}
+
+.technology-page-con h1::after {
+  content: "";
+  position: absolute;
+  width: 62%;
+  height: 2px;
+  background-color: var(--root-black-color);
+  left: 0;
+  bottom: 0;
+}
+
+.technology-page-con p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 26px;
+}
+
+/* <!-- *************************************************our-technology-stack************************************************ --> */
+
+.our-technology-stack-wrapper .container {
+  overflow: visible;
+}
+
+.our-technology-stack-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-technology-stack-card-con {
+  margin-top: 15px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.our-technology-stack-card {
+  box-shadow: 0px 0px 14.2px 0px #00000040;
+  border-radius: 10px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: calc(50% - 25px);
+}
+
+.our-technology-stack-card:hover {
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.3) -48.91%,
+    rgba(99, 56, 139, 0.3) 79.49%
+  );
+  border-radius: 5px;
+}
+
+.our-technology-stack-card > h3 {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-technology-stack-card > p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.15px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-technology-stack-framework-con-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.our-technology-stack-framework-con {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.frameworks-img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 14.2px 0px #00000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.framework-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  width: 80%;
+}
+
+.framework-desc > h3 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.15px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.framework-desc > p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.8px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+/* <!-- *************************************************portfolio-slider************************************************ --> */
+.portfolio-slider-wrapper .container {
+  overflow: visible;
+}
+.portfolio-slider-con {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.portfolio-slider-con-left {
+  width: 40%;
+}
+
+.portfolio-slider-con-left > h1 {
+  font-family: Rajdhani;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60.5px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.portfolio-desc {
+  margin-top: 7px;
+  padding: 40px 30px;
+  box-shadow: 0px 0px 5px 0px #00000040;
+  border-radius: 5px;
+}
+
+.portfolio-desc > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.portfolio-slider-con-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.slider-icon {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px #00000040;
+  font-size: 25px;
+  color: var(--root-black-color);
+  cursor: pointer;
+}
+
+.slider-image {
+  overflow: hidden;
+  display: flex;
+  max-width: 700px;
+}
+
+.slider-image img {
+  width: 100%;
+}
+
+/* <!-- ************************************industries-we-serve-technology************************************************ --> */
+
+.industries-we-serve-technology-wrapper .container {
+  overflow: visible;
+}
+
+.industries-we-serve-technology-main-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56.14px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.industries-we-serve-technology-main-con > P {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: center;
+  padding-inline: 25%;
+  margin-top: 5px;
+}
+
+.industries-we-serve-technology-con {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin-top: 40px;
+}
+
+.industries-we-serve-technology-sub-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 78px;
+}
+
+.industries-we-serve-technology-box {
+  padding: 25px;
+  box-shadow: 0px 0px 8.8px 0px #00000040;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(30% - 26px);
+  height: 130px;
+  cursor: pointer;
+}
+
+.industries-we-serve-technology-box:hover {
+  box-shadow: 0px 0px 13.8px 0px #00000040;
+}
+
+.industries-we-serve-technology-image-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.industries-we-serve-technology-image-box > p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.industries-we-serve-technology-box > p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+/* <!-- *********************************************************our-achievements-in-number****************************** --> */
+
+.our-achievements-in-number-wrapper .container {
+  overflow: visible;
+}
+
+.our-achievements-in-number-con > h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-achievements-in-number-cards-con {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+  margin-top: 40px;
+}
+
+.our-achievements-in-number-card {
+  padding: 45px 35px;
+  width: calc(25% - 16.75px);
+  box-shadow: 0px 0px 10.8px 0px #00000040;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.our-achievements-in-number-card:hover {
+  background: url(../assets/images/technology/hover-after.svg);
+}
+
+.our-achievements-in-number-card:hover h2,
+.our-achievements-in-number-card:hover p {
+  color: var(--white-color);
+}
+
+.our-achievements-in-number-card:hover h1 {
+  color: var(--white-color);
+  background: none;
+}
+
+.our-achievements-in-number-card > h1 {
+  font-family: Rubik;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.44px;
+  text-align: center;
+  background: linear-gradient(180deg, #085199 0%, #87c3ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.our-achievements-in-number-card > h2 {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-achievements-in-number-card > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.discuss-project-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.discuss-project-con > h1 {
+  font-family: Rajdhani;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.08px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.discuss-project-con > p {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38.22px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.get-in-touch-discuss-project {
+  color: var(--white-color);
+  background: var(--gradient-color-2);
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.44px;
+  text-align: center;
+  width: fit-content;
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+}
+.get-in-touch-discuss-project:hover {
+  border: 2px solid var(--root-black-color);
+  background: transparent;
+  color: #63388b;
+}
+.get-in-touch-discuss-project i {
+  margin-left: 5px;
+}
+
+/* <!-- *********************************************contact-us-section****************************************** --> */
+
+.how-to-apply-con > p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.18px;
+  text-align: left;
+  color: var(--root-black-color);
+  padding-right: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .portfolio-slider-con-left {
+    width: 50%;
+  }
+
+  .slider-image {
+    max-width: 435px;
+  }
+
+  .our-achievements-in-number-cards-con {
+    align-items: unset;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .technology-page-con h1 {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .technology-page-con h1::after {
+    width: 100%;
+    bottom: -4px;
+  }
+
+  .technology-page-con p {
+    text-align: center;
+  }
+
+  .portfolio-slider-con {
+    flex-direction: column-reverse;
+  }
+
+  .portfolio-slider-con-right {
+    justify-content: space-evenly;
+
+    width: 100%;
+  }
+
+  .slider-image {
+    max-width: 100%;
+  }
+
+  .portfolio-slider-con-left {
+    width: 100%;
+  }
+
+  .portfolio-slider-con-left > h1 {
+    text-align: center;
+  }
+
+  .portfolio-desc > p {
+    text-align: center;
+  }
+
+  .our-achievements-in-number-cards-con {
+    flex-wrap: wrap;
+  }
+
+  .our-achievements-in-number-card {
+    width: calc(50% - 33.5px);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .wrapper-section {
+    padding-block: 30px;
+  }
+
+  .our-technology-stack-con > h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .technology-page-con h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .technology-page-con p {
+    line-height: 24.46px;
+  }
+
+  .our-technology-stack-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .our-technology-stack-card > h3 {
+    font-size: 24px;
+    line-height: 24.18px;
+  }
+
+  .portfolio-slider-con-left > h1 {
+    font-size: 40px;
+
+    line-height: 40.5px;
+  }
+
+  .portfolio-desc > p {
+    line-height: 24px;
+  }
+
+  .portfolio-desc {
+    padding: 30px;
+  }
+
+  .industries-we-serve-technology-main-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.14px;
+  }
+
+  .industries-we-serve-technology-main-con > P {
+    line-height: 24.04px;
+
+    padding-inline: 0%;
+  }
+
+  .industries-we-serve-technology-con {
+    flex-direction: unset;
+  }
+
+  .industries-we-serve-technology-sub-con {
+    flex-direction: column;
+  }
+  .industries-we-serve-technology-box {
+    width: unset;
+  }
+
+  .our-achievements-in-number-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.24px;
+  }
+
+  .discuss-project-con > h1 {
+    font-size: 40px;
+
+    line-height: 40.08px;
+    text-align: center;
+  }
+
+  .discuss-project-con > p {
+    font-size: 24px;
+
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .get-in-touch-discuss-project {
+    margin: 0 auto;
+  }
+
+  .how-to-apply-con > p {
+    line-height: 24.18px;
+    text-align: center;
+
+    padding-right: 0%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .our-technology-stack-card {
+    width: unset;
+  }
+
+  .slider-image {
+    max-width: 70%;
+  }
+
+  .industries-we-serve-technology-con {
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .industries-we-serve-technology-sub-con {
+    gap: 30px;
+  }
+
+  .industries-we-serve-technology-box {
+    width: 100%;
+    height: unset;
+  }
+
+  .our-achievements-in-number-cards-con {
+    gap: 40px;
+  }
+
+  .our-achievements-in-number-card {
+    width: calc(50% - 20px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .technology-page-con h1::after {
+    bottom: -10px;
+  }
+
+  .our-achievements-in-number-card {
+    width: 100%;
+  }
+
+  .discuss-project-con > p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .discuss-project-con {
+    gap: 20px;
+  }
+
+  .get-in-touch-discuss-project {
+    font-size: 18px;
+
+    line-height: 24.44px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .slider-icon {
+    height: 36px;
+    width: 36px;
+    font-size: 22px;
+  }
+
+  .portfolio-desc > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .portfolio-desc {
+    padding: 20px;
+  }
+  .our-technology-stack-con > h1,.portfolio-slider-con-left > h1,.industries-we-serve-technology-main-con > h1,.our-achievements-in-number-con > h1,.discuss-project-con > h1,.how-to-apply-con > h1 {
+    font-size: 35px;
+}
+.discuss-project-con > p,.how-to-apply-con > p {
+  font-size: 17px;
+}
+.our-technology-stack-card-con {
+  margin-top: 25px;
+}
+.our-technology-stack-card-con {
+  gap: 30px;
+}
+.industries-we-serve-technology-box {
+  padding: 20px;
+}
+.our-achievements-in-number-card > h1 {
+  font-size: 55px;
+}
+.our-achievements-in-number-card {
+  padding: 30px 30px;
+}
+.technology-page-con p {
+  font-size: 17px;
+}
+}
+@media only screen and (max-width: 320px) {
+}

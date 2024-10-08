@@ -1,0 +1,173 @@
+:root {
+    --root-black-color: #3f3f3f;
+    --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+    --white-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* *****************************************************banner-section-start***************************************************** */
+.banner-section-cyber-security {
+    padding-block: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/banner_cyber_security.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    height: 400px;
+}
+.ads_tabs {
+    margin: 0 0 60px 0;
+    padding-block: 60px;
+}
+.tab_title {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: Rajdhani;
+    text-align: center;
+    color: #3F3F3F;
+    margin: 0px 0 14px 0;
+}
+.benefits_text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Rubik;
+    margin-bottom: 30px;
+}
+.benefits_card_text{
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Rubik;
+}
+.search_campaigns_box {
+    width: 278px;
+    height: 295px;
+    background-color: white;
+    padding: 28px;
+    border-radius: 26px;
+    box-shadow: 0px 4px 18.6px 0px #00000040;
+    margin: 0 24px;
+    border: 3px solid #EBEBEB;
+}
+.development-process-steps-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.we_follow_text{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Rubik;
+    padding-bottom: 13px;
+    color: #3F3F3F;
+}
+.development-process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-top: 0px;
+}
+
+
+@media (max-width:1360px) {
+    .development-process-steps-con {
+        gap: 100px;
+    }
+}
+@media (max-width:1199px) {
+    .development-process-steps-con {
+        gap: 160px;
+    }
+    .our-integration-service-2-cards-con {
+        gap: 40px;
+    }
+}
+@media (max-width:991px) {
+    .search_campaigns_box {
+        height: 250px;
+    }
+    .our-healthcare-card {
+        padding: 25px 25px 25px 25px;
+    }
+    .healthcare-card-desc > p {
+        font-size: 16px;
+    }
+    .healthcare-card-desc > h2 {
+        font-size: 22px;
+    }
+    .development-process-steps {
+        padding-bottom: 15px;
+    }
+    .development-process-steps-con {
+        gap: 35px;
+    }
+    .ads_tabs {
+        margin: 0 0 0px 0;
+    }
+}
+@media (max-width:767px) {
+    .integration-service>h1,.tab_title {
+        font-size: 40px;
+    }
+    .search_campaigns_box {
+        height: 357px;
+    }
+    .search_ads_box:after {
+        bottom: -59%;
+    }
+}
+@media (max-width:575px) {
+    .search_campaigns_box {
+        height: 305px;
+    }
+    .search_ads_box:after {
+        bottom: -48%;
+    }
+    .development-process-steps {
+        gap: 25px;
+    }
+}
+@media (max-width:480px) {
+    .search_campaigns_box {
+        height: 174px;
+    }
+    .search_campaigns_box {
+        width: 100%;
+    }
+    .search_ads_box:after {
+        bottom: -25%;
+        height: 100%;
+    }
+}
+@media (max-width:375px) {
+    .search_campaigns_box {
+        height: 233px;
+    }
+    .search_ads_box:after {
+        bottom: -17%;
+        height: 80%;
+    }
+    .integration-service>h1, .tab_title,.development-process-con h1 {
+        font-size: 35px;
+    }
+    .benefits_text {
+        font-size: 16px;
+    }
+    .ads_tabs {
+        padding-block: 40px;
+    }
+    .development-process-steps-img img{
+        width: 100%;
+    }
+    .our-integration-service-2-cards-con {
+        gap: 25px;
+    }
+}

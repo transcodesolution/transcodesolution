@@ -1,0 +1,85 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+.banner-section-QA-testing {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/QA_testing_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+
+/* .banner-section-about {
+  background: url(../assets/images/services_qaTesting/banner.svg) center;
+} */
+
+/* <!-- ******************************Why Should You Choose UI/UX Design Technology?****************************************** --> */
+.Why-Should-You-Choose-UIUX-Design-con-tabs-con {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.Why-Should-You-Choose-UIUX-Design-tab-box {
+  box-shadow: 0px 0px 14.2px 0px #00000040;
+  padding: 12px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Why-Should-You-Choose-UIUX-Design-tab-box-p1 {
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.04px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+.Why-Should-You-Choose-UIUX-Design-tab-box-p2 {
+  margin-top: 14px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+  padding-right: 20%;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Why-Should-You-Choose-UIUX-Design-tab-box-p1 {
+    font-size: 22px;
+    line-height: 24.04px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .Why-Should-You-Choose-UIUX-Design-tab-box-p1 {
+    font-size: 21px;
+    line-height: 25.04px;
+  }
+
+  .Why-Should-You-Choose-UIUX-Design-tab-box-p2 {
+    padding-right: 0;
+    margin-top: 7px;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .Why-Should-You-Choose-UIUX-Design-tab-box {
+    padding: 12px 15px;
+  }
+}

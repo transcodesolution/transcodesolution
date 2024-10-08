@@ -1,0 +1,20 @@
+:root {
+  --root-black-color: #3f3f3f;
+  --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  --white-color: #fff;
+  --purple-color: #63388b;
+  --gradient-color-2: linear-gradient(180deg, #63388b 0%, #3a73ac 100%);
+}
+
+/* <!-- ************************************************banner********************************************** --> */
+
+.banner-section-about {
+  background: url(../assets/images/ecommerce/image\ 37.svg) center;
+}
+
+/* <!-- **************************************************technology-expertise************************************** --> */
+
+.ind-ecomm .technology-frameworks-heading-con {
+  padding: 7px 0px;
+  margin-inline: 0px;
+}
