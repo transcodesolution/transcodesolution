@@ -25,6 +25,7 @@
   line-height: 77.44px;
   text-align: center;
   color: #ffffff;
+  margin: 0;
 }
 
 #about-hero-info {
@@ -56,8 +57,8 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 70%;
-  padding-right: 115px;
+  width: 84%;
+  padding-right: 25px;
   border-inline-end: 3px solid #3f3f3f;
 }
 
@@ -87,6 +88,7 @@
   line-height: 53.24px;
   text-align: left;
   color: var(--root-black-color);
+  margin: 0;
 }
 
 .about-us-hero-con-upper-right p {
@@ -102,7 +104,7 @@
 .about-us-hero-con-bottom {
   display: flex;
   justify-content: space-between;
-  gap: 85px;
+  gap: 55px;
 }
 
 /* .about-us-hero-card {
@@ -125,7 +127,7 @@
 } */
 .about-us-hero-card {
   width: 33%;
-  padding: 40px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
   gap: 17px;
@@ -174,6 +176,7 @@
   line-height: 42.35px;
   text-align: left;
   color: var(--root-black-color);
+  margin: 0;
 }
 
 .about-us-hero-card p {
@@ -183,6 +186,7 @@
   line-height: 24.93px;
   text-align: justify;
   color: var(--root-black-color);
+  margin: 0;
 }
 /* ***********************************Why Our Services are better than Others? start ******************** */
 
@@ -210,13 +214,12 @@
   color: #3f3f3f;
 }
 
-.our-main-info-right h1 {
+.our-main-info-right h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
   text-align: left;
-
   color: #494949;
   margin-block: 30px;
 }
@@ -229,6 +232,7 @@
   text-align: left;
   color: #3f3f3f;
   position: relative;
+  margin: 0;
 }
 
 .our-main-info-right p {
@@ -237,8 +241,8 @@
   font-weight: 400;
   line-height: 27px;
   text-align: left;
-
   color: #3f3f3f;
+  margin: 0;
 }
 .check-main-data {
   border: 2px solid #38383833;
@@ -295,13 +299,14 @@
 #our-Culture-wrapper .container {
   overflow: visible;
 }
-.our-Culture h1 {
+.our-Culture h2 {
   font-size: 44px;
   font-family: Rajdhani;
   font-weight: 700;
   text-align: center;
   color: #3f3f3f;
   line-height: 56.14px;
+  margin: 0;
 }
 .our-Culture-info-con {
   margin-top: 47px;
@@ -355,7 +360,7 @@
   gap: 15px;
 }
 
-.our-Culture-text h1 {
+.our-Culture-text h2 {
   color: #5f3e8e;
   font-family: Rubik;
   font-size: 40px;
@@ -375,6 +380,7 @@
   line-height: 29.7px;
   margin-top: 14px;
   color: var(--root-black-color);
+  margin: 0;
 }
 .our-email {
   display: flex;
@@ -387,6 +393,7 @@
   font-weight: 400;
   line-height: 29.7px;
   color: #3f3f3f;
+  margin: 0;
 }
 .our-email span {
   font-size: 22px;
@@ -415,6 +422,12 @@
   .about-transcodezy:after{
     width: 75%;
   }
+  .about-us-hero-con-upper-left {
+    padding-right: 20px;
+}
+.about-us-hero-con-upper-left{
+  width: 100%;
+}
 }
 @media only screen and (max-width: 1024px) {
   .about-us-hero-con-upper-left h2 {
@@ -489,17 +502,6 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  #our-main-wrapper {
-    padding-block: 30px;
-  }
-
-  #about-hero-info {
-    margin-bottom: 30px;
-  }
-
-  #our-Culture-wrapper {
-    padding-block: 30px;
-  }
   .about-us-hero-card {
     padding: 30px;
 }
@@ -511,6 +513,24 @@
 }
 }
 @media only screen and (max-width: 768px) {
+  #about-hero-info {
+    margin-bottom: 40px;
+}
+.about-us-hero-con {
+  gap: 35px;
+}
+#our-main-wrapper ,#our-Culture-wrapper{
+  padding-block: 40px;
+}
+.our-Culture h2 {
+  font-size: 40px;
+  line-height: 50.14px;
+}
+.our-Culture-text h2 {
+  font-size: 30px;
+  line-height: 39.4px;
+  text-align: center;
+}
   .our-Culture h1 {
     font-size: 40px;
     line-height: 40.14px;
@@ -577,9 +597,8 @@
     margin-top: 10px;
   }
 
-  .our-main-info-right h1 {
+  .our-main-info-right h2 {
     font-size: 40px;
-
     line-height: 40.24px;
   }
 
@@ -587,7 +606,7 @@
     text-align: center;
   }
 
-  .our-main-info-right h1 {
+  .our-main-info-right h2 {
     font-size: 40px;
     line-height: 40.24px;
     text-align: center;
@@ -644,6 +663,25 @@
 }
 }
 @media only screen and (max-width: 480px) {
+  .banner-section-about-main {
+    padding-block: 50px;
+    min-height: 340px;
+    height: 340px;
+}
+  .banner-section-about-con h1 {
+    font-size: 45px !important;
+}
+  .about-us-hero-con-upper-right p,.our-main-info-right p,.our-Culture-text p {
+    line-height: 23.24px;
+    font-size: 16px;
+}
+.our-main-info-right h2,.our-Culture h2 {
+  font-size: 35px;
+}
+.our-Culture-text h2 {
+  font-size: 25px;
+  line-height: 35.4px;
+}
   .our-Culture-text p {
     margin-top: 10px;
   }
@@ -668,11 +706,15 @@
   }
 }
 @media only screen and (max-width: 376px) {
+  #our-main-wrapper, #our-Culture-wrapper {
+    padding-block: 30px;
+}
   .banner-section-about-con h1 {
     font-size: 40px;
 }
-  .about-us-hero-con-upper-left h2,.our-main-info-right h1,.our-Culture h1 {
-    font-size: 35px;
+.about-us-hero-con-upper-left h2, .our-main-info-right h2, .our-Culture h2{
+  font-size: 30px;
+  line-height: 35.24px;
 }
 .about-us-hero-con-upper-right p,.our-main-info-right p,.our-Culture-text p {
   font-size: 16px;

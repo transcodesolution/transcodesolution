@@ -1432,11 +1432,6 @@
     width: unset;
   }
 
-  .our-intergration-services-con-heading {
-    flex-direction: column;
-    gap: 10px;
-  }
-
   .our-integration-service-2-cards-con {
     flex-direction: column;
   }
@@ -1492,9 +1487,7 @@
   #how-do-we-work-card-4::before {
     top: -30%;
   }
-  .our-intergration-services-con-heading {
-    gap: 20px;
-}
+
 .our-intergration-services-box>img {
   width: 40%;
 }

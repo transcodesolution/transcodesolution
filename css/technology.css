@@ -718,3 +718,31 @@
 }
 @media only screen and (max-width: 320px) {
 }
+
+
+
+
+/* Set the size of the slider container */
+.portfolio-slider-con-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+/* Set size for the slider images */
+.slider-image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.slider-icon {
+    cursor: pointer;
+    font-size: 24px; 
+    margin: 0 10px;
+    color: #333; 
+}

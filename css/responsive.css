@@ -7,12 +7,12 @@
     padding-bottom: 120px;
   }
   .our-services-con {
-    padding: 70px 0px 20px 0px;
+    padding: 60px 0px 20px 0px;
 }
 }
 
 @media only screen and (max-width: 1360px) {
-  .driving-rapid-change-con h1 {
+  .driving-rapid-change-con h2 {
     padding-inline: 0;
   }
 
@@ -56,7 +56,7 @@
 
   .testimonial-container {
     overflow: hidden;
-    padding: 0 10px;
+    /* padding: 0 10px; */
   }
 
   .testimonial-card {
@@ -85,7 +85,16 @@
     gap: 23px;
   }
 }
+@media (max-width:1199px) {
+  .services-text-buttons-con {
+    margin-top: 0px;
+    gap: 24px;
+}
+}
 @media only screen and (max-width: 1024px) {
+  .transcodezy-navbar-ul>li>a.active {
+    color: #b8b8b8;
+}
   .transcodezy-navbar-ul {
     /* background: #574690; */
     /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%); */
@@ -244,7 +253,7 @@
     width: 100%;
   }
 
-  .services-text-con h1 {
+  .services-text-con h2 {
     text-align: center;
   }
 
@@ -305,7 +314,7 @@
   }
 
   .services-wrapper {
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     margin-top: -1%;
   }
 
@@ -314,14 +323,16 @@
   }
 
   #our-services-wrapper {
-    padding-block: 30px;
+    padding-block: 0px;
   }
 
-  #it-success-wrapper {
+  .our-services-con {
+    padding: 60px 0px 60px 0px;
+}
+  /* #it-success-wrapper {
     padding-block: 30px;
-  }
-
-  #technology-expertise-wrapper {
+  } */
+  /* #technology-expertise-wrapper {
     padding-block: 30px;
   }
 
@@ -330,12 +341,12 @@
   }
 
   #testimonial-wrapper {
-    padding-block: 30px;
+    padding-block: 60px;
   }
 
   #work-portfolio-wrapper {
     padding-block: 30px;
-  }
+  } */
 
   #cutting-edge-wrapper {
     margin-top: 30px;
@@ -372,7 +383,7 @@
     font-size: 18px;
   }
 
-  .cutting-edge-con h1 {
+  .cutting-edge-con h2 {
     text-align: center;
     font-size: 25px;
     line-height: 30px;
@@ -403,9 +414,19 @@
   .banner-wrapper {
     justify-content: unset;
     align-items: unset;
-    padding-top: 25px;
+    padding-top: 50px;
   }
-
+  .service-card-inner-con-left {
+    gap: 90px;
+}
+  .banner-text h1 {
+    font-size: 44px;
+    line-height: 48.7px;
+}
+.banner-text p {
+  font-size: 17px;
+  line-height: 23.48px;
+}
   .it-success-con {
     flex-direction: column;
     gap: 250px;
@@ -415,7 +436,7 @@
     width: 100%;
   }
 
-  .it-sucess-box-right > h1 {
+  .it-sucess-box-right > h2 {
     text-align: center;
   }
 
@@ -460,7 +481,7 @@
     gap: 15px;
   }
 
-  .banner-text h2 {
+  .banner-text h1 {
     font-size: 40px;
 
     line-height: 42.7px;
@@ -492,9 +513,10 @@
 
   .services-text-buttons-con {
     margin-top: 10px;
+    flex-direction: column-reverse;
   }
 
-  .services-text-con h1 {
+  .services-text-con h2 {
     font-size: 40px;
 
     line-height: 40.14px;
@@ -522,7 +544,7 @@
     justify-content: center;
     border-inline-end: none;
   }
-  .driving-rapid-change-con h1 {
+  .driving-rapid-change-con h2 {
     line-height: 40.66px;
   }
 
@@ -552,7 +574,7 @@
     border-inline-end: none;
   }
 
-  .our-services-con > h1 {
+  .our-services-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
@@ -575,7 +597,7 @@
     line-height: 24.9px;
   }
 
-  .our-services-info-box-right > h1 {
+  .our-services-info-box-right > h2 {
     text-align: center;
   }
 
@@ -595,7 +617,7 @@
     gap: 150px;
   }
 
-  .it-sucess-box-right > h1 {
+  .it-sucess-box-right > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
@@ -610,7 +632,7 @@
     width: 100%;
   }
 
-  .technology-expertise-con > h1 {
+  .technology-expertise-con > h2 {
     font-size: 40px;
 
     line-height: 40.01px;
@@ -629,7 +651,7 @@
     margin-inline: 0;
   }
 
-  .technology-frameworks-heading h1 {
+  .technology-frameworks-heading h2 {
     font-size: 22px;
     line-height: 22px;
   }
@@ -643,7 +665,7 @@
     padding: 20px;
   }
 
-  .work-portfolio-con > h1 {
+  .work-portfolio-con > h2,.driving-rapid-change-con h2 {
     font-size: 40px;
     line-height: 40.14px;
   }
@@ -652,7 +674,7 @@
     line-height: 24.04px;
   }
 
-  .work-portfolio-card-heading > h1 {
+  .work-portfolio-card-heading > h2 {
     font-size: 18px;
 
     line-height: 24.96px;
@@ -676,7 +698,7 @@
     width: 94%;
   }
 
-  .industries-we-serve-con > h1 {
+  .industries-we-serve-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
@@ -693,7 +715,7 @@
     gap: 30px;
   }
 
-  .testimonial-con > h1 {
+  .testimonial-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
@@ -707,7 +729,13 @@
 
   .testimonial-card-upper > p {
     line-height: 25.2px;
+    font-size: 17px;
+    margin-top: 20px;
   }
+  #id1 .owl-item .slider-star>img {
+    display: block;
+    width: 18px;
+}
 
   .testimonial-cards-con {
     flex-direction: column;
@@ -744,7 +772,7 @@
     align-items: flex-start;
   }
 
-  .footer-middle h1 {
+  .footer-middle h2 {
     font-size: 30px;
 
     line-height: 35.48px;
@@ -761,6 +789,57 @@
   }
   .banner-wrapper {
     padding-bottom: 50px;
+    padding-top: 10px;
+}
+.services-wrapper {
+  padding: 40px 0px;
+}
+.driving-rapid-change-wrapper,#it-success-wrapper,#technology-expertise-wrapper,#work-portfolio-wrapper,#industries-we-serve-wrapper,#testimonial-wrapper {
+  padding-block: 40px;
+}
+.our-services-con {
+  padding: 40px 0px 40px 0px;
+}
+.testimonial-card-upper {
+  padding: 25px 25px;
+  margin: 10px 10px;
+}
+.testimonial-card-bottom {
+  gap: 10px;
+  padding-left: 7px;
+}
+.testimonial-card-bottom p {
+  font-size: 16px;
+}
+.testimonial-card-bottom h3 {
+  font-size: 19px;
+}
+
+}
+@media (max-width:767px) {
+  .mobile_faq{
+    display: none;
+  }
+  .mobile_view_show{
+    display: block;
+    padding: 0px !important;
+    margin-top: 30px;
+  }
+  .check-services-data-con {
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+.get-more-info {
+  display: unset;
+  margin-top: 15px;
+}
+.check-services-data>p {
+  font-size: 16px;
+  margin: 0px;
+}
+.get-more-info {
+  padding-block: 9px;
+  padding-left: 21px;
 }
 }
 @media only screen and (max-width: 576px) {
@@ -831,10 +910,10 @@
   }
   .testimonial-card-upper {
     padding: 25px 20px;
-    margin: 11px 5px;
+    margin: 11px 15px;
 }
 .testimonial-card-bottom {
-  padding-left: 8px;
+  padding-left: 47px;
 }
 .testimonial-card-upper > p {
   font-size: 17px;
@@ -847,14 +926,59 @@
 .banner-wrapper {
   padding-bottom: 70px;
 }
+.footer-upper-box {
+  width: 100%;
+}
+.approches-box-right>p {
+  margin-right: 5%;
+}
+.our-services-info-box-right>h2 {
+  font-family: Rubik;
+  font-size: 27px;
+  margin-right: 0%;
+}
+.box-right p:first-child {
+  font-size: 35px;
+}
+.box-right p:last-child {
+  font-size: 17px;
+}
+.service-card-inner-con-left {
+  gap: 70px;
+}
 }
 @media only screen and (max-width: 480px) {
+  .home_logo{
+    height: 60px;
+  }
+  .approches-con {
+    margin-top: 35px;
+    gap: 27px;
+}
+.it-sucess-box-left {
+  height: 480px;
+}
+  .banner-text h1,.services-text-con h2,.driving-rapid-change-con h2,.our-services-con > h2,.it-sucess-box-right > h2,.technology-expertise-con > h2,.work-portfolio-con>h2,.industries-we-serve-con > h2,.testimonial-con > h2 {
+    font-size: 35px;
+    line-height: 40.7px;
+    margin: 0px;
+    text-align: center;
+}
+.banner-text p,.services-text-con p,.driving-rapid-change-con > p,.our-services-con > p,.our-services-info-box-right > p,.it-sucess-box-right > p,.technology-expertise-con > p,.industries-we-serve-con > p,.testimonial-con > p,.cutting-edge-con p {
+  font-size: 16px;
+  line-height: 23.48px;
+}
+.work-portfolio-con > p{
+  font-size: 16px;
+  line-height: 23.48px;
+  margin-bottom: 15px;
+}
+.footer-middle h2,.footer-link-heading {
+  font-size: 25px;
+}
   .technology-frameworks-heading-con {
     gap: 40px;
     overflow-x: scroll;
-  }
-  .check-services-data-con {
-    gap: 10px;
   }
 
   .it-success-con {
@@ -897,7 +1021,7 @@
   }
 
   .services-text-buttons-con {
-    gap: 30px;
+    gap: 20px;
   }
   .right-arrow-sub-box {
     padding-left: 10px;
@@ -905,7 +1029,7 @@
   .our-services-sub-box {
     padding: 14px 15px;
 }
-.our-services-info-box-right > h1 {
+.our-services-info-box-right > h2 {
   margin-right: 0%;
 }
 .it-sucees-bottom-img-left img {
@@ -913,6 +1037,8 @@
 }
 .check-services-data-con {
   flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 .approches-box-right > p {
   font-size: 14px;
@@ -929,10 +1055,21 @@
 }
 
 .driving-rapid-box-con {
-  gap: 40px;
+  gap: 25px;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.driving-rapid-box {
+  width: 75%;
+  padding: 20px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  border-radius: 10px;
+}
+.box-right{
+  width: 200px;
 }
 .our-services-con {
   padding: 0px 0px 20px 0px;
@@ -946,8 +1083,29 @@
 .header-con {
   height: 73px;
 }
+.approches-box-left {
+  padding: 19px;
+}
+.it-success-box-left-upper,.it-sucess-box-left,.it-success-box-left-bottom {
+  gap: 9px;
+}
+}
+@media (max-width:425px) {
+  .testimonial-card-bottom {
+    padding-left: 10px;
+}
+.panel-title a {
+  gap: 16px;
+}
 }
 @media only screen and (max-width: 376px) {
+  .testimonial-card-bottom {
+    padding-left: 6px;
+}
+.testimonial-card-upper > p {
+  font-size: 16px;
+  line-height: 25.2px;
+}
   .services-card p {
     text-align: center;
   }
@@ -958,21 +1116,12 @@
     width: 0;
   }
 
-  .driving-rapid-box-con {
-    gap: unset;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
   #driving-rapid-box-last {
     border-block-end: none;
   }
 
   .driving-rapid-box {
-    width: 80%;
-    border-block-end: 1px solid #3f3f3f;
-    padding: 20px 0px;
+    width: 96%;
   }
 
   .services-wrapper {
@@ -984,14 +1133,14 @@
 .our-services-sub-box {
   padding: 12px 12px;
 }
-.banner-text h2,.services-text-con h1,.our-services-con > h1,.it-sucess-box-right > h1,.technology-expertise-con > h1,.work-portfolio-con > h1 ,.industries-we-serve-con > h1,.testimonial-con > h1,.driving-rapid-change-con h1{
+.banner-text h1,.services-text-con h2,.our-services-con > h2,.it-sucess-box-right > h2,.technology-expertise-con > h2,.work-portfolio-con > h2 ,.industries-we-serve-con > h2,.testimonial-con > h2,.driving-rapid-change-con h2{
   font-size: 30px;
   line-height: 34.7px;
 }
 .banner-text p,.services-text-con p,.driving-rapid-change-con > p,.our-services-info-box-right > p ,.it-sucess-box-right p,.technology-expertise-con > p,.our-services-con > p,.work-portfolio-con > p,.industries-we-serve-con > p,.testimonial-con > p{
   font-size: 16px;
 }
-.our-services-info-box-right > h1 {
+.our-services-info-box-right > h2 {
   font-size: 25px;
   line-height: 33.76px;
   margin-right: 0%;
@@ -1001,13 +1150,10 @@
   height: 450px;
 }
 
-.box-right {
+/* .box-right {
   width: 112px;
   height: 92px;
-}
-.driving-rapid-box {
-  justify-content: space-evenly;
-}
+} */
 
   .check-services-data-con {
     gap: 14px;
@@ -1040,12 +1186,6 @@
     width: calc(50% - 13px);
   }
 
-  .testimonial-card-upper > p {
-    font-size: 18px;
-
-    line-height: 25.2px;
-  }
-
   .footer-bottom-con {
     flex-direction: column;
     gap: 10px;
@@ -1070,7 +1210,7 @@
   .approches-box {
     gap: 20px;
 }
-.technology-frameworks-heading h1 {
+.technology-frameworks-heading h2 {
   font-size: 20px;
 }
   .check-services-data-con {
