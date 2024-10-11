@@ -84,12 +84,12 @@ body {
 }
 
 .h1 {
-  font-family: Rajdhani;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 53.24px;
-  text-align: center;
-  color: var(--root-black-color);
+  font-family: Rajdhani !important;
+  font-size: 44px !important;
+  font-weight: 700 !important;
+  line-height: 53.24px !important;
+  text-align: center !important;
+  color: var(--root-black-color) !important;
 }
 
 .p {

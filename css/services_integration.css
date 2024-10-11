@@ -469,7 +469,7 @@
   height: 95px;
   position: absolute;
   background: #574690;
-  top: 35%;
+  top: 33%;
   left: 0%;
   z-index: 1;
 }
@@ -480,8 +480,7 @@
   height: 95px;
   position: absolute;
   background: #4f549b;
-
-  top: 35%;
+  top: 33%;
   left: 0%;
   z-index: 1;
 }
@@ -492,8 +491,7 @@
   height: 95px;
   position: absolute;
   background: #406aa7;
-
-  top: 35%;
+  top: 32%;
   left: 0%;
   z-index: 1;
 }
@@ -505,7 +503,7 @@
   position: absolute;
   background: #307aac;
 
-  top: 35%;
+  top: 32%;
   left: 0%;
   z-index: 1;
 }
@@ -522,7 +520,7 @@
 }
 
 .how-do-we-work-inner-box p {
-  padding: 0 33px 43px 33px;
+  padding: 33px 33px 43px 33px;
 }
 
 .how-do-we-work-inner-box::after {
@@ -934,7 +932,7 @@
   }
 
   .how-do-we-work-inner-box p {
-    padding: 0 15px 25px 15px;
+    padding: 27px 15px 25px 15px;
   }
 
   .how-do-we-work-inner-box>p {

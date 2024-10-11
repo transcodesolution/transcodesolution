@@ -1,0 +1,26 @@
+:root {
+    --root-black-color: #3f3f3f;
+    --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+    --white-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0px !important;
+    padding: 0px;
+}
+
+
+/* <!-- ************************************************banner********************************************** --> */
+.banner-section-our-services {
+    padding-block: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/devops/banner_devops.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    height: 400px;
+}
+
+
