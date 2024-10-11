@@ -25,7 +25,9 @@
 } */
 
 /* <!-- *****************************************************integration service******************************************* --> */
-
+.wrapper-section{
+  padding: 0px 0 60px 0;
+}
 .integration-service>h1 {
   font-family: Rajdhani;
   font-size: 44px;
@@ -440,7 +442,13 @@
   gap: 40px;
   display: none;
 }
-
+.frameworks-image-box-con.active{
+  padding: 0 30px !important;
+}
+.frameworks-image-box{
+  width: 15% !important;
+  border-radius: unset;
+}
 /* <!-- *******************************************how-do-we-works*********************************************** --> */
 
 .how-do-we-work-cards-con {
@@ -668,7 +676,8 @@
 }
 #left-side-icon-our-slider {
   position: absolute;
-  top: 59%;
+  top: 63%;
+  left: 335px;
 }
 
 /* #left-side-icon-our-slider {
@@ -679,8 +688,8 @@
 } */
 #right-side-icon-our-slider {
   position: absolute;
-  top: 59%;
-  right: 70px;
+  top: 63%;
+  right: 335px;
 }
 /* #right-side-icon-our-slider {
   position: absolute;
@@ -799,7 +808,7 @@
   }
 
   #left-side-icon-our-slider {
-    left: 15px;
+    left: 85px;
     z-index: 200;
   }
 }
