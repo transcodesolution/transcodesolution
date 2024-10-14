@@ -647,8 +647,10 @@
   }
 
   .technology-frameworks-heading-con {
-    padding: 7px 20px;
-    margin-inline: 0;
+    /* padding: 7px 20px; */
+    /* margin-inline: 0; */
+    overflow-x: scroll;
+    gap: 180px;
   }
 
   .technology-frameworks-heading h2 {
@@ -977,7 +979,7 @@
   font-size: 25px;
 }
   .technology-frameworks-heading-con {
-    gap: 40px;
+    gap: 100px;
     overflow-x: scroll;
   }
 
@@ -1161,7 +1163,7 @@
   }
 
   .technology-frameworks-heading-con {
-    gap: 25px;
+    gap: 160px;
   }
 
   .testimonial-card-upper::after {

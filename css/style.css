@@ -1087,7 +1087,7 @@ body {
   margin-inline: 26px;
   gap: 83px;
   border-block-end: 1px solid #b0b0b0;
-  /* overflow-x: scroll; */
+  overflow-x: scroll;
   
 }
 
