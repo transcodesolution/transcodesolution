@@ -419,6 +419,7 @@ a {
     font-family: Rajdhani;
     margin-bottom: 20px !important;
     text-align: center;
+    margin: 0;
 }
 .wrapper-section{
     padding-block: 60px;
@@ -465,6 +466,7 @@ h2.heading.how_text_mobile_view{
     line-height: 38.22px;
     text-align: left;
     color: var(--root-black-color);
+    margin: 0px;
 }
 .get-in-touch-discuss-project {
     color: var(--white-color);
@@ -517,6 +519,7 @@ h2.heading.how_text_mobile_view{
     line-height: 27.18px;
     text-align: left;
     color: var(--root-black-color);
+    margin: 0;
 }
 .apply-info-second-p {
     margin-left: 15px;

@@ -433,7 +433,7 @@
 .hiring-models-box {
   box-shadow: 0px 0px 15px 0px #00000040;
   border-radius: 11px;
-  padding: 10px 10spx;
+  padding: 20px 20px;
   width: calc(33% - 50px);
   flex: 1;
 }
