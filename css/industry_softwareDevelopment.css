@@ -242,7 +242,7 @@
 .blogs-boxes-con {
   margin-top: 27px;
   display: flex;
-  gap: 75px;
+  gap: 40px;
 }
 
 .blogs-box {
@@ -626,6 +626,10 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .p{
+    font-size:16px;
+    line-height: 23.48px;
+    }
   .submit-forn-subbox {
     gap: 30px;
   }
@@ -637,6 +641,9 @@
   .how-we-works-subbox-con::after {
     top: 49.8%;
   }
+  .faq {
+    padding: 12px 20px;
+}
 }
 @media only screen and (max-width: 376px) {
   .our-software-service-box {

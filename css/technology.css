@@ -402,9 +402,9 @@
   gap: 30px;
 }
 
-.discuss-project-con > h1 {
+.discuss-project-con > h2 {
   font-family: Rajdhani;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 58.08px;
   text-align: left;
@@ -522,18 +522,17 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  .wrapper-section {
-    padding-block: 30px;
-  }
 
   .our-technology-stack-con > h1 {
     text-align: center;
   }
 }
 @media only screen and (max-width: 768px) {
+  .wrapper-section {
+    padding-block: 40px;
+}
   .technology-page-con h1 {
     font-size: 40px;
-
     line-height: 40.24px;
   }
 
@@ -603,15 +602,13 @@
   }
 
   .discuss-project-con > p {
-    font-size: 24px;
-
-    line-height: 30px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
   }
-
-  .get-in-touch-discuss-project {
-    margin: 0 auto;
-  }
+  .discuss-project-con {
+    gap: 10px;
+}
 
   .how-to-apply-con > p {
     line-height: 24.18px;
@@ -653,17 +650,24 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .discuss-project-con > h2{
+    font-size: 18px;
+    line-height:23px;
+  }
   .technology-page-con h1::after {
     bottom: -10px;
   }
-
+  .discuss-project-con > h2 {
+    font-size: 35px !important;
+    line-height:40px;
+}
   .our-achievements-in-number-card {
     width: 100%;
   }
 
   .discuss-project-con > p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 23px;
   }
 
   .discuss-project-con {
@@ -672,7 +676,6 @@
 
   .get-in-touch-discuss-project {
     font-size: 18px;
-
     line-height: 24.44px;
   }
 }
@@ -691,11 +694,8 @@
   .portfolio-desc {
     padding: 20px;
   }
-  .our-technology-stack-con > h1,.portfolio-slider-con-left > h1,.industries-we-serve-technology-main-con > h1,.our-achievements-in-number-con > h1,.discuss-project-con > h1,.how-to-apply-con > h1 {
+  .our-technology-stack-con > h1,.portfolio-slider-con-left > h1,.industries-we-serve-technology-main-con > h1,.our-achievements-in-number-con > h1,.discuss-project-con > h2,.how-to-apply-con > h1 {
     font-size: 35px;
-}
-.discuss-project-con > p,.how-to-apply-con > p {
-  font-size: 17px;
 }
 .our-technology-stack-card-con {
   margin-top: 25px;

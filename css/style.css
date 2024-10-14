@@ -50,6 +50,9 @@
   list-style: none;
   text-decoration: none;
 }
+.mt-0{
+  margin-top: 0px !important;
+}
 a {
   color: #337ab7;
   text-decoration: none !important;
@@ -145,6 +148,7 @@ body {
 .transcodezy-navbar-ul {
   display: flex;
   gap: 43px;
+  margin:0px;
 }
 
 .transcodezy-navbar-ul>li>a {
@@ -640,7 +644,7 @@ body {
   font-weight: 700;
   line-height: 44.66px;
   color: var(--root-black-color);
-  padding-inline: 13%;
+  padding-inline: 0%;
 }
 
 .driving-rapid-change-con>p {
@@ -1068,7 +1072,7 @@ body {
   font-weight: 400;
   line-height: 30.58px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 15px !important;
   color: #494949;
 }
 
@@ -1078,6 +1082,7 @@ body {
 
 .technology-frameworks-heading-con {
   display: flex;
+  justify-content:center;
   padding: 7px 81px;
   margin-inline: 26px;
   gap: 83px;
@@ -1522,7 +1527,7 @@ body {
   line-height: 21.59px;
   text-align: left;
   color: var(--root-black-color);
-  margin-top: 5px;
+  margin-top: 10px !important;
 }
 
 .footer-get-in-touch {
@@ -2003,4 +2008,13 @@ a:active {
 
 .mobile_faq {
   display: flex;
+}
+
+
+.dropdown-con {
+  display: none; /* Hide by default */
+}
+
+.dropdown-con.visible {
+  display: block; /* Show when 'visible' class is added */
 }

@@ -602,7 +602,7 @@ button.owl-dot.active {
   padding-block: 60px;
 }
 
-.how-to-apply-con > h1 {
+.how-to-apply-con > h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -915,7 +915,7 @@ button.owl-dot.active {
     line-height: 24.22px;
   }
 
-  .how-to-apply-con > h1 {
+  .how-to-apply-con > h2 {
     font-size: 40px;
 
     line-height: 40.24px;
@@ -995,10 +995,12 @@ button.owl-dot.active {
   .apply-info-text {
     gap: 0px;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .apply-info {
     gap: 5px;
+    align-items: flex-start;
   }
 
   .apply-info-first-p {
@@ -1010,7 +1012,7 @@ button.owl-dot.active {
   }
 
   .apply-info-text > p {
-    text-align: center;
+    text-align: left;
   }
 
   .life-at-form-input-box::placeholder {

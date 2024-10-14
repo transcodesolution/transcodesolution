@@ -665,8 +665,8 @@
     padding: 20px;
   }
 
-  .work-portfolio-con > h2,.driving-rapid-change-con h2 {
-    font-size: 40px;
+  .work-portfolio-con > h2,.driving-rapid-change-con h2,.faq-con h2,.discuss-project-con > h2 {
+    font-size: 40px !important;
     line-height: 40.14px;
   }
 
@@ -764,7 +764,7 @@
   }
 
   .footer-upper-box {
-    width: 60%;
+    width: 100%;
     gap: 30px;
   }
 

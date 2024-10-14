@@ -19,7 +19,9 @@
   min-height: 400px;
   height: 400px;
 }
-
+.Success-Stories-services{
+  margin-bottom: 40px;
+}
 /* .banner-section-about {
   background: url(../assets/images/services_manageItService/banner.svg) center;
 } */
