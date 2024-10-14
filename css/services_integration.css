@@ -1413,7 +1413,7 @@ color: #ffffff;
   }
 
   .how-do-we-work-inner-box>p {
-    margin-top: 35px;
+    margin-top: 0px;
   }
   .middle-slider-part {
     gap: 20px;
@@ -1426,6 +1426,9 @@ color: #ffffff;
 }
 .how-do-we-work-cards-con {
   gap: 30px;
+}
+.frameworks-image-box{
+  width: 100%;
 }
 }
 
@@ -1512,6 +1515,7 @@ color: #ffffff;
   .services_integration .frameworks-image-box-con {
     margin-inline: 5%;
   }
+
 }
 
 @media only screen and (max-width: 768px) {

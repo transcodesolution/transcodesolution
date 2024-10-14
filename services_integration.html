@@ -78,7 +78,7 @@
               </a>
               <ul class="dropdown-con">
                 <li>
-                  <a href="./services_integration.html">
+                  <a href="services_integration.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -620,7 +620,8 @@
         <div class="technology-expertise-con">
           <h2>Technology Expertise</h2>
           <p>
-            Our team is proficient in a wide range of integration tools and technologies, ensuring we can handle any project.
+            Our team is proficient in a wide range of integration tools and technologies, ensuring we can handle any
+            project.
           </p>
 
           <div class="technology-frameworks-con">
@@ -1213,6 +1214,34 @@
 
   <script src="js/owl.carousel.min.js"></script>
 
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname.split("/").pop();
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+      const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+        }
+      });
+
+      dropdownLinks.forEach(link => {
+
+        console.log('--', link.getAttribute('href') === currentPath);
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          const parentLi = link.closest('li.services-nav');
+          if (parentLi) {
+            parentLi.querySelector('a').classList.add('active');
+          }
+        }
+      });
+    });
+  </script>
+
   <script>
     $(document).ready(function () {
       var owl = $(".our-recent-work-slider-con");
@@ -1239,43 +1268,44 @@
     });
   </script>
 
-<script>
-  $('#id1').owlCarousel({
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    loop: true,
-    margin: 20,
-    nav: false,
-    dot: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      465: {
-        items: 1
-      },
-      575: {
-        items: 1
-      },
-      767: {
-        items: 2
-      },
-      991: {
-        items: 2
-      },
-      1140: {
-        items: 2
-      },
-      1360: {
-        items: 2
-      },
-      1440: {
-        items: 2
+  <script>
+    $('#id1').owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      loop: true,
+      margin: 20,
+      nav: false,
+      dot: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        465: {
+          items: 1
+        },
+        575: {
+          items: 1
+        },
+        767: {
+          items: 2
+        },
+        991: {
+          items: 2
+        },
+        1140: {
+          items: 2
+        },
+        1360: {
+          items: 2
+        },
+        1440: {
+          items: 2
+        }
       }
-    }
-  })
-</script>
+    })
+  </script>
+
 </body>
 
 </html>

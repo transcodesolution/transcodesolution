@@ -662,6 +662,7 @@ button.owl-dot.active {
   line-height: 27.18px;
   text-align: left;
   color: var(--root-black-color);
+  margin: 0;
 }
 
 @media only screen and (max-width: 1024px) {

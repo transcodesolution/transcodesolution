@@ -2190,18 +2190,29 @@
     })
   </script>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const currentPath = window.location.pathname.split("/").pop();
-      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.split("/").pop();
+    const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+    const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
-      navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-          link.classList.add('active');
-        }
-      });
+    navLinks.forEach(link => {
+      if (link.getAttribute('href') === currentPath) {
+        link.classList.add('active');
+      }
     });
-  </script>
+
+    dropdownLinks.forEach(link => {
+      if (link.getAttribute('href') === currentPath) {
+        link.classList.add('active');
+        const parentLi = link.closest('li.services-nav');
+        if (parentLi) {
+          parentLi.querySelector('a').classList.add('active');
+        }
+      }
+    });
+  });
+</script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {

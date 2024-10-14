@@ -310,7 +310,7 @@
     align-items: center;
   }
   .technology-frameworks-heading {
-    width: calc(25% - 63px);
+    width: calc(100% - 63px);
   }
 
   .services-wrapper {
