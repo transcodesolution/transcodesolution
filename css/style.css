@@ -2906,3 +2906,80 @@ h2.heading.how_text_mobile_view{
   color: var(--root-black-color);
   margin: 0;
 }
+
+/* ************************ UI & UX page **************************** */
+
+/* <!-- ***************************************************Integration Expertise Across Industries******************************* --> */
+
+.Integration-Expertise-Across-Industries-con {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.Integration-Expertise-Across-Industries-con-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.Integration-Expertise-Across-Industries-con-left-subbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Integration-Expertise-Across-Industries-con-left-subbox>h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.Integration-Expertise-Across-Industries-con-left-subbox>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.Integration-Expertise-Across-Industries-con-left>img {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.Integration-Expertise-Across-Industries-con-right {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  flex: 1;
+}
+
+.Integration-Expertise-Across-Industries-sub-boxes {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  padding: 23px 57px;
+  box-shadow: 0px 0px 5px 0px #00000040;
+  border-radius: 5px;
+}
+
+.Integration-Expertise-Across-Industries-sub-boxes>img {
+  width: 8%;
+  height: 35px;
+}
+
+.Integration-Expertise-Across-Industries-sub-boxes>p {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.28px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin: 0;
+}

@@ -1584,6 +1584,9 @@ color: #ffffff;
   .our-integration-service-2-con>h1{
     font-size: 40px !important;
   }
+  #our-integration-service-2-p {
+    margin-inline: 5%;
+  }
   .integration-service>h1 {
     font-size: 45px;
     line-height: 45.5px;
@@ -1598,11 +1601,6 @@ color: #ffffff;
     line-height: 24.9px;
     margin-top: 15px;
   }
-
-  #our-integration-service-2-p {
-    margin-inline: 5%;
-  }
-
   .Integration-Expertise-Across-Industries-con {
     flex-direction: column;
   }

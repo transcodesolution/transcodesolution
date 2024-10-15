@@ -7,21 +7,36 @@
 }
 
 /* <!-- ************************************************banner********************************************** --> */
-.banner-section-uiux-services {
+.banner-section-web-development-services {
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/UIUX_design_banner.png  );
+  background: url(../assets/images/UIUX_design_banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
   height: 400px;
 }
-/* .banner-section-about {
-  background: url(../assets/images/services_uiux/banner.svg) center;
-} */
+
+
+.banner-section-about-con h1 {
+  font-family: Rajdhani;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.44px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+#about-hero-info {
+  margin-top: 40px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* <!-- ********************************************Hire Our UI/UX Designers for End-to-End Services************************ --> */
 .owl-theme .owl-nav.disabled+.owl-dots #uiux-slider{
@@ -29,7 +44,7 @@
 }
 
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled #uiux-slider{
-  display: block !important;
+  /* display: block !important; */
   /* margin-top: 70px !important; */
 }
 button.owl-dot.active {
@@ -40,13 +55,15 @@ button.owl-dot.active {
   border: 3px solid #613A83 !important;
 }
 .owl-theme .owl-dots .owl-dot{
-  margin: 0 20px !important;
+  margin: 5px 3px !important;
 }
 #uiux-slider .owl-item img {
   display: block;
   width:unset ;
 }
-
+#id1 .owl-carousel {
+  display: none;
+}
 .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
   margin-top: 36px;
   display: flex;
@@ -54,7 +71,7 @@ button.owl-dot.active {
 }
 
 .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
-  width: 406px;
+  width: 100%;
   height: 339px;
   border-radius: 10px;
   cursor: pointer;
@@ -147,7 +164,7 @@ button.owl-dot.active {
   }
 
   .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
-    width: calc(33% - 5px);
+    /* width: calc(33% - 5px); */
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -156,7 +173,7 @@ button.owl-dot.active {
     gap: 15px;
   }
   .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box {
-    width: calc(33% - 5px);
+    /* width: calc(33% - 5px); */
   }
 
   .layer > h2 {
