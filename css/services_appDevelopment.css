@@ -120,6 +120,7 @@ ul {
   font-weight: 700;
   line-height: 60.5px;
   position: relative;
+  width: fit-content;
 }
 
 .mobile_devlop_title:after {
@@ -127,7 +128,7 @@ ul {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 50%;
+  width: 100%;
   height: 2px;
   background-color: #3F3F3F;
 }
@@ -842,7 +843,9 @@ ul {
   margin-inline: 0px;
   gap: 70px;
 }
-
+.technology-frameworks-heading-con{
+  overflow-x: unset;
+}
 .services_appDevelopment .frameworks-image-box-con {
   margin-inline: 10%;
 }
@@ -963,6 +966,11 @@ ul {
   .our-expertise-in-mobile-main-circle-box {
     padding: 30px 20px;
   }
+  .technology-frameworks-heading-con {
+    justify-content: space-between;
+    overflow-x: scroll;
+    padding: 7px 20px;
+}
 }
 
 @media only screen and (max-width: 1025px) {
@@ -999,9 +1007,9 @@ ul {
     padding: 30px 24px;
   }
 
-  .wrapper-section {
+  /* .wrapper-section {
     padding-block: 40px;
-  }
+  } */
 
   #our-expertise-in-mobile-con>p {
     margin-inline: 0%;
@@ -1017,6 +1025,29 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
+    .wrapper-section {
+    padding-block: 40px;
+  }
+  #about-hero-info {
+    margin-bottom: 25px;
+}
+  .technology-frameworks-heading-con {
+    padding: 7px 20px;
+    gap: 40px;
+    justify-content: space-between;
+}
+  .discuss-project-con {
+    gap: 10px;
+}
+.discuss-project-con > p {
+  font-size: 18px;
+  line-height: 30.22px;
+}
+.get-in-touch-discuss-project {
+  font-size: 19px;
+  line-height: 28.44px;
+  padding: 10px 22px;
+}
   .managed_it_title {
     font-size: 40px;
     line-height: 45.5px;
@@ -1039,12 +1070,11 @@ h2.heading.how_text_mobile_view {
 }
   .banner-section-about-con h1 {
     font-size: 50px;
+    line-height: 50px;
 }
 .mobile_devlop_title,.our-intergration-services-con-heading>h2 {
   font-size: 40px;
-}
-.mobile_devlop_title:after {
-  width: 76%;
+  line-height: 40px;
 }
 .our-intergration-services-box {
   gap: 15px;
@@ -1126,9 +1156,35 @@ h2.heading.how_text_mobile_view {
   #our-expertise-in-mobile-main-circle-box-1,#our-expertise-in-mobile-main-circle-box-2,#our-expertise-in-mobile-main-circle-box-3,#our-expertise-in-mobile-main-circle-box-4,#our-expertise-in-mobile-main-circle-box-5,#our-expertise-in-mobile-main-circle-box-8,#our-expertise-in-mobile-main-circle-box-7,#our-expertise-in-mobile-main-circle-box-6,#our-expertise-in-mobile-main-circle-box-9,#our-expertise-in-mobile-main-circle-box-10{
     height: unset;
   }
+  .our-intergration-services-box-desc>p {
+    text-align: center;
+}
 }
 
 @media only screen and (max-width: 576px) {
+  .blogs-box {
+    width: calc(100% - 0px);
+}
+  h2.heading.how_text_mobile_view {
+    height: 50px;
+  }
+  .our-intergration-services-con-heading>h2 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.managed_it_title {
+  font-size: 40px;
+  line-height: 45px;
+}
+.frameworks-image-box {
+  width: calc(50% - 16px);
+}
+.hiring-models-box {
+  width: calc(33% - 20px);
+}
+.hiring-models-boxes-con {
+  flex-direction: column;
+}
   .our-expertise-in-mobile-main-circle-con-middle-text {
     height: 220px;
     width: 220px;
@@ -1143,6 +1199,36 @@ h2.heading.how_text_mobile_view {
 }
 
 @media only screen and (max-width: 480px) {
+  .mobile_devlop_title:after {
+    width: 100%;
+}
+  .banner-section-about-con h1 {
+    font-size: 45px;
+    line-height: 50px;
+}
+  .managed_it_title,.mobile_devlop_title  {
+    font-size: 35px;
+    line-height: 40px;
+}
+.our-intergration-services-con-heading>button {
+  width: 40%;
+}
+.integration-service>p,.hiring-models-con>p {
+  font-size: 16px;
+  line-height: 23.9px;
+  margin-top: 15px !important;
+}
+.p {
+  font-size: 16px;
+  line-height: 25.04px;
+}
+.our-intergration-services-box{
+  padding: 25px;
+}
+.our-intergration-services-box-lists-con li {
+  font-size: 16px;
+  line-height: 24.22px;
+}
   .our-expertise-in-mobile-main-circle-con-middle-text {
     height: 225px;
     width: 225px;
@@ -1158,6 +1244,15 @@ h2.heading.how_text_mobile_view {
 }
 
 @media only screen and (max-width: 376px) {
+  h2.heading.how_text_mobile_view {
+    height: 25px;
+}
+  .our-intergration-services-box-lists-con li {
+    width: 100%;
+}
+.our-intergration-services-box-lists-con>ul {
+  gap: 0px;
+}
 
   .our-expertise-in-mobile-main-circle-con {
     gap: 20px;
@@ -1178,6 +1273,13 @@ h2.heading.how_text_mobile_view {
   .our-expertise-in-mobile-main-circle-con-middle-text>h1 {
     font-size: 30px;
     line-height: 35.82px;
+}
+.technology-frameworks-heading-con {
+  padding: 5px 5px;
+  margin-inline: 0px;
+}
+.our-intergration-services-con-heading>button {
+  width: 50%;
 }
 }
 

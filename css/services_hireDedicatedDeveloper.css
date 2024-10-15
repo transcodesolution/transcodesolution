@@ -83,6 +83,15 @@
   border: 2px solid var(--root-black-color);
   color: var(--purple-color);
 }
+.apply-info-text > a {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.18px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin: 0;
+}
 
 @media only screen and (max-width: 992px) {
   .ready-to-transform-your-Project h1 {

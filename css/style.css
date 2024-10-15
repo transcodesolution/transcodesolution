@@ -96,6 +96,7 @@ body {
   line-height: 53.24px !important;
   text-align: center !important;
   color: var(--root-black-color) !important;
+  margin: 0 !important;
 }
 
 .p {
@@ -214,6 +215,7 @@ body {
   padding-top: 20px;
   /* margin-top: 10px; */
   z-index: -1;
+  /* box-shadow: 0px 0px 10px 0px #00000040; */
 }
 
 .industries-nav:hover .dropdown-con {
@@ -1097,7 +1099,7 @@ body {
   margin-inline: 26px;
   gap: 83px;
   border-block-end: 1px solid #b0b0b0;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .technology-frameworks-heading {

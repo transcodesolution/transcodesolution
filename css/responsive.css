@@ -304,6 +304,11 @@
 .no-js .owl-carousel, .owl-carousel.owl-loaded {
   padding-bottom: 0px !important;
 }
+.technology-frameworks-heading-con {
+  overflow-x: scroll;
+  padding: 7px 15px;
+  justify-content: space-between;
+}
 }
 @media only screen and (max-width: 992px) {
   .header-con {
@@ -634,8 +639,7 @@
 
   .technology-expertise-con > h2 {
     font-size: 40px;
-
-    line-height: 40.01px;
+    line-height: 45.01px;
   }
   .technology-expertise-con > p {
     font-size: 18px;
@@ -950,6 +954,7 @@
 }
 }
 @media only screen and (max-width: 480px) {
+
   .home_logo{
     height: 60px;
   }
