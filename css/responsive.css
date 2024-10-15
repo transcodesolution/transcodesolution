@@ -50,6 +50,25 @@
 .our-intergration-services-box-desc {
   margin-left: 0px;
 }
+.how-do-we-work-cards-con {
+  gap: 44px;
+}
+
+.how-do-we-work-inner-box>h2 {
+  font-size: 27px;
+}
+.blogs-boxes-con {
+  gap: 50px;
+}
+#right-side-icon-our-slider {
+  right: 30px;
+  z-index: 200;
+}
+
+#left-side-icon-our-slider {
+  left: 30px;
+  z-index: 200;
+} 
 }
 @media only screen and (max-width: 1200px) {
   .services-card {
@@ -323,6 +342,43 @@
   padding: 7px 15px;
   justify-content: space-between;
 }
+
+.hiring-models-boxes-con {
+  gap: 50px;
+}
+
+.hiring-models-box {
+  width: calc(33% - 25px);
+  padding: 15px 15px;
+}
+
+
+.how-do-we-work-inner-box>h2 {
+  font-size: 22px;
+}
+
+.how-do-we-work-inner-box p {
+  padding: 40px 15px 25px 15px;
+}
+
+.how-do-we-work-inner-box>p {
+  margin-top: 0px;
+}
+.middle-slider-part {
+  gap: 20px;
+}
+#how-do-we-work-card-11::after,#how-do-we-work-card-22::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after {
+top: 36%;
+}
+.how-do-we-work-inner-box>h2 {
+line-height: 25.3px;
+}
+.how-do-we-work-cards-con {
+gap: 30px;
+}
+.frameworks-image-box{
+width: 100%;
+}
 }
 @media only screen and (max-width: 992px) {
   .header-con {
@@ -486,6 +542,66 @@
 .get-more-info {
   margin-top: 35px;
 }
+.Success-Stories-services h1 {
+  font-size: 40px;
+
+  line-height: 40.08px;
+  text-align: center;
+}
+
+.Success-Stories-services p {
+  font-size: 22px;
+
+  line-height: 26.22px;
+  text-align: center;
+
+  margin-right: 0%;
+}
+.technology-frameworks-heading-con {
+  /* padding: 7px 20px; */
+  /* margin-inline: 0; */
+  overflow-x: scroll;
+  gap: 50px;
+}
+.middle-slider-part-left {
+width: 100%;
+padding: 0 0 20px 0px;
+}
+.middle-slider-part-right {
+width: 100%;
+}
+.middle-slider-part-right img{
+  margin: 0;
+}
+.middle-slider-part{
+flex-direction: column;
+align-items: center;
+}
+.Success-Stories-services .cutting-edge-con {
+  padding-block: 30px;
+  gap: 20px;
+}
+
+.how-do-we-work-cards-con {
+  gap: 30px;
+}
+
+.services_integration .technology-frameworks-heading {
+  width: fit-content;
+}
+
+.services_integration .technology-frameworks-heading-con {
+  overflow-x: scroll;
+  gap: 80px;
+}
+
+.services_integration .frameworks-image-box-con {
+  margin-inline: 5%;
+}
+.middle-slider-part-left,.middle-slider-part-right{
+  width: 100%;
+}
+
 }
 @media only screen and (max-width: 768px) {
   .services-wrapper {
@@ -814,6 +930,131 @@ line-height: 20.22px;
 .hiring-models-box>p {
   margin-top: 24px;
 }
+.how-do-we-works-con>h1{
+  font-size: 40px !important;
+}
+.middle-slider-part-left>h1{
+  font-size: 40px;
+}
+.faq-con>h1{
+  font-size: 40px !important;
+}
+.blogs-articles-con>h1{
+  font-size: 40px !important;
+}
+.how-do-we-work-cards-con {
+  flex-wrap: wrap;
+}
+
+.how-do-we-work-card {
+  width: calc(50% - 20px);
+}
+
+#how-do-we-work-card-11::after {
+  height: 70px;
+  top: 38%;
+}
+
+#how-do-we-work-card-22::after {
+  height: 70px;
+  top: 45%;
+}
+
+#how-do-we-work-card-33::after {
+  height: 70px;
+  top: 45%;
+}
+
+#how-do-we-work-card-44::after {
+  height: 70px;
+  top: 45%;
+}
+
+#how-do-we-work-card-1::before {
+  top: -25%;
+}
+
+#how-do-we-work-card-2::before {
+  top: -25%;
+}
+
+#how-do-we-work-card-3::before {
+  top: -25%;
+}
+
+#how-do-we-work-card-4::before {
+  top: -25%;
+}
+
+.services_integration .frameworks-image-box-con {
+  margin-inline: 0;
+}
+.hiring-models-con h1 {
+  font-size: 40px;
+
+  line-height: 40.24px;
+}
+
+.hiring-models-boxes-con {
+  margin-top: 25px;
+}
+
+.hiring-models-box {
+  padding: 20px 20px;
+}
+
+.hiring-models-boxes-con {
+  gap: 40px;
+}
+
+.hiring-models-box {
+  width: calc(33% - 20px);
+}
+
+.hiring-models-box > h2 {
+  font-size: 20px;
+
+  line-height: 20.22px;
+}
+
+.hiring-models-box > p {
+  font-size: 17px;
+
+  line-height: 24.46px;
+
+  margin-top: 12px;
+}
+
+.hiring-models-con > p {
+  margin-top: 7px;
+}
+.blogs-boxes-con {
+  gap: 25px;
+}
+
+.blogs-box > h2 {
+  line-height: 25px;
+}
+.how-to-apply-con > h1 {
+  font-size: 40px;
+
+  line-height: 40.24px;
+  text-align: center;
+}
+
+.how-to-apply-con > p {
+  font-size: 20px;
+
+  line-height: 27px;
+  text-align: center;
+}
+.banner-section-about-con h1{
+  font-size: 50px;
+}
+.apply-info {
+  margin-top: 20px;
+  gap: 5px;
+}
   .footer-upper-box {
     width: 100%;
     gap: 30px;
@@ -997,8 +1238,92 @@ line-height: 20.22px;
 .service-card-inner-con-left {
   gap: 70px;
 }
-.hiring-models-box {
+.technology-frameworks-heading-con {
+  margin-inline: 0px;
+}
+  .blogs-box > a {
+    margin-top: 10px;
+}
+  .hiring-models-boxes-con {
+  gap: 20px !important;
+  flex-direction: column;
+  align-items: center;
+  }
+  .hiring-models-box {
   width: calc(100% - 20px) !important;
+  }
+  .how-do-we-work-inner-box>h2 {
+    font-size: 23px;
+    line-height: 26px;
+  }
+
+  #how-do-we-work-card-11::after {
+    top: 38%;
+}
+
+  #how-do-we-work-card-22::after {
+    top: 37%;
+  }
+
+  #how-do-we-work-card-33::after {
+    top: 41%;
+  }
+
+  #how-do-we-work-card-44::after {
+    top: 41%;
+  }
+
+  #how-do-we-work-card-1::before {
+    top: -20%;
+  }
+  #how-do-we-work-card-2::before {
+    top: -20%;
+  }
+
+  #how-do-we-work-card-3::before {
+    top: -20%;
+  }
+
+  #how-do-we-work-card-4::before {
+    top: -20%;
+  }
+  .blogs-boxes-con {
+    flex-direction: column;
+  }
+
+  .blogs-box {
+    width: unset;
+  }
+
+  .blogs-box > img {
+    width: 100%;
+  }
+  .services_integration .technology-frameworks-heading-con {
+    gap: 40px;
+  }
+
+  .services_integration .frameworks-image-box {
+    width: calc(50% - 20px);
+  }
+
+  .services_integration .frameworks-image-box-con {
+    margin-top: 30px;
+  }
+  .how-do-we-work-cards-con {
+    justify-content: space-between;
+}
+  .middle-slider-part {
+    flex-direction: column;
+}
+.middle-slider-part-left,.middle-slider-part-right {
+  width: 100%;
+}
+.how-to-apply-con > p {
+  font-size: 19px;
+}
+
+.apply-info-text > p {
+  font-size: 16px;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -1144,10 +1469,143 @@ line-height: 20.22px;
 .it-success-box-left-upper,.it-sucess-box-left,.it-success-box-left-bottom {
   gap: 9px;
 }
+.managed_it_title {
+  font-size: 35px;
+  line-height:40px;
+}
 .mobile_devlop_title, .our-intergration-services-con-heading>h2{
   font-size: 35px;
 }
+.discuss-project-con > p {
+  font-size: 16px;
+  line-height: 23px;
+}
+.faq-con>h1{
+  font-size: 35px !important;
+}
+.discuss-project-con > h1{
+  font-size: 35px;
+}
+.blogs-articles-con>h1{
+  font-size: 35px !important;
+}
+.middle-slider-part-left>h1{
+  font-size: 35px;
+}
+.discuss-project-con > h2{
+  font-size: 35px !important;
+  line-height: 40px;
+} 
+.discuss-project-con > p {
+  font-size: 16px;
+  line-height: 23px;
+}
+.how-do-we-work-cards-con {
+  gap: 20px;
+}
+.our-intergration-services-box>img {
+  width: 25%;
+}
+.wrapper-section {
+    padding-block: 40px;
+}
+.how-do-we-work-card {
+  width: calc(50% - 10px);
+}
 
+.how-do-we-work-inner-box>h2 {
+  font-size: 22px;
+}
+
+#how-do-we-work-card-11::after {
+  top: 38%;
+}
+
+#how-do-we-work-card-22::after {
+  top: 38%;
+}
+
+#how-do-we-work-card-33::after {
+  top: 38%;
+}
+
+#how-do-we-work-card-44::after {
+  top: 38%;
+}
+
+#how-do-we-work-card-1::before {
+  top: -17%;
+}
+
+#how-do-we-work-card-2::before {
+  top: -17%;
+}
+
+#how-do-we-work-card-3::before {
+  top: -17%;
+}
+
+#how-do-we-work-card-4::before {
+  top: -17%;
+}
+
+.banner-section-about-con h1{
+  font-size: 45px;
+  line-height: 50px;
+}
+.apply-info {
+  gap: 5px;
+  align-items: flex-start;
+}
+.apply-info-text {
+  gap: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.apply-info-first-p {
+  margin-left: 0px;
+}
+
+.apply-info-second-p {
+  margin-left: 0;
+}
+
+.apply-info-text > p {
+  text-align: left;
+}
+.services_integration .frameworks-image-box-con {
+  gap: 30px;
+}
+
+.services_integration .frameworks-image-box {
+  width: calc(50% - 15px);
+}
+.middle-slider-part {
+  padding-bottom: 30px;
+  margin-inline: 10px;
+}
+.hiring-models-boxes-con {
+flex-direction: column;
+}
+
+.hiring-models-box {
+width: 100%;
+}
+#left-side-icon-our-slider {
+left: 40%;
+top: unset;
+bottom: -0%;
+transform: translate(-50%, -50%);
+}
+#right-side-icon-our-slider {
+right: 32%;
+top: unset;
+bottom: -0%;
+transform: translate(-50%, -50%);
+}
+.our-intergration-services-box-lists-con>ul{
+  gap: 30px;
+}
 }
 @media (max-width:425px) {
   .testimonial-card-bottom {
@@ -1254,6 +1712,63 @@ line-height: 20.22px;
   .footer-upper-box {
     width: 100%;
   }
+  .technology-frameworks-heading {
+    width: calc(60% - 45px);
+    margin-inline: 0;
+    padding-block: 7px;
+}
+.technology-frameworks-heading h1 {
+  font-size: 19px;
+  line-height: 20.68px;
+}
+.how-do-we-work-card {
+  width: 100%;
+}
+
+#how-do-we-work-card-11::after {
+  top: 44%;
+}
+
+#how-do-we-work-card-22::after {
+  top: 44%;
+}
+
+#how-do-we-work-card-33::after {
+  top: 44%;
+}
+
+#how-do-we-work-card-44::after {
+  top: 44%;
+}
+
+#how-do-we-work-card-1::before {
+  top: -30%;
+}
+
+#how-do-we-work-card-2::before {
+  top: -24%;
+}
+
+#how-do-we-work-card-3::before {
+  top: -30%;
+}
+
+#how-do-we-work-card-4::before {
+  top: -30%;
+}
+.faq {
+  padding: 12px;
+}
+
+.faq-answers {
+  padding: 15px 15px;
+}
+.integration-service>h1,.h1,.Integration-Expertise-Across-Industries-con-left-subbox>h1,.Our-Expertise-in-Integration-con-right>h1,.Success-Stories-services h1,.hiring-models-con h1,.middle-slider-part-left>h1 {
+  font-size: 35px;
+}
+.integration-service>p,.p,.Integration-Expertise-Across-Industries-con-left-subbox>p,.Our-Expertise-in-Integration-con-right>p,.Success-Stories-services p,.hiring-models-con > p,.middle-slider-part-left>p{
+font-size: 16px;
+}
 }
 @media only screen and (max-width: 320px) {
   .services-card-img {

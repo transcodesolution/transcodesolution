@@ -421,31 +421,12 @@ a {
     text-align: center;
     margin: 0;
 }
-.wrapper-section{
+/* .wrapper-section{
     padding-block: 60px;
-}
-.managed_it_title{
-    font-size: 44px;
-    font-family: Rajdhani;
-    font-weight: 700;
-    line-height: 60.5px;
-}
-.managed_line{
-    width: 370px;
-    height: 2px;
-    background-color: #3F3F3F;
-}
-.text_align{
-    text-align: center;
-}
-.mb-4{
-    margin-bottom: 50px;
-}
-h2.heading.how_text_mobile_view{
-    height:72px;
-}
+} */
+
 /* ************************************************** Let's Discuss Your Project **************************************************** */
-.discuss-project-con > h2 {
+/* .discuss-project-con > h2 {
     font-family: Rajdhani;
     font-size: 44px;
     font-weight: 700;
@@ -523,7 +504,7 @@ h2.heading.how_text_mobile_view{
 }
 .apply-info-second-p {
     margin-left: 15px;
-}
+} */
 
 
 
@@ -556,7 +537,6 @@ h2.heading.how_text_mobile_view{
         height: 65px;
         top: -20px;
     } */
-  
 }
 
 @media (max-width: 1360px) {
@@ -583,9 +563,6 @@ h2.heading.how_text_mobile_view{
         grid-template-columns: repeat(3, 1fr);
         padding: 20px 55px 0;
     }
-    .our-intergration-services-box-desc {
-        margin-left: 0px;
-    }
 }
 
 @media (max-width: 1199px) {
@@ -604,7 +581,6 @@ h2.heading.how_text_mobile_view{
         grid-template-columns: repeat(3, 1fr);
         padding: 20px 35px 0;
     }
-  
 }
 @media (max-width: 991px) {
     .development-content {
@@ -688,7 +664,6 @@ h2.heading.how_text_mobile_view{
         text-align: center;
         margin-bottom: 20px;
     }
-  
 }
 
 @media (max-width: 575px) {
@@ -808,9 +783,3 @@ h2.heading.how_text_mobile_view{
         gap:0;
     }
 }
-
-
-
-
-
-

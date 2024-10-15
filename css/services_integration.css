@@ -1667,18 +1667,7 @@ color: #ffffff;
     line-height: 40.24px;
     text-align: center;
   }
-  .how-do-we-works-con>h1{
-    font-size: 40px !important;
-  }
-  .middle-slider-part-left>h1{
-    font-size: 40px;
-  }
-  .faq-con>h1{
-    font-size: 40px !important;
-  }
-  .blogs-articles-con>h1{
-    font-size: 40px !important;
-  }
+ 
   .Our-Expertise-in-Integration-con-right>p {
     font-size: 18px;
     line-height: 24.6px;
@@ -1701,7 +1690,18 @@ color: #ffffff;
   .Our-Expertise-in-Integration-con-left-card>p {
     line-height: 24.46px;
   }
-
+  .how-do-we-works-con>h1{
+    font-size: 40px !important;
+  }
+  .middle-slider-part-left>h1{
+    font-size: 40px;
+  }
+  .faq-con>h1{
+    font-size: 40px !important;
+  }
+  .blogs-articles-con>h1{
+    font-size: 40px !important;
+  }
   .how-do-we-work-cards-con {
     flex-wrap: wrap;
   }
@@ -1712,8 +1712,8 @@ color: #ffffff;
 
   #how-do-we-work-card-11::after {
     height: 70px;
-    top: 45%;
-  }
+    top: 38%;
+}
 
   #how-do-we-work-card-22::after {
     height: 70px;
@@ -1818,6 +1818,10 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 576px) {
+  
+  .Our-Expertise-in-Integration-con-right>p {
+  text-align: left;
+  }
   .technology-frameworks-heading h1 {
     font-size: 21px;
     line-height: 20.68px;
@@ -1834,9 +1838,6 @@ color: #ffffff;
   .blogs-box > a {
     margin-top: 10px;
 }
-  .Our-Expertise-in-Integration-con-right>p {
-  text-align: left;
-  }
   .hiring-models-boxes-con {
   gap: 20px !important;
   flex-direction: column;
@@ -1876,8 +1877,8 @@ color: #ffffff;
   }
 
   #how-do-we-work-card-11::after {
-    top: 41%;
-  }
+    top: 38%;
+}
 
   #how-do-we-work-card-22::after {
     top: 37%;
@@ -1894,7 +1895,6 @@ color: #ffffff;
   #how-do-we-work-card-1::before {
     top: -20%;
   }
-
   #how-do-we-work-card-2::before {
     top: -20%;
   }
