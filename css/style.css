@@ -2040,6 +2040,7 @@ a:active {
     font-weight: 700;
     line-height: 60.5px;
     position: relative;
+    width: fit-content;
   }
   
   .mobile_devlop_title:after {
@@ -2047,7 +2048,7 @@ a:active {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    width: 50%;
+    width: 100%;
     height: 2px;
     background-color: #3F3F3F;
   }
