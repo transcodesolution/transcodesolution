@@ -1770,7 +1770,10 @@ body {
   text-align: center;
   margin-top: 10px;
 }
+#uiux-slider .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
 
+}
 #work-portfolio-wrapper .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   /* background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%) !important; */
@@ -1790,7 +1793,6 @@ body {
   transition: opacity .2s ease;
   border-radius: 30px;
 }
-
 .work-portfolio-card img {
   max-height: 294px;
   object-fit: cover;
@@ -2569,6 +2571,7 @@ h2.heading.how_text_mobile_view{
   display: flex;
   flex-direction: column;
   gap: 25px;
+  margin-bottom: 10px;
 }
 
 .middle-slider-part-left-box {

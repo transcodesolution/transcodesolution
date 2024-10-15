@@ -430,7 +430,11 @@ line-height: 25.3px;
 gap: 30px;
 }
 .frameworks-image-box{
-width: 100%;
+width: 30%;
+}
+.frameworks-image-box-con.active{
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .Integration-Expertise-Across-Industries-con {
   gap: 70px;
@@ -836,12 +840,12 @@ align-items: center;
 
   .Integration-Expertise-Across-Industries-con-left {
     display: flex;
-    flex-direction: unset;
+    flex-direction: column;
     width: 100%;
   }
 
   .Integration-Expertise-Across-Industries-con-left>img {
-    width: 40%;
+    width: 100%;
   }
 
   .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
@@ -924,10 +928,11 @@ align-items: center;
   }
 
   .technology-frameworks-heading-con {
-    /* padding: 7px 20px; */
+    padding: 7px 5px;
     /* margin-inline: 0; */
     overflow-x: scroll;
-    gap: 180px;
+    gap: 50px;
+    margin-inline: 0px;
   }
 
   .technology-frameworks-heading h2 {
@@ -1044,9 +1049,7 @@ align-items: center;
   .mobile_devlop_title,.our-intergration-services-con-heading>h2 {
     font-size: 40px;
   }
-  .mobile_devlop_title:after {
-    width: 76%;
-  }
+
   .our-intergration-services-box>img {
     width: 15%;
 }
@@ -1249,8 +1252,8 @@ line-height: 20.22px;
 .testimonial-card-bottom h3 {
   font-size: 19px;
 }
-.Our-Expertise-in-Integration-con {
-  flex-direction: column-reverse;
+.our-intergration-services-box-desc>p {
+  text-align: center;
 }
 
 .Our-Expertise-in-Integration-con-left {
@@ -1288,6 +1291,7 @@ line-height: 20.22px;
 }
 }
 @media (max-width:767px) {
+  
   .mobile_faq{
     display: none;
   }
@@ -1314,6 +1318,13 @@ line-height: 20.22px;
 }
 }
 @media only screen and (max-width: 576px) {
+  .our-services-info-box-right>h1 {
+    margin-right: 0%;
+}
+  .technology-frameworks-heading h1 {
+    font-size: 21px;
+    line-height: 20.68px;
+}
   .services-wrapper {
     padding-top: 30px;
   }
@@ -1355,7 +1366,6 @@ line-height: 20.22px;
 
   .technology-frameworks-heading-con {
     padding-inline: 0;
-    gap: 0;
   }
 
   .technology-frameworks-heading {
@@ -1513,12 +1523,13 @@ line-height: 20.22px;
 }
 }
 @media only screen and (max-width: 480px) {
-  .Our-Expertise-in-Integration-con-left-card {
-    width: calc(100% - 0px);
+  .get-in-touch-discuss-project {
+    font-size: 18px;
+    line-height: 24.44px;
 }
-  .Our-Expertise-in-Integration-con-left {
-    gap: 30px;
-  }
+.discuss-project-con {
+  gap: 20px;
+}
   .home_logo{
     height: 60px;
   }
@@ -1548,7 +1559,7 @@ line-height: 20.22px;
   font-size: 25px;
 }
   .technology-frameworks-heading-con {
-    gap: 100px;
+    gap: 25px;
     overflow-x: scroll;
   }
 
@@ -1701,27 +1712,31 @@ line-height: 20.22px;
     padding-block: 40px;
 }
 .how-do-we-work-card {
-  width: calc(50% - 10px);
+  width: calc(100% - 0px);
 }
-
+#how-do-we-work-card-1::before,#how-do-we-work-card-2::before,#how-do-we-work-card-3::before,#how-do-we-work-card-4::before{
+  content: none;
+}
 .how-do-we-work-inner-box>h2 {
   font-size: 22px;
 }
-
+h2.heading.how_text_mobile_view{
+  height: unset;
+}
 #how-do-we-work-card-11::after {
-  top: 38%;
+  top: 42%;
 }
 
 #how-do-we-work-card-22::after {
-  top: 38%;
+  top: 42%;
 }
 
 #how-do-we-work-card-33::after {
-  top: 38%;
+  top:42%;
 }
 
 #how-do-we-work-card-44::after {
-  top: 38%;
+  top: 42%;
 }
 
 #how-do-we-work-card-1::before {
@@ -1745,7 +1760,7 @@ line-height: 20.22px;
   line-height: 50px;
 }
 .apply-info {
-  gap: 5px;
+  gap: 16px;
   align-items: flex-start;
 }
 .apply-info-text {
@@ -1818,9 +1833,9 @@ transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.Integration-Expertise-Across-Industries-con-left>img {
-  width: 70%;
-}
+/* .Integration-Expertise-Across-Industries-con-left>img {
+  width: 100%;
+} */
 }
 @media (max-width:425px) {
   .testimonial-card-bottom {
@@ -1831,6 +1846,13 @@ transform: translate(-50%, -50%);
 }
 }
 @media only screen and (max-width: 376px) {
+  .our-intergration-services-box-lists-con>ul {
+    gap: 0px;
+    flex-direction: column;
+}
+.our-intergration-services-box-lists-con li {
+  width: 100%;
+}
   .testimonial-card-bottom {
     padding-left: 6px;
 }
@@ -1899,7 +1921,7 @@ transform: translate(-50%, -50%);
   }
 
   .technology-frameworks-heading-con {
-    gap: 160px;
+    gap: 30px;
   }
 
   .testimonial-card-upper::after {
@@ -1912,8 +1934,11 @@ transform: translate(-50%, -50%);
   }
 
   .frameworks-image-box > img {
-    width: 50%;
+    width: auto;
   }
+  h2.heading.how_text_mobile_view {
+    height: 30px;
+}
 
   .frameworks-image-box-con {
     margin-top: 20px;
@@ -1944,6 +1969,10 @@ transform: translate(-50%, -50%);
 }
 .how-do-we-work-card {
   width: 100%;
+  gap: 45px;
+}
+.our-intergration-services-box {
+  padding: 25px;
 }
 
 #how-do-we-work-card-11::after {
