@@ -2031,3 +2031,204 @@ a:active {
   display: block;
   /* Show when 'visible' class is added */
 }
+
+
+  /* <!-- ***************************************************Our Expertise in website Development service******************** --> */
+  .mobile_devlop_title {
+    font-size: 44px;
+    font-family: Rajdhani;
+    font-weight: 700;
+    line-height: 60.5px;
+    position: relative;
+  }
+  
+  .mobile_devlop_title:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50%;
+    height: 2px;
+    background-color: #3F3F3F;
+  }
+  
+  .integration-service>p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
+    text-align: justify;
+    color: var(--root-black-color);
+    margin-top: 26px !important;
+  }
+
+/* ***************************************** Our website development Services **************************************************** */
+.our-intergration-services-con-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-intergration-services-con-heading>h2 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-intergration-services-con-heading>button {
+  background: var(--gradient-color);
+  color: var(--white-color);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  text-align: left;
+}
+
+.our-intergration-services-boxes-con {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.our-intergration-services-box {
+  box-shadow: 0px 0px 14.2px 0px #00000040;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  border: 1px solid transparent;
+  transition: all 0.7s ease-in-out;
+}
+
+.our-intergration-services-box>img {
+  width: 8%;
+}
+
+.our-intergration-services-box-h2 {
+  width: 15%;
+}
+
+.our-intergration-services-box-desc {
+  margin-left: 100px;
+  flex: 1;
+}
+
+.our-intergration-services-box-desc>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.our-intergration-services-box-lists-con {
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.our-intergration-services-box-lists-con>ul {
+  display: flex;
+  align-items: center;
+  gap: 91px;
+}
+
+.our-intergration-services-box-lists-con li {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.22px;
+  text-align: left;
+  color: var(--root-black-color);
+  list-style: disc;
+  width: 50%;
+}
+
+.our-intergration-services-box-h2>h2 {
+  font-family: Rajdhani;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.14px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-intergration-services-box:hover {
+  background: linear-gradient(244.73deg,
+      rgba(4, 191, 215, 0.3) -48.91%,
+      rgba(99, 56, 139, 0.3) 79.49%);
+  border: 1px solid #3f3f3f;
+}
+
+/* ***************************************** Hiring Models **************************************************** */
+.hiring-models-con>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 12px;
+}
+
+.hiring-models-boxes-con {
+  margin-top: 40px;
+  display: flex;
+  gap: 85px;
+}
+
+.hiring-models-box {
+  box-shadow: 0px 0px 15px 0px #00000040;
+  border-radius: 11px;
+  padding: 20px 20px;
+  width: calc(33% - 50px);
+  flex: 1;
+}
+
+.hiring-models-box>h2 {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38.22px;
+  text-align: center;
+  color: var(--root-black-color);
+  position: relative;
+  width: fit-content;
+  margin: 0 auto !important;
+}
+
+.hiring-models-box>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  margin-top: 18px !important;
+  color: var(--root-black-color);
+}
+.hiring-models-box > h2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background: var(--root-black-color);
+  bottom: -10px;
+}
