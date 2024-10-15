@@ -1077,6 +1077,7 @@ h2.heading.how_text_mobile_view {
   line-height: 40px;
 }
 .our-intergration-services-box {
+  flex-direction: column;
   gap: 15px;
 }
   .services_appDevelopment .technology-frameworks-heading-con {
@@ -1180,7 +1181,10 @@ h2.heading.how_text_mobile_view {
   width: calc(50% - 16px);
 }
 .hiring-models-box {
-  width: calc(33% - 20px);
+  width: calc(100% - 0px);
+}
+.hiring-models-box>p {
+  margin: 50px 0px 0 0;
 }
 .hiring-models-boxes-con {
   flex-direction: column;

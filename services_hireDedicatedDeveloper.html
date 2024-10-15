@@ -360,13 +360,15 @@
   <section class="wrapper-section">
     <div class="custom-container">
       <div class="ready-to-transform-your-Project">
-        <h2>Ready to Transform Your Projects?</h2>
+        <h2 class="ready_hire">Ready to Transform Your Projects?</h2>
         <p class="ready-to-transform-your-Project-p">
           Take the first step towards achieving your technology goals with our
-          dedicated developers. <br />
-          Contact us today at <span>[email address]</span> or
-          <span>[phone number]</span> to schedule a consultation and discover
-          how our expertise can benefit your business.
+          dedicated developers. Contact us today at <a href="mailto:hr@transcodesolution.com">
+            hr@transcodesolution.com
+          </a> or
+          <a href="tel:+9016558916">
+            +91 9016558916
+          </a> to schedule a consultation and discover how our expertise can benefit your business.
         </p>
         <p class="ready-to-transform-your-Project-p2">
           Experience the difference of working with dedicated professionals
@@ -650,65 +652,109 @@
 
   <!-- ************************************************END OF THE PAGE********************************************************* -->
 
-  <!-- *******************************************js-script-file************************************************ -->
+ <!-- *******************************************js-script-file************************************************ -->
 
-  <script src="./js/animatedNumberCounter.js" defer></script>
-  <script src="./js/workPortfolioSlider.js" defer></script>
-  <script src="./js/techonologyTab.js" defer></script>
-  <script src="./js/ourServicesTab.js" defer></script>
-  <script src="./js/navBarToggle.js" defer></script>
-  <script src="./js/documentUpload.js" defer></script>
-  <script src="./js/ourPortfolioTab.js" defer></script>
-  <script src="./js/technologyPageSlider.js" defer></script>
-  <script src="./js/industryHealthcareTab.js" defer></script>
-  <script src="./js/faqTab.js" defer></script>
-  <script src="./js/responsiveNavDropdown.js" defer></script>
-  <script src="./js/technologyPageSlider.js" defer></script>
 
-  <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    $('#id1').owlCarousel({
-      autoplay: true,
-      autoplayTimeout: 3000,
-      autoplayHoverPause: true,
-      loop: true,
-      margin: 20,
-      nav: false,
-      dot: false,
-      responsive: {
-        0: {
-          items: 1
-        },
-        465: {
-          items: 1
-        },
-        575: {
-          items: 2
-        },
-        767: {
-          items: 2
-        },
-        991: {
-          items: 3
-        },
-        1140: {
-          items: 3
-        },
-        1360: {
-          items: 2
-        },
-        1440: {
-          items: 2
-        }
-      }
-    })
-  </script>
+ <script src="./js/techonologyTab.js"></script>
+ <script src="./js/navBarToggle.js"></script>
+ <script src="./js/faqTab.js"></script>
+ <script src="./js/responsiveNavDropdown.js"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+ <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
+
+ <script src="js/owl.carousel.min.js"></script>
+
+ <script>
+   $('#id1').owlCarousel({
+     autoplay: true,
+     autoplayTimeout: 3000,
+     autoplayHoverPause: true,
+     loop: true,
+     margin: 20,
+     nav: false,
+     dot: false,
+     responsive: {
+       0: {
+         items: 1
+       },
+       465: {
+         items: 1
+       },
+       575: {
+         items: 1
+       },
+       767: {
+         items: 2
+       },
+       991: {
+         items: 2
+       },
+       1140: {
+         items: 2
+       },
+       1360: {
+         items: 2
+       },
+       1440: {
+         items: 2
+       }
+     }
+   })
+ </script>
+
+ <script>
+   $(document).ready(function () {
+     var owl = $(".our-recent-work-slider-con");
+
+     owl.owlCarousel({
+       items: 1,
+       loop: true,
+       margin: 10,
+       nav: false,
+       dots: false,
+       // autoplay: true,
+       // autoplayTimeout: 3000, 
+       // autoplayHoverPause: true 
+     });
+
+
+     $('#left-side-icon-our-slider').click(function () {
+       owl.trigger('prev.owl.carousel');
+     });
+
+     $('#right-side-icon-our-slider').click(function () {
+       owl.trigger('next.owl.carousel');
+     });
+   });
+ </script>
+
+ <script>
+   document.addEventListener("DOMContentLoaded", function () {
+     const currentPath = window.location.pathname.split("/").pop();
+     const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+     const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+     navLinks.forEach(link => {
+       if (link.getAttribute('href') === currentPath) {
+         link.classList.add('active');
+       }
+     });
+
+     dropdownLinks.forEach(link => {
+       if (link.getAttribute('href') === currentPath) {
+         link.classList.add('active');
+         const parentLi = link.closest('li.services-nav');
+         if (parentLi) {
+           parentLi.querySelector('a').classList.add('active');
+         }
+       }
+     });
+   });
+ </script>
+
 </body>
 
 </html>
