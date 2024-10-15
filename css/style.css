@@ -2527,6 +2527,7 @@ h2.heading.how_text_mobile_view{
   align-items: flex-end;
   gap: 43px;
   margin-inline: 65px;
+  margin-bottom: 20px;
 }
 
 .middle-slider-part-left {
@@ -2983,3 +2984,102 @@ h2.heading.how_text_mobile_view{
   color: var(--root-black-color);
   margin: 0;
 }
+
+/* *********************************** QA-Testing page ****************************** */
+/* <!-- ****************************************************Our Expertise in Integration************************************** --> */
+
+.Our-Expertise-in-Integration-con {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+}
+
+.Our-Expertise-in-Integration-con-left {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+  width: 46%;
+}
+
+.Our-Expertise-in-Integration-con-left-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  box-shadow: 0px 0px 10px 0px #00000040;
+  border-radius: 5px;
+  width: calc(50% - 22.5px);
+}
+
+.Our-Expertise-in-Integration-con-left-card>h2 {
+  font-family: Rajdhani;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.3px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 20px;
+}
+
+.Our-Expertise-in-Integration-con-left-card>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 12px;
+}
+
+.Our-Expertise-in-Integration-con-right {
+  flex: 1;
+}
+
+.Our-Expertise-in-Integration-con-right>h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+}
+
+.Our-Expertise-in-Integration-con-right>p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  text-align: justify;
+  color: var(--root-black-color);
+
+  margin-top: 20px;
+}
+
+.Our-Expertise-in-Integration-con-right>button {
+  padding: 12px 26px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: var(--gradient-color);
+  color: var(--white-color);
+  border-radius: 50px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  text-align: left;
+  margin-top: 30px;
+  border: 2px solid white;
+}
+
+.Our-Expertise-in-Integration-con-right>button:hover {
+  background: transparent;
+  color: var(--purple-color);
+  border: 2px solid var(--root-black-color);
+}
+
+

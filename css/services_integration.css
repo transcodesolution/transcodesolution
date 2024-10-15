@@ -1945,9 +1945,7 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 480px) {
-  .Our-Expertise-in-Integration-con-left-card {
-    width: calc(100% - 0px);
-}
+
   .get-in-touch-discuss-project {
     font-size: 18px;
     line-height: 24.44px;
@@ -2030,7 +2028,9 @@ color: #ffffff;
   .Integration-Expertise-Across-Industries-con-left>img {
     width: 70%;
   }
-
+  .Our-Expertise-in-Integration-con-left-card {
+    width: calc(100% - 0px);
+}
   .Our-Expertise-in-Integration-con-left {
     gap: 30px;
   }
