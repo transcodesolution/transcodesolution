@@ -1802,9 +1802,8 @@ color: #ffffff;
 
   .how-to-apply-con > p {
     font-size: 20px;
-
     line-height: 27px;
-    text-align: center;
+    text-align: left;
   }
   .banner-section-about-con h1{
     font-size: 50px;

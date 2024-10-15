@@ -842,6 +842,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 30px;
   }
 
   .Integration-Expertise-Across-Industries-con-left>img {
@@ -877,7 +878,7 @@ align-items: center;
   }
 
   .Integration-Expertise-Across-Industries-con {
-    gap: 20px;
+    gap: 30px;
   }
 
   .Integration-Expertise-Across-Industries-sub-boxes {
@@ -1255,7 +1256,9 @@ line-height: 20.22px;
 .our-intergration-services-box-desc>p {
   text-align: center;
 }
-
+.Our-Expertise-in-Integration-con {
+  flex-direction: column-reverse;
+}
 .Our-Expertise-in-Integration-con-left {
   width: 100%;
 }
@@ -1270,7 +1273,7 @@ line-height: 20.22px;
 .Our-Expertise-in-Integration-con-right>p {
   font-size: 18px;
   line-height: 24.6px;
-  text-align: center;
+  text-align: left;
   margin-top: 15px;
 }
 
@@ -1341,7 +1344,9 @@ line-height: 20.22px;
     flex-direction: column;
     gap: 30px;
   }
-
+  .banner-section-about-con h1{
+    font-size: 45px;
+  }
   .our-services-con > p {
     padding-inline: 0px;
   }
@@ -1677,6 +1682,7 @@ line-height: 20.22px;
 }
 .mobile_devlop_title, .our-intergration-services-con-heading>h2{
   font-size: 35px;
+  line-height: 45px;
 }
 .discuss-project-con > p {
   font-size: 16px;
@@ -1756,8 +1762,8 @@ h2.heading.how_text_mobile_view{
 }
 
 .banner-section-about-con h1{
-  font-size: 45px;
-  line-height: 50px;
+  font-size: 45px !important;
+  line-height: 50px !important;
 }
 .apply-info {
   gap: 16px;
@@ -1888,7 +1894,7 @@ transform: translate(-50%, -50%);
   padding: 12px 12px;
 }
 .banner-text h1,.services-text-con h2,.our-services-con > h2,.it-sucess-box-right > h2,.technology-expertise-con > h2,.work-portfolio-con > h2 ,.industries-we-serve-con > h2,.testimonial-con > h2,.driving-rapid-change-con h2{
-  font-size: 30px;
+  font-size: 35px;
   line-height: 34.7px;
 }
 .banner-text p,.services-text-con p,.driving-rapid-change-con > p,.our-services-info-box-right > p ,.it-sucess-box-right p,.technology-expertise-con > p,.our-services-con > p,.work-portfolio-con > p,.industries-we-serve-con > p,.testimonial-con > p{
@@ -2014,7 +2020,8 @@ transform: translate(-50%, -50%);
   padding: 15px 15px;
 }
 .integration-service>h1,.h1,.Integration-Expertise-Across-Industries-con-left-subbox>h1,.Our-Expertise-in-Integration-con-right>h1,.Success-Stories-services h1,.hiring-models-con h1,.middle-slider-part-left>h1 {
-  font-size: 35px;
+  font-size: 35px !important;
+  line-height: 45px !important;
 }
 .integration-service>p,.p,.Integration-Expertise-Across-Industries-con-left-subbox>p,.Our-Expertise-in-Integration-con-right>p,.Success-Stories-services p,.hiring-models-con > p,.middle-slider-part-left>p{
 font-size: 16px;
