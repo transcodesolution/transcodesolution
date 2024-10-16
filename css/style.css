@@ -3317,7 +3317,14 @@ h2.heading.how_text_mobile_view{
   justify-content: center;
   align-items: center;
 }
-
+.benefits_text{
+  font-size: 18px;
+  font-weight: 600;
+  color: #3F3F3F;
+  text-align: center;
+  font-family: Rajdhani;
+  margin: 15px;
+}
 .ads_number_bg {
   position: absolute;
   bottom: -20px;
@@ -3709,4 +3716,99 @@ textarea:-webkit-autofill:focus {
   line-height: 24.3px;
   text-align: justify;
   color: var(--root-black-color);
+}
+
+
+.development-process-con h1 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.development-process-con p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.46px;
+  text-align: center;
+  color: var(--root-black-color);
+  margin-top: 8px;
+}
+
+.development-process-steps-con {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.development-process-steps-img {
+  width: 35%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.development-process-steps-img img {
+  width: 100%;
+  height: auto;
+}
+
+.development-process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding-top: 35px;
+}
+
+.development-process-box-1 {
+  /* display: flex; */
+  gap: 60px;
+  flex-wrap: wrap; 
+}
+
+.development-process-subbox {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  gap: 15px;
+  width: calc(100% - 30px);
+  margin-top: 37px;
+}
+
+.development-process-subbox-number p {
+  height: 45px;
+  max-width: 45px;
+  min-width: 45px;
+  box-shadow: 0px 4px 16.3px 0px #00000040;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--root-black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.development-process-subbox-name h2 {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32.34px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 6px;
+}
+
+.development-process-subbox-name p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26.46px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 5px;
 }

@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 /* .ads_tabs {
     margin: 0 0 60px 0;
     padding-block: 60px;
-} */
+}
 .tab_title {
     font-size: 44px;
     font-weight: 700;
@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     flex-direction: column;
     gap: 37px;
     padding-top: 0px;
-}
+} */
 
 
 /* @media (max-width:1360px) {
