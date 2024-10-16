@@ -1429,7 +1429,7 @@ color: #ffffff;
   gap: 30px;
 }
 .frameworks-image-box{
-  width: 100%;
+  width: 45%;
 }
 }
 
@@ -1944,7 +1944,18 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 480px) {
-
+  .technology-frameworks-heading h1 {
+    font-size: 19px;
+    line-height: 20.68px;
+}
+.technology-frameworks-heading-con{
+  gap: 20px;
+}
+.technology-frameworks-heading {
+  width: calc(100% - 45px);
+  margin-inline: 0;
+  padding-block: 7px;
+}
   .get-in-touch-discuss-project {
     font-size: 18px;
     line-height: 24.44px;
@@ -1961,40 +1972,40 @@ color: #ffffff;
     line-height: 23.9px;
     font-size:16px;
 }
-.our-intergration-services-con-heading>button {
-  width: 50%;
-  justify-content: space-between;
+.our-intergration-services-box-lists-con>ul {
+  gap: 0px;
+  flex-direction: column;
 }
-  .integration-service>h1 {
-    font-size: 40px;
-    line-height: 40.5px;
-  }
 
-  .our-intergration-services-box>img {
-    width: 25%;
-  }
+.our-intergration-services-box-lists-con li {
+  width: 100%;
+}
 
-  .our-integration-service-2-card>img {
-    width: 35%;
-  }
+.our-intergration-services-con-heading>button {
+  width: unset;
+}
 
-  .our-integration-service-2-cards-con {
-    gap: 16px;
-  }
+.our-integration-service-2-cards-con {
+  flex-direction: column;
+}
 
-  .our-integration-service-2-card {
-    width: calc(50% - 8px);
-  }
+.our-integration-service-2-card {
+  width: 100%;
+}
+
+.our-integration-service-2-card>h3 {
+  font-size: 21px;
+}
   .discuss-project-con > p {
     font-size: 16px;
     line-height: 23px;
 }
-  .our-integration-service-2-card>h3 {
+  /* .our-integration-service-2-card>h3 {
     font-size: 19px;
-  }
-.our-integration-service-2-con>h1{
+  } */
+/* .our-integration-service-2-con>h1{
   font-size: 35px !important;
-}
+} */
 .faq-con>h1{
   font-size: 35px !important;
 }
@@ -2036,10 +2047,11 @@ color: #ffffff;
 
   .how-do-we-work-cards-con {
     gap: 20px;
+    flex-direction: column;
   }
 
   .how-do-we-work-card {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
   }
 
   .how-do-we-work-inner-box>h2 {
@@ -2136,42 +2148,15 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 376px) {
-  .technology-frameworks-heading {
-    width: calc(60% - 45px);
-    margin-inline: 0;
-    padding-block: 7px;
-}
-.technology-frameworks-heading h1 {
+
+/* .technology-frameworks-heading h1 {
   font-size: 19px;
   line-height: 20.68px;
 }
 h2.heading.how_text_mobile_view {
   height: 25px;
-}
-  .our-intergration-services-box-lists-con>ul {
-    gap: 0px;
-    flex-direction: column;
-  }
-
-  .our-intergration-services-box-lists-con li {
-    width: 100%;
-  }
-
-  .our-intergration-services-con-heading>button {
-    width: unset;
-  }
-
-  .our-integration-service-2-cards-con {
-    flex-direction: column;
-  }
-
-  .our-integration-service-2-card {
-    width: 100%;
-  }
-
-  .our-integration-service-2-card>h3 {
-    font-size: 21px;
-  }
+} */
+ 
 
   .Our-Expertise-in-Integration-con-left {
     flex-direction: column;

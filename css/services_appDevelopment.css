@@ -144,7 +144,7 @@ ul {
 }
 
 /* ***************************************** Our Integration Services **************************************************** */
-.our-intergration-services-con-heading {
+/* .our-intergration-services-con-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -256,7 +256,7 @@ ul {
       rgba(4, 191, 215, 0.3) -48.91%,
       rgba(99, 56, 139, 0.3) 79.49%);
   border: 1px solid #3f3f3f;
-}
+} */
 
 /* ***************************************** Our Integration Services end **************************************************** */
 .managed_it_title {
@@ -1214,7 +1214,7 @@ h2.heading.how_text_mobile_view {
     font-size: 35px;
     line-height: 40px;
 }
-.our-intergration-services-con-heading>button {
+/* .our-intergration-services-con-heading>button {
   width: 40%;
 }
 .integration-service>p,.hiring-models-con>p {
@@ -1225,14 +1225,14 @@ h2.heading.how_text_mobile_view {
 .p {
   font-size: 16px;
   line-height: 25.04px;
-}
-.our-intergration-services-box{
+} */
+/* .our-intergration-services-box{
   padding: 25px;
 }
 .our-intergration-services-box-lists-con li {
   font-size: 16px;
   line-height: 24.22px;
-}
+} */
   .our-expertise-in-mobile-main-circle-con-middle-text {
     height: 225px;
     width: 225px;
@@ -1251,12 +1251,12 @@ h2.heading.how_text_mobile_view {
   h2.heading.how_text_mobile_view {
     height: 25px;
 }
-  .our-intergration-services-box-lists-con li {
+  /* .our-intergration-services-box-lists-con li {
     width: 100%;
 }
 .our-intergration-services-box-lists-con>ul {
   gap: 0px;
-}
+} */
 
   .our-expertise-in-mobile-main-circle-con {
     gap: 20px;
@@ -1282,9 +1282,9 @@ h2.heading.how_text_mobile_view {
   padding: 5px 5px;
   margin-inline: 0px;
 }
-.our-intergration-services-con-heading>button {
+/* .our-intergration-services-con-heading>button {
   width: 50%;
-}
+} */
 }
 
 @media only screen and (max-width: 320px) {

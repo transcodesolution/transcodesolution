@@ -135,21 +135,7 @@ button.owl-dot.active {
   bottom: 0%;
 }
 
-/* <!-- ******************************Why Should You Choose UI/UX Design Technology?****************************************** --> */
 
-.Why-Should-You-Choose-UIUX-Design-con {
-  display: flex;
-  gap: 68px;
-  align-items: center;
-}
-
-.Why-Should-You-Choose-UIUX-Design-con-left-img img {
-  width: 100%;
-}
-
-.Why-Should-You-Choose-UIUX-Design-con .our-services-info-box-right {
-  display: block;
-}
 
 .how-do-we-work-inner-box>p {
   font-family: Rubik;
@@ -248,25 +234,7 @@ h2.heading.how_text_mobile_view {
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 768px) {
-  .Why-Should-You-Choose-UIUX-Design-con {
-    flex-direction: column;
-    gap: 0;
-  }
 
-  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
-    margin-top: 15px;
-  }
-
-  .layer>p {
-    font-size: 13px;
-
-    line-height: 18.52px;
-  }
-
-  .layer>h2 {
-    line-height: 20.22px;
-    margin-top: 13px;
-  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -300,21 +268,7 @@ h2.heading.how_text_mobile_view {
 }
 
 @media only screen and (max-width: 480px) {
-  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-  }
 
-  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con-left {
-    gap: 10px;
-  }
-
-  .middle-slider-part-left-box-con {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
 }
 
 @media (max-width:450px) {
@@ -324,21 +278,7 @@ h2.heading.how_text_mobile_view {
 }
 
 @media only screen and (max-width: 376px) {
-  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .layer>h2 {
-    font-size: 23px;
-  }
-
-  .layer>p {
-    font-size: 17px;
-    line-height: 22px;
-  }
+ 
 }
 
 @media only screen and (max-width: 320px) {

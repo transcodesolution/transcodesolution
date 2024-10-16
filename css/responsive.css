@@ -430,7 +430,7 @@ line-height: 25.3px;
 gap: 30px;
 }
 .frameworks-image-box{
-width: 30%;
+width: 45%;
 }
 .frameworks-image-box-con.active{
   flex-wrap: wrap;
@@ -718,7 +718,25 @@ align-items: center;
   .banner-img {
     width: 80%;
   }
+  .Why-Should-You-Choose-UIUX-Design-con {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
 
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+    margin-top: 15px;
+  }
+
+  .layer>p {
+    font-size: 13px;
+
+    line-height: 18.52px;
+  }
+
+  .layer>h2 {
+    line-height: 20.22px;
+    margin-top: 13px;
+  }
   .services-wrapper {
     padding-top: 60px;
   }
@@ -1285,13 +1303,15 @@ line-height: 20.22px;
 .Our-Expertise-in-Integration-con-left-card>h2 {
   font-size: 25px;
   line-height: 25.3px;
-
   margin-top: 15px;
 }
 
 .Our-Expertise-in-Integration-con-left-card>p {
   line-height: 24.46px;
 }
+}
+.client-onboarding-process-con h1{
+  font-size: 40px;
 }
 @media (max-width:767px) {
   
@@ -1323,6 +1343,7 @@ line-height: 20.22px;
 @media only screen and (max-width: 576px) {
   .our-services-info-box-right>h1 {
     margin-right: 0%;
+    text-align: center;
 }
   .technology-frameworks-heading h1 {
     font-size: 21px;
@@ -1526,6 +1547,9 @@ line-height: 20.22px;
   font-size: 18px;
   line-height: 27px;
 }
+.client-onboarding-process-box{
+  width: 100%;
+}
 }
 @media only screen and (max-width: 480px) {
   .get-in-touch-discuss-project {
@@ -1544,6 +1568,9 @@ line-height: 20.22px;
 }
 .it-sucess-box-left {
   height: 480px;
+}
+.middle-slider-part-left>p{
+  text-align: center;
 }
   .banner-text h1,.services-text-con h2,.driving-rapid-change-con h2,.our-services-con > h2,.it-sucess-box-right > h2,.technology-expertise-con > h2,.work-portfolio-con>h2,.industries-we-serve-con > h2,.testimonial-con > h2 {
     font-size: 35px;
@@ -1708,11 +1735,32 @@ line-height: 20.22px;
   font-size: 16px;
   line-height: 23px;
 }
+.client-onboarding-process-con h1{
+  font-size: 35px;
+}
+.ads_tabs{
+ padding-block: 40px;
+}
+.how-to-apply-con > h1{
+  font-size: 35px;
+}
 .how-do-we-work-cards-con {
   gap: 20px;
+  flex-direction: column;
 }
-.our-intergration-services-box>img {
+/* .our-intergration-services-box>img {
   width: 25%;
+} */
+.our-integration-service-2-cards-con {
+  flex-direction: column;
+}
+
+.our-integration-service-2-card {
+  width: 100%;
+}
+
+.our-integration-service-2-card>h3 {
+  font-size: 21px;
 }
 .wrapper-section {
     padding-block: 40px;
@@ -1760,7 +1808,21 @@ h2.heading.how_text_mobile_view{
 #how-do-we-work-card-4::before {
   top: -17%;
 }
+.Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
 
+.Why-Should-You-Choose-UIUX-Design-con .check-services-data-con-left {
+  gap: 10px;
+}
+
+.middle-slider-part-left-box-con {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .banner-section-about-con h1{
   font-size: 45px !important;
   line-height: 50px !important;
@@ -1838,10 +1900,38 @@ transform: translate(-50%, -50%);
 .Integration-Expertise-Across-Industries-con-left-subbox>p {
   text-align: center;
 }
+.technology-frameworks-heading h1 {
+  font-size: 19px;
+  line-height: 20.68px;
+}
+.technology-frameworks-heading-con{
+gap: 20px;
+}
+.technology-frameworks-heading {
+width: calc(100% - 45px);
+margin-inline: 0;
+padding-block: 7px;
+}
+.our-intergration-services-box-lists-con>ul {
+  gap: 0px;
+  flex-direction: column;
+}
 
+.our-intergration-services-box-lists-con li {
+  width: 100%;
+}
+
+.our-intergration-services-con-heading>button {
+  width: unset;
+}
 /* .Integration-Expertise-Across-Industries-con-left>img {
   width: 100%;
 } */
+.integration-service>h1,.h1,.Integration-Expertise-Across-Industries-con-left-subbox>h1,.Our-Expertise-in-Integration-con-right>h1,.Success-Stories-services h1,.hiring-models-con h1,.middle-slider-part-left>h1 {
+  font-size: 35px !important;
+  line-height: 45px !important;
+  text-align: center;
+}
 }
 @media (max-width:425px) {
   .testimonial-card-bottom {
@@ -1883,7 +1973,21 @@ transform: translate(-50%, -50%);
   .driving-rapid-box {
     width: 96%;
   }
+  .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
 
+  .layer>h2 {
+    font-size: 23px;
+  }
+
+  .layer>p {
+    font-size: 17px;
+    line-height: 22px;
+  }
   .services-wrapper {
     padding-top: 35px;
   }
