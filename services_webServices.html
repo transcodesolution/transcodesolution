@@ -62,7 +62,7 @@
               </a>
               <ul class="dropdown-con">
                 <li>
-                  <a href="./services_integration.html">
+                  <a href="services_integration.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -89,7 +89,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_webServices.html">
+                  <a href="services_webServices.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -107,7 +107,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_softwareDevelopoment.html">
+                  <a href="services_softwareDevelopoment.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -116,7 +116,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_qaTesting.html">
+                  <a href="services_qaTesting.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-7.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-77.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -125,7 +125,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_hireDedicatedDeveloper.html">
+                  <a href="services_hireDedicatedDeveloper.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-8.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-88.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -134,7 +134,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_digital_marketing.html">
+                  <a href="services_digital_marketing.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -145,7 +145,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./cyber_security.html">
+                  <a href="cyber_security.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -156,7 +156,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./digital_marketing.html">
+                  <a href="digital_marketing.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -790,7 +790,6 @@
     </div>
   </section>
 
-
   <!-- **********************************************cutting-edge-it-solution-section-start************************************ -->
   <section id="cutting-edge-wrapper" class="Success-Stories-services">
     <div class="custom-container">
@@ -807,7 +806,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- *************************************************FAQ************************************************* -->
 
@@ -1156,9 +1154,6 @@
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
-  
-
-
     $(document).ready(function () {
       var owl = $(".our-recent-work-slider-con");
 
@@ -1216,6 +1211,29 @@
         }
       }
     })
+  </script>
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname.split("/").pop();
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+      const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+ 
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+        }
+      });
+ 
+      dropdownLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          const parentLi = link.closest('li.services-nav');
+          if (parentLi) {
+            parentLi.querySelector('a').classList.add('active');
+          }
+        }
+      });
+    });
   </script>
 </body>
 

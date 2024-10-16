@@ -63,7 +63,7 @@
               </a>
               <ul class="dropdown-con">
                 <li>
-                  <a href="./services_integration.html">
+                  <a href="services_integration.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -90,7 +90,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_webServices.html">
+                  <a href="services_webServices.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -108,7 +108,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_softwareDevelopoment.html">
+                  <a href="services_softwareDevelopoment.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -117,7 +117,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_qaTesting.html">
+                  <a href="services_qaTesting.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-7.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-77.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -126,7 +126,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_hireDedicatedDeveloper.html">
+                  <a href="services_hireDedicatedDeveloper.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-8.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-88.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -135,7 +135,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_digital_marketing.html">
+                  <a href="services_digital_marketing.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -146,7 +146,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./cyber_security.html">
+                  <a href="cyber_security.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -1243,29 +1243,29 @@
    });
  </script>
 
- <script>
-   document.addEventListener("DOMContentLoaded", function () {
-     const currentPath = window.location.pathname.split("/").pop();
-     const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
-     const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.split("/").pop();
+    const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+    const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
-     navLinks.forEach(link => {
-       if (link.getAttribute('href') === currentPath) {
-         link.classList.add('active');
-       }
-     });
+    navLinks.forEach(link => {
+      if (link.getAttribute('href') === currentPath) {
+        link.classList.add('active');
+      }
+    });
 
-     dropdownLinks.forEach(link => {
-       if (link.getAttribute('href') === currentPath) {
-         link.classList.add('active');
-         const parentLi = link.closest('li.services-nav');
-         if (parentLi) {
-           parentLi.querySelector('a').classList.add('active');
-         }
-       }
-     });
-   });
- </script>
+    dropdownLinks.forEach(link => {
+      if (link.getAttribute('href') === currentPath) {
+        link.classList.add('active');
+        const parentLi = link.closest('li.services-nav');
+        if (parentLi) {
+          parentLi.querySelector('a').classList.add('active');
+        }
+      }
+    });
+  });
+</script>
 </body>
 
 </html>
