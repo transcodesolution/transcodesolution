@@ -1817,7 +1817,7 @@ color: #ffffff;
 @media only screen and (max-width: 576px) {
   
   .Our-Expertise-in-Integration-con-right>p {
-  text-align: left;
+  /* text-align: left; */
   }
   .technology-frameworks-heading h1 {
     font-size: 21px;
