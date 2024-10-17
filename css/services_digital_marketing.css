@@ -387,6 +387,7 @@ textarea:-webkit-autofill:focus {
     }
     .tab_title {
         margin: 25px 0 14px 0;
+        font-size: 35px;
     }
     .Our-Expertise-in-Integration-con-left-card {
         width: calc(50% - 8px);

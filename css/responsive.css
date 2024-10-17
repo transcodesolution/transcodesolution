@@ -49,6 +49,14 @@ height: 85px;
 }
 
 @media only screen and (max-width: 1360px) {
+  .our-integration-service-2-cards-con {
+    gap: 100px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(25% - 25px);
+  }
+
   .driving-rapid-change-con h2 {
     padding-inline: 0;
   }
@@ -78,6 +86,17 @@ height: 85px;
   }
 }
 @media only screen and (max-width: 1280px) {
+  .our-integration-service-2-cards-con {
+    gap: 80px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(25% - 20px);
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 22%;
+  }
   .testimonial-card-upper::after {
     content: "";
     position: absolute;
@@ -174,6 +193,41 @@ height: 85px;
 }
 }
 @media only screen and (max-width: 1024px) {
+  .our-healthcare-it-service-con > h1 {
+    font-size: 40px;
+  }
+
+  .our-healthcare-cards-con {
+    gap: 40px;
+  }
+
+  .our-healthcare-card {
+    padding: 20px 50px 20px 20px;
+    width: calc(50% - 20px);
+  }
+
+  .healthcare-card-desc > h2 {
+    font-size: 24px;
+  }
+
+  .healthcare-card-desc > p {
+    font-size: 17px;
+  }
+  .our-integration-service-2-cards-con {
+    gap: 40px;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(25% - 10px);
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 19px;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 16%;
+  }
   .development-process-subbox-name h2 {
     font-size: 19px;
 
@@ -488,6 +542,42 @@ width: 45%;
 }
 }
 @media only screen and (max-width: 992px) {
+  .our-healthcare-it-service-con > h1 {
+    font-size: 36px;
+  }
+
+  .our-healthcare-cards-con {
+    gap: 30px;
+  }
+
+  .our-healthcare-card {
+    /* width: 100%; */
+    padding: 20px 40px 20px 20px;
+  }
+  .our-integration-service-2-cards-con {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .our-integration-service-2-card {
+    width: calc(50% - 20px);
+  }
+
+  .our-intergration-services-box {
+    gap: 35px;
+  }
+
+  .our-integration-service-2-card>h3 {
+    font-size: 22px;
+  }
+
+  .our-integration-service-2-card>img {
+    width: 25%;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 15%;
+  }
   .development-process-steps-con {
     flex-direction: column;
     gap: 0;
@@ -731,11 +821,35 @@ align-items: center;
 
 }
 @media only screen and (max-width: 768px) {
-  .development-process-con h1 {
-    font-size: 35px;
-    line-height: 40.24px;
+  .our-healthcare-it-service-con > h1 {
+    font-size: 32px;
   }
 
+  .our-healthcare-card {
+    /* flex-direction: column; */
+    padding: 15px 30px;
+  }
+
+  .healthcare-card-desc > h2 {
+    font-size: 22px;
+  }
+
+  .healthcare-card-desc > p {
+    font-size: 16px;
+  }
+  .development-process-con h1 {
+    font-size: 40px;
+    line-height: 40.24px;
+  }
+  .tab_title{
+    font-size: 40px;
+  }
+  .h1{
+    font-size: 40px !important;
+  }
+  .request_for_text h5{
+    font-size: 40px !important;
+  }
   .development-process-steps-con {
     flex-direction: column;
     gap: 0;
@@ -1278,16 +1392,14 @@ line-height: 20.22px;
 }
 .how-to-apply-con > h1 {
   font-size: 40px;
-
   line-height: 40.24px;
-  text-align: center;
+  text-align: left;
 }
 
 .how-to-apply-con > p {
   font-size: 20px;
-
   line-height: 27px;
-  text-align: center;
+  text-align: left;
 }
 .banner-section-about-con h1{
   font-size: 50px;
@@ -1419,6 +1531,30 @@ line-height: 20.22px;
 }
 }
 @media only screen and (max-width: 576px) {
+  .our-healthcare-it-service-con > h1 {
+    font-size: 28px;
+  }
+
+  .our-healthcare-card {
+    width: 100%;
+    padding: 15px 20px;
+    flex-direction: column;
+  }
+
+  .healthcare-card-desc > h2 {
+    font-size: 20px;
+  }
+
+  .healthcare-card-desc > p {
+    font-size: 16px;
+  }
+  .our-integration-service-2-card>h3 {
+    font-size: 20px;
+  }
+
+  #our-integration-service-2-p {
+    margin-inline: 0;
+  }
   .our-services-info-box-right>h1 {
     margin-right: 0%;
     text-align: center;
@@ -1615,7 +1751,7 @@ line-height: 20.22px;
   width: 100%;
 }
 .how-to-apply-con > p {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .apply-info-text > p {
@@ -1630,6 +1766,46 @@ line-height: 20.22px;
 }
 }
 @media only screen and (max-width: 480px) {
+  .development-process-con h1 {
+    font-size: 35px;
+    line-height: 35.24px;
+}
+.request_for_text h5{
+  font-size: 35px !important;
+}
+  .our-healthcare-it-service-con > h1 {
+    font-size: 26px;
+  }
+
+  .our-healthcare-card {
+    padding: 10px 15px;
+  }
+
+  .healthcare-card-desc > h2 {
+    font-size: 20px;
+  }
+
+  .healthcare-card-desc > p {
+    font-size: 16px;
+  }
+  .our-integration-service-2-cards-con {
+    flex-direction: column;
+  }
+  
+  .our-integration-service-2-card {
+    width: 100%;
+  }
+  
+  .our-integration-service-2-card>h3 {
+    font-size: 21px;
+  }
+  
+    .our-integration-service-2-card>h3 {
+      font-size: 19px;
+    }
+  .our-integration-service-2-con>h1{
+    font-size: 35px !important;
+  }
   .development-process-box-1 {
     flex-direction: column;
   }
@@ -1833,7 +2009,7 @@ line-height: 20.22px;
   font-size: 35px;
 }
 .ads_tabs{
- padding-block: 40px;
+ /* padding-block: 40px; */
 }
 .how-to-apply-con > h1{
   font-size: 35px;
@@ -2037,6 +2213,21 @@ padding-block: 7px;
 }
 }
 @media only screen and (max-width: 376px) {
+  .our-healthcare-it-service-con > h1 {
+    font-size: 24px;
+  }
+
+  .our-healthcare-card {
+    padding: 10px 10px;
+  }
+
+  .healthcare-card-desc > h2 {
+    font-size: 19px;
+  }
+
+  .healthcare-card-desc > p {
+    font-size: 15px;
+  }
   .our-intergration-services-box-lists-con>ul {
     gap: 0px;
     flex-direction: column;

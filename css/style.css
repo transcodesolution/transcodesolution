@@ -3815,3 +3815,44 @@ textarea:-webkit-autofill:focus {
   color: var(--root-black-color);
   margin-top: 5px;
 }
+/* <!-- ***************************************************our-integration-service-2********************************************* --> */
+.our-integration-service-2-cards-con {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+#our-integration-service-2-p {
+  margin-inline: 24%;
+}
+
+.our-integration-service-2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: calc(25% - 32.5px);
+}
+
+.our-integration-service-2-card>img {
+  width: 40%;
+}
+
+.our-integration-service-2-card>h3 {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32.34px;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
+.our-integration-service-2-card>p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23.52px;
+  text-align: center;
+  color: var(--root-black-color);
+}

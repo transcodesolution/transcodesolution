@@ -1996,18 +1996,19 @@ color: #ffffff;
 .our-integration-service-2-card>h3 {
   font-size: 21px;
 }
-  .discuss-project-con > p {
-    font-size: 16px;
-    line-height: 23px;
-}
-  /* .our-integration-service-2-card>h3 {
+
+  .our-integration-service-2-card>h3 {
     font-size: 19px;
-  } */
-/* .our-integration-service-2-con>h1{
+  }
+.our-integration-service-2-con>h1{
   font-size: 35px !important;
-} */
+}
 .faq-con>h1{
   font-size: 35px !important;
+}
+.discuss-project-con > p {
+  font-size: 16px;
+  line-height: 23px;
 }
 .discuss-project-con > h1{
   font-size: 35px;
