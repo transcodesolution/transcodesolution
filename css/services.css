@@ -424,7 +424,31 @@ a {
 /* .wrapper-section{
     padding-block: 60px;
 } */
+/* .empowering-card:hover {
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.3) -48.91%,
+    rgba(99, 56, 139, 0.3) 79.49%
+  );
+}
 
+.empowering-card:hover .our-white-img {
+  display: block;
+}
+
+.empowering-card:hover .before-our-img {
+  display: none;
+}
+
+.empowering-card:hover .empowering-icon-con {
+  background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+}
+
+.empowering-card:hover .empower-read-more {
+  background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+  color: var(--white-color);
+  border: none;
+} */
 /* ************************************************** Let's Discuss Your Project **************************************************** */
 /* .discuss-project-con > h2 {
     font-family: Rajdhani;
