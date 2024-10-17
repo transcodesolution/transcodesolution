@@ -300,13 +300,13 @@ body {
   padding: 11px 24px;
   text-align: center;
   cursor: pointer;
-  border: 2px solid white;
+  border: 3px solid white;
   transition: background-color 0.8s ease, border-color 0.6s ease, color 0.6s ease, transform 0.4s ease;
 }
 
 .header-contact-us-button:hover button {
   background-color: transparent;
-  border: 2px solid black;
+  border: 3px solid black;
   color: #63388b;
   background: none;
 }
@@ -370,7 +370,7 @@ body {
 .banner-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 45%;
   gap: 19px;
 }
@@ -410,14 +410,14 @@ body {
   margin-top: 8px;
   margin-right: auto;
   cursor: pointer !important;
-  border: 2px solid white;
+  border: 3px solid white;
   transition: all 0.5s ease;
 }
 
 .read-more:hover {
   background-color: transparent;
   color: #63388b;
-  border: 2px solid black;
+  border: 3px solid black;
   background: none;
 }
 
@@ -570,14 +570,14 @@ body {
   outline: none;
   background: var(--gradient-color);
   border-radius: 50px;
-  border: 2px solid white;
+  border: 3px solid white;
   transition: all 0.5s ease;
 }
 
 .discover-more:hover {
   background-color: transparent;
   color: #63388b;
-  border: 2px solid black;
+  border: 3px solid black;
   background: none;
 }
 
@@ -654,7 +654,7 @@ body {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
-  line-height: 44.66px;
+  line-height: 47.66px;
   color: var(--root-black-color);
   padding-inline: 0%;
 }
@@ -771,7 +771,8 @@ body {
   box-shadow: 0px 0px 5px 0px #00000030;
   padding: 14px 32px;
   cursor: pointer;
-  border-inline-start: 4px solid transparent;
+  /* border-inline-start: 4px solid transparent; */
+  border-inline-start: 4px solid white;
 }
 
 /* .our-services-sub-box-img {
@@ -810,7 +811,7 @@ body {
   display: none;
 }
 
-.our-services-info-box-right>h1 {
+.our-services-info-box-right>h2 {
   font-family: Rubik;
   font-size: 32px;
   font-weight: 500;
@@ -872,16 +873,16 @@ body {
   font-weight: 600;
   line-height: 18.96px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 20px;
   border-radius: 50px;
-  border: 2px solid white;
+  border: 3px solid white;
   transition: all 0.5s ease;
 }
 
 .get-more-info:hover {
   background-color: transparent;
   color: #63388b;
-  border: 2px solid black;
+  border: 3px solid black;
   background: none;
 }
 
@@ -1099,7 +1100,7 @@ body {
   margin-inline: 26px;
   gap: 50px;
   border-block-end: 1px solid #b0b0b0;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .technology-frameworks-heading {
@@ -1494,7 +1495,7 @@ body {
   padding: 9px 44px;
   margin-top: 4px;
   width: fit-content;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -1503,7 +1504,7 @@ body {
 .get-in-touch:hover {
   background-color: transparent;
   color: white;
-  border: 2px solid black;
+  border: 3px solid black;
   background: none;
 }
 
@@ -1558,13 +1559,13 @@ body {
   background: var(--gradient-color);
   margin-top: 17px;
   border-radius: 50px;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .footer-get-in-touch:hover {
   background-color: transparent;
   color: #5f3e8e;
-  border: 2px solid black;
+  border: 3px solid black;
   background: none;
 }
 
@@ -2682,10 +2683,11 @@ h2.heading.how_text_mobile_view{
 .faq-answers > p {
   font-family: Rubik;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 23.2px;
   text-align: left;
   color: var(--root-black-color);
+  margin: 0;
 }
 .faq-ul {
   margin-top: 8px;

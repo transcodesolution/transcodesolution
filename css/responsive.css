@@ -2665,6 +2665,7 @@
   .frameworks-image-box>p {
     font-size: 18px;
     line-height: 22px;
+    text-wrap: auto;
   }
 
   .frameworks-image-box>img {
