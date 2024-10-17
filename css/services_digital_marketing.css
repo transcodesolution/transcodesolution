@@ -414,6 +414,10 @@ textarea:-webkit-autofill:focus {
     .two_inputes {
         flex-direction: column;
     }
+    .advance-healthcare-con h1,.client-onboarding-process-con h1,.advance-healthcare-con h1, .ads_title, .tab_title{
+        font-size: 35px;
+        line-height: 35.24px;
+    }
 }
 @media (max-width:375px) {
     .nav {

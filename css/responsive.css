@@ -639,12 +639,12 @@
   }
 
   .development-process-steps-img {
-    display: contents;
+    /* display: contents; */
+  }
+  .development-process-steps-img{
+    width: 100%;
   }
 
-  .development-process-steps {
-    padding-top: 15px;
-  }
 
   .development-process-subbox-name p {
     margin-top: 0px;
@@ -652,6 +652,7 @@
 
   .development-process-steps {
     gap: 10px;
+    width: 100%;
   }
 
   .header-con {
@@ -951,9 +952,6 @@
     display: contents;
   }
 
-  .development-process-steps {
-    padding-top: 15px;
-  }
 
   .development-process-subbox-name p {
     margin-top: 0px;
@@ -961,10 +959,12 @@
 
   .development-process-steps {
     gap: 10px;
-  }
+    width: 100%;
+    /* padding-top: 15px; */
+  } 
 
   .development-process-steps-img img {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
 
@@ -1639,11 +1639,12 @@
   .Our-Expertise-in-Integration-con-left-card>p {
     line-height: 24.46px;
   }
+  .advance-healthcare-con h1{
+    font-size: 40px;
+  }
 }
 
-.client-onboarding-process-con h1 {
-  font-size: 40px;
-}
+
 
 @media (max-width:767px) {
 

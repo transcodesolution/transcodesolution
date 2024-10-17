@@ -10,17 +10,3 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 
 /* <!-- ************************************************banner********************************************** --> */
-.banner-section-our-services {
-    padding-block: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../assets/images/devops/banner_devops.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    height: 400px;
-}
-
-

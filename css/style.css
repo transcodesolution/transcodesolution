@@ -3476,6 +3476,7 @@ h2.heading.how_text_mobile_view{
   line-height: 20.15px;
   text-align: center;
   color: var(--white-color);
+  margin: 0;
 }
 
 .margin-left {
@@ -3744,7 +3745,7 @@ textarea:-webkit-autofill:focus {
 .development-process-steps-con {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   flex-wrap: wrap; 
   justify-content: center;
 }
@@ -3763,10 +3764,13 @@ textarea:-webkit-autofill:focus {
 .development-process-steps {
   display: flex;
   flex-direction: column;
-  gap: 44px;
+  /* gap: 44px; */
   padding-top: 35px;
+  width: 60%;
 }
-
+.new{
+  margin-top: 37px;
+}
 .development-process-box-1 {
   /* display: flex; */
   gap: 60px;
@@ -3779,7 +3783,7 @@ textarea:-webkit-autofill:focus {
   flex: 1;
   gap: 15px;
   width: calc(100% - 30px);
-  margin-top: 37px;
+  /* margin-top: 37px; */
 }
 
 .development-process-subbox-number p {
