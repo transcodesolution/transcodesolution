@@ -84,13 +84,7 @@ a {
 }
 
 /* <!-- ************************************************banner********************************************** --> */
-.transcodezy-navbar-ul>li>a.active{
-    color: #406aa7;
-}
-.transcodezy-navbar-ul>li>a.active::before {
-    visibility: visible;
-    width: 100%;
-}
+
 
 .banner-section-our-services {
     padding-block: 60px;
@@ -601,6 +595,13 @@ a {
     }
 }
 @media (max-width:1024px) {
+    .transcodezy-navbar-ul>li>a.active{
+        color: #ffffff;
+    }
+    .transcodezy-navbar-ul>li>a.active::before {
+        visibility: visible;
+        width: 100%;
+    }
     .type-cards {
         grid-template-columns: repeat(3, 1fr);
         padding: 20px 35px 0;

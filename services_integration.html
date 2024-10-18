@@ -14,25 +14,6 @@
   <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="stylesheet" href="./css/services.css">
   <link rel="stylesheet" href="./css/services_integration.css" />
-  <!-- <link rel="stylesheet" href="./css/about.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/contact-us.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/career.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/portfolio.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/technology.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_healthcare.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_softwareDevelopment.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_fintech.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_realEstate.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_ecommerce.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_travel.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_mainPage.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_manageItService.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_appDevelopment.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_webServices.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_UiUx.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_softwareDevelopment.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_qaTesting.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_hireDedicatedDeveloper.css" /> -->
 
   <!-- ******************************************google-fonts-links*********************************** -->
 
@@ -291,11 +272,7 @@
         <h2 class="managed_it_title">Integration Services</h2>
         <div class="managed_line"></div>
         <p>
-          At Transcodezy IT Solutions, we specialise in delivering seamless
-          integration services that enhance your business efficiency and
-          streamline your operations. Our team of experts is dedicated to
-          ensuring your systems work together flawlessly, maximising the value
-          of your technology investments.
+          At Transcodezy IT Solutions, we specialise in delivering seamless integration services that enhance your business efficiency and streamline your operations. Our team of experts is dedicated to ensuring your systems work together flawlessly, maximising the value of your technology investments. 
         </p>
       </div>
     </div>
@@ -820,7 +797,7 @@
         <!-- Slider Item 1 -->
         <div class="middle-slider-part">
           <div class="middle-slider-part-left">
-            <h2 class="managed_it_title text_align">Our Recent Work</h2>
+            <h2 class="managed_it_title">Our Recent Work</h2>
             <p>Check out our portfolio to see our recent projects and the impact we have made.</p>
             <div class="middle-slider-part-left-box-con">
               <div class="middle-slider-part-left-box">
@@ -845,7 +822,7 @@
         <!-- Add more slider items as needed -->
         <div class="middle-slider-part">
           <div class="middle-slider-part-left">
-            <h1>Our Recent Work</h1>
+            <h2 class="managed_it_title">Our Recent Work</h2>
             <p>Check out our portfolio to see our recent projects and the impact we have made.</p>
             <div class="middle-slider-part-left-box-con">
               <div class="middle-slider-part-left-box">
@@ -958,7 +935,7 @@
         <div class="faq-list-con">
           <div class="faq-list-box">
             <div class="faq">
-              <p>What industries do you serve?</p>
+              <p>What industries do you serve? </p>
               <div class="faq-icons-con">
                 <i class="fa-solid fa-minus minus-faq"></i>
                 <i class="fa-solid fa-plus plus-faq"></i>
@@ -966,24 +943,13 @@
             </div>
             <div class="faq-answers">
               <p>
-                We serve a wide range of industries, including finance,
-                healthcare, retail, manufacturing, and education.
+                We serve a wide range of industries, including finance, healthcare, retail, manufacturing, and education.
               </p>
-              <ul class="faq-ul">
-                <li>
-                  Customised required for the application during the
-                  development.
-                </li>
-                <li>
-                  Designing part and its importance for the application.
-                </li>
-                <li>Size of the project.</li>
-              </ul>
             </div>
           </div>
           <div class="faq-list-box">
             <div class="faq">
-              <p>How do you ensure the quality of your integration services? </p>
+              <p>How do you ensure the quality of your integration services?</p>
               <div class="faq-icons-con">
                 <i class="fa-solid fa-minus minus-faq"></i>
                 <i class="fa-solid fa-plus plus-faq"></i>
@@ -992,8 +958,7 @@
 
             <div class="faq-answers">
               <p>
-                We serve a wide range of industries, including finance,
-                healthcare, retail, manufacturing, and education.
+                We employ rigorous testing processes and use advanced tools to ensure our integration services are thorough and accurate.
               </p>
             </div>
           </div>
@@ -1008,8 +973,7 @@
 
             <div class="faq-answers">
               <p>
-                We serve a wide range of industries, including finance,
-                healthcare, retail, manufacturing, and education.
+                The timeline varies depending on the project's complexity and scope. We work closely with clients to establish realistic timelines and milestones.
               </p>
             </div>
           </div>
@@ -1244,30 +1208,30 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const currentPath = window.location.pathname.split("/").pop();
-      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
-      const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+        const currentPath = window.location.pathname.split("/").pop();
+        const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+        const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+                link.parentElement.classList.add('active');
+            }
+        });
 
-      navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-          link.classList.add('active');
-        }
-      });
-
-      dropdownLinks.forEach(link => {
-
-        console.log('--', link.getAttribute('href') === currentPath);
-        if (link.getAttribute('href') === currentPath) {
-          link.classList.add('active');
-          const parentLi = link.closest('li.services-nav');
-          if (parentLi) {
-            parentLi.querySelector('a').classList.add('active');
-          }
-        }
-      });
+        dropdownLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+                const parentLi = link.closest('li.services-nav');
+                if (parentLi) {
+                    parentLi.querySelector('a').classList.add('active');
+                    // Add active class to parent <li> with class services-nav
+                    parentLi.classList.add('active');
+                }
+            }
+        });
     });
-  </script>
+</script>
 
   <script>
     $(document).ready(function () {

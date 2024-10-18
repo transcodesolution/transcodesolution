@@ -27,6 +27,9 @@
     font-size: 50px;
     line-height: 77.44px;
 }
+.banner-section-managed-services {
+  background-position: left;
+}
 }
 @media (max-width:480px) {
   .banner-section-about-con h1 {

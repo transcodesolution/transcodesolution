@@ -362,7 +362,7 @@ ul {
 }
 
 .faq-answers {
-  padding: 22px 35px;
+  padding: 22px 30px;
   box-shadow: 0px 0px 15px 0px #00000040;
   display: none;
 }
@@ -370,7 +370,7 @@ ul {
 .faq-answers>p {
   font-family: Rubik;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 23.2px;
   text-align: left;
   color: var(--root-black-color);

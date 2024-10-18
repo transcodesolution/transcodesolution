@@ -95,7 +95,7 @@ body {
   font-weight: 700 !important;
   line-height: 53.24px !important;
   text-align: center !important;
-  color: var(--root-black-color) !important;
+  color: #3F3F3F !important;
   margin: 0 !important;
 }
 
@@ -212,17 +212,19 @@ body {
 
 .services-nav:hover .dropdown-con {
   display: block;
-  padding-top: 20px;
+  padding-top: 30px;
   /* margin-top: 10px; */
   z-index: -1;
+  border-radius: 5px;
   /* box-shadow: 0px 0px 10px 0px #00000040; */
 }
 
 .industries-nav:hover .dropdown-con {
   display: block;
-  padding-top: 20px;
+  padding-top: 30px;
   /* margin-top: 10px; */
   z-index: -1;
+  border-radius: 5px;
 }
 
 .services-nav .dropdown-con {
@@ -257,15 +259,15 @@ body {
   background: linear-gradient(244.73deg,
       rgba(4, 191, 215, 0.3) -48.91%,
       rgba(99, 56, 139, 0.3) 79.49%);
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
-.active .dropdown-list {
+/* .active .dropdown-list {
   background: linear-gradient(244.73deg,
       rgba(4, 191, 215, 0.3) -48.91%,
       rgba(99, 56, 139, 0.3) 79.49%);
   border-radius: 3px;
-}
+} */
 
 
 .dropdown-list:hover .drop-down-rightt-icon {
@@ -712,7 +714,7 @@ body {
 /* ************************************our-services-section-start*********************************************** */
 
 #our-services-wrapper {
-  padding-block: 10px;
+  padding-block: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -760,7 +762,7 @@ body {
 .our-services-info-con {
   margin-top: 47px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 50px;
 }
@@ -817,7 +819,7 @@ body {
   font-weight: 500;
   line-height: 37.76px;
   text-align: left;
-  color: #494949;
+  color: #3F3F3F;
   margin-right: 0%;
 }
 
@@ -1462,9 +1464,9 @@ body {
 }
 
 .cutting-edge-con h2 {
-  font-family: Rubik;
-  font-size: 32px;
-  font-weight: 500;
+  font-family: Rajdhani;
+  font-size: 40px;
+  font-weight: 700;
   line-height: 37.92px;
   text-align: left;
   color: var(--white-color);
@@ -1472,9 +1474,9 @@ body {
 }
 
 .cutting-edge-con p {
-  font-family: Rubik;
-  font-size: 20px;
-  font-weight: 300;
+  font-family: Rajdhani;
+  font-size: 22px;
+  font-weight: 500;
   line-height: 30.2px;
   text-align: left;
   color: var(--white-color);
@@ -2047,6 +2049,7 @@ a:active {
     line-height: 60.5px;
     position: relative;
     width: fit-content;
+    color: #3F3F3F;
   }
   
   .mobile_devlop_title:after {
@@ -2087,7 +2090,7 @@ a:active {
   color: var(--root-black-color);
 }
 
-.our-intergration-services-con-heading>button {
+.our-intergration-services-con-heading>a button{
   background: var(--gradient-color);
   color: var(--white-color);
   padding: 12px 20px;
@@ -2103,8 +2106,13 @@ a:active {
   font-weight: 500;
   line-height: 18.96px;
   text-align: left;
+  border: 3px solid white;
 }
-
+.our-intergration-services-con-heading>a button:hover{
+  background: transparent;
+  border: 3px solid var(--root-black-color);
+  color: var(--purple-color);
+}
 .our-intergration-services-boxes-con {
   margin-top: 22px;
   display: flex;
@@ -2675,7 +2683,7 @@ h2.heading.how_text_mobile_view{
 }
 
 .faq-answers {
-  padding: 22px 35px;
+  padding: 22px 30px;
   box-shadow: 0px 0px 15px 0px #00000040;
   display: none;
 }

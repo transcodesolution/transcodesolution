@@ -199,8 +199,10 @@
   .industries-we-serve-cards {
     gap: 23px;
   }
-
-}
+  .middle-slider-part{
+    margin-bottom: 0px;
+  }
+} 
 
 @media (max-width:1199px) {
   .services-text-buttons-con {
@@ -219,6 +221,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .active .dropdown-list{
+    background: white !important;
+  }
   .our-healthcare-it-service-con>h1 {
     font-size: 40px;
   }
@@ -258,7 +263,6 @@
 
   .development-process-subbox-name h2 {
     font-size: 19px;
-
     line-height: 24.34px;
   }
 
@@ -277,25 +281,42 @@
   }
 
   .transcodezy-navbar-ul>li>a.active {
-    color: #b8b8b8;
+    color: #ffffff;
   }
-
+  .transcodezy-navbar-ul>li.active{
+    background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+    border-radius: 5px;
+  }
+  .dropdown-list{
+    background: white;
+    border-radius: 3px;
+  }
+  .transcodezy-navbar-ul>li>a:hover {
+    color: #ffffff;
+  }
+  .dropdown-list:hover {
+    background: white;
+}
+  .transcodezy-navbar-ul>li:hover{
+    background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+    border-radius: 5px;
+  }
   .transcodezy-navbar-ul {
     /* background: #574690; */
     /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%); */
-    background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+    background: white;
     box-shadow: 0px 0px 14.2px 0px #00000040;
     position: fixed;
     top: 0;
     right: -100%;
     max-width: 350px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     z-index: 99;
     transition: right 0.5s;
     display: flex;
     flex-direction: column;
-    padding: 30px 20px 10px 20px;
+    padding: 20px 15px 10px 15px;
     margin: 0;
     overflow-y: auto;
     gap: 0;
@@ -325,8 +346,14 @@
     position: static;
     background: transparent;
     left: 0%;
+    padding-top: 5px;
+    height: 300px;
+    overflow-y: auto;
   }
-
+  .dropdown-con li{
+    padding-inline: 0px;
+    width: 100%;
+  }
   .industries-nav .dropdown-con {
     position: static;
     background: transparent;
@@ -342,12 +369,19 @@
   }
 
   .show-dropdown .services-dropdown-gray-icon {
+    display: block;
+  }
+
+  .show-dropdown .services-dropdown-white-icon {
+    display: none;
+  }
+  /* .show-dropdown .services-dropdown-gray-icon {
     display: none;
   }
 
   .show-dropdown .services-dropdown-white-icon {
     display: block;
-  }
+  } */
 
   .testimonial-cards-con {
     gap: 65px;
@@ -355,9 +389,9 @@
 
   .transcodezy-navbar-ul .close-icon {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 32px;
-    /* font-weight: 700; */
+    font-weight: 700;
     cursor: pointer;
     transition: 0.5s;
     margin-left: auto;
@@ -365,15 +399,15 @@
   }
 
   .transcodezy-navbar-ul>li>a {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .transcodezy-navbar-ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .transcodezy-navbar-ul li a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .transcodezy-navbar-ul li a::before {
@@ -382,8 +416,8 @@
   }
 
   .transcodezy-navbar-ul>li {
-    padding: 20px 0px 20px 0px;
-    border-block-start: 1px solid white;
+    padding: 15px 15px 15px 15px;
+    /* border-block-start: 1px solid white; */
   }
 
   .dropdown-list>p {
@@ -391,7 +425,7 @@
   }
 
   .dropdown-list>img {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .header-contact-us-button-con {
@@ -508,6 +542,7 @@
   .technology-frameworks-heading-con {
     overflow-x: scroll;
     padding: 7px 15px;
+    margin-inline: 0;
     justify-content: space-between;
     width: 100%;
     gap: 30px;
@@ -595,6 +630,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  h2.heading.how_text_mobile_view {
+    height: auto;
+}
   .our-healthcare-it-service-con>h1 {
     font-size: 36px;
   }
@@ -679,25 +717,6 @@
   .our-services-con {
     padding: 60px 0px 60px 0px;
   }
-
-  /* #it-success-wrapper {
-    padding-block: 30px;
-  } */
-  /* #technology-expertise-wrapper {
-    padding-block: 30px;
-  }
-
-  #industries-we-serve-wrapper {
-    padding-block: 30px;
-  }
-
-  #testimonial-wrapper {
-    padding-block: 60px;
-  }
-
-  #work-portfolio-wrapper {
-    padding-block: 30px;
-  } */
 
   #cutting-edge-wrapper {
     margin-top: 30px;
@@ -845,7 +864,7 @@
 
   .technology-frameworks-heading-con {
     /* padding: 7px 20px; */
-    /* margin-inline: 0; */
+    margin-inline: 0;
     overflow-x: scroll;
     gap: 30px;
   }
@@ -875,7 +894,11 @@
 
   .how-do-we-work-cards-con {
     gap: 30px;
+    flex-wrap: wrap;
   }
+  .how-do-we-work-card {
+    width: calc(50% - 15px) !important;
+}
 
   .services_integration .technology-frameworks-heading {
     width: fit-content;
@@ -906,6 +929,9 @@
     padding-bottom: 20px;
   }
 
+  #how-do-we-work-card-4::before,#how-do-we-work-card-1::before,#how-do-we-work-card-2::before,#how-do-we-work-card-3::before,#how-do-we-work-card-2::before,#how-do-we-work-card-1::before{
+    content: none !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1116,7 +1142,7 @@
   }
 
   .our-services-info-box-right>h2 {
-    text-align: center;
+    /* text-align: center; */
   }
 
   .integration-service>h1 {
@@ -1157,7 +1183,7 @@
 
   .Integration-Expertise-Across-Industries-con-left-subbox>p {
     line-height: 25.6px;
-    text-align: center;
+    text-align: left;
   }
 
   .Integration-Expertise-Across-Industries-con-right {
@@ -1188,8 +1214,11 @@
 
   .check-services-data-con {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 30px;
+  }
+  .text_768{
+    text-align: center;
   }
 
   .get-more-info {
@@ -1417,10 +1446,6 @@
     flex-wrap: wrap;
   }
 
-  .how-do-we-work-card {
-    width: calc(50% - 20px);
-  }
-
   #how-do-we-work-card-11::after {
     height: 70px;
     top: 38%;
@@ -1522,12 +1547,13 @@
   }
 
   .banner-section-about-con h1 {
-    font-size: 50px;
+    font-size: 50px !important;
+    line-height: 65.44px !important;
   }
 
   .apply-info {
     margin-top: 20px;
-    gap: 5px;
+    gap: 15px;
   }
 
   .footer-upper-box {
@@ -1569,7 +1595,7 @@
   #technology-expertise-wrapper,
   #work-portfolio-wrapper,
   #industries-we-serve-wrapper,
-  #testimonial-wrapper {
+  #testimonial-wrapper,.wrapper-section {
     padding-block: 40px;
   }
 
@@ -1680,6 +1706,17 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .our-intergration-services-box-lists-con>ul {
+    gap: 20px;
+}
+.our-intergration-services-box-lists-con li {
+  font-size: 16px;
+  line-height: 26.22px;
+}
+  .our-intergration-services-con-heading>h2 {
+    font-size: 35px;
+    line-height: 40.24px;
+}
   .our-healthcare-it-service-con>h1 {
     font-size: 28px;
   }
@@ -1825,7 +1862,7 @@
     /* font-family: Rubik; */
     font-size: 35px;
     margin-right: 0%;
-    line-height: 40px;
+    line-height: 45px;
   }
 
   .box-right p:first-child {
@@ -1864,19 +1901,21 @@
   }
 
   #how-do-we-work-card-11::after {
-    top: 38%;
+    top: 45%;
   }
-
+  .how-do-we-work-card {
+    width: calc(100% - 0px) !important;
+}
   #how-do-we-work-card-22::after {
-    top: 37%;
+    top: 41%;
   }
 
   #how-do-we-work-card-33::after {
-    top: 41%;
+    top: 42%;
   }
 
   #how-do-we-work-card-44::after {
-    top: 41%;
+    top: 45%;
   }
 
   #how-do-we-work-card-1::before {
@@ -1951,6 +1990,17 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .Our-Expertise-in-Integration-con-left-card{
+    width: calc(100% - 0px);
+  }
+  .Our-Expertise-in-Integration-con-left {
+    gap: 30px;
+}
+  .our-services-info-box-right>h2 {
+    font-family: Rajdhani;
+    font-weight: 700;
+    font-size: 35px;
+}
   .development-process-con h1 {
     font-size: 35px;
     line-height: 35.24px;
@@ -2365,8 +2415,8 @@
   }
 
   .middle-slider-part-left-box-con {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .banner-section-about-con h1 {
