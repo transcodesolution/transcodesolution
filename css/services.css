@@ -387,6 +387,18 @@ a {
     position: relative;
     z-index: 0;
 }
+.our-white-img {
+    display: none;
+}
+.empowering-card:hover .before-our-img {
+    display: none;
+}
+.empowering-card:hover .our-white-img {
+    display: block;
+}
+.empowering-card:hover .empowering-icon-con {
+    background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+}
 /* .empowering_box:hover .card_hover{
     content: "";
     background-image: url('../assets/images/technology/card_1.svg');

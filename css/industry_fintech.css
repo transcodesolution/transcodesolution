@@ -8,8 +8,35 @@
 
 /* <!-- ************************************************banner********************************************** --> */
 
-.banner-section-about {
-  background: url(../assets/images/fintech/banner.svg) center;
+.banner-section-web-developments {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/fintech/banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+
+
+.banner-section-about-con h1 {
+  font-family: Rajdhani;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.44px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+#about-hero-info {
+  margin-top: 40px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* <!-- ********************************************Development Process********************************************************** --> */
@@ -95,55 +122,7 @@
   margin-top: 70px;
 }
 
-/* <!-- *****************************************Why Transcodezy IT Solutions?***************************************** --> */
 
-.why-transcode-boxes-con {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 44px;
-}
-
-.why-transcode-subbox-con {
-  display: flex;
-  gap: 44px;
-  justify-content: center;
-}
-
-.why-transcode-box {
-  box-shadow: 0px 0px 5px 0px #00000040;
-  border-radius: 10px;
-  padding: 55px;
-
-  width: calc(33.33% - 14.67px);
-  display: flex;
-  flex-direction: column;
-}
-
-.why-transcode-box > img {
-  width: 25%;
-  margin: 0 auto;
-}
-
-.why-transcode-box > h1 {
-  font-family: Rubik;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 35.55px;
-  text-align: center;
-  color: var(--root-black-color);
-  margin-top: 18px;
-}
-
-.why-transcode-box > p {
-  font-family: Rubik;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26.46px;
-  text-align: center;
-  color: var(--root-black-color);
-  margin-top: 26px;
-}
 
 /* <!-- **************************************************technology-expertise************************************** --> */
 

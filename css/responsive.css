@@ -160,6 +160,13 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .empowering-desc-con {
+    gap: 100px;
+  }
+
+  .empowering-card {
+    padding: 30px;
+  }
   .services-card {
     width: 250px;
     height: unset;
@@ -221,6 +228,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .empowering-cards-con {
+    gap: 50px;
+  }
+
+  .empowering-con {
+    gap: 50px;
+  }
   .active .dropdown-list{
     background: white !important;
   }
@@ -630,6 +644,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .empowering-desc > h2 {
+    margin-right: 0%;
+  }
   h2.heading.how_text_mobile_view {
     height: auto;
 }
@@ -935,6 +952,48 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .empowering-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .empowering-desc > h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 40.24px;
+  }
+  .empowering-desc > h2 {
+    font-size: 30px;
+    line-height: 35.35px;
+    text-align: center;
+  }
+
+  .Explore-Our-Services {
+    margin-top: 35px;
+    margin-inline: auto;
+    display: inline-block;
+  }
+
+  .empowering-desc > p {
+    font-size: 18px;
+
+    line-height: 24.46px;
+    text-align: center;
+
+    margin-top: 20px;
+  }
+  .empowering-desc-con {
+    flex-direction: column;
+  }
+
+  .empowering-desc {
+    width: 100%;
+  }
+
+  .empowering-card {
+    padding: 30px;
+    width: calc(100% - 25px);
+  }
   .our-healthcare-it-service-con>h1 {
     font-size: 32px;
   }
@@ -1706,6 +1765,33 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .empowering-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .empowering-icon-con {
+    margin: 0 auto;
+  }
+
+  .empowering-card > h2 {
+    font-size: 28px;
+
+    line-height: 27.72px;
+    text-align: center;
+  }
+
+  .empowering-card > p {
+    font-size: 18px;
+
+    line-height: 24.46px;
+    text-align: center;
+  }
+
+  .empowering-card .empower-read-more {
+    margin-inline: auto;
+  }
   .our-intergration-services-box-lists-con>ul {
     gap: 20px;
 }
@@ -2568,6 +2654,9 @@
 }
 
 @media only screen and (max-width: 376px) {
+  .empowering-card {
+    padding: 20px;
+  }
   .our-healthcare-it-service-con>h1 {
     font-size: 24px;
   }

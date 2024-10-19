@@ -8,69 +8,41 @@
 
 /* <!-- ************************************************banner********************************************** --> */
 
-.banner-section-about {
-  background: url(../assets/images/realEstate/banner.svg) center;
-}
-
-/* ****************************************************case-study*********************************************** */
-
-.case-study .work-portfolio-cards-con {
-  gap: 60px;
-}
-
-.case-study .work-portfolio-card {
-  width: calc(33% - 20px);
-  padding: 13px 13px 30px 13px;
-  border-radius: 10px;
+.banner-section-web-developments {
+  padding-block: 60px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/realEstate/banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
 }
 
-.case-study .work-portfolio-card p {
-  margin-top: 13px;
 
-  font-family: Rubik;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26.46px;
-  text-align: left;
-  color: var(--root-black-color);
-  margin-bottom: 16px;
+.banner-section-about-con h1 {
+  font-family: Rajdhani;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.44px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+#about-hero-info {
+  margin-top: 40px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.case-study .work-portfolio-card .work-portfolio-read-more a {
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: left;
-  color: var(--purple-color);
-}
-
-.case-study .work-portfolio-card .work-portfolio-read-more a i {
-  color: var(--purple-color);
-}
-
-.case-study .work-portfolio-card .work-portfolio-card-heading {
-  margin-top: 16px;
-}
-
-.case-study .work-portfolio-card .work-portfolio-card-heading h1 {
-  font-family: Rubik;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: left;
-  color: var(--root-black-color);
-}
-
-.case-study .work-portfolio-card .work-portfolio-read-more {
-  margin-top: auto;
-}
 
 /* <!-- **************************************************technology-expertise************************************** --> */
 
-.realEstate .technology-expertise-container {
+/* .realEstate .technology-expertise-container {
   width: 1300px;
 }
 
@@ -147,4 +119,4 @@
   .realEstate .technology-frameworks-heading-con {
     gap: 35px;
   }
-}
+} */
