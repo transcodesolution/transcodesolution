@@ -302,13 +302,13 @@ body {
   padding: 11px 24px;
   text-align: center;
   cursor: pointer;
-  border: 3px solid white;
+  border: 2px solid white;
   transition: background-color 0.8s ease, border-color 0.6s ease, color 0.6s ease, transform 0.4s ease;
 }
 
 .header-contact-us-button:hover button {
   background-color: transparent;
-  border: 3px solid black;
+  border: 2px solid black;
   color: #63388b;
   background: none;
 }
@@ -1561,13 +1561,13 @@ body {
   background: var(--gradient-color);
   margin-top: 17px;
   border-radius: 50px;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
 .footer-get-in-touch:hover {
   background-color: transparent;
   color: #5f3e8e;
-  border: 3px solid black;
+  border: 2px solid black;
   background: none;
 }
 
@@ -2106,11 +2106,11 @@ a:active {
   font-weight: 500;
   line-height: 18.96px;
   text-align: left;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 .our-intergration-services-con-heading>a button:hover{
   background: transparent;
-  border: 3px solid var(--root-black-color);
+  border: 2px solid var(--root-black-color);
   color: #63388b !important;
 }
 .our-intergration-services-boxes-con {
@@ -3773,7 +3773,7 @@ textarea:-webkit-autofill:focus {
   align-items: center;
   gap: 100px;
   flex-wrap: wrap; 
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .development-process-steps-img {
@@ -3783,14 +3783,14 @@ textarea:-webkit-autofill:focus {
 }
 
 .development-process-steps-img img {
-  /* width: 100%; */
+  width: 100%;
   height: auto;
 }
 
 .development-process-steps {
   display: flex;
   flex-direction: column;
-  /* gap: 44px; */
+  gap: 15px;
   padding-top: 35px;
   width: 50%;
 }
