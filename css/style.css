@@ -212,7 +212,7 @@ body {
 
 .services-nav:hover .dropdown-con {
   display: block;
-  padding-top: 30px;
+  padding-top: 10px;
   /* margin-top: 10px; */
   z-index: -1;
   border-radius: 5px;
@@ -2111,7 +2111,7 @@ a:active {
 .our-intergration-services-con-heading>a button:hover{
   background: transparent;
   border: 3px solid var(--root-black-color);
-  color: var(--purple-color);
+  color: #63388b !important;
 }
 .our-intergration-services-boxes-con {
   margin-top: 22px;
@@ -3245,6 +3245,9 @@ h2.heading.how_text_mobile_view{
   text-align: center;
   margin-bottom: 12px;
 }
+.wrapper-section-digital{
+  padding-block: 60px;
+}
 .ads_text{
   font-size: 18px;
   font-weight: 600;
@@ -3259,7 +3262,7 @@ h2.heading.how_text_mobile_view{
   font-family: Rajdhani;
   text-align: center;
   color: #3F3F3F;
-  margin: 35px 0 14px 0;
+  margin: 10px 0 14px 0;
 }
 .tab_text{
   font-size: 18px;
@@ -3267,7 +3270,7 @@ h2.heading.how_text_mobile_view{
   color: #3F3F3F;
   text-align: center;
   font-family: Rajdhani;
-  margin: 0px;
+  margin-bottom: 25px;
 }
 .tile {
   width: 100%;
@@ -3400,13 +3403,14 @@ h2.heading.how_text_mobile_view{
   background-size: 100%;
   height: 100%;
   position: absolute;
-  bottom: -32%;
+  bottom: -26%;
   right: -0%;
   z-index: -1;
+  border-radius: 0 0 40px 40px;
 }
 .search_campaigns_box {
-  width: 278px;
-  height: 295px;
+  width: 245px;
+  height: 255px;
   background-color: white;
   padding: 30px;
   border-radius: 26px;
@@ -3428,6 +3432,7 @@ h2.heading.how_text_mobile_view{
   font-size: 26px;
   font-weight: 500;
   font-family: Rubik;
+  margin-bottom: 10px;
 }
 .search_campaigns_text{
   font-size: 18px;
@@ -3463,6 +3468,7 @@ h2.heading.how_text_mobile_view{
   display: flex;
   flex-direction: column;
   gap: 17px;
+  padding: 0 20px;
   /* padding-inline: 100px; */
 }
 
@@ -3512,7 +3518,7 @@ h2.heading.how_text_mobile_view{
 .client-onboarding-process-box-desc > p {
   font-family: Rubik;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 26.46px;
   text-align: left;
   color: var(--root-black-color);

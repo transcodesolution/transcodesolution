@@ -45,16 +45,16 @@
 </head>
 
 <body>
+
   <!-- ***************************************************header-code-start************************************************* -->
 
   <header class="header-wrapper">
     <div class="custom-container">
       <div class="header-con">
-        <!-- <div class="vipodha-logo"> -->
+    
         <a href="./index.html">
           <img class="home_logo" src="/assets/images/Tc.svg" alt="transcodezy-logo" />
         </a>
-        <!-- </div> -->
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
             <ion-icon name="close-outline" class="close-icon"></ion-icon>
@@ -2055,6 +2055,7 @@
   <script src="./js/technologyPageSlider.js"></script>
   <script src="./js/faqTab.js"></script>
   <script src="./js/responsiveNavDropdown.js"></script>
+  <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -2128,32 +2129,33 @@
     })
   </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
       const currentPath = window.location.pathname.split("/").pop();
       const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
       const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
       navLinks.forEach(link => {
-          if (link.getAttribute('href') === currentPath) {
-              link.classList.add('active');
-              link.parentElement.classList.add('active');
-          }
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          link.parentElement.classList.add('active');
+        }
       });
 
       dropdownLinks.forEach(link => {
-          if (link.getAttribute('href') === currentPath) {
-              link.classList.add('active');
-              const parentLi = link.closest('li.services-nav');
-              if (parentLi) {
-                  parentLi.querySelector('a').classList.add('active');
-                  // Add active class to parent <li> with class services-nav
-                  parentLi.classList.add('active');
-              }
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          const parentLi = link.closest('li.services-nav');
+          if (parentLi) {
+            parentLi.querySelector('a').classList.add('active');
+            // Add active class to parent <li> with class services-nav
+            parentLi.classList.add('active');
           }
+        }
       });
-  });
-</script>
+    });
+  </script>
+
   <!-- <script>
     document.addEventListener("DOMContentLoaded", function () {
       const currentPath = window.location.pathname.split("/").pop();

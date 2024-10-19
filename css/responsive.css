@@ -206,10 +206,11 @@
   .industries-we-serve-cards {
     gap: 23px;
   }
-  .middle-slider-part{
+
+  .middle-slider-part {
     margin-bottom: 0px;
   }
-} 
+}
 
 @media (max-width:1199px) {
   .services-text-buttons-con {
@@ -225,6 +226,9 @@
   .Integration-Expertise-Across-Industries-sub-boxes {
     padding: 23px 30px;
   }
+  .wrapper-section-digital{
+    padding-block: 30px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -238,6 +242,19 @@
   .active .dropdown-list{
     background: white !important;
   }
+  .wrapper-section-digital{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .active .dropdown-list {
+    background: white;
+    /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%) !important; */
+  }
+  .dropdown-list:hover {
+    /* background: white; */
+    background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%);
+  }
+
   .our-healthcare-it-service-con>h1 {
     font-size: 40px;
   }
@@ -297,24 +314,26 @@
   .transcodezy-navbar-ul>li>a.active {
     color: #ffffff;
   }
-  .transcodezy-navbar-ul>li.active{
+
+  .transcodezy-navbar-ul>li.active {
     background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
     border-radius: 5px;
   }
-  .dropdown-list{
+
+  .dropdown-list {
     background: white;
     border-radius: 3px;
   }
+
   .transcodezy-navbar-ul>li>a:hover {
     color: #ffffff;
   }
-  .dropdown-list:hover {
-    background: white;
-}
-  .transcodezy-navbar-ul>li:hover{
+
+  .transcodezy-navbar-ul>li:hover {
     background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
     border-radius: 5px;
   }
+
   .transcodezy-navbar-ul {
     /* background: #574690; */
     /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%); */
@@ -364,10 +383,12 @@
     height: 300px;
     overflow-y: auto;
   }
-  .dropdown-con li{
+
+  .dropdown-con li {
     padding-inline: 0px;
     width: 100%;
   }
+
   .industries-nav .dropdown-con {
     position: static;
     background: transparent;
@@ -389,6 +410,7 @@
   .show-dropdown .services-dropdown-white-icon {
     display: none;
   }
+
   /* .show-dropdown .services-dropdown-gray-icon {
     display: none;
   }
@@ -649,7 +671,8 @@
   }
   h2.heading.how_text_mobile_view {
     height: auto;
-}
+  }
+
   .our-healthcare-it-service-con>h1 {
     font-size: 36px;
   }
@@ -696,7 +719,8 @@
   .development-process-steps-img {
     /* display: contents; */
   }
-  .development-process-steps-img{
+
+  .development-process-steps-img {
     width: 100%;
   }
 
@@ -913,9 +937,10 @@
     gap: 30px;
     flex-wrap: wrap;
   }
+
   .how-do-we-work-card {
     width: calc(50% - 15px) !important;
-}
+  }
 
   .services_integration .technology-frameworks-heading {
     width: fit-content;
@@ -946,7 +971,12 @@
     padding-bottom: 20px;
   }
 
-  #how-do-we-work-card-4::before,#how-do-we-work-card-1::before,#how-do-we-work-card-2::before,#how-do-we-work-card-3::before,#how-do-we-work-card-2::before,#how-do-we-work-card-1::before{
+  #how-do-we-work-card-4::before,
+  #how-do-we-work-card-1::before,
+  #how-do-we-work-card-2::before,
+  #how-do-we-work-card-3::before,
+  #how-do-we-work-card-2::before,
+  #how-do-we-work-card-1::before {
     content: none !important;
   }
 }
@@ -1046,7 +1076,7 @@
     gap: 10px;
     width: 100%;
     /* padding-top: 15px; */
-  } 
+  }
 
   .development-process-steps-img img {
     width: 80%;
@@ -1276,7 +1306,8 @@
     justify-content: flex-start;
     margin-top: 30px;
   }
-  .text_768{
+
+  .text_768 {
     text-align: center;
   }
 
@@ -1654,7 +1685,8 @@
   #technology-expertise-wrapper,
   #work-portfolio-wrapper,
   #industries-we-serve-wrapper,
-  #testimonial-wrapper,.wrapper-section {
+  #testimonial-wrapper,
+  .wrapper-section {
     padding-block: 40px;
   }
 
@@ -1724,12 +1756,11 @@
   .Our-Expertise-in-Integration-con-left-card>p {
     line-height: 24.46px;
   }
-  .advance-healthcare-con h1{
+
+  .advance-healthcare-con h1 {
     font-size: 40px;
   }
 }
-
-
 
 @media (max-width:767px) {
 
@@ -1794,15 +1825,18 @@
   }
   .our-intergration-services-box-lists-con>ul {
     gap: 20px;
-}
-.our-intergration-services-box-lists-con li {
-  font-size: 16px;
-  line-height: 26.22px;
-}
+  }
+
+  .our-intergration-services-box-lists-con li {
+    font-size: 16px;
+    line-height: 26.22px;
+  }
+
   .our-intergration-services-con-heading>h2 {
     font-size: 35px;
     line-height: 40.24px;
-}
+  }
+
   .our-healthcare-it-service-con>h1 {
     font-size: 28px;
   }
@@ -1989,9 +2023,11 @@
   #how-do-we-work-card-11::after {
     top: 45%;
   }
+
   .how-do-we-work-card {
     width: calc(100% - 0px) !important;
-}
+  }
+
   #how-do-we-work-card-22::after {
     top: 41%;
   }
@@ -2076,17 +2112,25 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .Our-Expertise-in-Integration-con-left-card{
+  .our-intergration-services-con-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+  .Our-Expertise-in-Integration-con-left-card {
     width: calc(100% - 0px);
   }
+
   .Our-Expertise-in-Integration-con-left {
     gap: 30px;
-}
+  }
+
   .our-services-info-box-right>h2 {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 35px;
-}
+  }
+
   .development-process-con h1 {
     font-size: 35px;
     line-height: 35.24px;
@@ -2101,7 +2145,7 @@
   }
 
   .our-healthcare-card {
-    padding: 10px 15px;
+    padding: 20px;
   }
 
   .healthcare-card-desc>h2 {
@@ -2660,11 +2704,6 @@
   .our-healthcare-it-service-con>h1 {
     font-size: 24px;
   }
-
-  .our-healthcare-card {
-    padding: 10px 10px;
-  }
-
   .healthcare-card-desc>h2 {
     font-size: 19px;
   }
