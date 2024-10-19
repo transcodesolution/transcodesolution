@@ -40,7 +40,228 @@ ul,ol,li{
     align-items: center;
     justify-content: center;
   }
-/* <!-- ************************************************banner********************************************** --> */
+/* <!-- ************************************************how do we********************************************** --> */
+.how-do-we-work-cards-con {
+    display: flex;
+    gap: 35px;
+  }
+  
+  .how-do-we-work-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 20px);
+    gap: 53px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .how-do-we-work-inner-box .heading {
+    position: relative;
+  }
+  h2.heading.how_text_mobile_view {
+    height: 40px;
+}
+h2.heading.batter{
+    height: 40px;
+}
+  #how-do-we-work-card-11::after {
+    content: "";
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    background: #574690;
+    top: 33%;
+    left: 0%;
+    z-index: 1;
+  }
+  
+  #how-do-we-work-card-22::after {
+    content: "";
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    background: #4f549b;
+  
+    top: 34%;
+    left: 0%;
+    z-index: 1;
+  }
+  
+  #how-do-we-work-card-33::after {
+    content: "";
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    background: #406aa7;
+    top: 33%;
+    left: 0%;
+    z-index: 1;
+  }
+  
+  #how-do-we-work-card-44::after {
+    content: "";
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    background: #307aac;
+    top: 33%;
+    left: 0%;
+    z-index: 1;
+  }
+  
+  .how-do-we-work-cards-con {
+    margin-top: 13px;
+  }
+  
+  .how-do-we-work-inner-box {
+    box-shadow: 0px 0px 15px 0px #00000040;
+    border-radius: 5px;
+    position: relative;
+    margin-inline: 15px;
+  }
+  
+  .how-do-we-work-inner-box p {
+    padding: 45px 33px 43px 33px;
+  }
+  
+  .how-do-we-work-inner-box::after {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: transparent;
+    bottom: -2%;
+    left: 10%;
+  }
+  
+  .how-do-we-work-card:hover .how-do-we-work-inner-box::after {
+    background: var(--purple-color);
+  }
+  
+  #how-do-we-work-card-1::before {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: #574690;
+    top: -16%;
+    left: 10%;
+  }
+  
+  #how-do-we-work-card-1::after {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: transparent;
+    bottom: -2%;
+    left: 10%;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .how-do-we-work-card:hover #how-do-we-work-card-1::after {
+    background: #574690;
+  }
+  
+  #how-do-we-work-card-2::before {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: #4f549b;
+  
+    top: -16%;
+    left: 10%;
+  }
+  
+  #how-do-we-work-card-2::after {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: transparent;
+    bottom: -2%;
+    left: 10%;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .how-do-we-work-card:hover #how-do-we-work-card-2::after {
+    background: #4f549b;
+  }
+  
+  #how-do-we-work-card-3::before {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: #406aa7;
+    top: -16%;
+    left: 10%;
+  }
+  
+  #how-do-we-work-card-3::after {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: transparent;
+    bottom: -2%;
+    left: 10%;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .how-do-we-work-card:hover #how-do-we-work-card-3::after {
+    background: #406aa7;
+  }
+  
+  #how-do-we-work-card-4::before {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: #307aac;
+    top: -16%;
+    left: 10%;
+  }
+  
+  #how-do-we-work-card-4::after {
+    content: "";
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background: transparent;
+    bottom: -2%;
+    left: 10%;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .how-do-we-work-card:hover #how-do-we-work-card-4::after {
+    background: #307aac;
+  }
+  
+  .how-do-we-work-inner-box>h2 {
+    font-family: Rajdhani;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.3px;
+    text-align: center;
+    color: var(--white-color);
+    position: static;
+    z-index: 99;
+  }
+  
+  .how-do-we-work-inner-box>p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: center;
+    color: var(--root-black-color);
+    margin-top: 10px;
+    /* margin-top: 44px; */
+  }
 
 /* .development-process-steps-con {
     display: flex;
@@ -74,10 +295,18 @@ ul,ol,li{
 } */
 
 
-/* @media (max-width:1360px) {
+@media (max-width:1360px) {
     .development-process-steps-con {
         gap: 100px;
     }
+    .how-do-we-work-cards-con {
+        gap: 44px;
+      }
+    
+      .how-do-we-work-inner-box>h2 {
+        font-size: 27px;
+      }
+    
 }
 @media (max-width:1199px) {
     .development-process-steps-con {
@@ -109,6 +338,23 @@ ul,ol,li{
     .ads_tabs {
         margin: 0 0 0px 0;
     }
+    
+  .how-do-we-work-cards-con {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .how-do-we-work-card {
+    width: calc(50% - 15px) !important;
+  }
+  #how-do-we-work-card-4::before,
+  #how-do-we-work-card-1::before,
+  #how-do-we-work-card-2::before,
+  #how-do-we-work-card-3::before,
+  #how-do-we-work-card-2::before,
+  #how-do-we-work-card-1::before {
+    content: none !important;
+  }
 }
 @media (max-width:767px) {
     .integration-service>h1,.tab_title {
@@ -120,8 +366,54 @@ ul,ol,li{
     .search_ads_box:after {
         bottom: -59%;
     }
+    .how-do-we-works-con>h1 {
+        font-size: 40px !important;
+      }
+      .how-do-we-work-cards-con {
+        flex-wrap: wrap;
+      }
+    
+      #how-do-we-work-card-11::after {
+        height: 70px;
+        top: 38%;
+      }
+    
+      #how-do-we-work-card-22::after {
+        height: 70px;
+        top: 45%;
+      }
+    
+      #how-do-we-work-card-33::after {
+        height: 70px;
+        top: 45%;
+      }
+    
+      #how-do-we-work-card-44::after {
+        height: 70px;
+        top: 45%;
+      }
+    
+      #how-do-we-work-card-1::before {
+        top: -25%;
+      }
+    
+      #how-do-we-work-card-2::before {
+        top: -25%;
+      }
+    
+      #how-do-we-work-card-3::before {
+        top: -25%;
+      }
+    
+      #how-do-we-work-card-4::before {
+        top: -25%;
+      }
 }
 @media (max-width:575px) {
+    .how-do-we-work-cards-con {
+        justify-content: space-between;
+      }
+    
     .search_campaigns_box {
         height: 305px;
     }
@@ -167,4 +459,4 @@ ul,ol,li{
     .our-integration-service-2-cards-con {
         gap: 25px;
     }
-} */
+}
