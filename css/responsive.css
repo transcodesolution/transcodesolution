@@ -1976,7 +1976,7 @@
   }
 
   .technology-frameworks-heading {
-    width: calc(50% - 45px);
+    width: calc(100% - 45px);
     margin-inline: 0;
     padding-inline: 0;
     padding-block: 7px;
