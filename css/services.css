@@ -363,14 +363,14 @@ a {
     align-items: center;
     gap: 7px;
     width: fit-content;
-    border: 3px solid white;
+    border: 2px solid white;
     margin-bottom: 0px;
 }
 .explore_our_services:hover {
     background: transparent;
     padding: 12px 23px;
     color: #63388b;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .empowering_box{

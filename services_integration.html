@@ -42,24 +42,27 @@
   <header class="header-wrapper">
     <div class="custom-container">
       <div class="header-con">
-        <!-- <div class="vipodha-logo"> -->
+
         <a href="./index.html">
           <img class="home_logo" src="/assets/images/Tc.svg" alt="transcodezy-logo" />
         </a>
-        <!-- </div> -->
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
             <ion-icon name="close-outline" class="close-icon"></ion-icon>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li class="services-nav">
-              <a href="services.html">Services
+              <!-- <li class="service_hover"> -->
+              <div class="flex_wrapper"> 
+                <a href="services.html">Services</a>
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a>
+              </div>
+
+              <!-- </li> -->
               <ul class="dropdown-con">
                 <li>
-                  <a href="services_integration.html">
+                  <a href="./services_integration.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -153,7 +156,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="SEO.html">
+                  <a href="./SEO.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -164,7 +167,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="services_devops.html">
+                  <a href="./services_devops.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/devops_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -177,11 +180,16 @@
               </ul>
             </li>
             <li class="industries-nav">
-              <a href="#industries">
+              <div class="flex_wrapper"> 
+                <a href="portfolio.html">Industries</a>
+                <i class="fa-solid fa-plus nav-plus-icon"></i>
+                <i class="fa-solid fa-minus nav-minus-icon"></i>
+              </div>
+              <!-- <a href="#industries">
                 Industries
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a>
+              </a> -->
               <ul class="dropdown-con">
                 <li>
                   <a href="./industry_healthcare.html">
@@ -1208,30 +1216,30 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const currentPath = window.location.pathname.split("/").pop();
-        const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
-        const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+      const currentPath = window.location.pathname.split("/").pop();
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+      const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
-        navLinks.forEach(link => {
-            if (link.getAttribute('href') === currentPath) {
-                link.classList.add('active');
-                link.parentElement.classList.add('active');
-            }
-        });
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          link.parentElement.classList.add('active');
+        }
+      });
 
-        dropdownLinks.forEach(link => {
-            if (link.getAttribute('href') === currentPath) {
-                link.classList.add('active');
-                const parentLi = link.closest('li.services-nav');
-                if (parentLi) {
-                    parentLi.querySelector('a').classList.add('active');
-                    // Add active class to parent <li> with class services-nav
-                    parentLi.classList.add('active');
-                }
-            }
-        });
+      dropdownLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          const parentLi = link.closest('li.services-nav');
+          if (parentLi) {
+            parentLi.querySelector('a').classList.add('active');
+            // Add active class to parent <li> with class services-nav
+            parentLi.classList.add('active');
+          }
+        }
+      });
     });
-</script>
+  </script>
 
   <script>
     $(document).ready(function () {

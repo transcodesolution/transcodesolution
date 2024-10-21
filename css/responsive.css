@@ -167,6 +167,7 @@
   .empowering-card {
     padding: 30px;
   }
+
   .services-card {
     width: 250px;
     height: unset;
@@ -226,7 +227,8 @@
   .Integration-Expertise-Across-Industries-sub-boxes {
     padding: 23px 30px;
   }
-  .wrapper-section-digital{
+
+  .wrapper-section-digital {
     padding-block: 30px;
   }
 }
@@ -239,17 +241,21 @@
   .empowering-con {
     gap: 50px;
   }
-  .active .dropdown-list{
+
+  .active .dropdown-list {
     background: white !important;
   }
-  .wrapper-section-digital{
+
+  .wrapper-section-digital {
     padding-top: 30px;
     padding-bottom: 0px;
   }
+
   .active .dropdown-list {
     background: white;
     /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%) !important; */
   }
+
   .dropdown-list:hover {
     /* background: white; */
     background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%);
@@ -314,24 +320,46 @@
   .transcodezy-navbar-ul>li>a.active {
     color: #ffffff;
   }
+  .transcodezy-navbar-ul>li>.flex_wrapper>a.active {
+    color: #ffffff;
+  }
 
   .transcodezy-navbar-ul>li.active {
     background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
     border-radius: 5px;
   }
+/* Hover effect for the menu item */
+.transcodezy-navbar-ul > li:hover {
+  background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+  border-radius: 5px;
+}
 
   .dropdown-list {
     background: white;
     border-radius: 3px;
+    color: black;
   }
 
   .transcodezy-navbar-ul>li>a:hover {
     color: #ffffff;
   }
 
-  .transcodezy-navbar-ul>li:hover {
+  /* .transcodezy-navbar-ul>li:hover {
     background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
     border-radius: 5px;
+    color: white !important;
+  } */
+
+  .transcodezy-navbar-ul>li>.flex_wrapper:hover {
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+  }
+  .services-nav,.industries-nav{
+    padding: 0 !important;
+  }
+  .industries-nav:hover .dropdown-con,.services-nav:hover .dropdown-con{
+    padding-top: 0px;
   }
 
   .transcodezy-navbar-ul {
@@ -355,9 +383,14 @@
     gap: 0;
   }
 
-  .services-nav>a {
+  /* .services-nav>a {
     display: flex;
     align-items: center;
+  } */
+  .flex_wrapper {
+    display: flex;
+    align-items: center;
+    padding: 15px;
   }
 
   .industries-nav>a {
@@ -368,20 +401,22 @@
   .services-nav .nav-plus-icon {
     margin-left: auto;
     display: block;
+    font-size: 18px;
   }
 
   .industries-nav .nav-plus-icon {
     margin-left: auto;
     display: block;
+    font-size: 18px;
   }
 
   .services-nav .dropdown-con {
     position: static;
     background: transparent;
     left: 0%;
-    padding-top: 5px;
     height: 300px;
     overflow-y: auto;
+    padding: 0px 20px 5px 20px;
   }
 
   .dropdown-con li {
@@ -393,14 +428,17 @@
     position: static;
     background: transparent;
     left: 0%;
+    padding: 0px 20px 5px 20px;
   }
 
   .services-nav .nav-minus-icon {
     margin-left: auto;
+    font-size: 18px;
   }
 
   .industries-nav .nav-minus-icon {
     margin-left: auto;
+    font-size: 18px;
   }
 
   .show-dropdown .services-dropdown-gray-icon {
@@ -441,16 +479,21 @@
   .transcodezy-navbar-ul li a {
     color: rgb(0, 0, 0);
   }
-
-  .transcodezy-navbar-ul li a:hover {
-    color: rgb(0, 0, 0);
-  }
+  .transcodezy-navbar-ul > li:hover a,
+.transcodezy-navbar-ul > li:hover i {
+    color: white; /* White color for text and icons on hover */
+}
 
   .transcodezy-navbar-ul li a::before {
     background: none;
     width: 0;
   }
-
+  li.services-nav>.flex_wrapper>a:hover{
+    color: white;
+  }
+  .industries-nav a:hover{
+    color: white;
+  }
   .transcodezy-navbar-ul>li {
     padding: 15px 15px 15px 15px;
     /* border-block-start: 1px solid white; */
@@ -666,9 +709,10 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .empowering-desc > h2 {
+  .empowering-desc>h2 {
     margin-right: 0%;
   }
+
   h2.heading.how_text_mobile_view {
     height: auto;
   }
@@ -987,12 +1031,14 @@
     display: flex;
     flex-direction: column;
   }
-  .empowering-desc > h1 {
+
+  .empowering-desc>h1 {
     font-size: 40px;
     text-align: center;
     line-height: 40.24px;
   }
-  .empowering-desc > h2 {
+
+  .empowering-desc>h2 {
     font-size: 30px;
     line-height: 35.35px;
     text-align: center;
@@ -1004,7 +1050,7 @@
     display: inline-block;
   }
 
-  .empowering-desc > p {
+  .empowering-desc>p {
     font-size: 18px;
 
     line-height: 24.46px;
@@ -1012,6 +1058,7 @@
 
     margin-top: 20px;
   }
+
   .empowering-desc-con {
     flex-direction: column;
   }
@@ -1024,6 +1071,7 @@
     padding: 30px;
     width: calc(100% - 25px);
   }
+
   .our-healthcare-it-service-con>h1 {
     font-size: 32px;
   }
@@ -1806,14 +1854,14 @@
     margin: 0 auto;
   }
 
-  .empowering-card > h2 {
+  .empowering-card>h2 {
     font-size: 28px;
 
     line-height: 27.72px;
     text-align: center;
   }
 
-  .empowering-card > p {
+  .empowering-card>p {
     font-size: 18px;
 
     line-height: 24.46px;
@@ -1823,6 +1871,7 @@
   .empowering-card .empower-read-more {
     margin-inline: auto;
   }
+
   .our-intergration-services-box-lists-con>ul {
     gap: 20px;
   }
@@ -2116,7 +2165,8 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 15px;
-}
+  }
+
   .Our-Expertise-in-Integration-con-left-card {
     width: calc(100% - 0px);
   }
@@ -2701,9 +2751,11 @@
   .empowering-card {
     padding: 20px;
   }
+
   .our-healthcare-it-service-con>h1 {
     font-size: 24px;
   }
+
   .healthcare-card-desc>h2 {
     font-size: 19px;
   }
