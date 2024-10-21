@@ -114,7 +114,7 @@
 .healthcare-card-desc {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 22px;
 }
 
 .healthcare-card-desc > h2 {
