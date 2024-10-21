@@ -1358,7 +1358,9 @@
   .text_768 {
     text-align: center;
   }
-
+  .how-to-apply-con>h2{
+    font-size: 40px;
+  }
   .get-more-info {
     margin-inline: auto;
     display: block;
@@ -2161,6 +2163,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .how-to-apply-con>h2{
+    font-size: 35px ;
+  }
   .our-intergration-services-con-heading {
     align-items: flex-start;
     flex-direction: column;
@@ -2885,7 +2890,7 @@
   }
 
   .technology-frameworks-heading-con {
-    gap: 30px;
+    gap: 40px;
   }
 
   .testimonial-card-upper::after {
@@ -2926,7 +2931,7 @@
   }
 
   .technology-frameworks-heading {
-    width: calc(60% - 45px);
+    width: calc(80% - 45px);
     margin-inline: 0;
     padding-block: 7px;
   }

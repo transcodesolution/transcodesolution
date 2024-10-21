@@ -271,9 +271,9 @@
 }
 
 .development-process-steps-con {
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  gap: 100px;
+  gap: 30px;
 }
 
 .development-process-steps-img {
@@ -281,21 +281,24 @@
 }
 
 .development-process-steps {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   gap: 44px;
   padding-top: 35px;
-  width: 50%;
+  width: 60%;
 }
-
+.box-2{
+  display: flex;
+}
 .development-process-box-1 {
   display: flex;
   gap: 60px;
 }
 
 .development-process-subbox {
-  display: flex;
-  align-items: flex-start;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
   flex: 1;
   gap: 15px;
   width: calc(100% - 30px);
@@ -718,7 +721,7 @@
 }
 @media only screen and (max-width: 1024px) {
   .case-study .work-portfolio-cards-con {
-    gap: 45px;
+    gap: 0px;
   }
 
   .case-study .work-portfolio-card {
@@ -757,7 +760,9 @@
 
     line-height: 24.34px;
   }
-
+  .development-process-steps-img {
+    width: 36%;
+}
   .development-process-subbox-name p {
     font-size: 15px;
 
@@ -769,7 +774,7 @@
   }
 
   .development-process-steps {
-    gap: 20px;
+    /* gap: 20px; */
   }
 
   .client-onboarding-process-box {
@@ -835,16 +840,19 @@
     flex-direction: column;
     gap: 0;
   }
-
-  .development-process-steps-img {
-    display: contents;
-  }
+  .development-process-box-1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
 
   .development-process-steps {
     padding-top: 15px;
     width: 100%;
   }
-
+  .development-process-steps-img {
+    width: 100%;
+}
   .development-process-subbox-name p {
     margin-top: 0px;
   }
@@ -856,7 +864,7 @@
 }
 @media only screen and (max-width: 768px) {
   .case-study .work-portfolio-cards-con {
-    gap: 45px;
+    /* gap: 45px; */
   }
 
   .case-study .work-portfolio-card {
@@ -970,10 +978,11 @@
     gap: 0;
   }
 
-  .development-process-steps-img {
-    display: contents;
-  }
-
+  .box-2 {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 20px;
+}
   .development-process-steps {
     padding-top: 15px;
   }
