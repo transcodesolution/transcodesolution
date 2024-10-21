@@ -243,7 +243,7 @@
   }
 
   .active .dropdown-list {
-    background: white !important;
+    background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%) !important;
   }
 
   .wrapper-section-digital {
@@ -321,7 +321,7 @@
     color: #ffffff;
   }
   .transcodezy-navbar-ul>li>.flex_wrapper>a.active {
-    color: #ffffff;
+    color: #406aa7;
   }
 
   .transcodezy-navbar-ul>li.active {
@@ -330,7 +330,7 @@
   }
 /* Hover effect for the menu item */
 .transcodezy-navbar-ul > li:hover {
-  background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+  /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
   border-radius: 5px;
 }
 
@@ -344,16 +344,11 @@
     color: #ffffff;
   }
 
-  /* .transcodezy-navbar-ul>li:hover {
-    background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
-    border-radius: 5px;
-    color: white !important;
-  } */
-
   .transcodezy-navbar-ul>li>.flex_wrapper:hover {
     border-radius: 5px;
-    color: white;
+    color: #406aa7;
     padding: 15px;
+    /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
   }
   .services-nav,.industries-nav{
     padding: 0 !important;
@@ -479,9 +474,10 @@
   .transcodezy-navbar-ul li a {
     color: rgb(0, 0, 0);
   }
+
   .transcodezy-navbar-ul > li:hover a,
 .transcodezy-navbar-ul > li:hover i {
-    color: white; /* White color for text and icons on hover */
+    color: #406aa7; /* White color for text and icons on hover */
 }
 
   .transcodezy-navbar-ul li a::before {
@@ -489,10 +485,10 @@
     width: 0;
   }
   li.services-nav>.flex_wrapper>a:hover{
-    color: white;
+    color: #406aa7;
   }
   .industries-nav a:hover{
-    color: white;
+    color: #406aa7;
   }
   .transcodezy-navbar-ul>li {
     padding: 15px 15px 15px 15px;
@@ -709,6 +705,12 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .business_card ul {
+    margin: -22px -22px;
+}
+.business_card ul li {
+  padding: 22px 22px;
+}
   .empowering-desc>h2 {
     margin-right: 0%;
   }
@@ -2207,8 +2209,8 @@
     font-size: 20px;
   }
 
-  .healthcare-card-desc>p {
-    font-size: 16px;
+  .healthcare-card-desc>p,.advance-healthcare-con p {
+    font-size: 16px !important;
   }
 
   .our-integration-service-2-cards-con {

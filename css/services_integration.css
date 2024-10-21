@@ -1333,7 +1333,7 @@ color: #ffffff;
     border-radius: 5px;
 }
 .active .dropdown-list {
-  background: white !important;
+  background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%) !important;
 }
 .dropdown-con li {
   padding-inline: 0px;

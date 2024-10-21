@@ -30,3 +30,44 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width:768px) {
+    .business_card ul li {
+        padding: 10px 10px;
+        width: 100%;
+    }
+    .empowering-card {
+      width: calc(100% - 0px);
+    }
+  }
+  @media (max-width:576px) {
+    .empowering-icon-con {
+        margin: 0;
+    }
+    .empowering-card>h2 {
+        text-align: left;
+    }
+    .empowering-card>p {
+        text-align: left;
+    }
+    .healthcare_ul {
+        padding: 0px !important;
+    }
+    .empowering-card .empower-read-more {
+        margin-inline: 0px;
+    }
+  }
+  @media (max-width:480px) {
+    .empowering-card>h2 {
+        text-align: left;
+    }
+    .empowering-card>p {
+        font-size: 16px;
+    }
+    .business_card ul li{
+        font-size: 16px;
+    }
+    .empowering-card .empower-read-more {
+        margin-inline: 0px;
+    }
+  }

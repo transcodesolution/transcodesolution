@@ -13,26 +13,6 @@
   <!-- ***************************************css-links******************************************* -->
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
-  <!-- <link rel="stylesheet" href="./css/about.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/contact-us.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/career.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/portfolio.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/technology.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_healthcare.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_softwareDevelopment.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_fintech.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_realEstate.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_ecommerce.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/industry_travel.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_mainPage.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_integration.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_manageItService.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_appDevelopment.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_webServices.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_UiUx.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_softwareDevelopment.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_qaTesting.css" /> -->
-  <!-- <link rel="stylesheet" href="./css/services_hireDedicatedDeveloper.css" /> -->
   <link rel="stylesheet" href="./css/services_digital_marketing.css" />
 
   <!-- ******************************************google-fonts-links*********************************** -->
@@ -60,24 +40,28 @@
 
 <body>
   <!-- ***************************************************header-code-start************************************************* -->
+
   <header class="header-wrapper">
     <div class="custom-container">
       <div class="header-con">
-        <!-- <div class="vipodha-logo"> -->
+
         <a href="./index.html">
           <img class="home_logo" src="/assets/images/Tc.svg" alt="transcodezy-logo" />
         </a>
-        <!-- </div> -->
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
             <ion-icon name="close-outline" class="close-icon"></ion-icon>
-            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="index.html">Home</a></li> -->
             <li><a href="about.html">About us</a></li>
             <li class="services-nav">
-              <a href="services.html">Services
+              <!-- <li class="service_hover"> -->
+              <div class="flex_wrapper">
+                <a href="services.html">Services</a>
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a>
+              </div>
+
+              <!-- </li> -->
               <ul class="dropdown-con">
                 <li>
                   <a href="services_integration.html">
@@ -174,7 +158,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="SEO.html ">
+                  <a href="SEO.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -198,11 +182,16 @@
               </ul>
             </li>
             <li class="industries-nav">
-              <a href="#industries">
+              <div class="flex_wrapper">
+                <a href="industry_main.html">Industries</a>
+                <i class="fa-solid fa-plus nav-plus-icon"></i>
+                <i class="fa-solid fa-minus nav-minus-icon"></i>
+              </div>
+              <!-- <a href="#industries">
                 Industries
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a>
+              </a> -->
               <ul class="dropdown-con">
                 <li>
                   <a href="./industry_healthcare.html">
@@ -262,7 +251,9 @@
             </li>
             <li><a href="technology.html">Technology</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="https://casestudy.transcodesolution.com/">Case Studies</a></li>
             <li><a href="career.html">Career</a></li>
+            <!-- <li><a href="career.html">Company</a></li> -->
           </ul>
         </nav>
         <div class="header-contact-us-button-con">

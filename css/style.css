@@ -4417,6 +4417,7 @@ textarea:-webkit-autofill:focus {
   display: flex;
   flex-wrap: wrap;
   margin: -22px -40px;
+  padding-top: 30px;
 }
 .business_card ul li {
   padding: 22px 30px;
@@ -4434,10 +4435,26 @@ textarea:-webkit-autofill:focus {
   font-family: Rajdhani;
 }
 .our_text_1{
-  font-size: 16px;
+  font-size: 18px;
   color: #3F3F3F;
   line-height: 26px;
   font-weight: 400;
   font-family: Rubik;
-  padding: 12px 0;
+  padding: 16px 0;
+}
+.healthcare_ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 0 20px 20px  !important;
+}
+.healthcare_li{
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0  !important;
+  color: #3F3F3F;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  list-style-type: disc;
 }
