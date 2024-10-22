@@ -208,10 +208,10 @@
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
               </div>
               <!-- <a href="#industries">
-                Industries
-                <i class="fa-solid fa-plus nav-plus-icon"></i>
-                <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a> -->
+            Industries
+            <i class="fa-solid fa-plus nav-plus-icon"></i>
+            <i class="fa-solid fa-minus nav-minus-icon"></i>
+          </a> -->
               <ul class="dropdown-con">
                 <li>
                   <a href="./industry_healthcare.html">
@@ -321,7 +321,7 @@
     <section class="wrapper-section our-healthcare-it-service-wrapper">
       <div class="custom-container">
         <div class="our-healthcare-it-service-con">
-          <h1>Our Healthcare IT Services</h1>
+          <h1>Our Fintech Services</h1>
           <div class="our-healthcare-cards-con">
             <div class="our-healthcare-card">
               <div class="healthcare-card-img">
@@ -574,40 +574,40 @@
                   <h2>Iteration Planning</h2>
                   <p>Setting objectives and deadlines for the projects.</p>
                 </div>
-                <div class="how-we-works-box how-we-works-box-6">
+                <div class="how-we-works-box how-we-works-box-6" id="order_10">
                   <div class="number-circle circle-10">
                     <p>10</p>
                   </div>
-                  <h2>Requirements Elicitation</h2>
-                  <p>It is necessary to access the cost and scope.</p>
+                  <h2>Coding Apps And Web</h2>
+                  <p>Writing software code fo Application and Web.</p>
                 </div>
-                <div class="how-we-works-box how-we-works-box-6">
+                <div class="how-we-works-box how-we-works-box-6" id="order_9">
                   <div class="number-circle circle-9">
                     <p>09</p>
                   </div>
-                  <h2>Contract Negotiation</h2>
-                  <p>Finalizing terms and pricing and making the contract.</p>
+                  <h2>Unit Testing</h2>
+                  <p>By Testing one can Ensure efficient operation.</p>
                 </div>
-                <div class="how-we-works-box how-we-works-box-6">
+                <div class="how-we-works-box how-we-works-box-6" id="order_8">
                   <div class="number-circle circle-8">
                     <p>08</p>
                   </div>
-                  <h2>Design and Prototyping</h2>
-                  <p>Developing UI/UX designs and core functionalities.</p>
+                  <h2>Quality Assurance</h2>
+                  <p>Testing for the security and functionality.</p>
                 </div>
-                <div class="how-we-works-box how-we-works-box-6">
+                <div class="how-we-works-box how-we-works-box-6" id="order_7">
                   <div class="number-circle circle-7">
                     <p>07</p>
                   </div>
-                  <h2>Architectural Design</h2>
-                  <p>Creating solution architecture for the best outcomes.</p>
+                  <h2>Solution Deployment</h2>
+                  <p>Handling integration, deployment, and delivery.</p>
                 </div>
-                <div class="how-we-works-box how-we-works-box-6">
+                <div class="how-we-works-box how-we-works-box-6" id="order_6">
                   <div class="number-circle circle-6">
                     <p>06</p>
                   </div>
-                  <h2>Iteration Planning</h2>
-                  <p>Setting objectives and deadlines for the projects.</p>
+                  <h2>Maintenance & Support</h2>
+                  <p>Ensuring uninterrupted operation.</p>
                 </div>
               </div>
             </div>
@@ -1098,18 +1098,16 @@
 
     <!-- *******************************************js-script-file************************************************ -->
 
-    <script src="./js/animatedNumberCounter.js" defer></script>
-    <script src="./js/workPortfolioSlider.js" defer></script>
-    <script src="./js/techonologyTab.js" defer></script>
-    <script src="./js/ourServicesTab.js" defer></script>
-    <script src="./js/navBarToggle.js" defer></script>
-    <script src="./js/documentUpload.js" defer></script>
-    <script src="./js/ourPortfolioTab.js" defer></script>
-    <script src="./js/technologyPageSlider.js" defer></script>
-    <script src="./js/industryHealthcareTab.js" defer></script>
-    <script src="./js/faqTab.js" defer></script>
-    <script src="./js/responsiveNavDropdown.js" defer></script>
-    <script src="./js/technologyPageSlider.js" defer></script>
+    <script src="./js/workPortfolioSlider.js"></script>
+    <script src="./js/techonologyTab.js"></script>
+    <script src="./js/ourServicesTab.js"></script>
+    <script src="./js/navBarToggle.js"></script>
+    <script src="./js/ourPortfolioTab.js"></script>
+    <script src="./js/technologyPageSlider.js"></script>
+    <script src="./js/industryHealthcareTab.js"></script>
+    <script src="./js/faqTab.js"></script>
+    <script src="./js/responsiveNavDropdown.js"></script>
+    <script src="./js/technologyPageSlider.js"></script>
 
     <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
     <script
@@ -1124,6 +1122,36 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname.split("/").pop();
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
+      const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+
+      navLinks.forEach(link => {
+        console.log("navLinks", link.getAttribute('href'), currentPath);
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          link.parentElement.classList.add('active');
+        }
+      });
+
+      dropdownLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+          const parentLi = link.closest('li.services-nav');
+          if (parentLi) {
+            parentLi.querySelector('a').classList.add('active');
+            // Add active class to parent <li> with class services-nav
+            ////parentLi.classList.add('active');
+          }
+        }
+      });
+    });
+  </script>
+
   <script>
      $('#id1').owlCarousel({
     autoplay: true,  
@@ -1141,10 +1169,10 @@
                     items: 1
                 },
                 575: {
-                    items: 2
+                    items: 1
                 },
                 767: {
-                    items: 2
+                    items: 1
                 },
                 991: {
                     items: 2

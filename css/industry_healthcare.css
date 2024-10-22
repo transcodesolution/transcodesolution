@@ -37,7 +37,7 @@
 .advance-healthcare-con {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 .advance-healthcare-con h2 {
   font-family: Rajdhani;
@@ -628,8 +628,7 @@
 .why-transcode-box {
   box-shadow: 0px 0px 5px 0px #00000040;
   border-radius: 10px;
-  padding: 55px;
-
+  padding: 45px;
   width: calc(33.33% - 14.67px);
   display: flex;
   flex-direction: column;
@@ -640,7 +639,7 @@
   margin: 0 auto;
 }
 
-.why-transcode-box > h1 {
+.why-transcode-box > h5 {
   font-family: Rubik;
   font-size: 30px;
   font-weight: 500;
@@ -702,16 +701,17 @@
 }
 
 .case-study .work-portfolio-card .work-portfolio-card-heading {
-  margin-top: 16px;
+  margin-top: 5px;
 }
 
-.case-study .work-portfolio-card .work-portfolio-card-heading h1 {
+.case-study .work-portfolio-card .work-portfolio-card-heading h4 {
   font-family: Rubik;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   text-align: left;
   color: var(--root-black-color);
+  margin-top: 5px;
 }
 
 .case-study .work-portfolio-card .work-portfolio-read-more {
@@ -835,6 +835,7 @@
   }
 
   .our-healthcare-card {
+    flex-direction: column;
     width: calc(50% - 25px);
   }
 
@@ -923,7 +924,7 @@
     width: 10%;
   }
 
-  .why-transcode-box > h1 {
+  .why-transcode-box > h5 {
     font-size: 24px;
     line-height: 24.55px;
     margin-top: 15px;

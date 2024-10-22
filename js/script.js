@@ -223,3 +223,31 @@ window.addEventListener("resize", handleResize);
 
 // Initial check for window size
 handleResize();
+
+// ***************************************************** active class *************************
+document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.split("/").pop();
+    const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
+    const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+
+    navLinks.forEach(link => {
+        console.log("navLinks", link.getAttribute('href'), currentPath);
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+            link.parentElement.classList.add('active');
+        }
+    });
+
+    dropdownLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+            const parentLi = link.closest('li.services-nav');
+            if (parentLi) {
+                parentLi.querySelector('a').classList.add('active');
+                // Add active class to parent <li> with class services-nav
+                ////parentLi.classList.add('active');
+            }
+        }
+    });
+});

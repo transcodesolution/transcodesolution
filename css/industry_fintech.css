@@ -42,14 +42,14 @@
 /* <!-- ********************************************Development Process********************************************************** --> */
 
 #development-process .how-we-works-box {
-  padding: 50px 35px 35px 35px;
+  padding: 30px 22px 22px 22px;
   width: 200px;
   background: var(--white-color);
 }
 
 #development-process .how-we-works-subbox-con {
   margin-left: 0px;
-  gap: 47px;
+  gap: 52px;
   flex-wrap: wrap;
   position: relative;
 }
@@ -65,7 +65,7 @@
   content: "";
   width: 100%;
   position: absolute;
-  height: 60px;
+  height: 52px;
   background: var(--gradient-color-2);
   bottom: -730%;
 }
@@ -88,13 +88,13 @@
   background: linear-gradient(90deg, #3a73ac 0%, #63388b 100%);
 }
 #development-process .how-we-works-box > h2 {
-  margin-right: 40px;
+  margin-right: 0px;
 }
 
 #development-process .number-circle {
   width: 93px;
   height: 93px;
-  left: -68px;
+  left: -15px;
   top: -78px;
 }
 
@@ -115,14 +115,14 @@
 }
 
 #development-process .how-we-works-boxes-con {
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 #how-we-works-boxes-con-inner {
   margin-top: 70px;
 }
 .number-line {
-  height: 60px;
+  height: 52px;
   width: 100%;
   background: var(--gradient-color);
 }
@@ -136,6 +136,9 @@
 }
 
 @media only screen and (max-width: 1440px) {
+  .number-line {
+    height: 49px;
+}
 }
 @media only screen and (max-width: 1360px) {
   #development-process .how-we-works-box {
@@ -145,8 +148,20 @@
   height: 57px;
 }
   #development-process .number-line::after {
-    bottom: -781%;
+    bottom: -620%;
   }
+  #development-process .number-circle {
+    width: 85px;
+    height: 85px;
+    left: -15px;
+    top: -73px;
+}
+.number-circle > p {
+  font-size: 32px;
+}
+#development-process .how-we-works-boxes-con {
+  margin-left: 0px;
+}
 }
 @media only screen and (max-width: 1280px) {
   #development-process .how-we-works-box {
@@ -176,12 +191,16 @@
   }
 
   #development-process .number-line::after {
-    bottom: -680%;
+    bottom: -651%;
+    height: 50px;
   }
   .number-line {
-    height: 53px;
+    height: 50px;
     width: 100%;
     background: var(--gradient-color);
+}
+#development-process .how-we-works-boxes-con::after {
+  width: 50px;
 }
 }
 @media only screen and (max-width: 1024px) {
@@ -219,8 +238,35 @@
   }
 
   #development-process .how-we-works-box {
-    width: 200px;
+    width: 286px;
+    margin-bottom: 40px;
+    border-radius: 0px 30px 30px 30px;
   }
+  #development-process .number-line{
+    height: 0px;
+  }
+  #development-process .number-line::after{
+    content: none;
+  }
+  .how-we-works-boxes-con {
+    margin-top: 90px;
+}
+#order_10{
+  order: 10;
+  margin-bottom: 0px !important;
+}
+#order_9{
+  order: 9;
+}
+#order_8{
+  order: 8;
+}
+#order_7{
+  order: 7;
+}
+#order_6{
+  order: 6;
+}
 }
 @media only screen and (max-width: 992px) {
   .fintech .technology-frameworks-heading {
@@ -228,6 +274,13 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #development-process .how-we-works-box {
+    width: 46%;
+    margin-bottom: 40px;
+}
+#order_9{
+  margin-bottom: 0px !important;
+}
   .why-transcode-box {
     width: 100%;
   }
@@ -256,7 +309,29 @@
     overflow-x: scroll;
   }
 }
+@media (max-width:576px) {
+  #order_9{
+    margin-bottom: 40px !important;
+  }
+  #development-process .how-we-works-box {
+    width: 100%;
+}
+#development-process .number-circle {
+  width: 75px;
+  height: 75px;
+  left: -10px;
+  top: -63px;
+}
+.number-circle > p {
+  font-size: 28px;
+}
+.how-we-works-box > p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+}
 @media only screen and (max-width: 575px) {
+
   .why-transcode-box > img {
     width: 15%;
   }
