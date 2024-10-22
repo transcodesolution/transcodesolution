@@ -15,7 +15,7 @@
 } */
 
 /* <!-- ************************************************technology-banner********************************************** --> */
-.banner-section-technology-main {
+.banner-section-web-developmenttt {
   padding-block: 60px;
   display: flex;
   align-items: center;
@@ -27,13 +27,27 @@
   min-height: 400px;
   height: 400px;
 }
-/* .banner-section-about {
-  background: url(../assets/images/Technology_background_img.png) center;
-} */
 
+
+.banner-section-about-con h1 {
+  font-family: Rajdhani;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.44px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+#about-hero-info {
+  margin-top: 40px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* <!-- *************************************************technology-page************************************************ --> */
 
-.technology-page-con h1 {
+.technology-page-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -44,7 +58,7 @@
   padding-left: 50px;
 }
 
-.technology-page-con h1::after {
+.technology-page-con h2::after {
   content: "";
   position: absolute;
   width: 62%;
@@ -70,7 +84,7 @@
   overflow: visible;
 }
 
-.our-technology-stack-con > h1 {
+.our-technology-stack-con > h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -179,7 +193,7 @@
 }
 .portfolio-slider-con {
   display: flex;
-  align-items: center;
+  align-items:flex-end;
   gap: 32px;
 }
 
@@ -187,7 +201,7 @@
   width: 40%;
 }
 
-.portfolio-slider-con-left > h1 {
+.portfolio-slider-con-left > h2 {
   font-family: Rajdhani;
   font-size: 50px;
   font-weight: 700;
@@ -246,7 +260,7 @@
   overflow: visible;
 }
 
-.industries-we-serve-technology-main-con > h1 {
+.industries-we-serve-technology-main-con > h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -325,7 +339,7 @@
   overflow: visible;
 }
 
-.our-achievements-in-number-con > h1 {
+.our-achievements-in-number-con > h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -447,7 +461,9 @@
 .get-in-touch-discuss-project i {
   margin-left: 5px;
 }
-
+.how-to-apply-con {
+  margin-top: 25px;
+}
 /* <!-- *********************************************contact-us-section****************************************** --> */
 
 .how-to-apply-con > p {
@@ -474,12 +490,12 @@
   }
 }
 @media only screen and (max-width: 1024px) {
-  .technology-page-con h1 {
+  .technology-page-con h2 {
     text-align: center;
     padding-left: 0px;
   }
 
-  .technology-page-con h1::after {
+  .technology-page-con h2::after {
     width: 100%;
     bottom: -4px;
   }
@@ -506,7 +522,7 @@
     width: 100%;
   }
 
-  .portfolio-slider-con-left > h1 {
+  .portfolio-slider-con-left > h2 {
     text-align: center;
   }
 
@@ -524,7 +540,7 @@
 }
 @media only screen and (max-width: 992px) {
 
-  .our-technology-stack-con > h1 {
+  .our-technology-stack-con > h2 {
     text-align: center;
   }
 }
@@ -532,7 +548,7 @@
   .wrapper-section {
     padding-block: 40px;
 }
-  .technology-page-con h1 {
+  .technology-page-con h2 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -541,9 +557,8 @@
     line-height: 24.46px;
   }
 
-  .our-technology-stack-con > h1 {
+  .our-technology-stack-con > h2 {
     font-size: 40px;
-
     line-height: 40.24px;
   }
 
@@ -552,9 +567,8 @@
     line-height: 24.18px;
   }
 
-  .portfolio-slider-con-left > h1 {
+  .portfolio-slider-con-left > h2 {
     font-size: 40px;
-
     line-height: 40.5px;
   }
 
@@ -566,7 +580,7 @@
     padding: 30px;
   }
 
-  .industries-we-serve-technology-main-con > h1 {
+  .industries-we-serve-technology-main-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
@@ -589,7 +603,7 @@
     width: unset;
   }
 
-  .our-achievements-in-number-con > h1 {
+  .our-achievements-in-number-con > h2 {
     font-size: 40px;
 
     line-height: 40.24px;
@@ -655,8 +669,14 @@
     font-size: 18px;
     line-height:23px;
   }
-  .technology-page-con h1::after {
+  .technology-page-con h2::after {
     bottom: -10px;
+  }
+  .technology-page-con h2{
+    font-size: 35px;
+  }
+  .our-technology-stack-con > h2{
+    font-size: 35px;
   }
   .discuss-project-con > h2 {
     font-size: 35px !important;
@@ -665,7 +685,9 @@
   .our-achievements-in-number-card {
     width: 100%;
   }
-
+  .our-technology-stack-con > h2,.portfolio-slider-con-left > h2,.industries-we-serve-technology-main-con > h2,.our-achievements-in-number-con > h2,.discuss-project-con > h2,.how-to-apply-con > h2 {
+    font-size: 35px;
+}
   .discuss-project-con > p {
     font-size: 16px;
     line-height: 23px;
@@ -695,7 +717,7 @@
   .portfolio-desc {
     padding: 20px;
   }
-  .our-technology-stack-con > h1,.portfolio-slider-con-left > h1,.industries-we-serve-technology-main-con > h1,.our-achievements-in-number-con > h1,.discuss-project-con > h2,.how-to-apply-con > h1 {
+  .our-technology-stack-con > h2,.portfolio-slider-con-left > h2,.industries-we-serve-technology-main-con > h2,.our-achievements-in-number-con > h2,.discuss-project-con > h2,.how-to-apply-con > h2 {
     font-size: 35px;
 }
 .our-technology-stack-card-con {

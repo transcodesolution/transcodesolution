@@ -5,7 +5,7 @@
 }
 
 /* *****************************************************banner-section-start***************************************************** */
-.banner-section-contact-us {
+.banner-section-web-developmenttt {
   padding-block: 60px;
   display: flex;
   align-items: center;
@@ -18,9 +18,23 @@
   height: 400px;
 }
 
-/* .banner-section-about {
-  background: url(../assets/images/contact-us/banner.svg);
-} */
+
+.banner-section-about-con h1 {
+  font-family: Rajdhani;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.44px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+#about-hero-info {
+  margin-top: 40px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* ****************************************************contact-us-detail-boxes********************************************** */
 
@@ -393,7 +407,7 @@
     flex-direction: column;
   }
   .contact-us-detail-box {
-    width: 60%;
+    width: 100%;
   }
   #map {
     margin-top: 0px;
