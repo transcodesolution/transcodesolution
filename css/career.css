@@ -592,7 +592,11 @@ button.owl-dot.active {
   padding: 15px 45px;
   width: fit-content;
 }
-
+.life-at-send-now:hover {
+  border: 2px solid #3f3f3f;
+  color: #63388b;
+  background: transparent;
+}
 /* ****************************************************how-to-apply-section*********************************************** */
 
 #how-to-apply-wrapper {

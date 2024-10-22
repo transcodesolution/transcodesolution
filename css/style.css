@@ -2991,6 +2991,8 @@ h2.heading.how_text_mobile_view {
   line-height: 53.24px;
   text-align: left;
   color: var(--root-black-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .how-to-apply-con>p {

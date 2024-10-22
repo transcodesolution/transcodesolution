@@ -294,13 +294,13 @@
 }
 
 .industries-we-serve-technology-box {
-  padding: 25px;
+  padding: 15px;
   box-shadow: 0px 0px 8.8px 0px #00000040;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: calc(30% - 26px);
+  width: calc(35% - 26px);
   height: 130px;
   cursor: pointer;
 }
