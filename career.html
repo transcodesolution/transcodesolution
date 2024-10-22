@@ -46,24 +46,27 @@
   <header class="header-wrapper">
     <div class="custom-container">
       <div class="header-con">
-        <!-- <div class="vipodha-logo"> -->
+
         <a href="./index.html">
           <img class="home_logo" src="/assets/images/Tc.svg" alt="transcodezy-logo" />
         </a>
-        <!-- </div> -->
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
             <ion-icon name="close-outline" class="close-icon"></ion-icon>
-            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="index.html">Home</a></li> -->
             <li><a href="about.html">About us</a></li>
             <li class="services-nav">
-              <a href="services.html">Services
+              <!-- <li class="service_hover"> -->
+              <div class="flex_wrapper">
+                <a href="services.html">Services</a>
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a>
+              </div>
+
+              <!-- </li> -->
               <ul class="dropdown-con">
                 <li>
-                  <a href="./services_integration.html">
+                  <a href="services_integration.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -90,7 +93,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_webServices.html">
+                  <a href="services_webServices.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -108,7 +111,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_softwareDevelopoment.html">
+                  <a href="services_softwareDevelopoment.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -117,7 +120,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_qaTesting.html">
+                  <a href="services_qaTesting.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-7.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-77.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -126,7 +129,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_hireDedicatedDeveloper.html">
+                  <a href="services_hireDedicatedDeveloper.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/sd-8.svg" alt="services-icon" class="services-dropdown-gray-icon" />
                       <img src="./assets/images/sd-88.svg" alt="services-icon" class="services-dropdown-white-icon" />
@@ -135,7 +138,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_digital_marketing.html">
+                  <a href="services_digital_marketing.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -146,7 +149,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./cyber_security.html">
+                  <a href="cyber_security.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -157,7 +160,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./digital_marketing.html">
+                  <a href="SEO.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -168,7 +171,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./services_devops.html">
+                  <a href="services_devops.html">
                     <div class="dropdown-list">
                       <img src="./assets/images/devops_icon.svg" alt="services-icon"
                         class="services-dropdown-gray-icon" />
@@ -181,11 +184,16 @@
               </ul>
             </li>
             <li class="industries-nav">
-              <a href="#industries">
-                Industries
+              <div class="flex_wrapper">
+                <a href="industry_main.html">Industries</a>
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
                 <i class="fa-solid fa-minus nav-minus-icon"></i>
-              </a>
+              </div>
+              <!-- <a href="#industries">
+            Industries
+            <i class="fa-solid fa-plus nav-plus-icon"></i>
+            <i class="fa-solid fa-minus nav-minus-icon"></i>
+          </a> -->
               <ul class="dropdown-con">
                 <li>
                   <a href="./industry_healthcare.html">
@@ -245,7 +253,9 @@
             </li>
             <li><a href="technology.html">Technology</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="https://casestudy.transcodesolution.com/">Case Studies</a></li>
             <li><a href="career.html">Career</a></li>
+            <!-- <li><a href="career.html">Company</a></li> -->
           </ul>
         </nav>
         <div class="header-contact-us-button-con">
@@ -257,7 +267,6 @@
       </div>
     </div>
   </header>
-
 
   <!-- ************************************************career-banner********************************************** -->
 
@@ -832,18 +841,18 @@
 
   <!-- *******************************************js-script-file************************************************ -->
 
-  <script src="./js/animatedNumberCounter.js" defer></script>
-  <script src="./js/workPortfolioSlider.js" defer></script>
-  <script src="./js/techonologyTab.js" defer></script>
-  <script src="./js/ourServicesTab.js" defer></script>
-  <script src="./js/navBarToggle.js" defer></script>
-  <script src="./js/documentUpload.js" defer></script>
-  <script src="./js/ourPortfolioTab.js" defer></script>
-  <script src="./js/technologyPageSlider.js" defer></script>
-  <script src="./js/industryHealthcareTab.js" defer></script>
-  <script src="./js/faqTab.js" defer></script>
-  <script src="./js/responsiveNavDropdown.js" defer></script>
-  <script src="./js/technologyPageSlider.js" defer></script>
+  <script src="./js/animatedNumberCounter.js" ></script>
+  <script src="./js/workPortfolioSlider.js" ></script>
+  <script src="./js/techonologyTab.js" ></script>
+  <script src="./js/ourServicesTab.js" ></script>
+  <script src="./js/navBarToggle.js" ></script>
+  <script src="./js/documentUpload.js" ></script>
+  <script src="./js/ourPortfolioTab.js" ></script>
+  <script src="./js/technologyPageSlider.js" ></script>
+  <script src="./js/industryHealthcareTab.js" ></script>
+  <script src="./js/faqTab.js" ></script>
+  <script src="./js/responsiveNavDropdown.js" ></script>
+  <script src="./js/technologyPageSlider.js" ></script>
 
   <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
