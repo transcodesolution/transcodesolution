@@ -64,7 +64,7 @@
 .success-stories-con {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 35px;
 }
 
 .success-stories-con-upper {
@@ -77,7 +77,7 @@
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
-  line-height: 56.14px;
+  line-height: 51.14px;
   text-align: left;
   color: var(--root-black-color);
 }
@@ -169,12 +169,14 @@
 .our-portfolio-headings-con {
   margin-top: 30px;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 75px;
 }
 
 .our-portfolio-hading {
-  width: calc(25% - 18.75px);
+  /* width: calc(25% - 18.75px); */
+  width: fit-content;
   font-family: Rajdhani;
   font-size: 28px;
   font-weight: 600;
@@ -182,7 +184,8 @@
   color: var(--root-black-color);
   text-align: center;
   white-space: nowrap;
-  padding-bottom: 8px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
 }
 
 .our-portfolio-cards-con {
@@ -319,7 +322,7 @@
   width: fit-content;
   margin: 0 auto;
   cursor: pointer;
-  padding: 20px 33px;
+  padding: 15px 25px;
   border: 2px solid white;
 }
 
@@ -343,7 +346,7 @@
     gap: 38px;
   }
   .our-portfoilo-card {
-    width: calc(33% - 22px);
+    width: calc(50% - 22px);
   }
 
   .why-should-checked-list > p {
@@ -351,11 +354,11 @@
   }
 }
 @media only screen and (max-width: 992px) {
+  .our-portfolio-headings-con{
+    overflow-x: scroll;
+  }
   .our-portfolio-cards-con {
     gap: 34px;
-  }
-  .our-portfoilo-card {
-    width: calc(33% - 19.5px);
   }
 
   .why-should-checked-list > p {
@@ -413,15 +416,14 @@
   }
 
   .our-portfolio-headings-con {
-    flex-wrap: wrap;
-
-    gap: 30px;
+    gap: 25px;
+    justify-content: space-around;
     position: relative;
     text-align: center;
   }
 
   .our-portfolio-headings-con::after {
-    content: "";
+    content: none;
     width: 2px;
     height: 100%;
     background-color: var(--root-black-color);
@@ -430,22 +432,17 @@
   }
 
   .our-portfolio-headings-con::before {
-    content: "";
+    content: none;
     width: 100%;
     height: 2px;
     background-color: var(--root-black-color);
     position: absolute;
     top: 50%;
   }
-
   .our-portfolio-hading {
     font-size: 24px;
-    width: calc(50% - 15px);
-    line-height: 24.73px;
-    border-block-end: none !important;
-    padding-bottom: 0;
-  }
-
+    line-height: 30.73px;
+}
   .our-portfoilo-card {
     width: calc(50% - 19.5px);
   }
@@ -469,12 +466,25 @@
   }
 }
 @media only screen and (max-width: 576px) {
+  .our-portfolio-cards-con {
+    margin-top: 30px;
+}
+  .our-portfolio-hading {
+    font-size: 20px;
+    line-height: 25.73px;
+}
+  .our-portfoilo-card {
+    width: calc(100% - 0px);
+}
   .why-should-checked-list-con {
-    gap: 45px;
-  }
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+}
 
   .why-should-checked-list {
-    width: calc(33% - 15px);
+    width: calc(100% - 15px);
   }
 }
 @media only screen and (max-width: 480px) {
@@ -503,9 +513,8 @@
   }
 
   .our-portfolio-hading {
-    border-block-end: 1px solid var(--root-black-color);
     padding-bottom: 15px;
-    margin-inline: 35px;
+    margin-inline: 8px;
   }
   .success-stories-con-upper-left h2,.our-portfolio-con h2,.why-should-you-con > h2 {
     font-size: 35px;
@@ -514,11 +523,11 @@
   font-size: 17px;
   margin-top: 10px;
 }
-.our-portfolio-hading {
+/* .our-portfolio-hading {
   font-size: 21px;
-}
+} */
 .our-portfolio-hading {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .success-stories-con-upper-right p,.why-should-you-con > p {
   font-size: 16px;

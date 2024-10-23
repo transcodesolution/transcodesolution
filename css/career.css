@@ -35,7 +35,7 @@
 .career-at-transcodezy-con {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 20px;
 }
 
 .career-at-transcodezy-con h2 {
@@ -45,6 +45,7 @@
   line-height: 53.24px;
   text-align: center;
   color: var(--root-black-color);
+  margin: 0;
 }
 
 .career-at-transcodezy-con p {
@@ -330,7 +331,7 @@ button.owl-dot.active {
 .location-london-con-left {
   width: 50%;
   background: var(--gradient-color-2);
-  padding: 19px 40px 19px 50px;
+  padding: 19px 38px 19px 35px;
   position: relative;
 }
 
@@ -591,6 +592,7 @@ button.owl-dot.active {
   background: var(--gradient-color-2);
   padding: 15px 45px;
   width: fit-content;
+  border: 2px solid  transparent;
 }
 .life-at-send-now:hover {
   border: 2px solid #3f3f3f;
@@ -669,7 +671,27 @@ button.owl-dot.active {
   margin: 0;
 }
 
+
+.slider_1 .owl-dot:hover span {
+  width: unset;
+  height: unset;
+}
+.slider_1 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  /* background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%) !important; */
+  background:#D6D6D6 !important;
+  box-shadow: none;
+
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+   
+
+}
 @media only screen and (max-width: 1024px) {
+  .career-at-transcodezy-con p {
+    padding-inline: 0px;
+}
   .why-work-with-us-boxes-con {
     flex-wrap: wrap;
     gap: 30px;
@@ -724,6 +746,13 @@ button.owl-dot.active {
   }
 }
 @media only screen and (max-width: 992px) {
+  .join-our-team-left h2 {
+    font-size: 45px;
+    line-height: 50.25px;
+}
+  .responsibilities-qualifications-con {
+    margin-bottom: 25px;
+}
   .life-at-transcodezy-main {
     flex-direction: column;
     gap: 50px;
@@ -777,7 +806,7 @@ button.owl-dot.active {
   }
 
   #our-current-openings-wrapper {
-    padding-block: 30px;
+    padding-block: 40px;
   }
   #life-at-transcodezy-wrapper {
     padding-block: 30px;
@@ -814,7 +843,7 @@ button.owl-dot.active {
     padding-right: 0;
   }
 
-  .join-our-team-left h2 {
+  .join-our-team-left h2,.why-work-with-us-con h2 {
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -857,17 +886,12 @@ button.owl-dot.active {
 
   .our-current-openings-con > h2 {
     font-size: 40px;
-
     line-height: 40.24px;
   }
 
   .our-current-opening-right-box > h2 {
-    font-size: 40px;
-
+    font-size: 32px;
     line-height: 40.14px;
-  }
-  .how-to-apply-con > h2{
-    font-size: 40px;
   }
   .job-desc {
     line-height: 24px;
@@ -881,7 +905,6 @@ button.owl-dot.active {
 
   .responsibilities > h1 {
     font-size: 22px;
-
     line-height: 24.62px;
   }
 
@@ -904,16 +927,18 @@ button.owl-dot.active {
   }
 
   .life-at-box-text > h3 {
-    font-size: 22px;
-
+    font-size: 20px;
     line-height: 24.28px;
   }
 
   .life-at-box-text > p {
-    font-size: 18px;
-
+    font-size: 16px;
     line-height: 22.46px;
   }
+  .slider_1 .owl-item .slider_img {
+    display: block;
+    width: 100% !important;
+}
   .life-at-form-input-box {
     font-size: 20px;
 
@@ -928,9 +953,8 @@ button.owl-dot.active {
 
   .how-to-apply-con > h2 {
     font-size: 40px;
-
     line-height: 40.24px;
-    text-align: center;
+    text-align: left;
   }
 
   .how-to-apply-con > p {
@@ -946,6 +970,12 @@ button.owl-dot.active {
   }
 }
 @media only screen and (max-width: 576px) {
+  .location-london-con-left {
+    padding: 10px 22px 10px 24px;
+}
+.location-london-con-left p {
+  font-size: 20px;
+}
   .life-at-box {
     width: 100%;
   }
@@ -971,6 +1001,9 @@ button.owl-dot.active {
   }
 }
 @media only screen and (max-width: 480px) {
+  .career-at-transcodezy-con p,.join-our-team-right p,.why-work-with-us-con p,.life-at-transcodezy-con > p,.how-to-apply-con > p{
+    font-size: 16px;
+  }
   .why-work-with-us-box {
     width: 100%;
   }
@@ -1002,7 +1035,7 @@ button.owl-dot.active {
 
     width: unset;
   }
-  .career-at-transcodezy-con h2,.join-our-team-left h2,.why-work-with-us-con > h2,.our-current-openings-con > h2,.our-current-opening-right-box > h2,.life-at-transcodezy-con > h2 {
+  .career-at-transcodezy-con h2,.join-our-team-left h2,.why-work-with-us-con > h2,.our-current-openings-con > h2,.life-at-transcodezy-con > h2 {
     font-size: 35px;
 }
 .our-current-opening-left-box {
@@ -1077,7 +1110,7 @@ button.owl-dot.active {
   .life-at-send-now {
     font-size: 20px;
   }
-  .career-at-transcodezy-con h2,.join-our-team-left h2,.why-work-with-us-con > h2,.our-current-openings-con > h2,.our-current-opening-right-box > h2,.life-at-transcodezy-con > h2 {
+  .career-at-transcodezy-con h2,.join-our-team-left h2,.why-work-with-us-con > h2,.our-current-openings-con > h2,.life-at-transcodezy-con > h2 {
     font-size: 35px;
 }
 .career-at-transcodezy-con p,.join-our-team-right p,.why-work-with-us-con p,.life-at-transcodezy-con > p {

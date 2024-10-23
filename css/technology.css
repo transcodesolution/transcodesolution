@@ -56,12 +56,13 @@
   color: var(--root-black-color);
   position: relative;
   padding-left: 50px;
+  width: fit-content;
 }
 
 .technology-page-con h2::after {
   content: "";
   position: absolute;
-  width: 62%;
+  width: 100%;
   height: 2px;
   background-color: var(--root-black-color);
   left: 0;
@@ -275,7 +276,7 @@
   font-weight: 400;
   line-height: 28.04px;
   text-align: center;
-  padding-inline: 25%;
+  padding-inline: 5%;
   margin-top: 5px;
 }
 
@@ -301,7 +302,7 @@
   flex-direction: column;
   gap: 10px;
   width: calc(35% - 26px);
-  height: 130px;
+  height: auto;
   cursor: pointer;
 }
 
@@ -351,6 +352,7 @@
 .our-achievements-in-number-cards-con {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 40px;
   margin-top: 40px;
 }
@@ -406,7 +408,7 @@
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.78px;
+  line-height: 23.78px;
   text-align: center;
   color: var(--root-black-color);
 }
@@ -464,7 +466,7 @@
   margin-left: 5px;
 }
 .how-to-apply-con {
-  margin-top: 25px;
+  margin-top: 0px;
 }
 /* <!-- *********************************************contact-us-section****************************************** --> */
 
@@ -475,7 +477,8 @@
   line-height: 27.18px;
   text-align: left;
   color: var(--root-black-color);
-  padding-right: 20%;
+  padding-right: 5%;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -492,8 +495,11 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  #how-to-apply-wrapper{
+    padding-block: 40px;
+  }
   .technology-page-con h2 {
-    text-align: center;
+    /* text-align: center; */
     padding-left: 0px;
   }
 
@@ -502,12 +508,12 @@
     bottom: -4px;
   }
 
-  .technology-page-con p {
+  /* .technology-page-con p {
     text-align: center;
-  }
+  } */
 
   .portfolio-slider-con {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .portfolio-slider-con-right {
@@ -545,8 +551,14 @@
   .our-technology-stack-con > h2 {
     text-align: center;
   }
+  .industries-we-serve-technology-box {
+    height: auto;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .our-achievements-in-number-card > h1 {
+    font-size: 50px;
+}
   .wrapper-section {
     padding-block: 40px;
 }
@@ -629,12 +641,21 @@
 
   .how-to-apply-con > p {
     line-height: 24.18px;
-    text-align: center;
-
+    text-align: left;
     padding-right: 0%;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 576px) {
+  .industries-we-serve-technology-image-box {
+    flex-direction: column;
+}
+.industries-we-serve-technology-box {
+  align-items: center;
+}
+.industries-we-serve-technology-box > p {
+  text-align: center;
+}
   .our-technology-stack-card {
     width: unset;
   }
@@ -667,6 +688,14 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .technology-page-con p {
+    font-size: 16px;
+    line-height: 21.46px;
+}
+  .our-achievements-in-number-card > h1 {
+    font-size: 50px;
+    line-height: 60.44px;
+}
   .discuss-project-con > h2{
     font-size: 18px;
     line-height:23px;
@@ -730,9 +759,6 @@
 }
 .industries-we-serve-technology-box {
   padding: 20px;
-}
-.our-achievements-in-number-card > h1 {
-  font-size: 55px;
 }
 .our-achievements-in-number-card {
   padding: 30px 30px;
