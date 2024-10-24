@@ -1203,6 +1203,10 @@ h2.heading.how_text_mobile_view {
 }
 
 @media only screen and (max-width: 480px) {
+  
+  .our-intergration-services-box>img {
+    width: 50%;
+  }
   .mobile_devlop_title:after {
     width: 100%;
 }

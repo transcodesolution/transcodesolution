@@ -1968,6 +1968,10 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 480px) {
+  
+  .our-intergration-services-box>img {
+    width: 50%;
+  }
   .technology-frameworks-heading h1 {
     font-size: 19px;
     line-height: 20.68px;
