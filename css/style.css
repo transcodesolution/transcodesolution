@@ -96,7 +96,7 @@ body {
   overflow: visible;
 }
 
-.h1 {
+.h2 {
   font-family: Rajdhani !important;
   font-size: 44px !important;
   font-weight: 700 !important;
@@ -3327,7 +3327,7 @@ h2.heading.how_text_mobile_view {
   gap: 25px;
 }
 
-.advance-healthcare-con h2 {
+.advance-healthcare-con h3 {
   font-family: Rajdhani;
   font-size: 30px;
   font-weight: 600;
@@ -3339,7 +3339,7 @@ h2.heading.how_text_mobile_view {
   position: relative;
 }
 
-.advance-healthcare-con h2::after {
+.advance-healthcare-con h3::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -3349,7 +3349,7 @@ h2.heading.how_text_mobile_view {
   left: 0;
 }
 
-.advance-healthcare-con h1 {
+.advance-healthcare-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -3591,7 +3591,7 @@ h2.heading.how_text_mobile_view {
 
 /* <!-- **********************************************************Client Onboarding Process************************************ --> */
 
-.client-onboarding-process-con h1 {
+.client-onboarding-process-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -3867,7 +3867,7 @@ textarea:-webkit-autofill:focus {
   overflow: visible;
 }
 
-.our-healthcare-it-service-con>h1 {
+.our-healthcare-it-service-con>h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -3918,7 +3918,7 @@ textarea:-webkit-autofill:focus {
 }
 
 
-.development-process-con h1 {
+.development-process-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;

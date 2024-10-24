@@ -39,7 +39,7 @@
   flex-direction: column;
   gap: 20px;
 }
-.advance-healthcare-con h2 {
+.advance-healthcare-con h3 {
   font-family: Rajdhani;
   font-size: 30px;
   font-weight: 600;
@@ -51,7 +51,7 @@
   position: relative;
 }
 
-.advance-healthcare-con h2::after {
+.advance-healthcare-con h3::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -61,7 +61,7 @@
   left: 0;
 }
 
-.advance-healthcare-con h1 {
+.advance-healthcare-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -85,7 +85,7 @@
   overflow: visible;
 }
 
-.our-healthcare-it-service-con > h1 {
+.our-healthcare-it-service-con > h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -251,7 +251,7 @@
 
 /* <!-- **********************************************************development-process************************************ --> */
 
-.development-process-con h1 {
+.development-process-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -341,7 +341,7 @@
 
 /* <!-- **********************************************************Client Onboarding Process************************************ --> */
 
-.client-onboarding-process-con h1 {
+.client-onboarding-process-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -431,7 +431,7 @@
 
 /* <!-- **********************************************************Hiring Models************************************ --> */
 
-.hiring-models-con h1 {
+.hiring-models-con h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -520,7 +520,7 @@
   align-items: flex-start;
 }
 
-.past-project-right-box > h1 {
+.past-project-right-box > h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -935,17 +935,17 @@
     line-height: 23.46px;
     margin-top: 15px;
   }
-  .past-project-right-box > h1{
+  .past-project-right-box > h2{
     font-size: 40px;
   }
-  .advance-healthcare-con h2::after {
+  .advance-healthcare-con h3::after {
     width: 0%;
   }
 
   .hiring-models-box > h2::after {
     bottom: -6px;
   }
-  .advance-healthcare-con h1 {
+  .advance-healthcare-con h3 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -954,7 +954,7 @@
     line-height: 24px;
   }
 
-  .our-healthcare-it-service-con > h1 {
+  .our-healthcare-it-service-con > h2 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -1003,7 +1003,7 @@
     width: calc(50% - 25px);
   }
 
-  .development-process-con h1 {
+  .development-process-con h2 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -1030,7 +1030,7 @@
     gap: 10px;
   }
 
-  .client-onboarding-process-con h1 {
+  .client-onboarding-process-con h2 {
     font-size: 40px;
 
     line-height: 40.24px;
@@ -1061,9 +1061,8 @@
     line-height: 24.4px;
   }
 
-  .hiring-models-con h1 {
+  .hiring-models-con h2 {
     font-size: 40px;
-
     line-height: 40.24px;
   }
 
@@ -1168,22 +1167,22 @@
   }
 }
 @media only screen and (max-width: 480px) {
-  .advance-healthcare-con h1 {
+  .advance-healthcare-con h2 {
     font-size: 35px;
     line-height: 35.24px;
   }
-  .client-onboarding-process-con h1{
+  .client-onboarding-process-con h2{
     font-size: 35px;
   }
-  .our-healthcare-it-service-con > h1 {
-    font-size: 35px;
-    line-height: 35.24px;
-  }
-  .development-process-con h1 {
+  .our-healthcare-it-service-con > h2 {
     font-size: 35px;
     line-height: 35.24px;
   }
-  .past-project-right-box > h1{
+  .development-process-con h2 {
+    font-size: 35px;
+    line-height: 35.24px;
+  }
+  .past-project-right-box > h2{
     font-size: 35px ;
   }
   .hiring-models-con > p {

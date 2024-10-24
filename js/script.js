@@ -251,3 +251,76 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+// ************************************* our portfoliotab *************************************
+let ourWorkHeading = document.querySelectorAll(".our-portfolio-hading");
+let ourWorkCard = document.querySelectorAll(".our-portfolio-cards-con");
+
+ourWorkCard[0].style.display = "flex";
+ourWorkHeading[0].style.borderBlockEnd = "2px solid #63388b";
+
+for (let i = 0; i < 4; i++) {
+  ourWorkHeading[i].addEventListener("click", () => {
+    ourWorkHeading[i].style.borderBlockEnd = "2px solid #63388b";
+    ourWorkCard[i].style.display = "flex";
+    for (let j = 0; j < 4; j++) {
+      if (i == j) {
+        continue;
+      } else {
+        ourWorkCard[j].style.display = "none";
+        ourWorkHeading[j].style.borderBlockEnd = "transparent";
+      }
+    }
+  });
+}
+// **************************************** document upload *************************************
+
+let file = document.querySelector(".document-input-box");
+let input = document.querySelector(".document-input-box input");
+
+file.addEventListener("click", () => {
+  input.click();
+});
+
+
+// **************************************** oue services *******************************************
+
+let card = document.querySelectorAll(".our-services-sub-box");
+let cardData = document.querySelectorAll(".our-services-info-box-right");
+
+card[0].style.backgroundImage = `linear-gradient(
+  244.73deg,
+  rgba(4, 191, 215, 0.17) -48.91%,
+  rgba(99, 56, 139, 0.17) 79.49%
+)`;
+// card[0].style.boxShadow = "none";
+card[0].style.borderInlineStart = "4px solid #63388B";
+cardData[0].style.display = "block";
+
+for (let i = 0; i < 8; i++) {
+  console.log("object",card[i]);
+  card[i].addEventListener("click", (e) => {
+    card[i].style.backgroundImage = `linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.17) -48.91%,
+    rgba(99, 56, 139, 0.17) 79.49%
+  )`;
+    // card[i].style.boxShadow = "none";
+    card[i].style.borderInlineStart = "4px solid #63388B";
+    cardData[i].style.display = "block";
+
+    for (let j = 0; j < 8; j++) {
+      if (i == j) {
+        continue;
+      } else {
+        card[j].style.backgroundImage = "none";
+        card[j].style.boxShadow = "0px 0px 5px 0px #00000030";
+        card[j].style.borderInlineStart = "4px solid transparent";
+        cardData[j].style.display = "none";
+      }
+    }
+  });
+}
+
+
+
+
