@@ -2462,10 +2462,13 @@
   }
 
   .managed_it_title {
-    font-size: 35px;
+    font-size: 35px !important;
     line-height: 40px;
   }
-
+  .faq-con h2 {
+    font-size: 35px !important;
+    line-height: 40px;
+  }
   .center-text {
     text-align: center;
   }

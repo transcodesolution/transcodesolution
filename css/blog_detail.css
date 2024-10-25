@@ -1,0 +1,106 @@
+
+/* *****************************************************banner-section-start***************************************************** */
+.banner-section-blog_detail {
+    padding-block: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/blog/blog_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    height: 400px;
+  }
+  
+  
+  .banner-section-about-con h1 {
+    font-family: Rajdhani;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.44px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+  }
+
+
+
+  .access_to_detali{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .innovation_box{
+    width: 60%;
+  }
+  .newsletter_box{
+    width: 40%;
+  }
+  .blog_page_sub_text{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    font-family: Rajdhani;
+    margin-top: 13px;
+    color: #5B4492;
+  }
+  .newsletter_background{
+    background: linear-gradient(180deg, #63388B 0%, #3A73AC 100%);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .blog_detail_img{
+    width: -webkit-fill-available;
+  }
+  .news_title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-family: Rubik;
+    color: white;
+    padding-bottom: 15px;
+  }
+  .newsletter_text{
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+    padding-bottom: 22px;
+  }
+  .news_input{
+    padding: 16px 18px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    margin-bottom: 11px;
+  }
+  .news_input::placeholder{
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 44px;
+    color: #666666;
+    padding: 0 0px;
+  }
+  .mail_send_btn > button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 6px;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 19px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
