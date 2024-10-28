@@ -1,0 +1,333 @@
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* *****************************************************banner-section-start***************************************************** */
+.banner-section-web-development-servicess {
+    padding-block: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/become_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    height: 400px;
+  }
+  
+  
+  .banner-section-about-con h1 {
+    font-family: Rajdhani;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.44px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+  }
+  #about-hero-info {
+    margin-top: 40px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .partner-section {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .partner-section h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Custom container */
+  .custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card grid with two columns */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect */
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card header to align number and title */
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Card number */
+  .card-number {
+    /* background-color: #4a2b9e; */
+    background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+    color: #fff;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: Rubik;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+
+  }
+  .number-h3{
+    display: flex;
+  }
+  /* Card heading */
+  .card h3 {
+    color: #333;
+    font-family: Rajdhani;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.56px;
+    text-align: left;
+    padding: 0px 30px 0 35px;
+}
+  
+  /* Card description */
+  .card p {
+    color: #666;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.46px;
+    margin: 10px;
+    
+  }
+
+  .partnership-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the Cards */
+  .partnership-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Card Styles */
+  .partnership-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Numbered Header Bar */
+  .partnership-card-header {
+    background: #574690;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+    margin-top: -20px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  /* Distinct Colors for Each Card */
+  #partnership-card-1 .partnership-card-header {
+    background-color: #574690;
+  }
+  
+  #partnership-card-2 .partnership-card-header {
+    background-color: #4f549b;
+  }
+  
+  #partnership-card-3 .partnership-card-header {
+    background-color: #406aa7;
+  }
+  
+  /* Card Content */
+  .partnership-card-content {
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .partnership-card-content p {
+    margin-bottom: 10px;
+  }
+  
+  .partnership-card-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .partnership-card-content ul li {
+    margin-bottom: 5px;
+  }
+  
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .partner-section h2 {
+      font-size: 40px;
+    }
+  
+ 
+  
+    .card-number {
+      width: 60px;
+      height: 60px;
+      font-size: 36px;
+    }
+  
+    .card h3 {
+      font-size: 32px;
+    }
+  
+    .card p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .partner-section h2 {
+      font-size: 36px;
+    }
+  
+    .card-number {
+      width: 55px;
+      height: 55px;
+      font-size: 32px;
+    }
+  
+    .card h3 {
+      font-size: 28px;
+    }
+  
+    .card p {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .partner-section h2 {
+      font-size: 32px;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+    .custom-container {
+      padding: 0 15px;
+    }
+  
+    .card-number {
+      width: 50px;
+      height: 50px;
+      font-size: 28px;
+    }
+  
+    /* .card h3 {
+      font-size: 24px;
+    }
+  
+    .card p {
+      font-size: 14px;
+    } */
+  }
+  
+  @media (max-width: 576px) {
+    .partner-section h2 {
+      font-size: 28px;
+    }
+  
+    .card-number {
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+    }
+  
+    /* .card h3 {
+      font-size: 20px;
+    }
+  
+    .card p {
+      font-size: 14px;
+    } */
+  }
+  
+  @media (max-width: 480px) {
+    .partner-section h2 {
+      font-size: 26px;
+    }
+  
+    .card-number {
+      width: 40px;
+      height: 40px;
+      font-size: 22px;
+    }
+  
+    /* .card h3 {
+      font-size: 18px;
+    }
+  
+    .card p {
+      font-size: 12px;
+    } */
+  }
+  
+  @media (max-width: 375px) {
+    .partner-section h2 {
+      font-size: 24px;
+    }
+  
+    .card-number {
+      width: 35px;
+      height: 35px;
+      font-size: 20px;
+    }
+  
+    /* .card h3 {
+      font-size: 20px;
+    }
+  
+    .card p {
+      font-size: 18px;
+    } */
+  }
+  

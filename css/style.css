@@ -2357,6 +2357,7 @@ a:active {
 }
 
 .managed_it_title {
+  text-align: center;
   font-size: 44px;
   font-family: Rajdhani;
   font-weight: 700;
@@ -2995,6 +2996,16 @@ h2.heading.how_text_mobile_view {
   margin-bottom: 10px;
 }
 
+.how-to-apply-con>h3 {
+  font-family: Rajdhani;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 53.24px;
+  text-align: left;
+  color: var(--root-black-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 .how-to-apply-con>p {
   font-family: Rubik;
   font-size: 18px;
