@@ -208,7 +208,7 @@
                             </div>
                             <ul class="dropdown-con">
                                 <li>
-                                    <a href="./industry_healthcare.html">
+                                    <a href="industry_healthcare.html">
                                         <div class="dropdown-list">
                                             <img src="./assets/images/id-1.svg" alt="services-icon"
                                                 class="services-dropdown-gray-icon" />
@@ -219,7 +219,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./industry_softwareDevelopment.html">
+                                    <a href="industry_softwareDevelopment.html">
                                         <div class="dropdown-list">
                                             <img src="./assets/images/id-2.svg" alt="services-icon"
                                                 class="services-dropdown-gray-icon" />
@@ -230,7 +230,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./industry_fintech.html">
+                                    <a href="industry_fintech.html">
                                         <div class="dropdown-list">
                                             <img src="./assets/images/id-3.svg" alt="services-icon"
                                                 class="services-dropdown-gray-icon" />
@@ -241,7 +241,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./industry_realEstate.html">
+                                    <a href="industry_realEstate.html">
                                         <div class="dropdown-list">
                                             <img src="./assets/images/id-4.svg" alt="services-icon"
                                                 class="services-dropdown-gray-icon" />
@@ -263,7 +263,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./industry_travel.html">
+                                    <a href="industry_travel.html">
                                         <div class="dropdown-list">
                                             <img src="./assets/images/id-6.svg" alt="services-icon"
                                                 class="services-dropdown-gray-icon" />
@@ -320,7 +320,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="blog.html">
                                         <div class="dropdown-list">
                                             <img src="./assets/images/id-2.svg" alt="services-icon"
                                                 class="services-dropdown-gray-icon" />
@@ -794,41 +794,41 @@
 
     <!-- *******************************************js-script-file************************************************ -->
 
-<script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 
     <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script>
-          document.addEventListener("DOMContentLoaded", function () {
-              const currentPath = window.location.pathname.split("/").pop();
-              const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
-              const dropdownLinks = document.querySelectorAll('.dropdown-con a');
-  
-  
-              navLinks.forEach(link => {
-                  console.log("navLinks", link.getAttribute('href'), currentPath);
-                  if (link.getAttribute('href') === currentPath) {
-                      link.classList.add('active');
-                      link.parentElement.classList.add('active');
-                  }
-              });
-  
-              dropdownLinks.forEach(link => {
-                  if (link.getAttribute('href') === currentPath) {
-                      link.classList.add('active');
-                      const parentLi = link.closest('li.services-nav');
-                      if (parentLi) {
-                          parentLi.querySelector('a').classList.add('active');
-                          // Add active class to parent <li> with class services-nav
-                          ////parentLi.classList.add('active');
-                      }
-                  }
-              });
-          });
-      </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentPath = window.location.pathname.split("/").pop();
+            const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
+            const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+
+            navLinks.forEach(link => {
+                console.log("navLinks", link.getAttribute('href'), currentPath);
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    link.parentElement.classList.add('active');
+                }
+            });
+
+            dropdownLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    const parentLi = link.closest('li.services-nav');
+                    if (parentLi) {
+                        parentLi.querySelector('a').classList.add('active');
+                        // Add active class to parent <li> with class services-nav
+                        ////parentLi.classList.add('active');
+                    }
+                }
+            });
+        });
+    </script>
 
 </body>
 

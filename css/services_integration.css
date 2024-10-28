@@ -945,6 +945,7 @@ color: #ffffff;
   height: 100%;
   object-fit: cover;
   margin-bottom: 0px;
+  border-radius: 10px;
 }
 
 .middle-slider-part-left {

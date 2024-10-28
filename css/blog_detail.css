@@ -78,6 +78,11 @@
     border: 0;
     width: 100%;
     margin-bottom: 11px;
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 44px;
+    color: #666666;
   }
   .news_input::placeholder{
     font-size: 22px;
@@ -104,3 +109,188 @@
     align-items: center;
     gap: 12px;
   }
+
+  .access_blog{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 0;
+  }
+  .access_flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .access_icon_text{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3F3F3F;
+  }
+  .access_text{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #3F3F3F;
+  }
+  .benefits{
+    margin-top: 45px;
+  }
+  .benefits_title{
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color:#3F3F3F;
+    position: relative;
+  }
+.benefits_title:after{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: #3F3F3F;
+  min-width: 272px;
+  height: 1px;
+}
+.benefits_ul{
+  list-style-type: disc;
+  padding: 20px 0 0 18px;
+}
+.benefits_li{
+  font-family: Rubik;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #3F3F3F;
+  list-style-type: disc;
+}
+.benefits_p{
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #3F3F3F;
+  padding: 7px 0 17px 5px;
+}
+.leave_reply{
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: Rubik;
+  color: #494949;
+}
+.leave_p{
+  font-size: 21px;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 26px;
+  color: #494949;
+  margin: 10px 0 30px 0;
+}
+.input_leave{
+  width: 100%;
+  margin: 0 0 20px 0;
+  outline: 0;
+  border: 0;
+  background-color: #F2F2F2;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #494949;
+  font-weight: 500;
+  font-family: Rubik;
+  line-height: 27px;
+}
+.input_leave::placeholder{
+  font-size: 20px;
+  color: #494949;
+  font-weight: 500;
+  font-family: Rubik;
+  line-height: 27px;
+}
+
+
+
+@media (max-width:992px) {
+  .access_to_detali {
+    flex-direction: column-reverse;
+}
+.newsletter_box,.innovation_box {
+  width: 100%;
+}
+.leave_reply {
+  font-size: 35px;
+}
+.leave_p {
+  font-size: 17px;
+  margin: 8px 0 20px 0;
+}
+}
+@media (max-width:480px) {
+  .newsletter_background {
+    padding: 25px;
+}
+.news_title {
+  font-size: 30px;
+  line-height: 32px;
+  padding-bottom: 9px;
+}
+.newsletter_text {
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 18px;
+}
+.news_input {
+  padding: 11px 13px;
+  margin-bottom: 11px;
+  line-height: 25px;
+  font-size: 17px;
+}
+.news_input::placeholder{
+  font-size: 17px;
+  line-height: 25px;
+}
+.access_blog {
+  gap: 30px;
+  padding: 20px 0;
+}
+.access_icon_text {
+  font-size: 17px;
+}
+.blog_page_sub_text {
+  font-size: 24px;
+  line-height: 28px;
+}
+.access_text,.benefits_p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.benefits {
+  margin-top: 30px;
+}
+.input_leave {
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 23px;
+}
+.input_leave::placeholder{
+  font-size: 18px;
+  line-height: 23px;
+}
+}
+
+@media (max-width:375px) {
+  .access_blog {
+    gap: 15px;
+    padding: 20px 0;
+}
+.access_icon_text {
+  font-size: 15px;
+}
+.access_images{
+  width: 16px;
+}
+}

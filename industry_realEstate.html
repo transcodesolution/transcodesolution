@@ -207,7 +207,7 @@
                           </div>
                           <ul class="dropdown-con">
                               <li>
-                                  <a href="./industry_healthcare.html">
+                                  <a href="industry_healthcare.html">
                                       <div class="dropdown-list">
                                           <img src="./assets/images/id-1.svg" alt="services-icon"
                                               class="services-dropdown-gray-icon" />
@@ -218,7 +218,7 @@
                                   </a>
                               </li>
                               <li>
-                                  <a href="./industry_softwareDevelopment.html">
+                                  <a href="industry_softwareDevelopment.html">
                                       <div class="dropdown-list">
                                           <img src="./assets/images/id-2.svg" alt="services-icon"
                                               class="services-dropdown-gray-icon" />
@@ -229,7 +229,7 @@
                                   </a>
                               </li>
                               <li>
-                                  <a href="./industry_fintech.html">
+                                  <a href="industry_fintech.html">
                                       <div class="dropdown-list">
                                           <img src="./assets/images/id-3.svg" alt="services-icon"
                                               class="services-dropdown-gray-icon" />
@@ -240,7 +240,7 @@
                                   </a>
                               </li>
                               <li>
-                                  <a href="./industry_realEstate.html">
+                                  <a href="industry_realEstate.html">
                                       <div class="dropdown-list">
                                           <img src="./assets/images/id-4.svg" alt="services-icon"
                                               class="services-dropdown-gray-icon" />
@@ -262,7 +262,7 @@
                                   </a>
                               </li>
                               <li>
-                                  <a href="./industry_travel.html">
+                                  <a href="industry_travel.html">
                                       <div class="dropdown-list">
                                           <img src="./assets/images/id-6.svg" alt="services-icon"
                                               class="services-dropdown-gray-icon" />
@@ -319,7 +319,7 @@
                                   </a>
                               </li>
                               <li>
-                                  <a href="">
+                                  <a href="blog.html">
                                       <div class="dropdown-list">
                                           <img src="./assets/images/id-2.svg" alt="services-icon"
                                               class="services-dropdown-gray-icon" />
@@ -892,7 +892,7 @@
           <div class="why-transcode-subbox-con">
             <div class="why-transcode-box">
               <img src="./assets/images/fintech/why-1.svg" alt="Industry Expertise icon" />
-              <h1>Industry Expertise</h1>
+              <h5>Industry Expertise</h5>
               <p>
                 Our deep understanding of the fintech industry allows us to
                 provide tailored solutions that meet the unique needs of your
@@ -901,7 +901,7 @@
             </div>
             <div class="why-transcode-box">
               <img src="./assets/images/fintech/why-2.svg" alt="Innovative Technology icon" />
-              <h1>Innovative Technology</h1>
+              <h5>Innovative Technology</h5>
               <p>
                 We leverage the latest technologies to create cutting-edge
                 solutions that drive efficiency and enhance customer
@@ -910,7 +910,7 @@
             </div>
             <div class="why-transcode-box">
               <img src="./assets/images/fintech/why-3.svg" alt="Customized Solutions icon" />
-              <h1>Customized Solutions</h1>
+              <h5>Customized Solutions</h5>
               <p>
                 We work closely with our clients to develop solutions that are
                 perfectly aligned with their business goals and operational
@@ -921,7 +921,7 @@
           <div class="why-transcode-subbox-con">
             <div class="why-transcode-box">
               <img src="./assets/images/fintech/why-4.svg" alt="Proven Track Record icon" />
-              <h1>Proven Track Record</h1>
+              <h5>Proven Track Record</h5>
               <p>
                 Our successful case studies and client testimonials highlight
                 our commitment to delivering exceptional results.
@@ -929,7 +929,7 @@
             </div>
             <div class="why-transcode-box">
               <img src="./assets/images/fintech/why-5.svg" alt="Dedicated Support icon" />
-              <h1>Dedicated Support</h1>
+              <h5>Dedicated Support</h5>
               <p>
                 We offer ongoing support and maintenance to ensure that your
                 systems operate smoothly and effectively.
@@ -1213,32 +1213,32 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-          const currentPath = window.location.pathname.split("/").pop();
-          const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
-          const dropdownLinks = document.querySelectorAll('.dropdown-con a');
-
-
-          navLinks.forEach(link => {
-              console.log("navLinks", link.getAttribute('href'), currentPath);
-              if (link.getAttribute('href') === currentPath) {
-                  link.classList.add('active');
-                  link.parentElement.classList.add('active');
-              }
-          });
-
-          dropdownLinks.forEach(link => {
-              if (link.getAttribute('href') === currentPath) {
-                  link.classList.add('active');
-                  const parentLi = link.closest('li.services-nav');
-                  if (parentLi) {
-                      parentLi.querySelector('a').classList.add('active');
-                      // Add active class to parent <li> with class services-nav
-                      ////parentLi.classList.add('active');
-                  }
-              }
-          });
+        const currentPath = window.location.pathname.split("/").pop();
+        const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .industries_flex_wrapper > a');
+        const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+        console.log(navLinks,"djfgdjsf");
+  
+        navLinks.forEach(link => {
+          console.log("navLinks", link.getAttribute('href'), currentPath);
+          if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+            link.parentElement.classList.add('active');
+          }
+        });
+  
+        dropdownLinks.forEach(link => {
+          if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+            const parentLi = link.closest('li.industries-nav');
+            if (parentLi) {
+              parentLi.querySelector('a').classList.add('active');
+              // Add active class to parent <li> with class services-nav
+              ////parentLi.classList.add('active');
+            }
+          }
+        });
       });
-  </script>
+    </script>
   <script>
     $('#id1').owlCarousel({
       autoplay: true,

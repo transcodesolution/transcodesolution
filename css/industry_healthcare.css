@@ -1,5 +1,3 @@
-
-
 /* <!-- ************************************************healthcare-banner********************************************** --> */
 
 .banner-section-web-development-servicess {
@@ -25,6 +23,7 @@
   color: #ffffff;
   margin: 0;
 }
+
 #about-hero-info {
   margin-top: 40px;
   margin-bottom: 45px;
@@ -39,6 +38,7 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .advance-healthcare-con h3 {
   font-family: Rajdhani;
   font-size: 30px;
@@ -85,7 +85,7 @@
   overflow: visible;
 }
 
-.our-healthcare-it-service-con > h2 {
+.our-healthcare-it-service-con>h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -117,7 +117,7 @@
   gap: 22px;
 }
 
-.healthcare-card-desc > h2 {
+.healthcare-card-desc>h2 {
   font-family: Rubik;
   font-size: 26px;
   font-weight: 500;
@@ -126,7 +126,7 @@
   color: var(--root-black-color);
 }
 
-.healthcare-card-desc > p {
+.healthcare-card-desc>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -287,10 +287,12 @@
   padding-top: 35px;
   width: 60%;
 }
-.box-2{
+
+.box-2 {
   display: flex;
   gap: 10px;
 }
+
 .development-process-box-1 {
   display: flex;
   gap: 60px;
@@ -350,7 +352,7 @@
   color: var(--root-black-color);
 }
 
-.client-onboarding-process-con > p {
+.client-onboarding-process-con>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -411,7 +413,7 @@
   gap: 8px;
 }
 
-.client-onboarding-process-box-desc > p {
+.client-onboarding-process-box-desc>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 300;
@@ -420,7 +422,7 @@
   color: var(--root-black-color);
 }
 
-.client-onboarding-process-box-desc > strong {
+.client-onboarding-process-box-desc>strong {
   font-family: Rubik;
   font-size: 20px;
   font-weight: 500;
@@ -440,7 +442,7 @@
   color: var(--root-black-color);
 }
 
-.hiring-models-con > p {
+.hiring-models-con>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -464,7 +466,7 @@
   flex: 1;
 }
 
-.hiring-models-box > h2 {
+.hiring-models-box>h2 {
   font-family: Rubik;
   font-size: 26px;
   font-weight: 500;
@@ -476,7 +478,7 @@
   margin: 0 auto !important;
 }
 
-.hiring-models-box > h2::after {
+.hiring-models-box>h2::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -486,7 +488,7 @@
   bottom: 0;
 }
 
-.hiring-models-box > p {
+.hiring-models-box>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -511,6 +513,7 @@
 .past-project-left-box img {
   width: 100%;
   display: none;
+  border-radius: 20px;
 }
 
 .past-project-right-box {
@@ -520,7 +523,7 @@
   align-items: flex-start;
 }
 
-.past-project-right-box > h2 {
+.past-project-right-box>h2 {
   font-family: Rajdhani;
   font-size: 44px;
   font-weight: 700;
@@ -529,7 +532,7 @@
   color: var(--root-black-color);
 }
 
-.past-project-right-box > p {
+.past-project-right-box>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -576,6 +579,7 @@
   right: -21px;
   background: var(--root-black-color);
 }
+
 .benefits_text {
   font-size: 18px;
   font-weight: 400;
@@ -585,6 +589,7 @@
   margin: 15px 0 30px 0;
 
 }
+
 .search_campaigns_box p {
   font-family: Rubik;
   font-size: 18px;
@@ -594,6 +599,7 @@
   color: var(--root-black-color);
   margin-top: 20px;
 }
+
 .search_campaigns_box {
   width: 245px;
   height: 235px;
@@ -605,9 +611,11 @@
   border: 3px solid #EBEBEB;
   text-align: center;
 }
-.how-to-apply-con{
+
+.how-to-apply-con {
   margin-top: 25px;
 }
+
 /* ********************************** fintech page **************************** */
 
 /* <!-- *****************************************Why Transcodezy IT Solutions?***************************************** --> */
@@ -634,12 +642,12 @@
   flex-direction: column;
 }
 
-.why-transcode-box > img {
+.why-transcode-box>img {
   width: 25%;
   margin: 0 auto;
 }
 
-.why-transcode-box > h5 {
+.why-transcode-box>h5 {
   font-family: Rubik;
   font-size: 30px;
   font-weight: 500;
@@ -649,7 +657,7 @@
   margin-top: 18px;
 }
 
-.why-transcode-box > p {
+.why-transcode-box>p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -717,17 +725,21 @@
 .case-study .work-portfolio-card .work-portfolio-read-more {
   margin-top: auto;
 }
+
 @media only screen and (max-width: 1360px) {
   .client-onboarding-process-boxes-con {
     padding-inline: 60px;
   }
+
   .past-project-con {
     gap: 60px;
   }
+
   .realEstate .technology-frameworks-heading-con {
     gap: 59px;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .healthcare-tech-box {
     width: 210px;
@@ -747,10 +759,12 @@
   .client-onboarding-process-box-number {
     margin-left: -45px;
   }
+
   .realEstate .technology-frameworks-heading-con {
     gap: 43px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .case-study .work-portfolio-cards-con {
     gap: 0px;
@@ -760,7 +774,7 @@
     width: calc(33% - 15px);
   }
 
-  .realEstate .technology-expertise-con > p {
+  .realEstate .technology-expertise-con>p {
     margin-inline: 4%;
   }
 
@@ -780,9 +794,11 @@
   .realEstate .frameworks-image-box-con {
     margin-inline: 5%;
   }
+
   .why-transcode-box {
     padding: 30px;
   }
+
   .healthcare-card-layout {
     width: 24%;
   }
@@ -792,9 +808,11 @@
 
     line-height: 24.34px;
   }
+
   .development-process-steps-img {
     width: 36%;
-}
+  }
+
   .development-process-subbox-name p {
     font-size: 15px;
 
@@ -825,6 +843,7 @@
     gap: 15px;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .advance-healthcare-con p {
     padding-inline: 0%;
@@ -843,11 +862,11 @@
     gap: 15px;
   }
 
-  .client-onboarding-process-con > p {
+  .client-onboarding-process-con>p {
     padding-inline: 0%;
   }
 
-  .healthcare-tech-con > p {
+  .healthcare-tech-con>p {
     padding-inline: 0%;
   }
 
@@ -873,19 +892,22 @@
     flex-direction: column;
     gap: 0;
   }
+
   .development-process-box-1 {
     display: flex;
     gap: 20px;
     flex-direction: column;
-}
+  }
 
   .development-process-steps {
     padding-top: 15px;
     width: 100%;
   }
+
   .development-process-steps-img {
     width: 100%;
-}
+  }
+
   .development-process-subbox-name p {
     margin-top: 0px;
   }
@@ -893,8 +915,9 @@
   .development-process-steps {
     gap: 10px;
   }
-  
+
 }
+
 @media only screen and (max-width: 768px) {
   .case-study .work-portfolio-cards-con {
     /* gap: 45px; */
@@ -912,6 +935,7 @@
   .realEstate .technology-frameworks-heading-con {
     gap: 35px;
   }
+
   .why-transcode-box {
     width: 100%;
   }
@@ -920,31 +944,34 @@
     flex-direction: column;
   }
 
-  .why-transcode-box > img {
+  .why-transcode-box>img {
     width: 10%;
   }
 
-  .why-transcode-box > h5 {
+  .why-transcode-box>h5 {
     font-size: 24px;
     line-height: 24.55px;
     margin-top: 15px;
   }
 
-  .why-transcode-box > p {
+  .why-transcode-box>p {
     font-size: 16px;
     line-height: 23.46px;
     margin-top: 15px;
   }
-  .past-project-right-box > h2{
+
+  .past-project-right-box>h2 {
     font-size: 40px;
   }
+
   .advance-healthcare-con h3::after {
     width: 0%;
   }
 
-  .hiring-models-box > h2::after {
+  .hiring-models-box>h2::after {
     bottom: -6px;
   }
+
   .advance-healthcare-con h3 {
     font-size: 40px;
     line-height: 40.24px;
@@ -954,7 +981,7 @@
     line-height: 24px;
   }
 
-  .our-healthcare-it-service-con > h2 {
+  .our-healthcare-it-service-con>h2 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -964,13 +991,13 @@
     padding: 30px 30px 30px 30px;
   }
 
-  .healthcare-card-desc > h2 {
+  .healthcare-card-desc>h2 {
     font-size: 22px;
 
     line-height: 24.81px;
   }
 
-  .healthcare-card-desc > p {
+  .healthcare-card-desc>p {
     font-size: 18px;
 
     line-height: 22.3px;
@@ -990,7 +1017,7 @@
     line-height: 40.24px;
   }
 
-  .healthcare-tech-con > p {
+  .healthcare-tech-con>p {
     line-height: 24.46px;
   }
 
@@ -1017,7 +1044,8 @@
     /* display: flex; */
     flex-direction: column;
     gap: 20px;
-}
+  }
+
   .development-process-steps {
     padding-top: 15px;
   }
@@ -1036,11 +1064,12 @@
     line-height: 40.24px;
   }
 
-  .client-onboarding-process-con > p {
+  .client-onboarding-process-con>p {
     line-height: 24.46px;
 
     margin-top: 8px;
   }
+
   .client-onboarding-process-boxes-con {
     margin-top: 20px;
   }
@@ -1049,13 +1078,13 @@
     width: 100%;
   }
 
-  .client-onboarding-process-box-desc > p {
+  .client-onboarding-process-box-desc>p {
     font-size: 16px;
 
     line-height: 20.46px;
   }
 
-  .client-onboarding-process-box-desc > strong {
+  .client-onboarding-process-box-desc>strong {
     font-size: 16px;
 
     line-height: 24.4px;
@@ -1082,13 +1111,13 @@
     width: calc(33% - 20px);
   }
 
-  .hiring-models-box > h2 {
+  .hiring-models-box>h2 {
     font-size: 20px;
 
     line-height: 20.22px;
   }
 
-  .hiring-models-box > p {
+  .hiring-models-box>p {
     font-size: 17px;
 
     line-height: 24.46px;
@@ -1096,7 +1125,7 @@
     margin-top: 12px;
   }
 
-  .hiring-models-con > p {
+  .hiring-models-con>p {
     margin-top: 7px;
   }
 
@@ -1110,7 +1139,7 @@
     align-items: unset;
   }
 
-  .past-project-right-box > p {
+  .past-project-right-box>p {
     text-align: center;
 
     margin-top: 8px;
@@ -1128,10 +1157,11 @@
     margin-left: 0px;
   }
 
-  .apply-info-text > p {
+  .apply-info-text>p {
     line-height: 27.18px;
     text-align: center;
   }
+
   .contact-num {
     font-size: 15px !important;
   }
@@ -1161,34 +1191,42 @@
     gap: 15px;
   }
 }
+
 @media only screen and (max-width: 575px) {
-  .why-transcode-box > img {
+  .why-transcode-box>img {
     width: 15%;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .advance-healthcare-con h2 {
     font-size: 35px;
     line-height: 35.24px;
   }
-  .client-onboarding-process-con h2{
+
+  .client-onboarding-process-con h2 {
     font-size: 35px;
   }
-  .our-healthcare-it-service-con > h2 {
+
+  .our-healthcare-it-service-con>h2 {
     font-size: 35px;
     line-height: 35.24px;
   }
+
   .development-process-con h2 {
     font-size: 35px;
     line-height: 35.24px;
   }
-  .past-project-right-box > h2{
-    font-size: 35px ;
+
+  .past-project-right-box>h2 {
+    font-size: 35px;
   }
-  .hiring-models-con > p {
+
+  .hiring-models-con>p {
     font-size: 16px;
     line-height: 23.48px;
-}
+  }
+
   .healthcare-tech-boxes-con {
     gap: 20px;
   }
@@ -1213,10 +1251,12 @@
     width: 0px;
   }
 }
+
 @media only screen and (max-width: 376px) {
-  .why-transcode-box > img {
+  .why-transcode-box>img {
     width: 20%;
   }
+
   .healthcare-tech-boxes-con {
     flex-direction: column;
   }
@@ -1237,7 +1277,7 @@
     gap: 10px;
   }
 
-  .client-onboarding-process-box-desc > p {
+  .client-onboarding-process-box-desc>p {
     text-align: center;
   }
 
@@ -1248,15 +1288,15 @@
     padding: 25px;
   }
 
-  .healthcare-card-desc > h2 {
+  .healthcare-card-desc>h2 {
     line-height: 24.81px;
     text-align: center;
   }
 
-  .healthcare-card-desc > p {
+  .healthcare-card-desc>p {
     line-height: 24.3px;
     text-align: center;
   }
 }
-@media only screen and (max-width: 320px) {
-}
+
+@media only screen and (max-width: 320px) {}

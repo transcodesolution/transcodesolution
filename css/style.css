@@ -267,6 +267,54 @@ ol {
 
 
 
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.13px;
+  color: var(--root-black-color);
+  position: relative;
+}
+
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a:hover {
+  text-decoration: none;
+}
+
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -6px;
+  left: 0;
+  border-radius: 150px;
+  background: var(--gradient-color);
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a:hover {
+  color: #406aa7;
+}
+
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a.active {
+  color: #406aa7;
+}
+
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a.active::before {
+  visibility: visible;
+  width: 100%;
+}
+
+.transcodezy-navbar-ul>li>.industries_flex_wrapper>a:hover::before {
+  visibility: visible;
+  width: 100%;
+}
+
+
+
+
 
 
 
@@ -328,9 +376,12 @@ ol {
 /* Hide dropdown menus by default */
 .dropdown-con {
   display: none;
-  position: absolute; /* Ensure that the dropdown does not affect other elements */
-  background-color: #fff; /* Optional: Background color of the dropdown */
-  z-index: 1000; /* Ensure it appears on top of other content */
+  position: absolute;
+  /* Ensure that the dropdown does not affect other elements */
+  background-color: #fff;
+  /* Optional: Background color of the dropdown */
+  z-index: 1000;
+  /* Ensure it appears on top of other content */
 }
 
 /* Show the dropdown menu on hover */
@@ -4432,22 +4483,26 @@ textarea:-webkit-autofill:focus {
   margin: -22px -40px;
   padding-top: 30px;
 }
+
 .business_card ul li {
   padding: 22px 30px;
   width: 50%;
 }
+
 .business_card_text {
   border-radius: 20px;
   border: 1px solid #E7E7E7;
   background: #FDFEFE;
 }
-.other_sectors_title{
+
+.other_sectors_title {
   font-size: 40px;
   font-weight: 700;
   line-height: 55px;
   font-family: Rajdhani;
 }
-.our_text_1{
+
+.our_text_1 {
   font-size: 18px;
   color: #3F3F3F;
   line-height: 26px;
@@ -4455,16 +4510,18 @@ textarea:-webkit-autofill:focus {
   font-family: Rubik;
   padding: 16px 0;
 }
-.healthcare_ul{
+
+.healthcare_ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 0 0 20px 20px  !important;
+  margin: 0 0 20px 20px !important;
 }
-.healthcare_li{
+
+.healthcare_li {
   width: 100% !important;
   padding: 0 !important;
-  margin: 0  !important;
+  margin: 0 !important;
   color: #3F3F3F;
   font-family: Rubik;
   font-size: 18px;
