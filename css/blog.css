@@ -87,7 +87,7 @@
 
 .date-overlay {
     position: absolute;
-    bottom: -20px;
+    top: -45px;
     right: 10px;
     background: linear-gradient(180deg, #63388B 0%, #3A73AC 100%);
     color: white;
@@ -95,6 +95,7 @@
     border-radius: 8px;
     text-align: center;
     width: 63px;
+    z-index: 1; /* Ensures it appears on top */
 }
 
 .day {
@@ -162,7 +163,8 @@
 
 @media (max-width:1200px) {
     .date-overlay {
-        bottom: 8px;
+        height: fit-content;
+        top: -78px;
         justify-content: space-between;
     }
     .daily_main {
