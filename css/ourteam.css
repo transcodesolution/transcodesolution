@@ -160,6 +160,11 @@
     }
   }
   @media (max-width:480px) {
+    .visionaries_box_text p {
+      font-size: 16px;
+      line-height: 26px;
+      padding-left: 0px;
+  }
     .visionaries_box h5 {
         font-size: 35px;
         margin: 7px 0 5px 0;

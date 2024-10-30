@@ -225,10 +225,13 @@ a:hover {
         margin: 0 0 10px 0;
     }
     .our_core_count {
-        right: 42.8%;
+        right: 43%;
     }
     .development-process-steps-img img{
         width: 100%;
+    }
+    .our_core_text,.development-process-con p,.our-intergration-services-box-desc>p{
+        font-size: 16px;
     }
 }
 

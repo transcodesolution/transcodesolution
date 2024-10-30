@@ -843,7 +843,7 @@
 
   .cutting-edge-con h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
   }
 
@@ -1530,6 +1530,7 @@
   .mobile_devlop_title,
   .our-intergration-services-con-heading>h2 {
     font-size: 40px;
+    line-height: 45px;
   }
 
   .our-intergration-services-box>img {
@@ -2165,6 +2166,23 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .healthcare-card-desc {
+    gap: 10px;
+}
+  .advance-healthcare-con {
+    gap: 15px;
+}
+  .text_align_center{
+    text-align: center;
+  }
+  .advance-healthcare-con h3 {
+    font-size: 25px;
+    line-height: 31.3px;
+}
+.advance-healthcare-con h2 {
+    font-size: 35px;
+    line-height: 40.3px;
+}
   .faq {
     padding: 12px 16px;
 }
@@ -2285,10 +2303,6 @@
     height: 480px;
   }
 
-  .middle-slider-part-left>p {
-    text-align: center;
-  }
-
   .banner-text h1,
   .services-text-con h2,
   .driving-rapid-change-con h2,
@@ -2388,6 +2402,7 @@
 
   .our-services-info-box-right>h2 {
     margin-right: 0%;
+    text-align: center;
   }
 
   .it-sucees-bottom-img-left img {
@@ -2768,7 +2783,10 @@
   .empowering-card {
     padding: 20px;
   }
-
+  .advance-healthcare-con h3 {
+    font-size: 20px;
+    line-height: 26.3px;
+}
   .our-healthcare-it-service-con>h1 {
     font-size: 24px;
   }

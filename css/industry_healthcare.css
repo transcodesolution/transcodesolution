@@ -587,7 +587,7 @@
   text-align: center;
   font-family: Rubik;
   margin: 15px 0 30px 0;
-
+  line-height: 25px;
 }
 
 .search_campaigns_box p {
@@ -677,7 +677,7 @@
 
 .case-study .work-portfolio-card {
   width: calc(33% - 20px);
-  padding: 13px 13px 30px 13px;
+  padding: 13px 13px 16px 13px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -973,10 +973,13 @@
   }
 
   .advance-healthcare-con h3 {
-    font-size: 40px;
-    line-height: 40.24px;
+    font-size: 25px;
+    line-height: 35.24px;
   }
-
+  .advance-healthcare-con h2 {
+    font-size: 40px;
+    line-height: 44.24px;
+}
   .advance-healthcare-con p {
     line-height: 24px;
   }
@@ -1199,9 +1202,15 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .benefits_text,.development-process-con p{
+    font-size: 16px;
+  }
+  .client-onboarding-process-con>p {
+    font-size: 16px;
+}
   .advance-healthcare-con h2 {
     font-size: 35px;
-    line-height: 35.24px;
+    line-height: 40.24px;
   }
 
   .client-onboarding-process-con h2 {
@@ -1214,7 +1223,7 @@
   }
 
   .development-process-con h2 {
-    font-size: 35px;
+    font-size: 20px;
     line-height: 35.24px;
   }
 

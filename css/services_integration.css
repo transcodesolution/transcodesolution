@@ -1547,6 +1547,9 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 768px) {
+  .Our-Expertise-in-Integration-con-right h2{
+    text-align: center;
+  }
   #about-hero-info {
     margin-bottom: 25px;
 }
@@ -1597,7 +1600,6 @@ color: #ffffff;
 
   .our-intergration-services-con-heading>h2 {
     font-size: 40px;
-
     line-height: 40.24px;
   }
 
@@ -1686,7 +1688,6 @@ color: #ffffff;
 
   .Our-Expertise-in-Integration-con-right>h1 {
     font-size: 40px;
-
     line-height: 40.24px;
     text-align: center;
   }
@@ -1969,7 +1970,12 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 480px) {
-  
+  .our-intergration-services-con-heading{
+    justify-content: center;
+  }
+  .text_align_center{
+    text-align: center;
+  }
   .our-intergration-services-box>img {
     width: 50%;
   }
@@ -1999,7 +2005,7 @@ color: #ffffff;
   }
   .integration-service>p,#our-integration-service-2-p,.Integration-Expertise-Across-Industries-con-left-subbox>p,.Our-Expertise-in-Integration-con-right>p{
     line-height: 23.9px;
-    font-size:16px;
+    font-size:16px !important;
 }
 .our-intergration-services-box-lists-con>ul {
   gap: 0px;

@@ -60,10 +60,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 }
 @media (max-width:767px) {
     .search_campaigns_box {
-        height: 190px;
+        height: 200px;
     }
     .search_ads_box {
         width: 46%;
+    }
+    .development-process-con h2 {
+        font-size: 20px;
+        line-height: 28.24px;
     }
 }
 @media (max-width:575px) {

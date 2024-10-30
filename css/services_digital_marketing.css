@@ -365,7 +365,7 @@ textarea:-webkit-autofill:focus {
     }
     .advance-healthcare-con h1,.ads_title,.tab_title {
         font-size: 40px;
-        line-height: 40.24px;
+        line-height: 45.24px;
     }
     .request_for_text h5{
         font-size: 40px;
@@ -395,9 +395,16 @@ textarea:-webkit-autofill:focus {
     }
 }
 @media (max-width:480px) {
-    .advance-healthcare-con h2 {
+    #tile-1 .tab-pane {
+        padding: 16px 0 0 0;
+    }
+    .advance-healthcare-con h3 {
         font-size: 25px;
         line-height: 31.3px;
+    }
+    .advance-healthcare-con h2 {
+        font-size: 35px;
+        line-height: 40.3px;
     }
     .how-to-apply-con > h2{
         font-size: 35px;
@@ -406,7 +413,7 @@ textarea:-webkit-autofill:focus {
         width: 100%;
     }
     .search_campaigns_box {
-        height: 165px;
+        height: 200px;
     }
     .search_ads_box:after {
         bottom: -19%;
@@ -436,7 +443,7 @@ textarea:-webkit-autofill:focus {
         gap: 7px;
     }
     #tile-1 .nav-tabs li a {
-        font-size: 18px;
+        font-size: 16px;
     }
     .Our-Expertise-in-Integration-con-left-card {
         width: calc(100% - 0px);
@@ -473,9 +480,13 @@ textarea:-webkit-autofill:focus {
         gap: 15px;
         flex-direction: column;
     }
-    .advance-healthcare-con h2 {
-        font-size: 25px;
+    .advance-healthcare-con h3 {
+        font-size: 20px;
+        line-height: 26.3px;
     }
+    /* .advance-healthcare-con h2 {
+        font-size: 25px;
+    } */
     .advance-healthcare-con h1,.client-onboarding-process-con h1,.advance-healthcare-con h1, .ads_title, .tab_title{
         font-size: 35px;
         line-height: 35.24px;

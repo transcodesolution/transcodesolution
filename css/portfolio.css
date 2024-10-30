@@ -402,15 +402,12 @@
     gap: 0px;
   }
 
-  .success-stories-con-bottom p {
-    font-size: 20px;
-
-    line-height: 34.16px;
+.success-stories-con-bottom p {
+    font-size: 16px;
+    line-height: 29.16px;
     text-align: center;
-
-    margin-top: 41px;
-  }
-
+    margin-top: 20px;
+}
   .our-portfolio-con h2 {
     font-size: 40px;
     line-height: 40.14px;

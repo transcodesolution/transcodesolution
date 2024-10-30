@@ -84,7 +84,9 @@ a {
 }
 
 /* <!-- ************************************************banner********************************************** --> */
-
+.text_left{
+    text-align: left;
+}
 
 .banner-section-our-services {
     padding-block: 60px;
@@ -728,6 +730,9 @@ a {
 }
 
 @media (max-width: 480px) {
+    .text_align_center{
+        text-align: center;
+    }
     .managed_line {
         width: 300px;
     }
