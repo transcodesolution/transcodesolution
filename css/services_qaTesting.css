@@ -20,7 +20,6 @@
   height: 400px;
 }
 
-
 .banner-section-about-con h1 {
   font-family: Rajdhani;
   font-size: 64px;
@@ -93,7 +92,6 @@ h2.heading.how_text_mobile_view {
   z-index: 1;
 }
 
-
 /* @media only screen and (max-width: 768px) {
   .Why-Should-You-Choose-UIUX-Design-tab-box-p1 {
     font-size: 22px;
@@ -108,13 +106,19 @@ h2.heading.how_text_mobile_view {
   }
 }*/
 
-@media (max-width:992px) {
-  #how-do-we-work-card-11::after, #how-do-we-work-card-22::after, #how-do-we-work-card-33::after, #how-do-we-work-card-44::after {
+@media (max-width: 992px) {
+  #how-do-we-work-card-11::after,
+  #how-do-we-work-card-22::after,
+  #how-do-we-work-card-33::after,
+  #how-do-we-work-card-44::after {
     top: 41%;
-}
-#how-do-we-work-card-44::after,#how-do-we-work-card-11::after,#how-do-we-work-card-22::after,#how-do-we-work-card-33::after {
-  height: 70px;
-}
+  }
+  #how-do-we-work-card-44::after,
+  #how-do-we-work-card-11::after,
+  #how-do-we-work-card-22::after,
+  #how-do-we-work-card-33::after {
+    height: 70px;
+  }
 
   .how-do-we-work-card {
     width: calc(50% - 20px);
@@ -127,26 +131,26 @@ h2.heading.how_text_mobile_view {
     height: auto;
   }
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   h2.heading.how_text_mobile_view {
     height: auto;
-}
-#how-do-we-work-card-11::after {
-  height: 70px;
-  top: 45%;
-}
+  }
+  #how-do-we-work-card-11::after {
+    height: 70px;
+    top: 45%;
+  }
 }
 @media only screen and (max-width: 576px) {
   #how-do-we-work-card-22::after {
     top: 41%;
-}
-#how-do-we-work-card-33::after {
-  top: 38%;
-}
-h2.heading.how_text_mobile_view{
-  height: auto;
-}
-#how-do-we-work-card-11::after {
-  top: 41%;
-}
+  }
+  #how-do-we-work-card-33::after {
+    top: 38%;
+  }
+  h2.heading.how_text_mobile_view {
+    height: auto;
+  }
+  #how-do-we-work-card-11::after {
+    top: 41%;
+  }
 }

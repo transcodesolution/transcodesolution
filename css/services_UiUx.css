@@ -39,7 +39,7 @@
 }
 
 /* <!-- ********************************************Hire Our UI/UX Designers for End-to-End Services************************ --> */
-.owl-theme .owl-nav.disabled+.owl-dots #uiux-slider {
+.owl-theme .owl-nav.disabled + .owl-dots #uiux-slider {
   margin-top: 62px !important;
 }
 
@@ -54,7 +54,7 @@ button.owl-dot.active {
   padding: 10px !important;
   width: 28px;
   height: 28px;
-  border: 3px solid #613A83 !important;
+  border: 3px solid #613a83 !important;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -85,7 +85,7 @@ button.owl-dot.active {
   overflow: hidden;
 }
 
-.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box>img {
+.Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-box > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -107,7 +107,7 @@ button.owl-dot.active {
   background-size: cover;
 }
 
-.layer>h2 {
+.layer > h2 {
   font-family: Rubik;
   font-size: 26px;
   font-weight: 600;
@@ -117,7 +117,7 @@ button.owl-dot.active {
   margin-top: 16px;
 }
 
-.layer>p {
+.layer > p {
   font-family: Rubik;
   font-size: 16px;
   font-weight: 400;
@@ -135,9 +135,7 @@ button.owl-dot.active {
   bottom: 0%;
 }
 
-
-
-.how-do-we-work-inner-box>p {
+.how-do-we-work-inner-box > p {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
@@ -164,7 +162,7 @@ h2.heading.how_text_mobile_view {
 }
 
 #uiux-slider .owl-dots .owl-dot span {
-  margin: 6px 7px !important;
+  margin: 6px 6px !important;
 }
 
 #uiux-slider .owl-theme .owl-dots .owl-dot.active span,
@@ -202,7 +200,7 @@ h2.heading.how_text_mobile_view {
     gap: 15px;
   }
 
-  .layer>h2 {
+  .layer > h2 {
     font-size: 24px;
     line-height: 26.22px;
   }
@@ -213,7 +211,8 @@ h2.heading.how_text_mobile_view {
 }
 
 @media only screen and (max-width: 1024px) {
-  .Hire-Our-UIUX-Designers-for-End-to-End-Services-con .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-con
+    .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
     gap: 15px;
   }
 
@@ -221,24 +220,25 @@ h2.heading.how_text_mobile_view {
     /* width: calc(33% - 5px); */
   }
 
-  .layer>h2 {
+  .layer > h2 {
     font-size: 20px;
   }
 
-  .layer>p {
+  .layer > p {
     line-height: 20.52px;
     margin-top: 12px;
   }
 }
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+}
 
 @media only screen and (max-width: 768px) {
-
 }
 
 @media only screen and (max-width: 576px) {
-  .Hire-Our-UIUX-Designers-for-End-to-End-Services-con .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
+  .Hire-Our-UIUX-Designers-for-End-to-End-Services-con
+    .Hire-Our-UIUX-Designers-for-End-to-End-Services-slider-con {
     flex-direction: column;
   }
 
@@ -251,34 +251,32 @@ h2.heading.how_text_mobile_view {
     flex-direction: column;
   }
 
-  .layer>h2 {
+  .layer > h2 {
     font-size: 24px;
     text-align: center;
   }
 
-  .layer>p {
+  .layer > p {
     font-size: 18px;
     line-height: 26px;
     text-align: center;
   }
 
-  .layer>img {
+  .layer > img {
     margin-inline: auto;
   }
 }
 
 @media only screen and (max-width: 480px) {
-
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
   #how-do-we-work-card-33::after {
     top: 35%;
   }
 }
 
 @media only screen and (max-width: 376px) {
- 
 }
 
 @media only screen and (max-width: 320px) {
@@ -289,11 +287,11 @@ h2.heading.how_text_mobile_view {
     gap: 10px;
   }
 
-  .layer>h2 {
+  .layer > h2 {
     font-size: 19px;
   }
 
-  .layer>p {
+  .layer > p {
     font-size: 16px;
     line-height: 21px;
   }

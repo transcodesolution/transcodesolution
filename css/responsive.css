@@ -1,4 +1,4 @@
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
   .services-wrapper {
     margin-top: -2%;
   }
@@ -41,7 +41,7 @@
     width: 50%;
   }
 
-  .Our-Expertise-in-Integration-con-left-card>h2 {
+  .Our-Expertise-in-Integration-con-left-card > h2 {
     font-size: 26px;
   }
 
@@ -72,11 +72,11 @@
     padding-inline: 0;
   }
 
-  .driving-rapid-change-con>p {
+  .driving-rapid-change-con > p {
     padding-inline: 0;
   }
 
-  .industries-we-serve-con>p {
+  .industries-we-serve-con > p {
     margin-inline: 12%;
   }
 
@@ -135,7 +135,7 @@
     gap: 44px;
   }
 
-  .how-do-we-work-inner-box>h2 {
+  .how-do-we-work-inner-box > h2 {
     font-size: 27px;
   }
 
@@ -156,7 +156,6 @@
   .Integration-Expertise-Across-Industries-con-left {
     width: 56%;
   }
-
 }
 
 @media only screen and (max-width: 1200px) {
@@ -213,13 +212,13 @@
   }
 }
 
-@media (max-width:1199px) {
+@media (max-width: 1199px) {
   .services-text-buttons-con {
     margin-top: 0px;
     gap: 24px;
   }
 
-  .our-intergration-services-box-h2>h2 {
+  .our-intergration-services-box-h2 > h2 {
     font-size: 30px;
     line-height: 34.14px;
   }
@@ -243,7 +242,11 @@
   }
 
   .active .dropdown-list {
-    background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%) !important;
+    background: linear-gradient(
+      244.73deg,
+      rgba(4, 191, 215, 0.3) -48.91%,
+      rgba(99, 56, 139, 0.3) 79.49%
+    ) !important;
   }
 
   .wrapper-section-digital {
@@ -258,10 +261,14 @@
 
   .dropdown-list:hover {
     /* background: white; */
-    background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%);
+    background: linear-gradient(
+      244.73deg,
+      rgba(4, 191, 215, 0.3) -48.91%,
+      rgba(99, 56, 139, 0.3) 79.49%
+    );
   }
 
-  .our-healthcare-it-service-con>h1 {
+  .our-healthcare-it-service-con > h1 {
     font-size: 40px;
   }
 
@@ -274,11 +281,11 @@
     width: calc(50% - 20px);
   }
 
-  .healthcare-card-desc>h2 {
+  .healthcare-card-desc > h2 {
     font-size: 24px;
   }
 
-  .healthcare-card-desc>p {
+  .healthcare-card-desc > p {
     font-size: 17px;
   }
 
@@ -290,7 +297,7 @@
     width: calc(25% - 10px);
   }
 
-  .our-integration-service-2-card>h3 {
+  .our-integration-service-2-card > h3 {
     font-size: 19px;
   }
 
@@ -317,22 +324,22 @@
     gap: 20px;
   }
 
-  .transcodezy-navbar-ul>li>a.active {
+  /* .transcodezy-navbar-ul > li > a.active {
     color: #ffffff;
-  }
-  .transcodezy-navbar-ul>li>.flex_wrapper>a.active {
+  } */
+  .transcodezy-navbar-ul > li > .flex_wrapper > a.active {
     color: #406aa7;
   }
 
-  .transcodezy-navbar-ul>li.active {
-    background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%);
+  .transcodezy-navbar-ul > li.active {
+    background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
     border-radius: 5px;
   }
-/* Hover effect for the menu item */
-.transcodezy-navbar-ul > li:hover {
-  /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
-  border-radius: 5px;
-}
+  /* Hover effect for the menu item */
+  .transcodezy-navbar-ul > li:hover {
+    /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
+    border-radius: 5px;
+  }
 
   .dropdown-list {
     background: white;
@@ -340,20 +347,24 @@
     color: black;
   }
 
-  .transcodezy-navbar-ul>li>a:hover {
+  .transcodezy-navbar-ul > li > a:hover {
     color: #ffffff;
   }
 
-  .transcodezy-navbar-ul>li>.flex_wrapper:hover {
+  .transcodezy-navbar-ul > li > .flex_wrapper:hover {
     border-radius: 5px;
     color: #406aa7;
     padding: 15px;
     /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
   }
-  .services-nav,.industries-nav{
+  .services-nav,
+  .industries-nav,
+  .company-nav {
     padding: 0 !important;
   }
-  .industries-nav:hover .dropdown-con,.services-nav:hover .dropdown-con{
+  .industries-nav:hover .dropdown-con,
+  .services-nav:hover .dropdown-con,
+  .company-nav :hover .dropdown-con {
     padding-top: 0px;
   }
 
@@ -388,7 +399,7 @@
     padding: 15px;
   }
 
-  .industries-nav>a {
+  .industries-nav > a {
     display: flex;
     align-items: center;
   }
@@ -404,6 +415,11 @@
     display: block;
     font-size: 18px;
   }
+  .company-nav .nav-plus-icon {
+    margin-left: auto;
+    display: block;
+    font-size: 18px;
+  }
 
   .services-nav .dropdown-con {
     position: static;
@@ -412,6 +428,7 @@
     height: 300px;
     overflow-y: auto;
     padding: 0px 20px 5px 20px;
+    display: none;
   }
 
   .dropdown-con li {
@@ -424,6 +441,14 @@
     background: transparent;
     left: 0%;
     padding: 0px 20px 5px 20px;
+    display: none;
+  }
+  .company-nav .dropdown-con {
+    position: static;
+    background: transparent;
+    left: 0%;
+    padding: 0px 20px 5px 20px;
+    display: none;
   }
 
   .services-nav .nav-minus-icon {
@@ -432,6 +457,10 @@
   }
 
   .industries-nav .nav-minus-icon {
+    margin-left: auto;
+    font-size: 18px;
+  }
+  .company-nav .nav-minus-icon {
     margin-left: auto;
     font-size: 18px;
   }
@@ -467,7 +496,7 @@
     margin-bottom: 30px;
   }
 
-  .transcodezy-navbar-ul>li>a {
+  .transcodezy-navbar-ul > li > a {
     font-weight: 500;
   }
 
@@ -476,30 +505,30 @@
   }
 
   .transcodezy-navbar-ul > li:hover a,
-.transcodezy-navbar-ul > li:hover i {
+  .transcodezy-navbar-ul > li:hover i {
     color: #406aa7; /* White color for text and icons on hover */
-}
+  }
 
   .transcodezy-navbar-ul li a::before {
     background: none;
     width: 0;
   }
-  li.services-nav>.flex_wrapper>a:hover{
+  li.services-nav > .flex_wrapper > a:hover {
     color: #406aa7;
   }
-  .industries-nav a:hover{
+  .industries-nav a:hover {
     color: #406aa7;
   }
-  .transcodezy-navbar-ul>li {
+  .transcodezy-navbar-ul > li {
     padding: 15px 15px 15px 15px;
     /* border-block-start: 1px solid white; */
   }
 
-  .dropdown-list>p {
+  .dropdown-list > p {
     color: unset;
   }
 
-  .dropdown-list>img {
+  .dropdown-list > img {
     color: rgb(0, 0, 0);
   }
 
@@ -604,7 +633,7 @@
     width: 100%;
   }
 
-  .our-intergration-services-box-h2>h2 {
+  .our-intergration-services-box-h2 > h2 {
     font-size: 30px;
     line-height: 34.14px;
   }
@@ -632,8 +661,7 @@
     padding: 15px 15px;
   }
 
-
-  .how-do-we-work-inner-box>h2 {
+  .how-do-we-work-inner-box > h2 {
     font-size: 22px;
   }
 
@@ -641,7 +669,7 @@
     padding: 40px 15px 25px 15px;
   }
 
-  .how-do-we-work-inner-box>p {
+  .how-do-we-work-inner-box > p {
     margin-top: 0px;
   }
 
@@ -656,7 +684,7 @@
     top: 36%;
   }
 
-  .how-do-we-work-inner-box>h2 {
+  .how-do-we-work-inner-box > h2 {
     line-height: 25.3px;
   }
 
@@ -685,11 +713,11 @@
     padding: 20px 57px;
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes>img {
+  .Integration-Expertise-Across-Industries-sub-boxes > img {
     width: 11%;
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes>p {
+  .Integration-Expertise-Across-Industries-sub-boxes > p {
     font-size: 22px;
 
     line-height: 30.28px;
@@ -707,11 +735,11 @@
 @media only screen and (max-width: 992px) {
   .business_card ul {
     margin: -22px -22px;
-}
-.business_card ul li {
-  padding: 22px 22px;
-}
-  .empowering-desc>h2 {
+  }
+  .business_card ul li {
+    padding: 22px 22px;
+  }
+  .empowering-desc > h2 {
     margin-right: 0%;
   }
 
@@ -719,7 +747,7 @@
     height: auto;
   }
 
-  .our-healthcare-it-service-con>h1 {
+  .our-healthcare-it-service-con > h1 {
     font-size: 36px;
   }
 
@@ -745,11 +773,11 @@
     gap: 35px;
   }
 
-  .our-integration-service-2-card>h3 {
+  .our-integration-service-2-card > h3 {
     font-size: 22px;
   }
 
-  .our-integration-service-2-card>img {
+  .our-integration-service-2-card > img {
     width: 25%;
   }
 
@@ -769,7 +797,6 @@
   .development-process-steps-img {
     width: 100%;
   }
-
 
   .development-process-subbox-name p {
     margin-top: 0px;
@@ -865,7 +892,7 @@
     gap: 50px;
   }
 
-  .our-services-con>p {
+  .our-services-con > p {
     padding-inline: 0px;
   }
 
@@ -898,19 +925,19 @@
     width: 100%;
   }
 
-  .it-sucess-box-right>h2 {
+  .it-sucess-box-right > h2 {
     text-align: center;
   }
 
-  .it-sucess-box-right>p {
+  .it-sucess-box-right > p {
     text-align: center;
   }
 
-  .industries-we-serve-con>p {
+  .industries-we-serve-con > p {
     margin-inline: 0%;
   }
 
-  .testimonial-con>p {
+  .testimonial-con > p {
     margin-inline: 0%;
   }
 
@@ -1034,13 +1061,13 @@
     flex-direction: column;
   }
 
-  .empowering-desc>h1 {
+  .empowering-desc > h1 {
     font-size: 40px;
     text-align: center;
     line-height: 40.24px;
   }
 
-  .empowering-desc>h2 {
+  .empowering-desc > h2 {
     font-size: 30px;
     line-height: 35.35px;
     text-align: center;
@@ -1052,7 +1079,7 @@
     display: inline-block;
   }
 
-  .empowering-desc>p {
+  .empowering-desc > p {
     font-size: 18px;
 
     line-height: 24.46px;
@@ -1071,10 +1098,10 @@
 
   .empowering-card {
     padding: 30px;
-    width: calc(100% - 25px);
+    /* width: calc(100% - 25px); */
   }
 
-  .our-healthcare-it-service-con>h1 {
+  .our-healthcare-it-service-con > h1 {
     font-size: 32px;
   }
 
@@ -1083,11 +1110,11 @@
     padding: 15px 30px;
   }
 
-  .healthcare-card-desc>h2 {
+  .healthcare-card-desc > h2 {
     font-size: 22px;
   }
 
-  .healthcare-card-desc>p {
+  .healthcare-card-desc > p {
     font-size: 16px;
   }
 
@@ -1117,7 +1144,6 @@
     display: contents;
   }
 
-
   .development-process-subbox-name p {
     margin-top: 0px;
   }
@@ -1138,12 +1164,14 @@
   }
 
   .banner-con {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .banner-text {
     width: 100%;
     gap: 15px;
+    align-items: center;
+    margin-top: 30px;
   }
 
   .banner-text h1 {
@@ -1165,18 +1193,17 @@
     width: 80%;
   }
 
-
   .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
     margin-top: 15px;
   }
 
-  .layer>p {
+  .layer > p {
     font-size: 13px;
 
     line-height: 18.52px;
   }
 
-  .layer>h2 {
+  .layer > h2 {
     line-height: 20.22px;
     margin-top: 13px;
   }
@@ -1249,7 +1276,7 @@
     background-color: #3f3f3f;
   }
 
-  .driving-rapid-change-con>p {
+  .driving-rapid-change-con > p {
     line-height: 23.04px;
   }
 
@@ -1257,13 +1284,13 @@
     border-inline-end: none;
   }
 
-  .our-services-con>h2 {
+  .our-services-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
   }
 
-  .our-services-con>p {
+  .our-services-con > p {
     line-height: 24.04px;
   }
 
@@ -1275,26 +1302,26 @@
     width: 100%;
   }
 
-  .our-services-info-box-right>p {
+  .our-services-info-box-right > p {
     text-align: left;
     line-height: 24.9px;
   }
 
-  .our-services-info-box-right>h2 {
+  .our-services-info-box-right > h2 {
     /* text-align: center; */
   }
 
-  .integration-service>h1 {
+  .integration-service > h1 {
     font-size: 45px;
     line-height: 45.5px;
     width: unset;
   }
 
-  .integration-service>h1::after {
+  .integration-service > h1::after {
     width: 0%;
   }
 
-  .integration-service>p {
+  .integration-service > p {
     line-height: 24.9px;
     margin-top: 15px;
   }
@@ -1310,17 +1337,17 @@
     gap: 30px;
   }
 
-  .Integration-Expertise-Across-Industries-con-left>img {
+  .Integration-Expertise-Across-Industries-con-left > img {
     width: 100%;
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
+  .Integration-Expertise-Across-Industries-con-left-subbox > h1 {
     font-size: 40px;
 
     line-height: 45.24px;
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox>p {
+  .Integration-Expertise-Across-Industries-con-left-subbox > p {
     line-height: 25.6px;
     text-align: left;
   }
@@ -1329,12 +1356,12 @@
     width: 100%;
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes>img {
+  .Integration-Expertise-Across-Industries-sub-boxes > img {
     width: 5%;
     height: 35px;
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes>p {
+  .Integration-Expertise-Across-Industries-sub-boxes > p {
     font-size: 20px;
     line-height: 20.28px;
   }
@@ -1360,7 +1387,7 @@
   .text_768 {
     text-align: center;
   }
-  .how-to-apply-con>h2{
+  .how-to-apply-con > h2 {
     font-size: 40px;
   }
   .get-more-info {
@@ -1373,14 +1400,14 @@
     gap: 150px;
   }
 
-  .it-sucess-box-right>h2 {
+  .it-sucess-box-right > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
     text-align: center;
   }
 
-  .it-sucess-box-right>p {
+  .it-sucess-box-right > p {
     line-height: 24.04px;
   }
 
@@ -1388,12 +1415,12 @@
     width: 100%;
   }
 
-  .technology-expertise-con>h2 {
+  .technology-expertise-con > h2 {
     font-size: 40px;
     line-height: 45.01px;
   }
 
-  .technology-expertise-con>p {
+  .technology-expertise-con > p {
     font-size: 18px;
 
     line-height: 24.58px;
@@ -1425,25 +1452,25 @@
     padding: 20px;
   }
 
-  .work-portfolio-con>h2,
+  .work-portfolio-con > h2,
   .driving-rapid-change-con h2,
   .faq-con h2,
-  .discuss-project-con>h2 {
+  .discuss-project-con > h2 {
     font-size: 40px !important;
     line-height: 40.14px;
   }
 
-  .work-portfolio-con>p {
+  .work-portfolio-con > p {
     line-height: 24.04px;
   }
 
-  .work-portfolio-card-heading>h2 {
+  .work-portfolio-card-heading > h2 {
     font-size: 18px;
 
     line-height: 24.96px;
   }
 
-  .work-portfolio-card>p {
+  .work-portfolio-card > p {
     font-size: 15px;
     line-height: 20.12px;
   }
@@ -1461,13 +1488,13 @@
     width: 94%;
   }
 
-  .industries-we-serve-con>h2 {
+  .industries-we-serve-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
   }
 
-  .industries-we-serve-con>p {
+  .industries-we-serve-con > p {
     font-size: 18px;
 
     line-height: 24.04px;
@@ -1478,25 +1505,25 @@
     gap: 30px;
   }
 
-  .testimonial-con>h2 {
+  .testimonial-con > h2 {
     font-size: 40px;
 
     line-height: 40.14px;
   }
 
-  .testimonial-con>p {
+  .testimonial-con > p {
     font-size: 18px;
 
     line-height: 24.04px;
   }
 
-  .testimonial-card-upper>p {
+  .testimonial-card-upper > p {
     line-height: 25.2px;
     font-size: 17px;
     margin-top: 20px;
   }
 
-  #id1 .owl-item .slider-star>img {
+  #id1 .owl-item .slider-star > img {
     display: block;
     width: 18px;
   }
@@ -1528,12 +1555,12 @@
   }
 
   .mobile_devlop_title,
-  .our-intergration-services-con-heading>h2 {
+  .our-intergration-services-con-heading > h2 {
     font-size: 40px;
     line-height: 45px;
   }
 
-  .our-intergration-services-box>img {
+  .our-intergration-services-box > img {
     width: 15%;
   }
 
@@ -1553,35 +1580,34 @@
   .managed_it_title {
     font-size: 40px;
     line-height: 45.5px;
-
   }
 
   .hiring-models-boxes-con {
     gap: 40px;
   }
 
-  .hiring-models-box>h2 {
+  .hiring-models-box > h2 {
     font-size: 20px;
     line-height: 20.22px;
   }
 
-  .hiring-models-box>p {
+  .hiring-models-box > p {
     margin-top: 24px;
   }
 
-  .how-do-we-works-con>h1 {
+  .how-do-we-works-con > h1 {
     font-size: 40px !important;
   }
 
-  .middle-slider-part-left>h1 {
+  .middle-slider-part-left > h1 {
     font-size: 40px;
   }
 
-  .faq-con>h1 {
+  .faq-con > h1 {
     font-size: 40px !important;
   }
 
-  .blogs-articles-con>h1 {
+  .blogs-articles-con > h1 {
     font-size: 40px !important;
   }
 
@@ -1651,13 +1677,13 @@
     width: calc(33% - 20px);
   }
 
-  .hiring-models-box>h2 {
+  .hiring-models-box > h2 {
     font-size: 20px;
 
     line-height: 20.22px;
   }
 
-  .hiring-models-box>p {
+  .hiring-models-box > p {
     font-size: 17px;
 
     line-height: 24.46px;
@@ -1665,7 +1691,7 @@
     margin-top: 12px;
   }
 
-  .hiring-models-con>p {
+  .hiring-models-con > p {
     margin-top: 7px;
   }
 
@@ -1673,17 +1699,17 @@
     gap: 25px;
   }
 
-  .blogs-box>h2 {
+  .blogs-box > h2 {
     line-height: 25px;
   }
 
-  .how-to-apply-con>h1 {
+  .how-to-apply-con > h1 {
     font-size: 40px;
     line-height: 40.24px;
     text-align: left;
   }
 
-  .how-to-apply-con>p {
+  .how-to-apply-con > p {
     font-size: 20px;
     line-height: 27px;
     text-align: left;
@@ -1765,7 +1791,7 @@
     font-size: 19px;
   }
 
-  .our-intergration-services-box-desc>p {
+  .our-intergration-services-box-desc > p {
     text-align: center;
   }
 
@@ -1781,42 +1807,44 @@
     text-align: center;
   }
 
-  .Our-Expertise-in-Integration-con-right>h1 {
+  .Our-Expertise-in-Integration-con-right > h1 {
     font-size: 40px;
 
     line-height: 40.24px;
     text-align: center;
   }
 
-  .Our-Expertise-in-Integration-con-right>p {
+  .Our-Expertise-in-Integration-con-right > p {
     font-size: 18px;
     line-height: 24.6px;
     text-align: center;
     margin-top: 15px;
   }
 
-  .Our-Expertise-in-Integration-con-right>button {
+  .Our-Expertise-in-Integration-con-right > button {
     margin-top: 20px;
     margin-inline: auto;
   }
 
-  .Our-Expertise-in-Integration-con-left-card>h2 {
+  .Our-Expertise-in-Integration-con-left-card > h2 {
     font-size: 25px;
     line-height: 25.3px;
     margin-top: 15px;
   }
 
-  .Our-Expertise-in-Integration-con-left-card>p {
+  .Our-Expertise-in-Integration-con-left-card > p {
     line-height: 24.46px;
   }
 
   .advance-healthcare-con h1 {
     font-size: 40px;
   }
+  .bannerMargin-48 {
+    margin-top: 0;
+  }
 }
 
-@media (max-width:767px) {
-
+@media (max-width: 767px) {
   .mobile_faq {
     display: none;
   }
@@ -1837,7 +1865,7 @@
     margin-top: 15px;
   }
 
-  .check-services-data>p {
+  .check-services-data > p {
     font-size: 16px;
     margin: 0px;
   }
@@ -1859,14 +1887,14 @@
     margin: 0 auto;
   }
 
-  .empowering-card>h2 {
+  .empowering-card > h2 {
     font-size: 28px;
 
     line-height: 27.72px;
     text-align: center;
   }
 
-  .empowering-card>p {
+  .empowering-card > p {
     font-size: 18px;
 
     line-height: 24.46px;
@@ -1877,7 +1905,7 @@
     margin-inline: auto;
   }
 
-  .our-intergration-services-box-lists-con>ul {
+  .our-intergration-services-box-lists-con > ul {
     gap: 20px;
   }
 
@@ -1886,12 +1914,12 @@
     line-height: 26.22px;
   }
 
-  .our-intergration-services-con-heading>h2 {
+  .our-intergration-services-con-heading > h2 {
     font-size: 35px;
     line-height: 40.24px;
   }
 
-  .our-healthcare-it-service-con>h1 {
+  .our-healthcare-it-service-con > h1 {
     font-size: 28px;
   }
 
@@ -1901,15 +1929,15 @@
     flex-direction: column;
   }
 
-  .healthcare-card-desc>h2 {
+  .healthcare-card-desc > h2 {
     font-size: 20px;
   }
 
-  .healthcare-card-desc>p {
+  .healthcare-card-desc > p {
     font-size: 16px;
   }
 
-  .our-integration-service-2-card>h3 {
+  .our-integration-service-2-card > h3 {
     font-size: 20px;
   }
 
@@ -1917,7 +1945,7 @@
     margin-inline: 0;
   }
 
-  .our-services-info-box-right>h1 {
+  .our-services-info-box-right > h1 {
     margin-right: 0%;
     text-align: center;
   }
@@ -1948,7 +1976,7 @@
     font-size: 45px;
   }
 
-  .our-services-con>p {
+  .our-services-con > p {
     padding-inline: 0px;
   }
 
@@ -1960,7 +1988,7 @@
     width: calc(50% - 16px);
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes>img {
+  .Integration-Expertise-Across-Industries-sub-boxes > img {
     width: 12%;
   }
 
@@ -1983,7 +2011,7 @@
     padding-block: 7px;
   }
 
-  .industries-we-serve-con>p {
+  .industries-we-serve-con > p {
     margin-inline: 0;
   }
 
@@ -1991,7 +2019,7 @@
     width: 100%;
   }
 
-  .testimonial-con>p {
+  .testimonial-con > p {
     margin-inline: 0;
   }
 
@@ -2010,7 +2038,7 @@
     padding-left: 47px;
   }
 
-  .testimonial-card-upper>p {
+  .testimonial-card-upper > p {
     font-size: 17px;
     margin-top: 20px;
   }
@@ -2028,11 +2056,11 @@
     width: 100%;
   }
 
-  .approches-box-right>p {
+  .approches-box-right > p {
     margin-right: 5%;
   }
 
-  .our-services-info-box-right>h2 {
+  .our-services-info-box-right > h2 {
     /* font-family: Rubik; */
     font-size: 35px;
     margin-right: 0%;
@@ -2055,7 +2083,7 @@
     margin-inline: 0px;
   }
 
-  .blogs-box>a {
+  .blogs-box > a {
     margin-top: 10px;
   }
 
@@ -2069,7 +2097,7 @@
     width: calc(100% - 20px) !important;
   }
 
-  .how-do-we-work-inner-box>h2 {
+  .how-do-we-work-inner-box > h2 {
     font-size: 23px;
     line-height: 26px;
   }
@@ -2118,7 +2146,7 @@
     width: unset;
   }
 
-  .blogs-box>img {
+  .blogs-box > img {
     width: 100%;
   }
 
@@ -2147,15 +2175,15 @@
     width: 100%;
   }
 
-  .how-to-apply-con>p {
+  .how-to-apply-con > p {
     font-size: 18px;
   }
 
-  .apply-info-text>p {
+  .apply-info-text > p {
     font-size: 16px;
   }
 
-  .discuss-project-con>p {
+  .discuss-project-con > p {
     font-size: 18px;
     line-height: 27px;
   }
@@ -2168,30 +2196,30 @@
 @media only screen and (max-width: 480px) {
   .healthcare-card-desc {
     gap: 10px;
-}
+  }
   .advance-healthcare-con {
     gap: 15px;
-}
-  .text_align_center{
+  }
+  .text_align_center {
     text-align: center;
   }
   .advance-healthcare-con h3 {
     font-size: 25px;
     line-height: 31.3px;
-}
-.advance-healthcare-con h2 {
+  }
+  .advance-healthcare-con h2 {
     font-size: 35px;
     line-height: 40.3px;
-}
+  }
   .faq {
     padding: 12px 16px;
-}
-  
-  .our-intergration-services-box>img {
+  }
+
+  .our-intergration-services-box > img {
     width: 50%;
   }
-  .how-to-apply-con>h2{
-    font-size: 35px ;
+  .how-to-apply-con > h2 {
+    font-size: 35px;
   }
   .our-intergration-services-con-heading {
     align-items: flex-start;
@@ -2207,7 +2235,7 @@
     gap: 30px;
   }
 
-  .our-services-info-box-right>h2 {
+  .our-services-info-box-right > h2 {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 35px;
@@ -2222,7 +2250,7 @@
     font-size: 35px !important;
   }
 
-  .our-healthcare-it-service-con>h1 {
+  .our-healthcare-it-service-con > h1 {
     font-size: 26px;
   }
 
@@ -2230,11 +2258,12 @@
     padding: 20px;
   }
 
-  .healthcare-card-desc>h2 {
+  .healthcare-card-desc > h2 {
     font-size: 20px;
   }
 
-  .healthcare-card-desc>p,.advance-healthcare-con p {
+  .healthcare-card-desc > p,
+  .advance-healthcare-con p {
     font-size: 16px !important;
   }
 
@@ -2246,15 +2275,15 @@
     width: 100%;
   }
 
-  .our-integration-service-2-card>h3 {
+  .our-integration-service-2-card > h3 {
     font-size: 21px;
   }
 
-  .our-integration-service-2-card>h3 {
+  .our-integration-service-2-card > h3 {
     font-size: 19px;
   }
 
-  .our-integration-service-2-con>h1 {
+  .our-integration-service-2-con > h1 {
     font-size: 35px !important;
   }
 
@@ -2306,12 +2335,12 @@
   .banner-text h1,
   .services-text-con h2,
   .driving-rapid-change-con h2,
-  .our-services-con>h2,
-  .it-sucess-box-right>h2,
-  .technology-expertise-con>h2,
-  .work-portfolio-con>h2,
-  .industries-we-serve-con>h2,
-  .testimonial-con>h2 {
+  .our-services-con > h2,
+  .it-sucess-box-right > h2,
+  .technology-expertise-con > h2,
+  .work-portfolio-con > h2,
+  .industries-we-serve-con > h2,
+  .testimonial-con > h2 {
     font-size: 35px;
     line-height: 40.7px;
     margin: 0px;
@@ -2320,20 +2349,20 @@
 
   .banner-text p,
   .services-text-con p,
-  .driving-rapid-change-con>p,
-  .our-services-con>p,
-  .our-services-info-box-right>p,
-  .it-sucess-box-right>p,
-  .technology-expertise-con>p,
-  .industries-we-serve-con>p,
-  .testimonial-con>p,
+  .driving-rapid-change-con > p,
+  .our-services-con > p,
+  .our-services-info-box-right > p,
+  .it-sucess-box-right > p,
+  .technology-expertise-con > p,
+  .industries-we-serve-con > p,
+  .testimonial-con > p,
   .cutting-edge-con p {
     font-size: 16px;
     line-height: 23.48px;
     text-align: center;
   }
 
-  .work-portfolio-con>p {
+  .work-portfolio-con > p {
     font-size: 16px;
     line-height: 23.48px;
     margin-bottom: 15px;
@@ -2400,7 +2429,7 @@
     padding: 14px 15px;
   }
 
-  .our-services-info-box-right>h2 {
+  .our-services-info-box-right > h2 {
     margin-right: 0%;
     text-align: center;
   }
@@ -2415,7 +2444,7 @@
     gap: 10px;
   }
 
-  .approches-box-right>p {
+  .approches-box-right > p {
     font-size: 14px;
     margin-right: 0%;
   }
@@ -2492,38 +2521,38 @@
   }
 
   .mobile_devlop_title,
-  .our-intergration-services-con-heading>h2 {
+  .our-intergration-services-con-heading > h2 {
     font-size: 35px;
     line-height: 45px;
   }
 
-  .discuss-project-con>p {
+  .discuss-project-con > p {
     font-size: 16px;
     line-height: 23px;
   }
 
-  .faq-con>h1 {
+  .faq-con > h1 {
     font-size: 35px !important;
   }
 
-  .discuss-project-con>h1 {
+  .discuss-project-con > h1 {
     font-size: 35px;
   }
 
-  .blogs-articles-con>h1 {
+  .blogs-articles-con > h1 {
     font-size: 35px !important;
   }
 
-  .middle-slider-part-left>h1 {
+  .middle-slider-part-left > h1 {
     font-size: 35px;
   }
 
-  .discuss-project-con>h2 {
+  .discuss-project-con > h2 {
     font-size: 35px !important;
     line-height: 40px;
   }
 
-  .discuss-project-con>p {
+  .discuss-project-con > p {
     font-size: 16px;
     line-height: 23px;
   }
@@ -2536,7 +2565,7 @@
     /* padding-block: 40px; */
   }
 
-  .how-to-apply-con>h1 {
+  .how-to-apply-con > h1 {
     font-size: 35px;
   }
 
@@ -2556,7 +2585,7 @@
     width: 100%;
   }
 
-  .our-integration-service-2-card>h3 {
+  .our-integration-service-2-card > h3 {
     font-size: 21px;
   }
 
@@ -2575,7 +2604,7 @@
     content: none;
   }
 
-  .how-do-we-work-inner-box>h2 {
+  .how-do-we-work-inner-box > h2 {
     font-size: 22px;
   }
 
@@ -2655,7 +2684,7 @@
     margin-left: 0;
   }
 
-  .apply-info-text>p {
+  .apply-info-text > p {
     text-align: left;
   }
 
@@ -2694,19 +2723,19 @@
     transform: translate(-50%, -50%);
   }
 
-  .our-intergration-services-box-lists-con>ul {
+  .our-intergration-services-box-lists-con > ul {
     gap: 30px;
   }
 
-  .integration-service>h1 {
+  .integration-service > h1 {
     font-size: 40px;
     line-height: 40.5px;
   }
 
-  .integration-service>p,
+  .integration-service > p,
   #our-integration-service-2-p,
-  .Integration-Expertise-Across-Industries-con-left-subbox>p,
-  .Our-Expertise-in-Integration-con-right>p {
+  .Integration-Expertise-Across-Industries-con-left-subbox > p,
+  .Our-Expertise-in-Integration-con-right > p {
     line-height: 23.9px;
     font-size: 16px;
     /* text-align: center; */
@@ -2716,12 +2745,12 @@
     flex-direction: column;
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
+  .Integration-Expertise-Across-Industries-con-left-subbox > h1 {
     text-align: center;
     font-size: 35px;
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox>p {
+  .Integration-Expertise-Across-Industries-con-left-subbox > p {
     text-align: center;
   }
 
@@ -2740,7 +2769,7 @@
     padding-block: 7px;
   }
 
-  .our-intergration-services-box-lists-con>ul {
+  .our-intergration-services-box-lists-con > ul {
     gap: 0px;
     flex-direction: column;
   }
@@ -2749,27 +2778,27 @@
     width: 100%;
   }
 
-  .our-intergration-services-con-heading>button {
+  .our-intergration-services-con-heading > button {
     width: unset;
   }
 
   /* .Integration-Expertise-Across-Industries-con-left>img {
   width: 100%;
 } */
-  .integration-service>h1,
+  .integration-service > h1,
   .h1,
-  .Integration-Expertise-Across-Industries-con-left-subbox>h1,
-  .Our-Expertise-in-Integration-con-right>h1,
+  .Integration-Expertise-Across-Industries-con-left-subbox > h1,
+  .Our-Expertise-in-Integration-con-right > h1,
   .Success-Stories-services h1,
   .hiring-models-con h1,
-  .middle-slider-part-left>h1 {
+  .middle-slider-part-left > h1 {
     font-size: 35px !important;
     line-height: 45px !important;
     text-align: center;
   }
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .testimonial-card-bottom {
     padding-left: 10px;
   }
@@ -2786,20 +2815,20 @@
   .advance-healthcare-con h3 {
     font-size: 20px;
     line-height: 26.3px;
-}
-  .our-healthcare-it-service-con>h1 {
+  }
+  .our-healthcare-it-service-con > h1 {
     font-size: 24px;
   }
 
-  .healthcare-card-desc>h2 {
+  .healthcare-card-desc > h2 {
     font-size: 19px;
   }
 
-  .healthcare-card-desc>p {
+  .healthcare-card-desc > p {
     font-size: 15px;
   }
 
-  .our-intergration-services-box-lists-con>ul {
+  .our-intergration-services-box-lists-con > ul {
     gap: 0px;
     flex-direction: column;
   }
@@ -2812,7 +2841,7 @@
     padding-left: 6px;
   }
 
-  .testimonial-card-upper>p {
+  .testimonial-card-upper > p {
     font-size: 16px;
     line-height: 25.2px;
   }
@@ -2844,11 +2873,11 @@
     gap: 10px;
   }
 
-  .layer>h2 {
+  .layer > h2 {
     font-size: 23px;
   }
 
-  .layer>p {
+  .layer > p {
     font-size: 17px;
     line-height: 22px;
   }
@@ -2867,12 +2896,12 @@
 
   .banner-text h1,
   .services-text-con h2,
-  .our-services-con>h2,
-  .it-sucess-box-right>h2,
-  .technology-expertise-con>h2,
-  .work-portfolio-con>h2,
-  .industries-we-serve-con>h2,
-  .testimonial-con>h2,
+  .our-services-con > h2,
+  .it-sucess-box-right > h2,
+  .technology-expertise-con > h2,
+  .work-portfolio-con > h2,
+  .industries-we-serve-con > h2,
+  .testimonial-con > h2,
   .driving-rapid-change-con h2 {
     font-size: 35px;
     line-height: 34.7px;
@@ -2880,14 +2909,14 @@
 
   .banner-text p,
   .services-text-con p,
-  .driving-rapid-change-con>p,
-  .our-services-info-box-right>p,
+  .driving-rapid-change-con > p,
+  .our-services-info-box-right > p,
   .it-sucess-box-right p,
-  .technology-expertise-con>p,
-  .our-services-con>p,
-  .work-portfolio-con>p,
-  .industries-we-serve-con>p,
-  .testimonial-con>p {
+  .technology-expertise-con > p,
+  .our-services-con > p,
+  .work-portfolio-con > p,
+  .industries-we-serve-con > p,
+  .testimonial-con > p {
     font-size: 16px;
   }
 
@@ -2927,13 +2956,13 @@
     left: 20%;
   }
 
-  .frameworks-image-box>p {
+  .frameworks-image-box > p {
     font-size: 18px;
     line-height: 22px;
     text-wrap: auto;
   }
 
-  .frameworks-image-box>img {
+  .frameworks-image-box > img {
     width: auto;
   }
 
@@ -3020,24 +3049,24 @@
     padding: 15px 15px;
   }
 
-  .integration-service>h1,
+  .integration-service > h1,
   .h1,
-  .Integration-Expertise-Across-Industries-con-left-subbox>h1,
-  .Our-Expertise-in-Integration-con-right>h1,
+  .Integration-Expertise-Across-Industries-con-left-subbox > h1,
+  .Our-Expertise-in-Integration-con-right > h1,
   .Success-Stories-services h1,
   .hiring-models-con h1,
-  .middle-slider-part-left>h1 {
+  .middle-slider-part-left > h1 {
     font-size: 35px !important;
     line-height: 45px !important;
   }
 
-  .integration-service>p,
+  .integration-service > p,
   .p,
-  .Integration-Expertise-Across-Industries-con-left-subbox>p,
-  .Our-Expertise-in-Integration-con-right>p,
+  .Integration-Expertise-Across-Industries-con-left-subbox > p,
+  .Our-Expertise-in-Integration-con-right > p,
   .Success-Stories-services p,
-  .hiring-models-con>p,
-  .middle-slider-part-left>p {
+  .hiring-models-con > p,
+  .middle-slider-part-left > p {
     font-size: 16px;
   }
 }
@@ -3071,7 +3100,7 @@
     gap: 14px;
   }
 
-  .our-services-sub-inner-box>p {
+  .our-services-sub-inner-box > p {
     font-size: 14px;
   }
 
@@ -3084,23 +3113,23 @@
     width: 94%;
   }
 
-  .integration-service>h1,
+  .integration-service > h1,
   .h1,
-  .Integration-Expertise-Across-Industries-con-left-subbox>h1,
-  .Our-Expertise-in-Integration-con-right>h1,
+  .Integration-Expertise-Across-Industries-con-left-subbox > h1,
+  .Our-Expertise-in-Integration-con-right > h1,
   .Success-Stories-services h1,
   .hiring-models-con h1,
-  .middle-slider-part-left>h1 {
+  .middle-slider-part-left > h1 {
     font-size: 35px;
   }
 
-  .integration-service>p,
+  .integration-service > p,
   .p,
-  .Integration-Expertise-Across-Industries-con-left-subbox>p,
-  .Our-Expertise-in-Integration-con-right>p,
+  .Integration-Expertise-Across-Industries-con-left-subbox > p,
+  .Our-Expertise-in-Integration-con-right > p,
   .Success-Stories-services p,
-  .hiring-models-con>p,
-  .middle-slider-part-left>p {
+  .hiring-models-con > p,
+  .middle-slider-part-left > p {
     font-size: 16px;
   }
 }
