@@ -233,6 +233,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .testimonial-card-upper > p {
+    font-size: 17px;
+}
+.testimonial-card-bottom {
+  padding-left: 41px;
+}
   .empowering-cards-con {
     gap: 50px;
   }
@@ -282,7 +288,7 @@
   }
 
   .healthcare-card-desc > h2 {
-    font-size: 24px;
+    font-size: 21px;
   }
 
   .healthcare-card-desc > p {
@@ -541,7 +547,7 @@
 
   .header-contact-us-button-con .navbar-bars-icon {
     display: block;
-    margin-right: 10px;
+    margin-right: 0px;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -613,11 +619,14 @@
   .footer-upper {
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: unset;
+    justify-content: space-between;
   }
 
   .footer-upper-box {
-    width: 45%;
+    width: 31%;
+  }
+  .footer-upper-last-box{
+    width: 100%;
   }
 
   .our-services-info-box-left {
@@ -733,6 +742,12 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .our-services-info-box-right{
+    height: 100%;
+  }
+  /* .our-services-info-box-right {
+    height: calc(100vh - 420px);
+} */
   .business_card ul {
     margin: -22px -22px;
   }
@@ -1725,11 +1740,6 @@
     gap: 15px;
   }
 
-  .footer-upper-box {
-    width: 100%;
-    gap: 30px;
-  }
-
   .footer-middle {
     align-items: flex-start;
   }
@@ -1776,6 +1786,7 @@
   .testimonial-card-upper {
     padding: 25px 25px;
     margin: 10px 10px;
+    height: calc(100vh - 500px);
   }
 
   .testimonial-card-bottom {
@@ -1845,6 +1856,13 @@
 }
 
 @media (max-width: 767px) {
+  .footer-upper-box {
+    width: 100%;
+    gap: 30px;
+  }
+  .testimonial-card-upper {
+    height: calc(100vh - 500px);
+}
   .mobile_faq {
     display: none;
   }
@@ -1877,6 +1895,9 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .testimonial-card-upper {
+    height: calc(100vh - 590px);
+}
   .empowering-card {
     width: 100%;
     display: flex;
@@ -2194,6 +2215,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .testimonial-card-upper{
+    height: 100%;
+  }
   .healthcare-card-desc {
     gap: 10px;
   }
@@ -2216,7 +2240,7 @@
   }
 
   .our-intergration-services-box > img {
-    width: 50%;
+    width: 30%;
   }
   .how-to-apply-con > h2 {
     font-size: 35px;
@@ -2809,6 +2833,7 @@
 }
 
 @media only screen and (max-width: 376px) {
+
   .empowering-card {
     padding: 20px;
   }
@@ -3072,6 +3097,9 @@
 }
 
 @media only screen and (max-width: 320px) {
+  /* .our-services-info-box-right {
+    height: calc(100vh - 335px);
+} */
   .services-card-img {
     left: 35%;
   }

@@ -995,8 +995,7 @@
   }
 
   .healthcare-card-desc>h2 {
-    font-size: 22px;
-
+    font-size: 21px;
     line-height: 24.81px;
   }
 
@@ -1034,8 +1033,8 @@
   }
 
   .development-process-con h2 {
-    font-size: 40px;
-    line-height: 40.24px;
+    font-size: 20px;
+    line-height: 35.24px;
   }
 
   .development-process-steps-con {

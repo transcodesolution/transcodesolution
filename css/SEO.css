@@ -82,10 +82,10 @@ h2.heading.batter {
 #how-do-we-work-card-11::after {
   content: "";
   width: 100%;
-  height: 95px;
+  height: 80px;
   position: absolute;
   background: #574690;
-  top: 33%;
+  top: 29%;
   left: 0%;
   z-index: 1;
 }
@@ -93,11 +93,10 @@ h2.heading.batter {
 #how-do-we-work-card-22::after {
   content: "";
   width: 100%;
-  height: 95px;
+  height: 80px;
   position: absolute;
   background: #4f549b;
-
-  top: 34%;
+  top: 29%;
   left: 0%;
   z-index: 1;
 }
@@ -105,10 +104,10 @@ h2.heading.batter {
 #how-do-we-work-card-33::after {
   content: "";
   width: 100%;
-  height: 95px;
+  height: 80px;
   position: absolute;
   background: #406aa7;
-  top: 33%;
+  top: 29%;
   left: 0%;
   z-index: 1;
 }
@@ -116,10 +115,10 @@ h2.heading.batter {
 #how-do-we-work-card-44::after {
   content: "";
   width: 100%;
-  height: 95px;
+  height: 80px;
   position: absolute;
   background: #307aac;
-  top: 33%;
+  top: 29%;
   left: 0%;
   z-index: 1;
 }
@@ -309,6 +308,9 @@ h2.heading.batter {
 } */
 
 @media (max-width: 1360px) {
+  #how-do-we-work-card-11::after,#how-do-we-work-card-22::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after{
+    top: 32%;
+}
   .development-process-steps-con {
     gap: 100px;
   }
@@ -324,7 +326,7 @@ h2.heading.batter {
 
 @media (max-width: 1199px) {
   .development-process-steps-con {
-    gap: 160px;
+    gap: 30px;
   }
 
   .our-integration-service-2-cards-con {
@@ -335,41 +337,27 @@ h2.heading.batter {
     top: -12%;
   }
 
-  #how-do-we-work-card-44::after {
-    top: 29%;
-  }
-
-  #how-do-we-work-card-22::after {
-    top: 29%;
-  }
-
   #how-do-we-work-card-2::before {
     top: -12%;
   }
 }
 
 @media (max-width: 1024px) {
-  #how-do-we-work-card-44::after {
-    top: 24%;
+  .how-do-we-work-inner-box > h2 {
+    font-size: 22px;
   }
-  #how-do-we-work-card-4::before {
-    top: -10%;
-  }
-  #how-do-we-work-card-3::before {
-    top: -10%;
-  }
-  .how-do-we-work-cards-con {
-    gap: 30px;
-  }
-  #how-do-we-work-card-33::after {
-    top: 29%;
-  }
-  #how-do-we-work-card-22::after {
-    top: 25%;
-  }
+  .how-do-we-work-inner-box p {
+    padding: 45px 22px 43px 22px;
+}
+#how-do-we-work-card-22::after,#how-do-we-work-card-11::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after {
+  top: 30%;
+}
+#how-do-we-work-card-1::before,#how-do-we-work-card-3::before,#how-do-we-work-card-2::before,#how-do-we-work-card-4::before {
+  top: -10%;
+}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   #how-do-we-work-card-22::after {
     top: 33%;
   }
@@ -423,7 +411,11 @@ h2.heading.batter {
     content: none !important;
   }
 }
-
+@media (max-width:768px) {
+  #how-do-we-work-card-22::after, #how-do-we-work-card-11::after, #how-do-we-work-card-33::after, #how-do-we-work-card-44::after {
+    top: 34%;
+}
+}
 @media (max-width: 767px) {
   .integration-service > h1,
   .tab_title {
@@ -483,7 +475,7 @@ h2.heading.batter {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   #how-do-we-work-card-22::after,
   #how-do-we-work-card-44::after,
   #how-do-we-work-card-33::after {
@@ -510,6 +502,9 @@ h2.heading.batter {
 }
 
 @media (max-width: 480px) {
+#how-do-we-work-card-11::after,#how-do-we-work-card-22::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after{
+    top: 36%;
+}
   .search_campaigns_box {
     height: 174px;
   }

@@ -379,6 +379,7 @@ li {
   gap: 16px;
   margin: 25px 0 0;
   width: 54%;
+  height: calc(100vh - 520px);
 }
 
 .faq-section h4 {
@@ -393,9 +394,12 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
 }
-
+.faq-item h4.active {
+  border-bottom: 2px solid #3f3f3f;
+  margin-bottom: 8px;
+}
 .faq-icon {
   display: inline-block;
   width: 20px;
@@ -414,7 +418,7 @@ li {
   line-height: 24px;
   text-align: left;
   color: var(--root-black-color);
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .development-process-con_text {
