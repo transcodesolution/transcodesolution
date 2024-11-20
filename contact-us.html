@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="stylesheet" href="./css/contact-us.css" />
+  <link rel="stylesheet" href="./css/nice-select.css" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
   <!-- ******************************************google-fonts-links*********************************** -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,8 +27,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
+  <link rel="stylesheet" href="css/nice-select.css">
 
-  <!-- ******************************owl-carousel-slider************************************************* -->
+  <!-- ****************************** owl-carousel-slider **************************************** -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
@@ -38,7 +42,7 @@
 </head>
 
 <body>
-  
+
   <!-- ***************************************************header-code-start************************************************* -->
 
   <header class="header-wrapper">
@@ -257,7 +261,8 @@
                 <li>
                   <a href="about.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/about_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/about_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>About us</p>
                     </div>
@@ -266,7 +271,8 @@
                 <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/career_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/career_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Career</p>
                     </div>
@@ -275,7 +281,8 @@
                 <li>
                   <a href="ourteam.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Our Team</p>
                     </div>
@@ -284,7 +291,8 @@
                 <li>
                   <a href="blog.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Blogs</p>
                     </div>
@@ -293,7 +301,8 @@
                 <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/job_opportunities_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/job_opportunities_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Job Opportunities</p>
                     </div>
@@ -302,7 +311,8 @@
                 <li>
                   <a href="Become_partner.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Become a Partner</p>
                     </div>
@@ -342,7 +352,8 @@
           </div>
           <h2>Location</h2>
           <p>
-            301, Ambika Pinnacle, Digital Valley, beside Lajamni Chowk, Maruti Dham Society, Mota Varachha, Surat, Gujarat 394101
+            301, Ambika Pinnacle, Digital Valley, beside Lajamni Chowk, Maruti Dham Society, Mota Varachha, Surat,
+            Gujarat 394101
           </p>
         </div>
         <div class="contact-us-detail-box">
@@ -352,7 +363,7 @@
           <h2>Mail</h2>
           <p>
             info@transcodezy.com <br />
-            Inquires: hr@transcodezy123.com
+            hr@transcodesolution.com
           </p>
         </div>
         <div class="contact-us-detail-box">
@@ -361,8 +372,8 @@
           </div>
           <h2>Contact</h2>
           <p>
-            Office Telephone: 9016558916 <br />
-            Mobile: 9510249833
+            Mobile: 9510249833 <br />
+            Office Telephone: 9016558916
           </p>
         </div>
       </div>
@@ -401,49 +412,43 @@
             reply within 24 hours.
           </p>
 
-          <form action="submit" class="contact-form">
+          <form class="contact-form">
             <div class="form-field-con">
               <div class="field">
                 <label class="input-label">Full Name</label>
-                <input type="text" class="input-box" />
+                <input type="text" id="fname" name="fname" class="input-box" />
               </div>
               <div class="field">
                 <label class="input-label">Email Address</label>
-                <input type="text" class="input-box" />
+                <input type="text" id="email" name="email" class="input-box" />
               </div>
             </div>
             <div class="form-field-con">
               <div class="field">
                 <label class="input-label">Organisation Name</label>
-                <input type="text" class="input-box" />
+                <input type="text" id="organisation" name="organisation" class="input-box" />
               </div>
               <div class="field">
                 <label class="input-label">Phone No.</label>
-                <input
-                  type="text"
-                  class="input-box"
-                  placeholder="Phone No. with country code"
-                />
+                <input type="text" id="phone" name="phone" class="input-box" />
               </div>
             </div>
             <div class="form-field-con">
               <div class="field" id="field">
                 <label class="input-label">Project Budget</label>
-                <select name="" id="" class="input-box">
-                  <option value="" id="option-first" selected hidden>
-                    Please Select the Range
-                  </option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
+                <select id="select" class="input-box">
+                  <option value="" disabled selected>Select</option>
+                  <option value="Some option">Some option</option>
+                  <option value="Another option">Another option</option>
+                  <option value="A option">A option</option>
+                  <option value="Potato">other option</option>
                 </select>
               </div>
             </div>
             <div class="form-field-con">
               <div class="field details-input-box">
                 <label class="input-label">Details</label>
-                <input type="text" class="input-box" />
+                <input type="text" id="details" name="details" class="input-box" />
               </div>
             </div>
             <div class="document-input">
@@ -453,19 +458,17 @@
                 would like to share
               </p>
               <div class="document-input-box">
-                <input type="file" hidden />
-                <img
-                  src="./assets/images/contact-us/upload icon.svg"
-                  alt="document-upload-icon"
-                />
+                <input type="file" id="file" name="file" hidden />
+                <img src="./assets/images/contact-us/upload icon.svg" alt="document-upload-icon" />
                 <p class="drop-file">
                   Drop files here or <span>Select files</span>
                 </p>
               </div>
               <p class="please-attach">Max. file size: 50 MB</p>
             </div>
-            <button type="submit" class="form-submit">Submit</button>
+            <button type="submit" class="form-submit" onclick="validateAndSendEmail()">Submit</button>
           </form>
+
         </div>
       </div>
     </div>
@@ -481,6 +484,7 @@
   </section>
 
   <!-- **********************************************cutting-edge-it-solution-section-start************************************ -->
+
   <section id="cutting-edge-wrapper" class="Success-Stories-services">
     <div class="custom-container">
       <div class="cutting-edge-con">
@@ -497,6 +501,7 @@
       </div>
     </div>
   </section>
+
   <!-- *****************************************************footer-start********************************************* -->
 
   <footer id="footer-wrapper">
@@ -611,7 +616,111 @@
 
   <script src="./js/script.js"></script>
   <script src="./js/navBarToggle.js"></script>
+  <script src="js/documentUpload.js"></script>
   <script src="./js/responsiveNavDropdown.js"></script>
+  <script src="./js/jquery.nice-select.js"></script>
+
+  <script src="https://jqueryniceselect.hernansartorio.com/js/jquery.js"></script>
+  <script src="https://jqueryniceselect.hernansartorio.com/js/jquery.nice-select.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('select').niceSelect();
+    });
+  </script>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "2ksoCkFjtQu3oIMVt",
+      });
+    })();
+  </script>
+
+  <script>
+    document.querySelector('.form-submit').addEventListener('click', function (event) {
+      event.preventDefault();
+      // validateAndSendEmail();
+    });
+
+    toastr.options = {
+      "closeButton": true,
+      "positionClass": "toast-top-right",
+      "timeOut": 9000,
+      "extendedTimeOut": 0,
+      "newestOnTop": true,
+      "zIndex": 9999
+    };
+
+    function validateAndSendEmail() {
+      var fname = document.getElementById("fname").value.trim();
+      var email = document.getElementById("email").value.trim();
+      var organisation = document.getElementById("organisation").value.trim();
+      var phone = document.getElementById("phone").value.trim();
+      var select = document.getElementById("select").value;
+      var details = document.getElementById("details").value.trim();
+      var file = "http://127.0.0.1:5500/contact-us.html";
+
+      console.log(select, "select Your data");
+
+      if (!fname || !email || !organisation || !phone || !select || !details || !file) {
+        console.log(fname, "Full Name");
+        console.log(email, "Email Address");
+        console.log(organisation, "Organisation");
+        console.log(phone, "Phone No");
+        console.log(select, "Project Budget");
+        console.log(details, "Details");
+        console.log(file, "Drop files here or Select files");
+
+        toastr.error("Please fill in all fields.", null, {
+          "positionClass": "toast-top-right",
+          "progressBar": false,
+          "closeButton": true,
+          "timeOut": 2000,
+          "extendedTimeOut": 2000
+        });
+        return;
+      }
+
+      var button = document.querySelector('.form-submit');
+      button.disabled = true;
+      sendEmail(button);
+    }
+
+    function sendEmail(button) {
+      var templateParams = {
+        fname: document.getElementById("fname").value,
+        email: document.getElementById("email").value,
+        organisation: document.getElementById("organisation").value,
+        phone: document.getElementById("phone").value,
+        select: document.getElementById("select").value,
+        details: document.getElementById("details").value,
+        file: document.getElementById("file").value
+      };
+
+      emailjs.send("service_getyul6", "template_oofo38h", templateParams)
+        .then(function (response) {
+          console.log("Email sent successfully:", response);
+          toastr.success("Your message is on its way!", null, {
+            "positionClass": "toast-top-right",
+            "progressBar": false,
+            "closeButton": true,
+            "timeOut": 2000,
+            "extendedTimeOut": 3000
+          });
+          document.getElementById("myForm").reset();
+        })
+        .catch(function (error) {
+          console.error("Error sending email:", error);
+        })
+        .finally(function () {
+          button.disabled = false;
+        });
+    }
+  </script>
 
 
 </body>

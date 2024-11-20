@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="./css/services_devops.css" />
   <!-- <link rel="stylesheet" href="./css/Devops.css" /> -->
 
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
   <!-- ******************************************google-fonts-links*********************************** -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -675,15 +677,16 @@
         </div>
         <div class="form_detalis">
           <div class="two_inputes">
-            <input class="form_input" type="text" name="fname" placeholder="First Name*" required="">
-            <input class="form_input" type="text" name="fname" placeholder="Last Name*" required="">
+            <input class="form_input" type="text" id="name" name="name" placeholder="First Name*" required="">
+            <input class="form_input" type="text" id="lname" name="lname" placeholder="Last Name*" required="">
           </div>
           <div class="two_inputes">
-            <input class="form_input" type="text" name="fname" placeholder="E-Mail*" required="">
-            <input class="form_input" type="text" name="fname" placeholder="Company*" required="">
+            <input class="form_input" type="text" id="email" name="email" placeholder="E-Mail*" required="">
+            <input class="form_input" type="text" id="company" name="company" placeholder="Company*" required="">
           </div>
-          <textarea class="form_input" name="text" id="text" placeholder="Message*"></textarea>
-          <button class="form_btn">Submit <i class="fa-solid fa-arrow-right-long"></i></button>
+          <textarea class="form_input" id="text" name="message" placeholder="Message*"></textarea>
+          <button class="form_btn" onclick="validateAndSendEmail()">Submit <i
+              class="fa-solid fa-arrow-right-long"></i></button>
         </div>
       </div>
     </div>
@@ -870,6 +873,84 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "tgkN2h9ZDhLqpq1_S",
+      });
+    })();
+  </script>
+
+  <script>
+    document.querySelector('.form_btn').addEventListener('click', function (event) {
+      event.preventDefault();
+    });
+
+    toastr.options = {
+      "closeButton": true,
+      "positionClass": "toast-top-right",
+      "timeOut": 9000,
+      "extendedTimeOut": 0,
+      "newestOnTop": true,
+      "zIndex": 9999
+    };
+
+    function validateAndSendEmail() {
+      var name = document.getElementById("name").value;
+      var lname = document.getElementById("lname").value;
+      var email = document.getElementById("email").value;
+      var company = document.getElementById("company").value;
+      var message = document.getElementById("text").value;
+
+      if (!name || !lname || !email || !company || !message) {
+        toastr.error("Please fill in all fields.", null, {
+          "positionClass": "toast-top-right",
+          "progressBar": false,
+          "closeButton": true,
+          "timeOut": 2000,
+          "extendedTimeOut": 2000
+        });
+        return;
+      }
+      var button = document.querySelector('.form_btn');
+      button.disabled = true;
+      sendEmail(button);
+    }
+
+    function sendEmail(button) {
+      var templateParams = {
+        first_name: document.getElementById("name").value,
+        last_name: document.getElementById("lname").value,
+        email_name: document.getElementById("email").value,
+        company_name: document.getElementById("company").value,
+        msg_name: document.getElementById("text").value
+      };
+
+      emailjs.send("service_o4jaqqa", "template_i4txrbx", templateParams)
+        .then(function (response) {
+          console.log("Email sent successfully:", response);
+          toastr.success("Your message is on its way!", null, {
+            "positionClass": "toast-top-right",
+            "progressBar": false,
+            "closeButton": true,
+            "timeOut": 2000,
+            "extendedTimeOut": 3000
+          });
+          document.getElementById("myForm").reset();
+        })
+        .catch(function (error) {
+          console.error("Error sending email:", error);
+        })
+        .finally(function () {
+          button.disabled = false;
+        });
+    }
+  </script>
 
   <script>
     $(document).ready(function () {
