@@ -794,9 +794,9 @@ button.owl-dot.active {
   color: #949494;
 }
 
-.life-at-transcodezy-right-box #life-at-form-textarea {
-  padding: 16px 25px;
-  border: 1px solid #ffffff;
+.life-at-transcodezy-right-box .life-at-form-textarea {
+  padding: 16px 16px;
+  border: 1px solid #ffffff !important;
   border-radius: 5px;
   outline: none;
   resize: none;
@@ -807,7 +807,7 @@ button.owl-dot.active {
   color: var(--root-black-color);
 }
 
-.life-at-transcodezy-right-box #life-at-form-textarea::placeholder {
+.life-at-transcodezy-right-box .life-at-form-textarea::placeholder {
   width: 100%;
   font-family: Rubik;
   font-size: 20px;
@@ -819,7 +819,7 @@ button.owl-dot.active {
 
 .life-at-send-now {
   font-family: Rubik;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 38.22px;
   text-align: left;
@@ -829,9 +829,10 @@ button.owl-dot.active {
   cursor: pointer;
   border-radius: 5px;
   background: var(--gradient-color-2);
-  padding: 15px 45px;
+  padding: 10px 45px;
   width: fit-content;
   border: 2px solid  transparent;
+  margin-top: 8px;
 }
 .life-at-send-now:hover {
   border: 2px solid #3f3f3f;
@@ -1235,7 +1236,7 @@ button.owl-dot.active {
     padding: 15px;
   }
 
-  .life-at-transcodezy-right-box #life-at-form-textarea {
+  .life-at-transcodezy-right-box .life-at-form-textarea {
     padding: 15px;
   }
 
@@ -1325,7 +1326,7 @@ button.owl-dot.active {
     font-size: 16px;
   }
 
-  .life-at-transcodezy-right-box #life-at-form-textarea::placeholder {
+  .life-at-transcodezy-right-box .life-at-form-textarea::placeholder {
     font-size: 16px;
   }
 }

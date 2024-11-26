@@ -561,9 +561,11 @@
   .about-us-hero-con-bottom {
     flex-wrap: wrap;
   }
-
+  .about-us-hero-con-bottom {
+    gap: 39px;
+}
   .about-us-hero-card {
-    width: 100%;
+    width: 47%;
     align-items: center;
   }
 
@@ -632,6 +634,9 @@
   }
 }
 @media only screen and (max-width: 576px) {
+  .about-us-hero-card {
+    width: 100%;
+}
   .about-us-hero-card {
     padding: 20px;
   }
