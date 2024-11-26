@@ -2,19 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- ********************************transcodezy-title-and-logo********************************** -->
-    <title>Our Team | Transcodezy</title>
-    <meta name="description" content="Meet the experts at Transcodezy! Our team of professionals drives IT services, consultancy, and digital transformation with innovation and a passion for excellence.">
+    <title>IT Solutions For Industries | Digital Transformation Services | Transcodezy</title>
+    <meta name="description" content="Transcodezy offers tailored IT Solutions for Industries and cutting-edge Digital Transformation Services to drive innovation, efficiency, and business growth.">
     <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
     <!-- ***************************************css-links******************************************* -->
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="stylesheet" href="css/ourteam.css">
-    <link rel="stylesheet" href="css/technology.css">
-    <link rel="stylesheet" href="./css/career.css" />
+    <link rel="stylesheet" href="css/industries.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="./css/industry_healthcare.css" />
+    <link rel="stylesheet" href="./css/services_digital_marketing.css" />
 
     <!-- ******************************************google-fonts-links*********************************** -->
 
@@ -28,8 +31,15 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+    <!-- ******************************owl-carousel-slider************************************************* -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assert/Css/owl.carousel.min.css">
 </head>
 
 <body>
@@ -316,145 +326,312 @@
       </div>
     </header>
 
-    <!-- ************************************************career-banner********************************************** -->
+    <!-- ************************************************healthcare-banner********************************************** -->
 
-    <section class="banner-section-our-team">
+    <section class="banner-section-industries">
         <div class="container">
             <div class="banner-section-about-con">
-                <h1>Our Team</h1>
+                <h1>Industries We Serve</h1>
             </div>
         </div>
     </section>
 
-    <!-- *********************************************career-at-transcodezy************************************************ -->
+    <!-- ************************************************advance-healthcare********************************************** -->
 
-    <section class="team_section">
+    <section class="wrapper-section">
         <div class="custom-container">
-            <div class="career-at-transcodezy-con">
-                <h2>Our Team</h2>
+            <div class="advance-healthcare-con">
+                <h2>Industries We Serve</h2>
                 <p>
-                    At Transcodezy IT Solutions, our strength lies in our people. We are a diverse group of passionate
-                    individuals, each bringing unique skills and perspectives to the table. Our collaborative spirit
-                    fosters innovation and creativity, allowing us to tackle challenges and deliver exceptional results
-                    for our clients.
+                    At Transcodezy IT Solutions, we pride ourselves on delivering tailored technology solutions to meet
+                    the unique challenges of multiple sectors. With deep expertise across various industries, we ensure
+                    that our clients receive robust, scalable, and secure IT services that drive growth and innovation.
                 </p>
             </div>
+
+            <div class="business_card">
+                <ul>
+                    <li>
+                        <div class="empowering-card">
+                            <div class="empowering-icon-con">
+                                <img src="./assets/images/healthcare/industries_no_hover_1.svg" alt="services icon"
+                                    class="before-our-img">
+                                <img src="./assets/images/healthcare/industries_page_2.svg" alt="services icon"
+                                    class="our-white-img">
+                            </div>
+                            <h2>Healthcare</h2>
+                            <p>
+                                In the highly regulated healthcare sector, we specialize in developing HIPAA-compliant,
+                                secure systems that streamline patient management, telemedicine, and data analytics. We
+                                empower healthcare providers with digital tools to enhance patient outcomes, reduce
+                                costs, and ensure efficient workflows.
+                            </p>
+                            <ul class="healthcare_ul">
+                                <li class="healthcare_li">Telemedicine and virtual healthcare platforms</li>
+                                <li class="healthcare_li">Electronic Health Record (EHR) systems</li>
+                                <li class="healthcare_li">Healthcare analytics and decision-making tools</li>
+                                <li class="healthcare_li">HIPAA-compliant security and data management solutions</li>
+                            </ul>
+                            <button class="empower-read-more">
+                                Read More<i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="empowering-card">
+                            <div class="empowering-icon-con">
+                                <img src="./assets/images/healthcare/industries_no_hover_2.svg" alt="services icon"
+                                    class="before-our-img">
+                                <img src="./assets/images/healthcare/industries_page_5.svg" alt="services icon"
+                                    class="our-white-img">
+                            </div>
+                            <h2>Fintech</h2>
+                            <p>
+                                In the fast-paced world of financial technology, we offer secure, scalable solutions
+                                that help organizations navigate complex regulations while delivering exceptional user
+                                experiences. From blockchain integration to payment gateways, we enable fintech firms to
+                                innovate and grow.
+                            </p>
+                            <ul class="healthcare_ul">
+                                <li class="healthcare_li">Blockchain and cryptocurrency integration</li>
+                                <li class="healthcare_li">Fraud detection and prevention systems</li>
+                                <li class="healthcare_li">Payment processing and digital wallets</li>
+                                <li class="healthcare_li">AI-powered financial analytics</li>
+                            </ul>
+                            <button class="empower-read-more">
+                                Read More<i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="empowering-card">
+                            <div class="empowering-icon-con">
+                                <img src="./assets/images/healthcare/industries_no_hover_3.svg" alt="services icon"
+                                    class="before-our-img">
+                                <img src="./assets/images/healthcare/industries_page_4.svg" alt="services icon"
+                                    class="our-white-img">
+                            </div>
+                            <h2>Retail & E-commerce</h2>
+                            <p>
+                                Our e-commerce and retail solutions focus on creating seamless customer experiences
+                                through omnichannel strategies, personalized shopping, and data-driven insights. We
+                                build high-performance e-commerce platforms that help retailers increase sales and
+                                customer loyalty.
+                            </p>
+                            <ul class="healthcare_ul">
+                                <li class="healthcare_li">E-commerce platform development and optimization
+                                </li>
+                                <li class="healthcare_li">Inventory and supply chain management</li>
+                                <li class="healthcare_li">Personalized customer experience tools</li>
+                                <li class="healthcare_li">Secure payment integration</li>
+                            </ul>
+                            <button class="empower-read-more">
+                                Read More<i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="empowering-card">
+                            <div class="empowering-icon-con">
+                                <img src="./assets/images/healthcare/industries_no_hover_4.svg" alt="services icon"
+                                    class="before-our-img">
+                                <img src="./assets/images/healthcare/industries_page_3.svg" alt="services icon"
+                                    class="our-white-img">
+                            </div>
+                            <h2>Travel & Hospitality</h2>
+                            <p>
+                                We help travel and hospitality businesses offer exceptional guest experiences through
+                                innovative digital solutions, including booking systems, property management platforms,
+                                and mobile apps for seamless customer engagement.
+                                Elevate your travel and hospitality business with our specialized IT services.
+                            </p>
+                            <ul class="healthcare_ul">
+                                <li class="healthcare_li">Online booking and reservation systems</li>
+                                <li class="healthcare_li">Property Management Systems (PMS)</li>
+                                <li class="healthcare_li">Guest loyalty and rewards programs</li>
+                                <li class="healthcare_li">Travel and tourism data analytics</li>
+                            </ul>
+                            <button class="empower-read-more">
+                                Read More<i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="empowering-card">
+                            <div class="empowering-icon-con">
+                                <img src="./assets/images/healthcare/industries_no_hover_5.svg" alt="services icon"
+                                    class="before-our-img">
+                                <img src="./assets/images/healthcare/industries_page_1.svg" alt="services icon"
+                                    class="our-white-img">
+                            </div>
+                            <h2>Real Estate</h2>
+                            <p>
+                                Our real estate solutions streamline property management, sales automation, and client
+                                interaction. We build custom tools such as virtual tours and AI-driven lead management
+                                platforms to help real estate companies operate more efficiently.
+                                Elevate your real estate business with our specialized IT services.
+                            </p>
+                            <ul class="healthcare_ul">
+                                <li class="healthcare_li">Property listing platforms with 3D virtual tours
+                                </li>
+                                <li class="healthcare_li">Real estate Customer Relationship Management (CRM) systems
+                                </li>
+                                <li class="healthcare_li">AI-based lead generation tools</li>
+                                <li class="healthcare_li">Automated sales and transaction workflows</li>
+                            </ul>
+                            <button class="empower-read-more">
+                                Read More<i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <h4 class="other_sectors_title">Other Sectors</h4>
+                            <p class="our_text_1">From logistics to education, we provide IT solutions tailored to the
+                                unique needs of various other industries. Our flexible software architectures and
+                                cloud-based solutions ensure your business is always equipped with the latest
+                                technologies.
+                            </p>
+                            <p class="our_text_1">In today’s digital age, every sector requires tailored IT solutions to
+                                enhance operations, improve customer experiences, and drive innovation. Our expertise
+                                spans multiple industries, providing cutting-edge technology services designed to meet
+                                the unique challenges and demands of each sector.</p>
+                            <a href="contact-us.html" class="explore_our_services">Explore All Industries
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- ********************************************* Ceo images ************************************************ -->
+    <!-- ************************************************our-healthcare-it-service********************************************** -->
 
     <section class="wrapper-section">
-        <div class="custom-container">
-            <div class="pioneers_box">
-                <div class="visionaries_box">
-                    <p>Visionaries</p>
-                    <h5>Our Elite Pioneers</h5>
-                </div>
-                <div class="visionaries_box_text">
-                    <p>Transcodezy is developed to create an environment that fosters creativity and innovation,
-                        enabling teams to develop cutting-edge solutions that address real-world challenges.</p>
-                </div>
-            </div>
-            <div class="team_detalis">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Dharmesh.png" alt="">
-                            <h6>Dharmesh Kumbhani</h6>
-                            <p>CEO</p>
-                        </div>
+        <div class="custom-container ">
+            <div class="our-integration-service-2-con">
+                <h2 class="h2">Why Choose Transcodezy IT Solutions</h2>
+                <p class="p" id="our-integration-service-2-p">
+                    Working with Transcodezy IT Solutions means gaining access to a team that understands your industry.
+                    We leverage cutting-edge tools, from AI and machine learning to blockchain, to provide tailored,
+                    future-proof solutions.
+                </p>
+
+                <div class="our-integration-service-2-cards-con">
+                    <div class="our-integration-service-2-card">
+                        <img src="./assets/images/cyber/why_choose_1.svg" alt="Expert Team icon">
+                        <h3>Industry Expertise</h3>
+                        <p>
+                            We combine deep knowledge of various sectors with advanced technology, ensuring that our
+                            solutions are customized to your industry’s specific requirements.
+                        </p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/ceo_1.png" alt="">
-                            <h6>Shubham Sutariya</h6>
-                            <p>CTO</p>
-                        </div>
+                    <div class="our-integration-service-2-card">
+                        <img src="./assets/images/cyber/why_choose_2.svg" alt="Tailored Solutions icon">
+                        <h3>Security and Compliance</h3>
+                        <p>
+                            We ensure all our solutions meet stringent security standards, including HIPAA, PCI DSS, and
+                            GDPR, to safeguard your data.
+                            Contact us to learn more about it.
+                        </p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/coo.png" alt="">
-                            <h6>Arpit Nakrani</h6>
-                            <p>COO</p>
-                        </div>
+                    <div class="our-integration-service-2-card">
+                        <img src="./assets/images/cyber/why_choose_3.svg" alt="Advanced Technologies icon">
+                        <h3>Innovation and Flexibility</h3>
+                        <p>
+                            Our team stays at the forefront of the technological advancements, offering innovative
+                            solutions like AI-powered analytics, and cloud computing, and more.
+                        </p>
+                    </div>
+                    <div class="our-integration-service-2-card">
+                        <img src="./assets/images/cyber/why_choose_4.svg" alt="Customer-Centric icon">
+                        <h3>Scalability</h3>
+                        <p>
+                            Our software solutions are designed to grow with your business, ensuring that your
+                            technology infrastructure remains robust and adaptable to future needs.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ********************************************* Sales Team ************************************************ -->
+    <!-- ************************************************ Faq ********************************************** -->
 
     <section class="wrapper-section">
-        <div class="custom-container">
-            <div class="pioneers_box">
-                <div class="visionaries_box">
-                    <p>Driving Force</p>
-                    <h5>Our Sales Team</h5>
-                </div>
-                <div class="visionaries_box_text">
-                    <p>Our Sales Team is the driving force behind our growth and client relationships. Committed to
-                        understanding the unique needs of our clients, we strive to deliver tailored IT solutions that
-                        empower businesses.</p>
-                </div>
-            </div>
-            <div class="team_detalis">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Jemisha.png" alt="">
-                            <h6>Jemisha Bhuva</h6>
-                            <p>BDM</p>
+        <div class="custom-container overflow-visible">
+            <div class="faq-con">
+                <h2 class="h2">Frequently Asked Questions</h2>
+                <div class="faq-list-con">
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>What industries do you serve?</p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                We specialize in healthcare, fintech, retail, travel & hospitality, real estate, and
+                                more. Our solutions are tailored to the unique challenges of each industry.
+                                Our team has extensive experience across various sectors, ensuring tailored solutions
+                                that meet industry-specific challenges.
+                            </p>
+
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Bindiya.png" alt="">
-                            <h6>Bindiya Kakadiya</h6>
-                            <p>BDE</p>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>How do you ensure the security of your solutions? </p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                We serve a wide range of industries, including finance,
+                                healthcare, retail, manufacturing, and education.
+                            </p>
+
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Anjali.png" alt="">
-                            <h6> Anjali Pandav </h6>
-                            <p>BDE</p>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>What are your core services in software development?</p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                We serve a wide range of industries, including finance,
+                                healthcare, retail, manufacturing, and education.
+                            </p>
+
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/rajat.png" alt="">
-                            <h6>Rajat Verma</h6>
-                            <p>BDE</p>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>Can you integrate your software with our existing systems?</p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/vivek.png" alt="">
-                            <h6>Vivek Kumbhani</h6>
-                            <p>BDE</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Ansh.png" alt="">
-                            <h6>Ansh Ramani</h6>
-                            <p>BDE</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/ceo.jpg" alt="">
-                            <h6>Rohan</h6>
-                            <p>BDE</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/ceo.jpg" alt="">
-                            <h6>Prashant Desani</h6>
-                            <p>BDM</p>
+
+                        <div class="faq-answers">
+                            <p>
+                                We serve a wide range of industries, including finance,
+                                healthcare, retail, manufacturing, and education.
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -462,182 +639,6 @@
         </div>
     </section>
 
-    <!-- ********************************************* Development Team ************************************************ -->
-
-    <section class="wrapper-section">
-        <div class="custom-container">
-            <div class="pioneers_box">
-                <div class="visionaries_box">
-                    <p>Collaborative Spirit</p>
-                    <h5>Development Team</h5>
-                </div>
-                <div class="visionaries_box_text">
-                    <p>We provide top-quality work environment, challenging yet amicable and encouraging atmosphere, and
-                        the best opportunities to advance in theoretical knowledge and hands-on experience.</p>
-                </div>
-            </div>
-            <div class="team_detalis">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Akshay.jpg" alt="">
-                            <h6>Akshay Sangani</h6>
-                            <p>Full-Stack Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Yash.png" alt="">
-                            <h6>Yash Patoliya</h6>
-                            <p>Full-Stack Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Dixita.png" alt="">
-                            <h6>Dixita Thummar</h6>
-                            <p>React Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Arshita.png" alt="">
-                            <h6>Arshita Bhuva</h6>
-                            <p>React Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Vrutika.png" alt="">
-                            <h6>Vrutika Moghariya</h6>
-                            <p>Node Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Hiral.png" alt="">
-                            <h6>Hiral Ramani</h6>
-                            <p>Node Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/kunjesh.png" alt="">
-                            <h6>Kunjesh Donga</h6>
-                            <p>React Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Pramit.png" alt="">
-                            <h6>Pramit Mangukiya</h6>
-                            <p>Node Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Abhisek.png" alt="">
-                            <h6>Abhishek Vithani</h6>
-                            <p>React Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/kedar.png" alt="">
-                            <h6>Kedar Godhani</h6>
-                            <p>React Developer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/shradhha.png" alt="">
-                            <h6>Shraddha Viradiya</h6>
-                            <p>React Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ********************************************* Design Team ************************************************ -->
-
-    <section class="wrapper-section">
-        <div class="custom-container">
-            <div class="pioneers_box">
-                <div class="visionaries_box">
-                    <p>Driving Force</p>
-                    <h5>Our Design Team</h5>
-                </div>
-                <div class="visionaries_box_text">
-                    <p>Our Design Team is at the forefront of creating visually compelling and user-centric solutions.
-                        We believe that great design is about enhancing the user experience and effectively
-                        communicating our clients' messages.</p>
-                </div>
-            </div>
-            <div class="team_detalis">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Bansi.png" alt="">
-                            <h6>Bansi Shingala</h6>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/vivek.png" alt="">
-                            <h6>Priyanshee</h6>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/vivek.png" alt="">
-                            <h6>Vivek Kumbhani</h6>
-                            <p>Web Designer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/vraj.png" alt="">
-                            <h6>Vraj Amipara</h6>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ********************************************* Manager Team ************************************************ -->
-
-    <section class="wrapper-section">
-        <div class="custom-container">
-            <div class="pioneers_box">
-                <div class="visionaries_box">
-                    <p>Leader</p>
-                    <h5>Our Manager</h5>
-                </div>
-                <div class="visionaries_box_text">
-                    <p>Our managers are responsible for setting clear goals and a vision for their teams. They inspire
-                        and motivate employees to strive for excellence, ensuring alignment with the company’s overall
-                        objectives.</p>
-                </div>
-            </div>
-            <div class="team_detalis">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="ceo_card">
-                            <img class="team_images" src="assets/images/ourteam/Sidhhi.png" alt="">
-                            <h6>Siddhi Ghoghari</h6>
-                            <p>HR Executive</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- *****************************************************footer-start********************************************* -->
 
@@ -746,37 +747,46 @@
       </section>
     </footer>
 
-    <script src="./js/navBarToggle.js"></script>
-    <script src="./js/responsiveNavDropdown.js"></script>
+    <!-- ************************************************END OF THE PAGE********************************************************* -->
+
+    <!-- *******************************************js-script-file************************************************ -->
+
     <script src="./js/script.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="./js/navBarToggle.js"></script>
+    <script src="js/faqTab.js"></script>
+    <script src="./js/responsiveNavDropdown.js"></script>
+
+    <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-          const currentPath = window.location.pathname.split("/").pop();
-          const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .industries_flex_wrapper > a');
-          const dropdownLinks = document.querySelectorAll('.dropdown-con a');
-          console.log(navLinks,"djfgdjsf");
-    
-          navLinks.forEach(link => {
-            console.log("navLinks", link.getAttribute('href'), currentPath);
-            if (link.getAttribute('href') === currentPath) {
-              link.classList.add('active');
-              link.parentElement.classList.add('active');
-            }
-          });
-    
-          dropdownLinks.forEach(link => {
-            if (link.getAttribute('href') === currentPath) {
-              link.classList.add('active');
-              const parentLi = link.closest('li.industries-nav');
-              if (parentLi) {
-                parentLi.querySelector('a').classList.add('active');
-                // Add active class to parent <li> with class services-nav
-                ////parentLi.classList.add('active');
-              }
-            }
-          });
+            const currentPath = window.location.pathname.split("/").pop();
+            const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
+            const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+
+            navLinks.forEach(link => {
+                console.log("navLinks", link.getAttribute('href'), currentPath);
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    link.parentElement.classList.add('active');
+                }
+            });
+
+            dropdownLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    const parentLi = link.closest('li.services-nav');
+                    if (parentLi) {
+                        parentLi.querySelector('a').classList.add('active');
+                        // Add active class to parent <li> with class services-nav
+                        ////parentLi.classList.add('active');
+                    }
+                }
+            });
         });
     </script>
 

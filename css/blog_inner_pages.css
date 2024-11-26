@@ -1,0 +1,451 @@
+.blog_detalis_banner{
+    background-image: url(../assets/images/blog_detalis/feeturre_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_zwift{
+    background-image: url(../assets/images/blog_detalis/zwift_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_agencyq{
+    background-image: url(../assets/images/blog_detalis/agencyq_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_cosmetic_choice{
+    background-image: url(../assets/images/blog_detalis/cosmetic_choice_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_herbal_sisters{
+    background-image: url(../assets/images/blog_detalis/herbal_sisters_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_tradyl{
+    background-image: url(../assets/images/blog_detalis/tradyl_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_skillz_cafe{
+    background-image: url(../assets/images/blog_detalis/skillz_cafe_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_24_7_fitness{
+    background-image: url(../assets/images/blog_detalis/24_7_fitness_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_synergy{
+    background-image: url(../assets/images/blog_detalis/synergy_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_ethos_energy{
+    background-image: url(../assets/images/blog_detalis/ethos_energy_bannner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_yougig{
+    background-image: url(../assets/images/blog_detalis/yougig_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_zymeal{
+    background-image: url(../assets/images/blog_detalis/zymeal_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.blog_detalis_sephora{
+    background-image: url(../assets/images/blog_detalis/sephora_banner.png);
+    height: 750px;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.blog_detalis_layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 107px 96px;
+}
+.blog_title_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog_detalis_title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 51px;
+    padding: 24px 0 19px 0;
+    color: white;
+}
+.blog_detalis_description{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: Rubik;
+    line-height: 26px;
+    text-align: center;
+}
+.project_overview_title{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Rubik;
+    line-height: 55px;
+    color: #3F3F3F;
+    text-align: center;
+}
+.project_overview_description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Rubik;
+    line-height: 28px;
+    text-align: center;
+    color: #3F3F3F;
+    padding: 25px 0;
+}
+.project_overview_box{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.project_info_box{
+    width: 30%;
+}
+.project_info_img{
+    width: 70%;
+}
+.project_info_img img{
+    width: 100%;
+}
+.project_info_title{
+    font-size: 35px;
+    font-family: Rubik;
+    line-height: 42px;
+    font-weight: 600;
+    color: #3F3F3F;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.project_info_des{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: Rubik;
+    color: #3F3F3F;
+}
+.project_tech_text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: Rubik;
+    color: #3F3F3F;
+    margin-bottom: 7px;
+}
+.project_info_list{
+    margin: 0 0 0 30px !important;
+}
+
+.project_info_list li{
+    list-style-type: disc;
+    font-size: 19px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 33px;
+    color: #3F3F3F;
+}
+.project_overview_detalis_box{
+    width: 33.33%;
+    box-shadow: 0px 0px 2px 0px #00000040;
+    background-color: #F5F5F5;
+    border: 0.5px solid #0000003D;
+    border-radius: 10px;
+    padding: 22px 22px 21px 22px;
+}
+.project_detalis_title{
+    text-align: center;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 28px;
+    color: #3F3F3F;
+    word-wrap: break-word;
+}
+.project_overview_tech{
+    width: 100%;
+    box-shadow: 0px 0px 2px 0px #00000040;
+    background-color: #F5F5F5;
+    border: 0.5px solid #0000003D;
+    border-radius: 10px;
+    padding: 22px 22px 21px 22px;
+}
+/* .project_overview{
+    margin: 80px 0;
+} */
+
+
+.key_fetures_section{
+    padding: 50px 0 110px 0;
+}
+
+.key_fetures_card{
+    margin-top: 50px;
+}
+.key_fetures_card ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -22px -30px !important;
+}
+.key_fetures_card ul li {
+    padding: 22px 30px;
+    width: 50%;
+}
+.key_fetures_text{
+    position: relative;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 40px 30px 30px 30px; 
+    text-align: center;
+    height: 100%;
+}
+.key_fetures_text:after{
+    content: "";
+    width: calc(100% - 150px);
+    height: 12px;
+    background-color: #3F3F3F;
+    position: absolute;
+    top: 3%;
+    /* right: -41%; */
+    transform: translate(-50%,-50%);
+    border-radius: 0 0 50px 50px;
+}
+.key_text h6{
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 26px;
+    color: #3F3F3F;
+    padding-bottom: 17px;
+}
+.key_text p{
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 23px;
+    color: #3F3F3F;
+}
+.feeturre_logo{
+    width: 180px;
+    height: 60px;
+}
+.cosmetic_choice_logo{
+    width: 200px;
+    height: 100px;
+}
+
+@media (max-width:1360px) {
+    .key_fetures_card ul {
+        margin: -22px -15px !important;
+    }
+    .key_fetures_card ul li {
+        padding: 22px 15px;
+    }
+}
+@media (max-width:1024px) {
+    .project_overview_box{
+        align-items: center;
+    }
+}
+@media (max-width:991px) {
+    .feeturre_logo{
+        width: 180px;
+        height: 60px;
+    }
+    .blog_detalis_title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .blog_detalis_banner,.blog_detalis_zwift,.blog_detalis_agencyq,.blog_detalis_cosmetic_choice,.blog_detalis_herbal_sisters,.blog_detalis_tradyl,.blog_detalis_skillz_cafe,.blog_detalis_24_7_fitness,.blog_detalis_synergy,.blog_detalis_ethos_energy,.blog_detalis_yougig,.blog_detalis_zymeal,.blog_detalis_sephora {
+        height: 600px;
+    }
+    .blog_detalis_description {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .key_fetures_text:after {
+        top: 2.5%;
+        width: calc(100% - 85px);
+    }
+}
+@media (max-width:768px) {
+    .key_fetures_text:after {
+        top: 2.2%;
+        width: calc(100% - 85px);
+    }
+    .blog_detalis_layer{
+        padding: 40px 11px 34px;
+    }
+    .project_info_box {
+        width: 100%;
+    }
+    .project_overview_box {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .project_info_img {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .key_fetures_card ul li {
+        width: 100%;
+    }
+    .key_fetures_text:after {
+        right: unset;
+        transform: translate(-50%,-50%);
+        width: calc(100% - 200px);
+    }
+}
+@media (max-width:480px) {
+    .project_info_title {
+        font-size: 30px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    .project_info_des {
+        font-size: 19px;
+    }
+    .project_tech_text {
+        font-size: 19px;
+    }
+    .blog_detalis_title {
+        font-size: 37px;
+        line-height: 43px;
+    }
+    .blog_detalis_description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .project_overview_title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .project_overview_description {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 18px 0;
+    }
+}
+@media (max-width:425px) {
+    .project_overview_detalis_box {
+        width: 100%;
+    }
+    .key_fetures_text:after {
+        height: 10px;
+        top: 2.1%;
+        width: calc(100% - 150px);
+    }
+    .key_text p {
+        font-size: 16px;
+    }
+    .key_text h6 {
+        padding-bottom: 10px;
+    }
+    .feeturre_logo {
+        width: 150px;
+        height: 45px;
+    }
+    .key_fetures_card ul {
+        margin: -16px -15px !important;
+    }
+    .key_fetures_card ul li {
+        padding: 16px 15px;
+    }
+    .key_fetures_card {
+        margin-top: 40px;
+    }
+}
