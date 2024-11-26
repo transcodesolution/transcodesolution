@@ -7,7 +7,8 @@
 
   <!-- ********************************transcodezy-title-and-logo********************************** -->
   <title>Career | Transcodezy</title>
-  <meta name="description" content="Join Transcodezy's team! Explore exciting career opportunities at a leading IT services and consultancy company, driving digital transformation and innovation worldwide.">
+  <meta name="description"
+    content="Join Transcodezy's team! Explore exciting career opportunities at a leading IT services and consultancy company, driving digital transformation and innovation worldwide.">
   <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
   <!-- ***************************************css-links******************************************* -->
@@ -1086,10 +1087,12 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const currentPath = window.location.pathname.split("/").pop();
-      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
       const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
+
       navLinks.forEach(link => {
+        console.log("navLinks", link.getAttribute('href'), currentPath);
         if (link.getAttribute('href') === currentPath) {
           link.classList.add('active');
           link.parentElement.classList.add('active');
@@ -1099,7 +1102,7 @@
       dropdownLinks.forEach(link => {
         if (link.getAttribute('href') === currentPath) {
           link.classList.add('active');
-          const parentLi = link.closest('li.industries-nav');
+          const parentLi = link.closest('li.company-nav');
           if (parentLi) {
             parentLi.querySelector('a').classList.add('active');
             // Add active class to parent <li> with class services-nav

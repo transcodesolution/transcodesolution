@@ -146,10 +146,10 @@
 }
 
 .access_blog_box p {
-    font-size: 14px;
+    font-size: 16px;
     font-family: Rubik;
-    font-weight: 300;
-    line-height: 18px;
+    font-weight: 400;
+    line-height: 20px;
     color: #000000;
     overflow: hidden;
     text-overflow: ellipsis;

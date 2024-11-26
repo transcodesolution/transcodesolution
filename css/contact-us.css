@@ -161,6 +161,7 @@
   background-color: var(--root-black-color);
   border-radius: 50%;
   margin-top: 70px;
+  padding-top: 4px;
 }
 
 .contact-social-link:hover {

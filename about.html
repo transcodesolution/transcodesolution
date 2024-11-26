@@ -7,7 +7,8 @@
 
   <!-- ********************************transcodezy-title-and-logo********************************** -->
   <title>About | Transcodezy</title>
-  <meta name="description" content="Discover Transcodezy, a leading IT services and consultancy company specializing in digital transformation, innovative solutions, and empowering businesses for success.">
+  <meta name="description"
+    content="Discover Transcodezy, a leading IT services and consultancy company specializing in digital transformation, innovative solutions, and empowering businesses for success.">
   <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
   <!-- ***************************************css-links******************************************* -->
@@ -253,7 +254,8 @@
                 <li>
                   <a href="about.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/about_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/about_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>About us</p>
                     </div>
@@ -262,7 +264,8 @@
                 <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/career_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/career_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Career</p>
                     </div>
@@ -271,7 +274,8 @@
                 <li>
                   <a href="ourteam.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Our Team</p>
                     </div>
@@ -280,7 +284,8 @@
                 <li>
                   <a href="blog.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Blogs</p>
                     </div>
@@ -298,7 +303,8 @@
                 <li>
                   <a href="become-partner.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Become a Partner</p>
                     </div>
@@ -633,9 +639,9 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const currentPath = window.location.pathname.split("/").pop();
-      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .industries_flex_wrapper > a');
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
       const dropdownLinks = document.querySelectorAll('.dropdown-con a');
-      console.log(navLinks,"djfgdjsf");
+
 
       navLinks.forEach(link => {
         console.log("navLinks", link.getAttribute('href'), currentPath);
@@ -648,7 +654,7 @@
       dropdownLinks.forEach(link => {
         if (link.getAttribute('href') === currentPath) {
           link.classList.add('active');
-          const parentLi = link.closest('li.industries-nav');
+          const parentLi = link.closest('li.company-nav');
           if (parentLi) {
             parentLi.querySelector('a').classList.add('active');
             // Add active class to parent <li> with class services-nav

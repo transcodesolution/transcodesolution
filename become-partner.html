@@ -7,7 +7,8 @@
 
   <!-- ********************************transcodezy-title-and-logo********************************** -->
   <title>Become Partner | Transcodezy</title>
-  <meta name="description" content="Partner with Transcodezy to drive innovation in IT services and digital transformation. Collaborate with us to create impactful solutions and achieve mutual growth.">
+  <meta name="description"
+    content="Partner with Transcodezy to drive innovation in IT services and digital transformation. Collaborate with us to create impactful solutions and achieve mutual growth.">
   <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
@@ -251,7 +252,8 @@
                 <li>
                   <a href="about.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/about_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/about_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>About us</p>
                     </div>
@@ -260,7 +262,8 @@
                 <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/career_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/career_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Career</p>
                     </div>
@@ -269,7 +272,8 @@
                 <li>
                   <a href="ourteam.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Our Team</p>
                     </div>
@@ -278,7 +282,8 @@
                 <li>
                   <a href="blog.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Blogs</p>
                     </div>
@@ -296,7 +301,8 @@
                 <li>
                   <a href="become-partner.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
                       <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Become a Partner</p>
                     </div>
@@ -491,26 +497,26 @@
             </div>
             <div class="faq-item">
               <h4>Comprehensive Partner Training Programs<span class="faq-icon">+</span></h4>
-              <p >Receive in-depth technical training, certification opportunities, and access to exclusive partner
+              <p>Receive in-depth technical training, certification opportunities, and access to exclusive partner
                 resources to ensure you are fully equipped to deliver and support Transcodezy’s solutions.
               </p>
             </div>
             <div class="faq-item">
               <h4>Joint Marketing Campaigns<span class="faq-icon">+</span></h4>
-              <p >Collaborate with our marketing team on joint campaigns to promote new products and services. Gain
+              <p>Collaborate with our marketing team on joint campaigns to promote new products and services. Gain
                 access to co-branded marketing materials, case studies, and success stories to showcase the impact of
                 your partnership.
               </p>
             </div>
             <div class="faq-item">
               <h4>Priority Support<span class="faq-icon">+</span></h4>
-              <p >Partners receive priority access to our support team, ensuring that both you and your clients receive
+              <p>Partners receive priority access to our support team, ensuring that both you and your clients receive
                 fast, reliable assistance whenever needed. Our dedicated partner support team is available 24/7 to
                 resolve any technical or operational issues.</p>
             </div>
             <div class="faq-item">
               <h4>Exclusive Partner Events and Webinars<span class="faq-icon">+</span></h4>
-              <p >Participate in exclusive partner events, workshops, and webinars designed to help you stay updated on
+              <p>Participate in exclusive partner events, workshops, and webinars designed to help you stay updated on
                 the latest trends and technologies. These events provide an opportunity to network with other partners
                 and share best practices.
               </p>
@@ -812,9 +818,9 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const currentPath = window.location.pathname.split("/").pop();
-      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .industries_flex_wrapper > a');
+      const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
       const dropdownLinks = document.querySelectorAll('.dropdown-con a');
-      console.log(navLinks, "djfgdjsf");
+
 
       navLinks.forEach(link => {
         console.log("navLinks", link.getAttribute('href'), currentPath);
@@ -827,7 +833,7 @@
       dropdownLinks.forEach(link => {
         if (link.getAttribute('href') === currentPath) {
           link.classList.add('active');
-          const parentLi = link.closest('li.industries-nav');
+          const parentLi = link.closest('li.company-nav');
           if (parentLi) {
             parentLi.querySelector('a').classList.add('active');
             // Add active class to parent <li> with class services-nav
@@ -841,71 +847,71 @@
   <script>
     const faqItems = document.querySelectorAll('.faq-item h4');
 
-faqItems.forEach(item => {
-  item.addEventListener('click', () => {
-    // Close any previously opened FAQ item
-    faqItems.forEach(otherItem => {
-      if (otherItem !== item) {
-        otherItem.classList.remove('active');
-        collapseSection(otherItem.nextElementSibling);
-        otherItem.querySelector('.faq-icon').textContent = '+';
-      }
+    faqItems.forEach(item => {
+      item.addEventListener('click', () => {
+        // Close any previously opened FAQ item
+        faqItems.forEach(otherItem => {
+          if (otherItem !== item) {
+            otherItem.classList.remove('active');
+            collapseSection(otherItem.nextElementSibling);
+            otherItem.querySelector('.faq-icon').textContent = '+';
+          }
+        });
+
+        // Toggle the clicked FAQ item
+        item.classList.toggle('active');
+        const answer = item.nextElementSibling;
+        const icon = item.querySelector('.faq-icon');
+
+        if (item.classList.contains('active')) {
+          expandSection(answer);
+          icon.textContent = '-';
+        } else {
+          collapseSection(answer);
+          icon.textContent = '+';
+        }
+      });
     });
 
-    // Toggle the clicked FAQ item
-    item.classList.toggle('active');
-    const answer = item.nextElementSibling;
-    const icon = item.querySelector('.faq-icon');
+    function expandSection(element) {
+      let height = 0;
+      element.style.display = 'block';
+      element.style.overflow = 'hidden';
+      const targetHeight = element.scrollHeight;
 
-    if (item.classList.contains('active')) {
-      expandSection(answer);
-      icon.textContent = '-';
-    } else {
-      collapseSection(answer);
-      icon.textContent = '+';
-    }
-  });
-});
+      function step() {
+        height += 5; // Adjust this value for faster/slower animations
+        element.style.height = `${height}px`;
 
-function expandSection(element) {
-  let height = 0;
-  element.style.display = 'block';
-  element.style.overflow = 'hidden';
-  const targetHeight = element.scrollHeight;
+        if (height < targetHeight) {
+          requestAnimationFrame(step);
+        } else {
+          element.style.height = '';
+          element.style.overflow = '';
+        }
+      }
 
-  function step() {
-    height += 5; // Adjust this value for faster/slower animations
-    element.style.height = `${height}px`;
-
-    if (height < targetHeight) {
       requestAnimationFrame(step);
-    } else {
-      element.style.height = '';
-      element.style.overflow = '';
     }
-  }
 
-  requestAnimationFrame(step);
-}
+    function collapseSection(element) {
+      const startHeight = element.scrollHeight;
+      element.style.height = `${startHeight}px`;
+      element.style.overflow = 'hidden';
 
-function collapseSection(element) {
-  const startHeight = element.scrollHeight;
-  element.style.height = `${startHeight}px`;
-  element.style.overflow = 'hidden';
+      function step() {
+        const height = parseFloat(element.style.height);
+        if (height > 0) {
+          element.style.height = `${Math.max(height - 5, 0)}px`; // Adjust this value for faster/slower animations
+          requestAnimationFrame(step);
+        } else {
+          element.style.display = 'none';
+          element.style.height = '';
+        }
+      }
 
-  function step() {
-    const height = parseFloat(element.style.height);
-    if (height > 0) {
-      element.style.height = `${Math.max(height - 5, 0)}px`; // Adjust this value for faster/slower animations
       requestAnimationFrame(step);
-    } else {
-      element.style.display = 'none';
-      element.style.height = '';
     }
-  }
-
-  requestAnimationFrame(step);
-}
 
 
 
