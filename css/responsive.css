@@ -2985,6 +2985,7 @@
     font-size: 18px;
     line-height: 22px;
     text-wrap: auto;
+    word-break: break-all;
   }
 
   .frameworks-image-box > img {
