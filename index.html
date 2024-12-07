@@ -2075,6 +2075,39 @@
         </div>
       </div>
     </div>
+    <section id="footer-slider" class="footer-slider owl-carousel owl-theme owl-loaded owl-drag">
+           
+      <div class="owl-stage-outer">
+        <div class="owl-stage">
+          <div class="owl-item">
+            <div class="item">
+              <img src="assets/images/sliders/upwork_slider.png" class="object-fit-contain" alt="" />
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item ">
+              <img src="assets/images/sliders/topal_slider.png" class="object-fit-contain" alt="" />
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item  object-fit-contain">
+              <img src="assets/images/sliders/clutch_slider.png" alt="" />
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item  object-fit-contain">
+              <img src="assets/images/sliders/cofounderslab_slider.png" alt="" />
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item  object-fit-contain">
+              <img src="assets/images/sliders/freelancer_slider.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
     <section class="footer-bottom">
       <div class="custom-container">
         <div class="footer-bottom-con">
@@ -2143,6 +2176,51 @@
           items: 3
         }
       }
+    });
+  </script>
+
+    <script>
+    var owl = $(".footer-slider");
+    owl.owlCarousel({
+      items: 5, // Default number of items displayed
+      loop: true,
+      margin: 0,
+      autoplay: true,
+      slideTransition: 'linear',
+      autoplayTimeout:2500, // Set to 2000 milliseconds
+      autoplaySpeed: 2500,
+      autoplayHoverPause: false,
+      dots: false,  
+      responsive: {
+        320: {
+          items: 1,
+          margin: 0,
+        },
+        375: {
+          items: 1,
+          margin: 0,
+        },
+        425: {
+          items: 1,
+          margin: 0,
+        },
+        600: {
+          items: 2,
+           margin: 0,
+        },
+        991: {
+          items: 2,
+           margin: 0,
+        },
+        1024: {
+          items: 3,
+           margin: 0,
+        },
+        1200: {
+          items: 4,
+           margin: 0,
+        },
+      },
     });
   </script>
 

@@ -4581,3 +4581,35 @@ textarea:-webkit-autofill:focus {
   height: 100%;
 }
 /* ******************************************************************************************************** */
+
+.footer-slider {
+  position: relative;
+  background: linear-gradient(
+    244.73deg,
+    rgba(4, 191, 215, 0.17) -48.91%,
+    rgba(99, 56, 139, 0.17) 79.49%
+  );
+  width: 100%;
+  padding: 10px; /* Adjust padding to make space for borders */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer-slider::before,
+.footer-slider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
+}
+
+.footer-slider::before {
+  top: 0;
+}
+
+.footer-slider::after {
+  bottom: 0;
+}
