@@ -1,7 +1,16 @@
 /*********************************************default_css*************************************************/
 
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"); */
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url(../fonts/Rajdhani-Bold.ttf) format("woff2");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubik-VariableFont_wght.ttf) format("woff2");
+}
 
 .custom-container {
   width: 100%;
@@ -526,7 +535,7 @@ ol {
 /* ******************************************************banner-css-start********************************************************* */
 
 .banner-wrapper {
-  background: url(../assets/images/banner-bg-3.png);
+  background: url(../assets/images/banner-bg-3.webp);
   background-position: center;
   background-repeat: no-repeat;
   /* min-height: 800px; */
@@ -894,7 +903,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/images/back-ground.jpg);
+  background-image: url(../assets/images/back-ground.webp);
   background-repeat: no-repeat;
   min-height: 872px;
   background-size: cover;
@@ -1635,7 +1644,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/cutting-edge-img1.svg);
+  background: url(../assets/images/cutting-edge-img1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
