@@ -2282,22 +2282,23 @@
       const $this = $(this);
       const $panel = $this.next('.panel-collapse');
 
-      if ($panel.hasClass('in')) {
-        // If already open, close it
-        $panel.collapse('hide');
-        $this.removeClass('active');
-      } else {
-        // Close all others
+      if (!$panel.hasClass('in')) {
+        // Only close others if the clicked panel is not already open
         $('#accordion .panel-collapse.in').collapse('hide');
         $('#accordion .panel-heading').removeClass('active');
 
-        // Open current
+        // Open clicked one
         $this.addClass('active');
         $panel.collapse('show');
+      } else {
+        // If clicked panel is already open, just close it
+        $panel.collapse('hide');
+        $this.removeClass('active');
       }
     });
   });
 </script>
+
 
 
   <!-- <script>
