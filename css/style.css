@@ -851,6 +851,7 @@ ol {
 
 .driving-rapid-box-con {
   display: flex;
+
   margin-top: 41px;
   gap: 90px;
 }
@@ -2040,6 +2041,11 @@ a:active {
   border-color: none !important;
   background-color: none !important;
   box-shadow: none !important;
+}
+
+.panel-collapse {
+  overflow: hidden;
+  transition: height 0.35s ease;
 }
 
 .panel:last-child {
