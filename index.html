@@ -34,7 +34,7 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 </head>
 
@@ -968,10 +968,9 @@
         <div class="col-md-6 col-sm-6 mobile_view_show">
           <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel">
-              <div class="panel-heading" role="tab" id="headingOne">
+              <div class="panel-heading " role="tab" id="headingOne">
                 <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="" aria-expanded="true" aria-controls="collapseOne">
                     <div class="our-services-sub-box-img">
                       <img src="./assets/images/our-icon-1.svg" alt="software-development-icon" />
                     </div>
@@ -1660,7 +1659,7 @@
                 seamless connections and unlocks endless opportunities for innovation and growth...
               </p>
               <button class="work-portfolio-read-more">
-                <a href="https://casestudy.transcodesolution.com/project/feeturre.html">Read more...<i
+                <a href="https://casestudy.transcodesolution.com/project/feeturre.html" >Read more...<i
                     class="fa-solid fa-arrow-right"></i></a>
               </button>
             </div>
@@ -2278,27 +2277,47 @@
 
 <script>
   $(document).ready(function () {
+    let firstOpened = false;
+
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !firstOpened) {
+          $('#collapseOne').collapse('show');
+          $('#headingOne').addClass('active');
+          firstOpened = true;
+        }
+      });
+    }, { threshold: 0.3 });
+
+    const accordion = document.querySelector('#accordion');
+    if (accordion) observer.observe(accordion);
+
     $('#accordion .panel-heading').on('click', function () {
       const $this = $(this);
-      const $panel = $this.next('.panel-collapse');
+      const $target = $this.next('.panel-collapse');
 
-      if (!$panel.hasClass('in')) {
-        // Only close others if the clicked panel is not already open
-        $('#accordion .panel-collapse.in').collapse('hide');
-        $('#accordion .panel-heading').removeClass('active');
 
-        // Open clicked one
+      const isOpen = $target.hasClass('in');
+
+      $('#accordion .panel-collapse').collapse('hide');
+      $('#accordion .panel-heading').removeClass('active');
+
+
+      if (!isOpen) {
+        $target.collapse('show');
         $this.addClass('active');
-        $panel.collapse('show');
-      } else {
-        // If clicked panel is already open, just close it
-        $panel.collapse('hide');
-        $this.removeClass('active');
       }
+    });
+
+    $('#accordion .panel-collapse').on('shown.bs.collapse', function () {
+      $(this).prev('.panel-heading').addClass('active');
+    });
+
+    $('#accordion .panel-collapse').on('hidden.bs.collapse', function () {
+      $(this).prev('.panel-heading').removeClass('active');
     });
   });
 </script>
-
 
 
   <!-- <script>
