@@ -1931,7 +1931,7 @@ ol {
 .no-js .owl-carousel,
 .owl-carousel.owl-loaded {
   display: block;
-  padding-bottom: 0px !important;
+  /* padding-bottom: 0px !important; */
 }
 
 .client_img {
@@ -4589,6 +4589,20 @@ textarea:-webkit-autofill:focus {
   height: 100%;
 }
 /* ******************************************************************************************************** */
+/* Fix for manual owl structure */
+
+
+.footer-slider .owl-item {
+  flex: 0 0 auto;
+  /* width: 100% !important; */
+  box-sizing: border-box;
+}
+
+
+.footer-slider {
+  width: 100%;
+  overflow: hidden;
+}
 
 .footer-slider {
   position: relative;

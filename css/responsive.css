@@ -57,6 +57,11 @@
   .how_text_mobile_view {
     height: 85px;
   }
+
+    .footer-slider .owl-stage {
+      display: flex !important;
+      gap: 20px;
+    }
 }
 
 @media only screen and (max-width: 1360px) {
@@ -649,8 +654,13 @@
 
   .no-js .owl-carousel,
   .owl-carousel.owl-loaded {
-    padding-bottom: 0px !important;
+    /* padding-bottom: 0px !important; */
   }
+
+    .footer-slider .owl-stage {
+      display: flex !important;
+      gap: 40px;
+    }
 
   .technology-frameworks-heading-con {
     overflow-x: scroll;
@@ -2476,7 +2486,7 @@
 
   .no-js .owl-carousel,
   .owl-carousel.owl-loaded {
-    padding-bottom: 0px !important;
+    /* padding-bottom: 0px !important; */
   }
 
   .driving-rapid-box-con::before {

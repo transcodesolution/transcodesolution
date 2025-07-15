@@ -67,7 +67,7 @@
 .no-js .owl-carousel,
 .owl-carousel.owl-loaded {
     display: block;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 .owl-carousel .owl-dot,
