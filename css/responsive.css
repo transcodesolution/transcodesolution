@@ -1,389 +1,374 @@
-@media (max-width: 1440px) {
+@media (max-width:1440px) {
   .services-wrapper {
-    margin-top: -2%;
+    margin-top: -2%
   }
 
   .banner-wrapper {
-    padding-bottom: 120px;
+    padding-bottom: 120px
   }
 
   .our-services-con {
-    padding: 60px 0px 20px 0px;
+    padding: 60px 0 20px 0
   }
 
   .our-intergration-services-box-h2 {
-    width: 20%;
+    width: 20%
   }
 
   #right-side-icon-our-slider {
     right: 50px;
-    z-index: 200;
+    z-index: 200
   }
 
   #left-side-icon-our-slider {
     left: 50px;
-    z-index: 200;
+    z-index: 200
   }
 
   .our-intergration-services-box-h2 {
-    width: 20%;
+    width: 20%
   }
 
   .our-intergration-services-box-desc {
-    margin-left: 20px;
+    margin-left: 20px
   }
 
   .our-intergration-services-box {
-    padding: 25px 25px;
+    padding: 25px 25px
   }
 
   .Our-Expertise-in-Integration-con-left {
-    width: 50%;
+    width: 50%
   }
 
-  .Our-Expertise-in-Integration-con-left-card > h2 {
-    font-size: 26px;
+  .Our-Expertise-in-Integration-con-left-card>h2 {
+    font-size: 26px
   }
 
   .Our-Expertise-in-Integration-con-left-card {
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 10px
   }
 
   .Our-Expertise-in-Integration-con {
-    gap: 60px;
+    gap: 60px
   }
 
   .how_text_mobile_view {
-    height: 85px;
+    height: 85px
   }
 
-    .footer-slider .owl-stage {
-      display: flex !important;
-      gap: 20px;
-    }
+  .footer-slider .owl-stage {
+    display: flex !important;
+    gap: 20px
+  }
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width:1360px) {
   .our-integration-service-2-cards-con {
-    gap: 100px;
+    gap: 100px
   }
 
   .our-integration-service-2-card {
-    width: calc(25% - 25px);
+    width: calc(25% - 25px)
   }
 
   .driving-rapid-change-con h2 {
-    padding-inline: 0;
+    padding-inline: 0
   }
 
-  .driving-rapid-change-con > p {
-    padding-inline: 0;
+  .driving-rapid-change-con>p {
+    padding-inline: 0
   }
 
-  .industries-we-serve-con > p {
-    margin-inline: 12%;
+  .industries-we-serve-con>p {
+    margin-inline: 12%
   }
 
   .industries-we-serve-cards {
-    gap: 60px;
+    gap: 60px
   }
 
   .Integration-Expertise-Across-Industries-con-left {
-    width: 53%;
+    width: 53%
   }
 
   #right-side-icon-our-slider {
     right: 30px;
-    z-index: 200;
+    z-index: 200
   }
 
   #left-side-icon-our-slider {
     left: 30px;
-    z-index: 200;
+    z-index: 200
   }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width:1280px) {
   .our-integration-service-2-cards-con {
-    gap: 80px;
+    gap: 80px
   }
 
   .our-integration-service-2-card {
-    width: calc(25% - 20px);
+    width: calc(25% - 20px)
   }
 
   #our-integration-service-2-p {
-    margin-inline: 22%;
+    margin-inline: 22%
   }
 
   .testimonial-card-upper::after {
     content: "";
     position: absolute;
-    width: 0px;
-    height: 0px;
-    margin-left: -0.5em;
+    width: 0;
+    height: 0;
+    margin-left: -.5em;
     bottom: -1.9em;
     left: 12%;
-    border: 1em solid black;
-    border-color: transparent transparent white white;
+    border: 1em solid #000;
+    border-color: #fff0 #fff0 #fff #fff;
     transform-origin: 0 0;
     transform: rotate(-45deg);
-    box-shadow: -3px 3px 4px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: -3px 3px 4px 1px rgb(0 0 0 / .1)
   }
 
   .our-intergration-services-box-desc {
-    margin-left: 0px;
+    margin-left: 0
   }
 
   .how-do-we-work-cards-con {
-    gap: 44px;
+    gap: 44px
   }
 
-  .how-do-we-work-inner-box > h2 {
-    font-size: 27px;
+  .how-do-we-work-inner-box>h2 {
+    font-size: 27px
   }
 
   .blogs-boxes-con {
-    gap: 50px;
+    gap: 50px
   }
 
   #right-side-icon-our-slider {
     right: 30px;
-    z-index: 200;
+    z-index: 200
   }
 
   #left-side-icon-our-slider {
     left: 30px;
-    z-index: 200;
+    z-index: 200
   }
 
   .Integration-Expertise-Across-Industries-con-left {
-    width: 56%;
+    width: 56%
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width:1200px) {
   .empowering-desc-con {
-    gap: 100px;
+    gap: 100px
   }
 
   .empowering-card {
-    padding: 30px;
+    padding: 30px
   }
 
   .services-card {
     width: 250px;
-    height: unset;
+    height: unset
   }
 
   .testimonial-cards-con {
-    gap: 113px;
+    gap: 113px
   }
 
   .testimonial-container {
-    overflow: hidden;
-    /* padding: 0 10px; */
+    overflow: hidden
   }
 
   .testimonial-card {
-    flex: 1;
+    flex: 1
   }
 
   .services-card-img {
-    left: 33%;
+    left: 33%
   }
 
   .services-card {
     padding-inline: 20px;
     padding-top: 40px;
-    padding-bottom: 25px;
+    padding-bottom: 25px
   }
 
   .industries-we-serve-subcard {
-    padding: 14px;
+    padding: 14px
   }
 
   .industries-we-serve-cards-con {
-    gap: 30px;
+    gap: 30px
   }
 
   .industries-we-serve-cards {
-    gap: 23px;
+    gap: 23px
   }
 
   .middle-slider-part {
-    margin-bottom: 0px;
+    margin-bottom: 0
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width:1199px) {
   .services-text-buttons-con {
-    margin-top: 0px;
-    gap: 24px;
+    margin-top: 0;
+    gap: 24px
   }
 
-  .our-intergration-services-box-h2 > h2 {
+  .our-intergration-services-box-h2>h2 {
     font-size: 30px;
-    line-height: 34.14px;
+    line-height: 34.14px
   }
 
   .Integration-Expertise-Across-Industries-sub-boxes {
-    padding: 23px 30px;
+    padding: 23px 30px
   }
 
   .wrapper-section-digital {
-    padding-block: 30px;
+    padding-block: 30px
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .testimonial-card-upper > p {
-    font-size: 17px;
-}
-.testimonial-card-bottom {
-  padding-left: 41px;
-}
+@media only screen and (max-width:1024px) {
+  .testimonial-card-upper>p {
+    font-size: 17px
+  }
+
+  .testimonial-card-bottom {
+    padding-left: 41px
+  }
+
   .empowering-cards-con {
-    gap: 50px;
+    gap: 50px
   }
 
   .empowering-con {
-    gap: 50px;
+    gap: 50px
   }
 
   .active .dropdown-list {
-    background: linear-gradient(
-      244.73deg,
-      rgba(4, 191, 215, 0.3) -48.91%,
-      rgba(99, 56, 139, 0.3) 79.49%
-    ) !important;
+    background: linear-gradient(244.73deg, rgb(4 191 215 / .3) -48.91%, rgb(99 56 139 / .3) 79.49%) !important
   }
 
   .wrapper-section-digital {
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 0
   }
 
   .active .dropdown-list {
-    background: white;
-    /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%) !important; */
+    background: #fff
   }
 
   .dropdown-list:hover {
-    /* background: white; */
-    background: linear-gradient(
-      244.73deg,
-      rgba(4, 191, 215, 0.3) -48.91%,
-      rgba(99, 56, 139, 0.3) 79.49%
-    );
+    background: linear-gradient(244.73deg, rgb(4 191 215 / .3) -48.91%, rgb(99 56 139 / .3) 79.49%)
   }
 
-  .our-healthcare-it-service-con > h1 {
-    font-size: 40px;
+  .our-healthcare-it-service-con>h1 {
+    font-size: 40px
   }
 
   .our-healthcare-cards-con {
-    gap: 40px;
+    gap: 40px
   }
 
   .our-healthcare-card {
     padding: 20px 50px 20px 20px;
-    width: calc(50% - 20px);
+    width: calc(50% - 20px)
   }
 
-  .healthcare-card-desc > h2 {
-    font-size: 21px;
+  .healthcare-card-desc>h2 {
+    font-size: 21px
   }
 
-  .healthcare-card-desc > p {
-    font-size: 17px;
+  .healthcare-card-desc>p {
+    font-size: 17px
   }
 
   .our-integration-service-2-cards-con {
-    gap: 40px;
+    gap: 40px
   }
 
   .our-integration-service-2-card {
-    width: calc(25% - 10px);
+    width: calc(25% - 10px)
   }
 
-  .our-integration-service-2-card > h3 {
-    font-size: 19px;
+  .our-integration-service-2-card>h3 {
+    font-size: 19px
   }
 
   #our-integration-service-2-p {
-    margin-inline: 16%;
+    margin-inline: 16%
   }
 
   .development-process-subbox-name h2 {
     font-size: 19px;
-    line-height: 24.34px;
+    line-height: 24.34px
   }
 
   .development-process-subbox-name p {
     font-size: 15px;
-
-    line-height: 24.46px;
+    line-height: 24.46px
   }
 
   .development-process-box-1 {
-    gap: 20px;
+    gap: 20px
   }
 
   .development-process-steps {
-    gap: 20px;
+    gap: 20px
   }
 
-  /* .transcodezy-navbar-ul > li > a.active {
-    color: #ffffff;
-  } */
-  .transcodezy-navbar-ul > li > .flex_wrapper > a.active {
-    color: #406aa7;
+  .transcodezy-navbar-ul>li>.flex_wrapper>a.active {
+    color: #406aa7
   }
 
-  .transcodezy-navbar-ul > li.active {
+  .transcodezy-navbar-ul>li.active {
     background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
-    border-radius: 5px;
+    border-radius: 5px
   }
-  /* Hover effect for the menu item */
-  .transcodezy-navbar-ul > li:hover {
-    /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
-    border-radius: 5px;
+
+  .transcodezy-navbar-ul>li:hover {
+    border-radius: 5px
   }
 
   .dropdown-list {
-    background: white;
+    background: #fff;
     border-radius: 3px;
-    color: black;
+    color: #000
   }
 
-  .transcodezy-navbar-ul > li > a:hover {
-    color: #ffffff;
+  .transcodezy-navbar-ul>li>a:hover {
+    color: #fff
   }
 
-  .transcodezy-navbar-ul > li > .flex_wrapper:hover {
+  .transcodezy-navbar-ul>li>.flex_wrapper:hover {
     border-radius: 5px;
     color: #406aa7;
-    padding: 15px;
-    /* background: linear-gradient(244.73deg, #04BFD7 -48.91%, #63388B 79.49%); */
+    padding: 15px
   }
+
   .services-nav,
   .industries-nav,
   .company-nav {
-    padding: 0 !important;
+    padding: 0 !important
   }
+
   .industries-nav:hover .dropdown-con,
   .services-nav:hover .dropdown-con,
   .company-nav :hover .dropdown-con {
-    padding-top: 0px;
+    padding-top: 0
   }
 
   .transcodezy-navbar-ul {
-    /* background: #574690; */
-    /* background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%); */
-    background: white;
-    box-shadow: 0px 0px 14.2px 0px #00000040;
+    background: #fff;
+    box-shadow: 0 0 14.2px 0 #00000040;
     position: fixed;
     top: 0;
     right: -100%;
@@ -397,270 +382,259 @@
     padding: 20px 15px 10px 15px;
     margin: 0;
     overflow-y: auto;
-    gap: 0;
+    gap: 0
   }
 
-  /* .services-nav>a {
-    display: flex;
-    align-items: center;
-  } */
   .flex_wrapper {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 15px
   }
 
-  .industries-nav > a {
+  .industries-nav>a {
     display: flex;
-    align-items: center;
+    align-items: center
   }
 
   .services-nav .nav-plus-icon {
     margin-left: auto;
     display: block;
-    font-size: 18px;
+    font-size: 18px
   }
 
   .industries-nav .nav-plus-icon {
     margin-left: auto;
     display: block;
-    font-size: 18px;
+    font-size: 18px
   }
+
   .company-nav .nav-plus-icon {
     margin-left: auto;
     display: block;
-    font-size: 18px;
+    font-size: 18px
   }
 
   .services-nav .dropdown-con {
     position: static;
-    background: transparent;
+    background: #fff0;
     left: 0%;
     height: 300px;
     overflow-y: auto;
-    padding: 0px 20px 5px 20px;
-    display: none;
+    padding: 0 20px 5px 20px;
+    display: none
   }
 
   .dropdown-con li {
-    padding-inline: 0px;
-    width: 100%;
+    padding-inline: 0;
+    width: 100%
   }
 
   .industries-nav .dropdown-con {
     position: static;
-    background: transparent;
+    background: #fff0;
     left: 0%;
-    padding: 0px 20px 5px 20px;
-    display: none;
+    padding: 0 20px 5px 20px;
+    display: none
   }
+
   .company-nav .dropdown-con {
     position: static;
-    background: transparent;
+    background: #fff0;
     left: 0%;
-    padding: 0px 20px 5px 20px;
-    display: none;
+    padding: 0 20px 5px 20px;
+    display: none
   }
 
   .services-nav .nav-minus-icon {
     margin-left: auto;
-    font-size: 18px;
+    font-size: 18px
   }
 
   .industries-nav .nav-minus-icon {
     margin-left: auto;
-    font-size: 18px;
+    font-size: 18px
   }
+
   .company-nav .nav-minus-icon {
     margin-left: auto;
-    font-size: 18px;
+    font-size: 18px
   }
 
   .show-dropdown .services-dropdown-gray-icon {
-    display: block;
+    display: block
   }
 
   .show-dropdown .services-dropdown-white-icon {
-    display: none;
+    display: none
   }
-
-  /* .show-dropdown .services-dropdown-gray-icon {
-    display: none;
-  }
-
-  .show-dropdown .services-dropdown-white-icon {
-    display: block;
-  } */
 
   .testimonial-cards-con {
-    gap: 65px;
+    gap: 65px
   }
 
   .transcodezy-navbar-ul .close-icon {
     display: block;
-    color: rgb(0, 0, 0);
+    color: #000;
     font-size: 32px;
     font-weight: 700;
     cursor: pointer;
     transition: 0.5s;
     margin-left: auto;
-    margin-bottom: 30px;
+    margin-bottom: 30px
   }
 
-  .transcodezy-navbar-ul > li > a {
-    font-weight: 500;
+  .transcodezy-navbar-ul>li>a {
+    font-weight: 500
   }
 
   .transcodezy-navbar-ul li a {
-    color: rgb(0, 0, 0);
+    color: #000
   }
 
-  .transcodezy-navbar-ul > li:hover a,
-  .transcodezy-navbar-ul > li:hover i {
-    color: #406aa7; /* White color for text and icons on hover */
+  .transcodezy-navbar-ul>li:hover a,
+  .transcodezy-navbar-ul>li:hover i {
+    color: #406aa7
   }
 
   .transcodezy-navbar-ul li a::before {
     background: none;
-    width: 0;
+    width: 0
   }
-  li.services-nav > .flex_wrapper > a:hover {
-    color: #406aa7;
+
+  li.services-nav>.flex_wrapper>a:hover {
+    color: #406aa7
   }
+
   .industries-nav a:hover {
-    color: #406aa7;
-  }
-  .transcodezy-navbar-ul > li {
-    padding: 15px 15px 15px 15px;
-    /* border-block-start: 1px solid white; */
+    color: #406aa7
   }
 
-  .dropdown-list > p {
-    color: unset;
+  .transcodezy-navbar-ul>li {
+    padding: 15px 15px 15px 15px
   }
 
-  .dropdown-list > img {
-    color: rgb(0, 0, 0);
+  .dropdown-list>p {
+    color: unset
+  }
+
+  .dropdown-list>img {
+    color: #000
   }
 
   .header-contact-us-button-con {
     display: flex;
     align-items: center;
     gap: 30px;
-    z-index: 0;
+    z-index: 0
   }
 
   .header-contact-us-button-con .navbar-bars-icon {
     display: block;
-    margin-right: 0px;
+    margin-right: 0;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
     z-index: 9999;
-    color: #3f3f3f;
+    color: #3f3f3f
   }
 
   .services-card-con {
-    width: 100%;
+    width: 100%
   }
 
   .service-card-inner-con-left {
-    width: 50%;
+    width: 50%
   }
 
   .service-card-inner-con-right {
-    width: 50%;
+    width: 50%
   }
 
   .services-card {
     width: 100%;
-    height: unset;
+    height: unset
   }
 
   .services-card-img {
-    left: 40%;
+    left: 40%
   }
 
   .services-con {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 50px
   }
 
   .services-text-con {
-    width: 100%;
+    width: 100%
   }
 
   .services-text-con h2 {
-    text-align: center;
+    text-align: center
   }
 
   .driving-rapid-box {
-    width: 25%;
+    width: 25%
   }
 
   .services-text-con p {
-    text-align: center;
+    text-align: center
   }
 
   .services-text-buttons-con {
     align-items: center;
-    justify-content: center;
+    justify-content: center
   }
 
   .driving-rapid-box-con {
-    gap: 40px;
+    gap: 40px
   }
 
   .testimonial-cards-con {
-    align-items: flex-start;
+    align-items: flex-start
   }
 
   .cutting-edge-con p {
-    font-size: 19px;
+    font-size: 19px
   }
 
   .footer-upper {
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: space-between
   }
 
   .footer-upper-box {
-    width: 31%;
+    width: 31%
   }
-  .footer-upper-last-box{
-    width: 100%;
+
+  .footer-upper-last-box {
+    width: 100%
   }
 
   .our-services-info-box-left {
-    width: 100%;
+    width: 100%
   }
 
   .our-services-info-con {
     flex-direction: column;
-    gap: 20px;
+    gap: 20px
   }
 
   .our-services-info-box-right {
-    width: 100%;
+    width: 100%
   }
 
-  .our-intergration-services-box-h2 > h2 {
+  .our-intergration-services-box-h2>h2 {
     font-size: 30px;
-    line-height: 34.14px;
+    line-height: 34.14px
   }
 
-  .no-js .owl-carousel,
-  .owl-carousel.owl-loaded {
-    /* padding-bottom: 0px !important; */
+  .footer-slider .owl-stage {
+    display: flex !important;
+    gap: 40px
   }
-
-    .footer-slider .owl-stage {
-      display: flex !important;
-      gap: 40px;
-    }
 
   .technology-frameworks-heading-con {
     overflow-x: scroll;
@@ -668,406 +642,395 @@
     margin-inline: 0;
     justify-content: space-between;
     width: 100%;
-    gap: 30px;
+    gap: 30px
   }
 
   .hiring-models-boxes-con {
-    gap: 50px;
+    gap: 50px
   }
 
   .hiring-models-box {
     width: calc(33% - 25px);
-    padding: 15px 15px;
+    padding: 15px 15px
   }
 
-  .how-do-we-work-inner-box > h2 {
-    font-size: 22px;
+  .how-do-we-work-inner-box>h2 {
+    font-size: 22px
   }
 
   .how-do-we-work-inner-box p {
-    padding: 40px 15px 25px 15px;
+    padding: 40px 15px 25px 15px
   }
 
-  .how-do-we-work-inner-box > p {
-    margin-top: 0px;
+  .how-do-we-work-inner-box>p {
+    margin-top: 0
   }
 
   .middle-slider-part {
-    gap: 20px;
+    gap: 20px
   }
 
   #how-do-we-work-card-11::after,
   #how-do-we-work-card-22::after,
   #how-do-we-work-card-33::after,
   #how-do-we-work-card-44::after {
-    top: 36%;
+    top: 36%
   }
 
-  .how-do-we-work-inner-box > h2 {
-    line-height: 25.3px;
+  .how-do-we-work-inner-box>h2 {
+    line-height: 25.3px
   }
 
   .how-do-we-work-cards-con {
-    gap: 30px;
+    gap: 30px
   }
 
   .frameworks-image-box {
-    width: 45%;
+    width: 45%
   }
 
   .frameworks-image-box-con.active {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between
   }
 
   .Integration-Expertise-Across-Industries-con {
     gap: 70px;
-    padding-top: 60px;
+    padding-top: 60px
   }
 
   .Integration-Expertise-Across-Industries-con-left {
-    width: 50%;
+    width: 50%
   }
 
   .Integration-Expertise-Across-Industries-sub-boxes {
-    padding: 20px 57px;
+    padding: 20px 57px
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes > img {
-    width: 11%;
+  .Integration-Expertise-Across-Industries-sub-boxes>img {
+    width: 11%
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes > p {
+  .Integration-Expertise-Across-Industries-sub-boxes>p {
     font-size: 22px;
-
-    line-height: 30.28px;
+    line-height: 30.28px
   }
 
   .Our-Expertise-in-Integration-con-left {
-    width: 55%;
+    width: 55%
   }
 
   .Our-Expertise-in-Integration-con {
-    gap: 50px;
+    gap: 50px
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .our-services-info-box-right{
-    height: 100%;
+@media only screen and (max-width:992px) {
+  .our-services-info-box-right {
+    height: 100%
   }
-  /* .our-services-info-box-right {
-    height: calc(100vh - 420px);
-} */
+
   .business_card ul {
-    margin: -22px -22px;
+    margin: -22px -22px
   }
+
   .business_card ul li {
-    padding: 22px 22px;
+    padding: 22px 22px
   }
-  .empowering-desc > h2 {
-    margin-right: 0%;
+
+  .empowering-desc>h2 {
+    margin-right: 0%
   }
 
   h2.heading.how_text_mobile_view {
-    height: auto;
+    height: auto
   }
 
-  .our-healthcare-it-service-con > h1 {
-    font-size: 36px;
+  .our-healthcare-it-service-con>h1 {
+    font-size: 36px
   }
 
   .our-healthcare-cards-con {
-    gap: 30px;
+    gap: 30px
   }
 
   .our-healthcare-card {
-    /* width: 100%; */
-    padding: 20px 40px 20px 20px;
+    padding: 20px 40px 20px 20px
   }
 
   .our-integration-service-2-cards-con {
     gap: 40px;
-    flex-wrap: wrap;
+    flex-wrap: wrap
   }
 
   .our-integration-service-2-card {
-    width: calc(50% - 20px);
+    width: calc(50% - 20px)
   }
 
   .our-intergration-services-box {
-    gap: 35px;
+    gap: 35px
   }
 
-  .our-integration-service-2-card > h3 {
-    font-size: 22px;
+  .our-integration-service-2-card>h3 {
+    font-size: 22px
   }
 
-  .our-integration-service-2-card > img {
-    width: 25%;
+  .our-integration-service-2-card>img {
+    width: 25%
   }
 
   #our-integration-service-2-p {
-    margin-inline: 15%;
+    margin-inline: 15%
   }
 
   .development-process-steps-con {
     flex-direction: column;
-    gap: 0;
+    gap: 0
   }
 
   .development-process-steps-img {
-    /* display: contents; */
-  }
-
-  .development-process-steps-img {
-    width: 100%;
+    width: 100%
   }
 
   .development-process-subbox-name p {
-    margin-top: 0px;
+    margin-top: 0
   }
 
   .development-process-steps {
     gap: 10px;
-    width: 100%;
+    width: 100%
   }
 
   .header-con {
-    align-items: center;
+    align-items: center
   }
 
   .technology-frameworks-heading {
-    width: calc(100% - 63px);
+    width: calc(100% - 63px)
   }
 
   .services-wrapper {
     padding-bottom: 60px;
-    margin-top: -1%;
+    margin-top: -1%
   }
 
   #driving-rapid-change-wrapper {
-    padding-block: 30px;
+    padding-block: 30px
   }
 
   #our-services-wrapper {
-    padding-block: 0px;
+    padding-block: 0
   }
 
   .our-services-con {
-    padding: 60px 0px 60px 0px;
+    padding: 60px 0 60px 0
   }
 
   #cutting-edge-wrapper {
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .footer-upper {
-    padding-block: 30px;
+    padding-block: 30px
   }
 
   .footer-bottom {
-    margin-top: 20px;
+    margin-top: 20px
   }
 
   .industries-we-serve-subcard {
-    width: 100%;
+    width: 100%
   }
 
   .industries-we-serve-cards {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .industries-we-serve-cards-con {
-    flex-direction: unset;
+    flex-direction: unset
   }
 
   .footer-middle {
-    margin-top: 0px;
+    margin-top: 0
   }
 
   .footer-bottom {
-    padding-block: 8px;
+    padding-block: 8px
   }
 
   .cutting-edge-con p {
-    font-size: 18px;
+    font-size: 18px
   }
 
   .cutting-edge-con h2 {
     text-align: center;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 30px
   }
 
   .cutting-edge-con p {
     font-size: 18px;
-    text-align: center;
+    text-align: center
   }
 
   .get-in-touch {
-    margin: 0 auto;
+    margin: 0 auto
   }
 
   .work-portfolio-card {
-    /* width: calc(33% - 25px); */
-    width: 94%;
+    width: 94%
   }
 
   .work-portfolio-cards-con {
-    gap: 50px;
+    gap: 50px
   }
 
-  .our-services-con > p {
-    padding-inline: 0px;
+  .our-services-con>p {
+    padding-inline: 0
   }
 
   .banner-wrapper {
     justify-content: unset;
     align-items: unset;
-    padding-top: 50px;
+    padding-top: 50px
   }
 
   .service-card-inner-con-left {
-    gap: 90px;
+    gap: 90px
   }
 
   .banner-text h1 {
     font-size: 44px;
-    line-height: 48.7px;
+    line-height: 48.7px
   }
 
   .banner-text p {
     font-size: 17px;
-    line-height: 23.48px;
+    line-height: 23.48px
   }
 
   .it-success-con {
     flex-direction: column;
-    gap: 250px;
+    gap: 250px
   }
 
   .it-sucess-box-left {
-    width: 100%;
+    width: 100%
   }
 
-  .it-sucess-box-right > h2 {
-    text-align: center;
+  .it-sucess-box-right>h2 {
+    text-align: center
   }
 
-  .it-sucess-box-right > p {
-    text-align: center;
+  .it-sucess-box-right>p {
+    text-align: center
   }
 
-  .industries-we-serve-con > p {
-    margin-inline: 0%;
+  .industries-we-serve-con>p {
+    margin-inline: 0%
   }
 
-  .testimonial-con > p {
-    margin-inline: 0%;
+  .testimonial-con>p {
+    margin-inline: 0%
   }
 
   .testimonial-cards-con {
-    gap: 113px;
+    gap: 113px
   }
 
   .our-services-info-con {
     flex-direction: column;
     align-items: stretch;
     margin-top: 30px;
-    gap: 30px;
+    gap: 30px
   }
 
   .our-services-info-box-right {
-    width: 100%;
+    width: 100%
   }
 
   .get-more-info {
-    margin-top: 35px;
+    margin-top: 35px
   }
 
   .Success-Stories-services h1 {
     font-size: 40px;
-
     line-height: 40.08px;
-    text-align: center;
+    text-align: center
   }
 
   .Success-Stories-services p {
     font-size: 22px;
-
     line-height: 26.22px;
     text-align: center;
-
-    margin-right: 0%;
+    margin-right: 0%
   }
 
   .technology-frameworks-heading-con {
-    /* padding: 7px 20px; */
     margin-inline: 0;
     overflow-x: scroll;
-    gap: 30px;
+    gap: 30px
   }
 
   .middle-slider-part-left {
     width: 100%;
-    padding: 0 0 20px 0px;
+    padding: 0 0 20px 0
   }
 
   .middle-slider-part-right {
-    width: 100%;
+    width: 100%
   }
 
   .middle-slider-part-right img {
-    margin: 0;
+    margin: 0
   }
 
   .middle-slider-part {
     flex-direction: column;
-    align-items: center;
+    align-items: center
   }
 
   .Success-Stories-services .cutting-edge-con {
     padding-block: 30px;
-    gap: 20px;
+    gap: 20px
   }
 
   .how-do-we-work-cards-con {
     gap: 30px;
-    flex-wrap: wrap;
+    flex-wrap: wrap
   }
 
   .how-do-we-work-card {
-    width: calc(50% - 15px) !important;
+    width: calc(50% - 15px) !important
   }
 
   .services_integration .technology-frameworks-heading {
-    width: fit-content;
+    width: fit-content
   }
 
   .services_integration .technology-frameworks-heading-con {
     overflow-x: scroll;
-    gap: 80px;
+    gap: 80px
   }
 
   .services_integration .frameworks-image-box-con {
-    margin-inline: 5%;
+    margin-inline: 5%
   }
 
   .middle-slider-part-left,
   .middle-slider-part-right {
-    width: 100%;
+    width: 100%
   }
 
   .Why-Should-You-Choose-UIUX-Design-con {
     flex-direction: column-reverse;
     align-items: flex-start;
-    gap: 0;
+    gap: 0
   }
 
   .our-services-info-box-right {
-    padding-block: 0px;
-    padding-bottom: 20px;
+    padding-block: 0;
+    padding-bottom: 20px
   }
 
   #how-do-we-work-card-4::before,
@@ -1076,200 +1039,192 @@
   #how-do-we-work-card-3::before,
   #how-do-we-work-card-2::before,
   #how-do-we-work-card-1::before {
-    content: none !important;
+    content: none !important
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .empowering-desc {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
   }
 
-  .empowering-desc > h1 {
+  .empowering-desc>h1 {
     font-size: 40px;
     text-align: center;
-    line-height: 40.24px;
+    line-height: 40.24px
   }
 
-  .empowering-desc > h2 {
+  .empowering-desc>h2 {
     font-size: 30px;
     line-height: 35.35px;
-    text-align: center;
+    text-align: center
   }
 
   .Explore-Our-Services {
     margin-top: 35px;
     margin-inline: auto;
-    display: inline-block;
+    display: inline-block
   }
 
-  .empowering-desc > p {
+  .empowering-desc>p {
     font-size: 18px;
-
     line-height: 24.46px;
     text-align: center;
-
-    margin-top: 20px;
+    margin-top: 20px
   }
 
   .empowering-desc-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .empowering-desc {
-    width: 100%;
+    width: 100%
   }
 
   .empowering-card {
-    padding: 30px;
-    /* width: calc(100% - 25px); */
+    padding: 30px
   }
 
-  .our-healthcare-it-service-con > h1 {
-    font-size: 32px;
+  .our-healthcare-it-service-con>h1 {
+    font-size: 32px
   }
 
   .our-healthcare-card {
-    /* flex-direction: column; */
-    padding: 15px 30px;
+    padding: 15px 30px
   }
 
-  .healthcare-card-desc > h2 {
-    font-size: 22px;
+  .healthcare-card-desc>h2 {
+    font-size: 22px
   }
 
-  .healthcare-card-desc > p {
-    font-size: 16px;
+  .healthcare-card-desc>p {
+    font-size: 16px
   }
 
   .development-process-con h1 {
     font-size: 40px;
-    line-height: 40.24px;
+    line-height: 40.24px
   }
 
   .tab_title {
-    font-size: 40px;
+    font-size: 40px
   }
 
   .h1 {
-    font-size: 40px !important;
+    font-size: 40px !important
   }
 
   .request_for_text h5 {
-    font-size: 40px !important;
+    font-size: 40px !important
   }
 
   .development-process-steps-con {
     flex-direction: column;
-    gap: 0;
+    gap: 0
   }
 
   .development-process-steps-img {
-    display: contents;
+    display: contents
   }
 
   .development-process-subbox-name p {
-    margin-top: 0px;
+    margin-top: 0
   }
 
   .development-process-steps {
     gap: 10px;
-    width: 100%;
-    /* padding-top: 15px; */
+    width: 100%
   }
 
   .development-process-steps-img img {
     width: 80%;
-    height: auto;
+    height: auto
   }
 
   .services-wrapper {
-    margin-top: 0;
+    margin-top: 0
   }
 
   .banner-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .banner-text {
     width: 100%;
     gap: 15px;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .banner-text h1 {
     font-size: 40px;
-
     line-height: 42.7px;
-    text-align: center;
+    text-align: center
   }
 
   .banner-text p {
-    text-align: center;
+    text-align: center
   }
 
   .read-more {
-    margin: 0 auto;
+    margin: 0 auto
   }
 
   .banner-img {
-    width: 80%;
+    width: 80%
   }
 
   .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
-    margin-top: 15px;
+    margin-top: 15px
   }
 
-  .layer > p {
+  .layer>p {
     font-size: 13px;
-
-    line-height: 18.52px;
+    line-height: 18.52px
   }
 
-  .layer > h2 {
+  .layer>h2 {
     line-height: 20.22px;
-    margin-top: 13px;
+    margin-top: 13px
   }
 
   .services-wrapper {
-    padding-top: 60px;
+    padding-top: 60px
   }
 
   .services-card p {
-    text-align: center;
+    text-align: center
   }
 
   .services-text-con {
-    gap: 15px;
+    gap: 15px
   }
 
   .services-text-buttons-con {
     margin-top: 10px;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse
   }
 
   .services-text-con h2 {
     font-size: 40px;
-
     line-height: 40.14px;
-    text-align: center;
+    text-align: center
   }
 
   .services-text-con p {
-    line-height: 24.04px;
+    line-height: 24.04px
   }
 
   .services-card-img {
-    left: 37%;
+    left: 37%
   }
 
   .driving-rapid-box-con {
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
+    position: relative
   }
 
   .driving-rapid-box {
@@ -1277,11 +1232,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-inline-end: none;
+    border-inline-end: none
   }
 
   .driving-rapid-change-con h2 {
-    line-height: 40.66px;
+    line-height: 40.66px
   }
 
   .driving-rapid-box-con::before {
@@ -1290,7 +1245,7 @@
     width: 100%;
     height: 2px;
     top: 50%;
-    background-color: #3f3f3f;
+    background-color: #3f3f3f
   }
 
   .driving-rapid-box-con::after {
@@ -1299,485 +1254,463 @@
     width: 2px;
     height: 100%;
     left: 50%;
-    background-color: #3f3f3f;
+    background-color: #3f3f3f
   }
 
-  .driving-rapid-change-con > p {
-    line-height: 23.04px;
+  .driving-rapid-change-con>p {
+    line-height: 23.04px
   }
 
   #talented-it-prof {
-    border-inline-end: none;
+    border-inline-end: none
   }
 
-  .our-services-con > h2 {
+  .our-services-con>h2 {
     font-size: 40px;
-
-    line-height: 40.14px;
+    line-height: 40.14px
   }
 
-  .our-services-con > p {
-    line-height: 24.04px;
+  .our-services-con>p {
+    line-height: 24.04px
   }
 
   .our-services-info-box-left {
-    width: 100%;
+    width: 100%
   }
 
   .our-services-info-box-right {
-    width: 100%;
+    width: 100%
   }
 
-  .our-services-info-box-right > p {
+  .our-services-info-box-right>p {
     text-align: left;
-    line-height: 24.9px;
+    line-height: 24.9px
   }
 
-  .our-services-info-box-right > h2 {
-    /* text-align: center; */
-  }
-
-  .integration-service > h1 {
+  .integration-service>h1 {
     font-size: 45px;
     line-height: 45.5px;
-    width: unset;
+    width: unset
   }
 
-  .integration-service > h1::after {
-    width: 0%;
+  .integration-service>h1::after {
+    width: 0%
   }
 
-  .integration-service > p {
+  .integration-service>p {
     line-height: 24.9px;
-    margin-top: 15px;
+    margin-top: 15px
   }
 
   .Integration-Expertise-Across-Industries-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .Integration-Expertise-Across-Industries-con-left {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 30px;
+    gap: 30px
   }
 
-  .Integration-Expertise-Across-Industries-con-left > img {
-    width: 100%;
+  .Integration-Expertise-Across-Industries-con-left>img {
+    width: 100%
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox > h1 {
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
     font-size: 40px;
-
-    line-height: 45.24px;
+    line-height: 45.24px
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox > p {
+  .Integration-Expertise-Across-Industries-con-left-subbox>p {
     line-height: 25.6px;
-    text-align: left;
+    text-align: left
   }
 
   .Integration-Expertise-Across-Industries-con-right {
-    width: 100%;
+    width: 100%
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes > img {
+  .Integration-Expertise-Across-Industries-sub-boxes>img {
     width: 5%;
-    height: 35px;
+    height: 35px
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes > p {
+  .Integration-Expertise-Across-Industries-sub-boxes>p {
     font-size: 20px;
-    line-height: 20.28px;
+    line-height: 20.28px
   }
 
   .Integration-Expertise-Across-Industries-sub-boxes {
-    padding: 18px;
+    padding: 18px
   }
 
   .Integration-Expertise-Across-Industries-con {
-    gap: 30px;
+    gap: 30px
   }
 
   .Integration-Expertise-Across-Industries-sub-boxes {
-    gap: 20px;
+    gap: 20px
   }
 
   .check-services-data-con {
     align-items: center;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .text_768 {
-    text-align: center;
+    text-align: center
   }
-  .how-to-apply-con > h2 {
-    font-size: 40px;
+
+  .how-to-apply-con>h2 {
+    font-size: 40px
   }
+
   .get-more-info {
     margin-inline: auto;
     display: block;
-    margin-top: 40px;
+    margin-top: 40px
   }
 
   .it-success-con {
-    gap: 150px;
+    gap: 150px
   }
 
-  .it-sucess-box-right > h2 {
+  .it-sucess-box-right>h2 {
     font-size: 40px;
-
     line-height: 40.14px;
-    text-align: center;
+    text-align: center
   }
 
-  .it-sucess-box-right > p {
-    line-height: 24.04px;
+  .it-sucess-box-right>p {
+    line-height: 24.04px
   }
 
   .technology-expertise-container {
-    width: 100%;
+    width: 100%
   }
 
-  .technology-expertise-con > h2 {
+  .technology-expertise-con>h2 {
     font-size: 40px;
-    line-height: 45.01px;
+    line-height: 45.01px
   }
 
-  .technology-expertise-con > p {
+  .technology-expertise-con>p {
     font-size: 18px;
-
-    line-height: 24.58px;
+    line-height: 24.58px
   }
 
   .technology-frameworks-con {
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .technology-frameworks-heading-con {
     padding: 7px 5px;
-    /* margin-inline: 0; */
     overflow-x: scroll;
     gap: 30px;
-    margin-inline: 0px;
+    margin-inline: 0
   }
 
   .technology-frameworks-heading h2 {
     font-size: 22px;
-    line-height: 22px;
+    line-height: 22px
   }
 
   .frameworks-image-box-con {
     margin-top: 30px;
-    gap: 32px;
+    gap: 32px
   }
 
   .frameworks-image-box {
-    padding: 20px;
+    padding: 20px
   }
 
-  .work-portfolio-con > h2,
+  .work-portfolio-con>h2,
   .driving-rapid-change-con h2,
   .faq-con h2,
-  .discuss-project-con > h2 {
+  .discuss-project-con>h2 {
     font-size: 40px !important;
-    line-height: 40.14px;
+    line-height: 40.14px
   }
 
-  .work-portfolio-con > p {
-    line-height: 24.04px;
+  .work-portfolio-con>p {
+    line-height: 24.04px
   }
 
-  .work-portfolio-card-heading > h2 {
+  .work-portfolio-card-heading>h2 {
     font-size: 18px;
-
-    line-height: 24.96px;
+    line-height: 24.96px
   }
 
-  .work-portfolio-card > p {
+  .work-portfolio-card>p {
     font-size: 15px;
-    line-height: 20.12px;
+    line-height: 20.12px
   }
 
   .work-portfolio-read-more a {
-    font-size: 15px;
+    font-size: 15px
   }
 
   .work-portfolio-cards-con {
     flex-direction: column;
-    gap: 50px;
+    gap: 50px
   }
 
   .work-portfolio-card {
-    width: 94%;
+    width: 94%
   }
 
-  .industries-we-serve-con > h2 {
+  .industries-we-serve-con>h2 {
     font-size: 40px;
-
-    line-height: 40.14px;
+    line-height: 40.14px
   }
 
-  .industries-we-serve-con > p {
+  .industries-we-serve-con>p {
     font-size: 18px;
-
-    line-height: 24.04px;
+    line-height: 24.04px
   }
 
   .industries-we-serve-cards {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 30px
   }
 
-  .testimonial-con > h2 {
+  .testimonial-con>h2 {
     font-size: 40px;
-
-    line-height: 40.14px;
+    line-height: 40.14px
   }
 
-  .testimonial-con > p {
+  .testimonial-con>p {
     font-size: 18px;
-
-    line-height: 24.04px;
+    line-height: 24.04px
   }
 
-  .testimonial-card-upper > p {
+  .testimonial-card-upper>p {
     line-height: 25.2px;
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: 20px
   }
 
-  #id1 .owl-item .slider-star > img {
+  #id1 .owl-item .slider-star>img {
     display: block;
-    width: 18px;
+    width: 18px
   }
 
   .testimonial-cards-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .testimonial-card {
-    width: 100%;
+    width: 100%
   }
 
   .testimonial-cards-con {
-    gap: 70px;
+    gap: 70px
   }
 
   .testimonial-card-upper::after {
-    left: 9%;
+    left: 9%
   }
 
   .cutting-edge-con p {
-    line-height: 24.2px;
+    line-height: 24.2px
   }
 
   .get-in-touch {
     font-size: 18px;
-
-    line-height: 24.62px;
+    line-height: 24.62px
   }
 
   .mobile_devlop_title,
-  .our-intergration-services-con-heading > h2 {
+  .our-intergration-services-con-heading>h2 {
     font-size: 40px;
-    line-height: 45px;
+    line-height: 45px
   }
 
-  .our-intergration-services-box > img {
-    width: 15%;
+  .our-intergration-services-box>img {
+    width: 15%
   }
 
   .our-intergration-services-box {
     gap: 15px;
-    flex-direction: column;
+    flex-direction: column
   }
 
   .our-intergration-services-box-h2 {
-    width: 100%;
+    width: 100%
   }
-
-  /* .center-text{
-  text-align: center;
-} */
 
   .managed_it_title {
     font-size: 40px;
-    line-height: 45.5px;
+    line-height: 45.5px
   }
 
   .hiring-models-boxes-con {
-    gap: 40px;
+    gap: 40px
   }
 
-  .hiring-models-box > h2 {
+  .hiring-models-box>h2 {
     font-size: 20px;
-    line-height: 20.22px;
+    line-height: 20.22px
   }
 
-  .hiring-models-box > p {
-    margin-top: 24px;
+  .hiring-models-box>p {
+    margin-top: 24px
   }
 
-  .how-do-we-works-con > h1 {
-    font-size: 40px !important;
+  .how-do-we-works-con>h1 {
+    font-size: 40px !important
   }
 
-  .middle-slider-part-left > h1 {
-    font-size: 40px;
+  .middle-slider-part-left>h1 {
+    font-size: 40px
   }
 
-  .faq-con > h1 {
-    font-size: 40px !important;
+  .faq-con>h1 {
+    font-size: 40px !important
   }
 
-  .blogs-articles-con > h1 {
-    font-size: 40px !important;
+  .blogs-articles-con>h1 {
+    font-size: 40px !important
   }
 
   .how-do-we-work-cards-con {
-    flex-wrap: wrap;
+    flex-wrap: wrap
   }
 
   #how-do-we-work-card-11::after {
     height: 70px;
-    top: 38%;
+    top: 38%
   }
 
   #how-do-we-work-card-22::after {
     height: 70px;
-    top: 45%;
+    top: 45%
   }
 
   #how-do-we-work-card-33::after {
     height: 70px;
-    top: 45%;
+    top: 45%
   }
 
   #how-do-we-work-card-44::after {
     height: 70px;
-    top: 45%;
+    top: 45%
   }
 
   #how-do-we-work-card-1::before {
-    top: -25%;
+    top: -25%
   }
 
   #how-do-we-work-card-2::before {
-    top: -25%;
+    top: -25%
   }
 
   #how-do-we-work-card-3::before {
-    top: -25%;
+    top: -25%
   }
 
   #how-do-we-work-card-4::before {
-    top: -25%;
+    top: -25%
   }
 
   .services_integration .frameworks-image-box-con {
-    margin-inline: 0;
+    margin-inline: 0
   }
 
   .hiring-models-con h1 {
     font-size: 40px;
-
-    line-height: 40.24px;
+    line-height: 40.24px
   }
 
   .hiring-models-boxes-con {
-    margin-top: 25px;
+    margin-top: 25px
   }
 
   .hiring-models-box {
-    padding: 20px 20px;
+    padding: 20px 20px
   }
 
   .hiring-models-boxes-con {
-    gap: 40px;
+    gap: 40px
   }
 
   .hiring-models-box {
-    width: calc(33% - 20px);
+    width: calc(33% - 20px)
   }
 
-  .hiring-models-box > h2 {
+  .hiring-models-box>h2 {
     font-size: 20px;
-
-    line-height: 20.22px;
+    line-height: 20.22px
   }
 
-  .hiring-models-box > p {
+  .hiring-models-box>p {
     font-size: 17px;
-
     line-height: 24.46px;
-
-    margin-top: 12px;
+    margin-top: 12px
   }
 
-  .hiring-models-con > p {
-    margin-top: 7px;
+  .hiring-models-con>p {
+    margin-top: 7px
   }
 
   .blogs-boxes-con {
-    gap: 25px;
+    gap: 25px
   }
 
-  .blogs-box > h2 {
-    line-height: 25px;
+  .blogs-box>h2 {
+    line-height: 25px
   }
 
-  .how-to-apply-con > h1 {
+  .how-to-apply-con>h1 {
     font-size: 40px;
     line-height: 40.24px;
-    text-align: left;
+    text-align: left
   }
 
-  .how-to-apply-con > p {
+  .how-to-apply-con>p {
     font-size: 20px;
     line-height: 27px;
-    text-align: left;
+    text-align: left
   }
 
   .banner-section-about-con h1 {
     font-size: 50px !important;
-    line-height: 65.44px !important;
+    line-height: 65.44px !important
   }
 
   .apply-info {
     margin-top: 20px;
-    gap: 15px;
+    gap: 15px
   }
 
   .footer-middle {
-    align-items: flex-start;
+    align-items: flex-start
   }
 
   .footer-middle h2 {
     font-size: 30px;
-
-    line-height: 35.48px;
+    line-height: 35.48px
   }
 
   .footer-middle p {
     font-size: 18px;
     line-height: 24.99px;
-    margin-top: 0;
+    margin-top: 0
   }
 
   .footer-explore-career {
-    font-size: 25px;
+    font-size: 25px
   }
 
   .banner-wrapper {
     padding-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 10px
   }
 
   .services-wrapper {
-    padding: 40px 0px;
+    padding: 40px 0
   }
 
   .driving-rapid-change-wrapper,
@@ -1787,714 +1720,717 @@
   #industries-we-serve-wrapper,
   #testimonial-wrapper,
   .wrapper-section {
-    padding-block: 40px;
+    padding-block: 40px
   }
 
   .our-services-con {
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0 40px 0
   }
 
   .testimonial-card-upper {
     padding: 25px 25px;
     margin: 10px 10px;
-    height: calc(100vh - 500px);
+    height: calc(100vh - 500px)
   }
 
   .testimonial-card-bottom {
     gap: 10px;
-    padding-left: 7px;
+    padding-left: 7px
   }
 
   .testimonial-card-bottom p {
-    font-size: 16px;
+    font-size: 16px
   }
 
   .testimonial-card-bottom h3 {
-    font-size: 19px;
+    font-size: 19px
   }
 
-  .our-intergration-services-box-desc > p {
-    text-align: center;
+  .our-intergration-services-box-desc>p {
+    text-align: center
   }
 
   .Our-Expertise-in-Integration-con {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse
   }
 
   .Our-Expertise-in-Integration-con-left {
-    width: 100%;
+    width: 100%
   }
 
   .Our-Expertise-in-Integration-con-right {
-    text-align: center;
+    text-align: center
   }
 
-  .Our-Expertise-in-Integration-con-right > h1 {
+  .Our-Expertise-in-Integration-con-right>h1 {
     font-size: 40px;
-
     line-height: 40.24px;
-    text-align: center;
+    text-align: center
   }
 
-  .Our-Expertise-in-Integration-con-right > p {
+  .Our-Expertise-in-Integration-con-right>p {
     font-size: 18px;
     line-height: 24.6px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 15px
   }
 
-  .Our-Expertise-in-Integration-con-right > button {
+  .Our-Expertise-in-Integration-con-right>button {
     margin-top: 20px;
-    margin-inline: auto;
+    margin-inline: auto
   }
 
-  .Our-Expertise-in-Integration-con-left-card > h2 {
+  .Our-Expertise-in-Integration-con-left-card>h2 {
     font-size: 25px;
     line-height: 25.3px;
-    margin-top: 15px;
+    margin-top: 15px
   }
 
-  .Our-Expertise-in-Integration-con-left-card > p {
-    line-height: 24.46px;
+  .Our-Expertise-in-Integration-con-left-card>p {
+    line-height: 24.46px
   }
 
   .advance-healthcare-con h1 {
-    font-size: 40px;
+    font-size: 40px
   }
+
   .bannerMargin-48 {
-    margin-top: 0;
+    margin-top: 0
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
   .footer-upper-box {
     width: 100%;
-    gap: 30px;
+    gap: 30px
   }
+
   .testimonial-card-upper {
-    height: calc(100vh - 500px);
-}
+    height: calc(100vh - 500px)
+  }
+
   .mobile_faq {
-    display: none;
+    display: none
   }
 
   .mobile_view_show {
     display: block;
     padding: 0px !important;
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .check-services-data-con {
     justify-content: flex-start;
-    margin-top: 5px;
+    margin-top: 5px
   }
 
   .get-more-info {
     display: unset;
-    margin-top: 15px;
+    margin-top: 15px
   }
 
-  .check-services-data > p {
+  .check-services-data>p {
     font-size: 16px;
-    margin: 0px;
+    margin: 0
   }
 
   .get-more-info {
     padding-block: 9px;
-    padding-left: 21px;
+    padding-left: 21px
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width:576px) {
   .testimonial-card-upper {
-    height: calc(100vh - 590px);
-}
+    height: calc(100vh - 590px)
+  }
+
   .empowering-card {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
   }
 
   .empowering-icon-con {
-    margin: 0 auto;
+    margin: 0 auto
   }
 
-  .empowering-card > h2 {
+  .empowering-card>h2 {
     font-size: 28px;
-
     line-height: 27.72px;
-    text-align: center;
+    text-align: center
   }
 
-  .empowering-card > p {
+  .empowering-card>p {
     font-size: 18px;
-
     line-height: 24.46px;
-    text-align: center;
+    text-align: center
   }
 
   .empowering-card .empower-read-more {
-    margin-inline: auto;
+    margin-inline: auto
   }
 
-  .our-intergration-services-box-lists-con > ul {
-    gap: 20px;
+  .our-intergration-services-box-lists-con>ul {
+    gap: 20px
   }
 
   .our-intergration-services-box-lists-con li {
     font-size: 16px;
-    line-height: 26.22px;
+    line-height: 26.22px
   }
 
-  .our-intergration-services-con-heading > h2 {
+  .our-intergration-services-con-heading>h2 {
     font-size: 35px;
-    line-height: 40.24px;
+    line-height: 40.24px
   }
 
-  .our-healthcare-it-service-con > h1 {
-    font-size: 28px;
+  .our-healthcare-it-service-con>h1 {
+    font-size: 28px
   }
 
   .our-healthcare-card {
     width: 100%;
     padding: 15px 20px;
-    flex-direction: column;
+    flex-direction: column
   }
 
-  .healthcare-card-desc > h2 {
-    font-size: 20px;
+  .healthcare-card-desc>h2 {
+    font-size: 20px
   }
 
-  .healthcare-card-desc > p {
-    font-size: 16px;
+  .healthcare-card-desc>p {
+    font-size: 16px
   }
 
-  .our-integration-service-2-card > h3 {
-    font-size: 20px;
+  .our-integration-service-2-card>h3 {
+    font-size: 20px
   }
 
   #our-integration-service-2-p {
-    margin-inline: 0;
+    margin-inline: 0
   }
 
-  .our-services-info-box-right > h1 {
+  .our-services-info-box-right>h1 {
     margin-right: 0%;
-    text-align: center;
+    text-align: center
   }
 
   .technology-frameworks-heading h1 {
     font-size: 21px;
-    line-height: 20.68px;
+    line-height: 20.68px
   }
 
   .services-wrapper {
-    padding-top: 30px;
+    padding-top: 30px
   }
 
   .services-card-con {
-    gap: 30px;
+    gap: 30px
   }
 
   .services-card-img {
-    left: 33%;
+    left: 33%
   }
 
   .industries-we-serve-cards-con {
     flex-direction: column;
-    gap: 30px;
+    gap: 30px
   }
 
   .banner-section-about-con h1 {
-    font-size: 45px;
+    font-size: 45px
   }
 
-  .our-services-con > p {
-    padding-inline: 0px;
+  .our-services-con>p {
+    padding-inline: 0
   }
 
   .frameworks-image-box-con {
-    flex-wrap: wrap;
+    flex-wrap: wrap
   }
 
   .frameworks-image-box {
-    width: calc(50% - 16px);
+    width: calc(50% - 16px)
   }
 
-  .Integration-Expertise-Across-Industries-sub-boxes > img {
-    width: 12%;
+  .Integration-Expertise-Across-Industries-sub-boxes>img {
+    width: 12%
   }
 
   .testimonial-card-upper::after {
-    left: 13%;
+    left: 13%
   }
 
   .it-success-con {
-    gap: 50px;
+    gap: 50px
   }
 
   .technology-frameworks-heading-con {
-    padding-inline: 0;
+    padding-inline: 0
   }
 
   .technology-frameworks-heading {
     width: calc(100% - 45px);
     margin-inline: 0;
     padding-inline: 0;
-    padding-block: 7px;
+    padding-block: 7px
   }
 
-  .industries-we-serve-con > p {
-    margin-inline: 0;
+  .industries-we-serve-con>p {
+    margin-inline: 0
   }
 
   .industries-we-serve-subcard {
-    width: 100%;
+    width: 100%
   }
 
-  .testimonial-con > p {
-    margin-inline: 0;
+  .testimonial-con>p {
+    margin-inline: 0
   }
 
   .footer-middle {
     align-items: flex-start;
     flex-direction: column;
-    gap: 20px;
+    gap: 20px
   }
 
   .testimonial-card-upper {
     padding: 25px 20px;
-    margin: 11px 15px;
+    margin: 11px 15px
   }
 
   .testimonial-card-bottom {
-    padding-left: 47px;
+    padding-left: 47px
   }
 
-  .testimonial-card-upper > p {
+  .testimonial-card-upper>p {
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: 20px
   }
 
   .testimonial-card-bottom p {
     font-size: 16px;
-    line-height: 19.18px;
+    line-height: 19.18px
   }
 
   .banner-wrapper {
-    padding-bottom: 70px;
+    padding-bottom: 70px
   }
 
   .footer-upper-box {
-    width: 100%;
+    width: 100%
   }
 
-  .approches-box-right > p {
-    margin-right: 5%;
+  .approches-box-right>p {
+    margin-right: 5%
   }
 
-  .our-services-info-box-right > h2 {
-    /* font-family: Rubik; */
+  .our-services-info-box-right>h2 {
     font-size: 35px;
     margin-right: 0%;
-    line-height: 45px;
+    line-height: 45px
   }
 
   .box-right p:first-child {
-    font-size: 35px;
+    font-size: 35px
   }
 
   .box-right p:last-child {
-    font-size: 17px;
+    font-size: 17px
   }
 
   .service-card-inner-con-left {
-    gap: 70px;
+    gap: 70px
   }
 
   .technology-frameworks-heading-con {
-    margin-inline: 0px;
+    margin-inline: 0
   }
 
-  .blogs-box > a {
-    margin-top: 10px;
+  .blogs-box>a {
+    margin-top: 10px
   }
 
   .hiring-models-boxes-con {
     gap: 20px !important;
     flex-direction: column;
-    align-items: center;
+    align-items: center
   }
 
   .hiring-models-box {
-    width: calc(100% - 20px) !important;
+    width: calc(100% - 20px) !important
   }
 
-  .how-do-we-work-inner-box > h2 {
+  .how-do-we-work-inner-box>h2 {
     font-size: 23px;
-    line-height: 26px;
+    line-height: 26px
   }
 
   #how-do-we-work-card-11::after {
-    top: 45%;
+    top: 45%
   }
 
   .how-do-we-work-card {
-    width: calc(100% - 0px) !important;
+    width: calc(100% - 0px) !important
   }
 
   #how-do-we-work-card-22::after {
-    top: 41%;
+    top: 41%
   }
 
   #how-do-we-work-card-33::after {
-    top: 42%;
+    top: 42%
   }
 
   #how-do-we-work-card-44::after {
-    top: 45%;
+    top: 45%
   }
 
   #how-do-we-work-card-1::before {
-    top: -20%;
+    top: -20%
   }
 
   #how-do-we-work-card-2::before {
-    top: -20%;
+    top: -20%
   }
 
   #how-do-we-work-card-3::before {
-    top: -20%;
+    top: -20%
   }
 
   #how-do-we-work-card-4::before {
-    top: -20%;
+    top: -20%
   }
 
   .blogs-boxes-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .blogs-box {
-    width: unset;
+    width: unset
   }
 
-  .blogs-box > img {
-    width: 100%;
+  .blogs-box>img {
+    width: 100%
   }
 
   .services_integration .technology-frameworks-heading-con {
-    gap: 40px;
+    gap: 40px
   }
 
   .services_integration .frameworks-image-box {
-    width: calc(50% - 20px);
+    width: calc(50% - 20px)
   }
 
   .services_integration .frameworks-image-box-con {
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .how-do-we-work-cards-con {
-    justify-content: space-between;
+    justify-content: space-between
   }
 
   .middle-slider-part {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .middle-slider-part-left,
   .middle-slider-part-right {
-    width: 100%;
+    width: 100%
   }
 
-  .how-to-apply-con > p {
+  .how-to-apply-con>p {
+    font-size: 18px
+  }
+
+  .apply-info-text>p {
+    font-size: 16px
+  }
+
+  .discuss-project-con>p {
     font-size: 18px;
-  }
-
-  .apply-info-text > p {
-    font-size: 16px;
-  }
-
-  .discuss-project-con > p {
-    font-size: 18px;
-    line-height: 27px;
+    line-height: 27px
   }
 
   .client-onboarding-process-box {
-    width: 100%;
+    width: 100%
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .testimonial-card-upper{
-    height: 100%;
-  }
-  .healthcare-card-desc {
-    gap: 10px;
-  }
-  .advance-healthcare-con {
-    gap: 15px;
-  }
-  .text_align_center {
-    text-align: center;
-  }
-  .advance-healthcare-con h3 {
-    font-size: 25px;
-    line-height: 31.3px;
-  }
-  .advance-healthcare-con h2 {
-    font-size: 35px;
-    line-height: 40.3px;
-  }
-  .faq {
-    padding: 12px 16px;
+@media only screen and (max-width:480px) {
+  .testimonial-card-upper {
+    height: 100%
   }
 
-  .our-intergration-services-box > img {
-    width: 30%;
+  .healthcare-card-desc {
+    gap: 10px
   }
-  .how-to-apply-con > h2 {
+
+  .advance-healthcare-con {
+    gap: 15px
+  }
+
+  .text_align_center {
+    text-align: center
+  }
+
+  .advance-healthcare-con h3 {
+    font-size: 25px;
+    line-height: 31.3px
+  }
+
+  .advance-healthcare-con h2 {
     font-size: 35px;
+    line-height: 40.3px
   }
+
+  .faq {
+    padding: 12px 16px
+  }
+
+  .our-intergration-services-box>img {
+    width: 30%
+  }
+
+  .how-to-apply-con>h2 {
+    font-size: 35px
+  }
+
   .our-intergration-services-con-heading {
     align-items: flex-start;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px
   }
 
   .Our-Expertise-in-Integration-con-left-card {
-    width: calc(100% - 0px);
+    width: calc(100% - 0px)
   }
 
   .Our-Expertise-in-Integration-con-left {
-    gap: 30px;
+    gap: 30px
   }
 
-  .our-services-info-box-right > h2 {
+  .our-services-info-box-right>h2 {
     font-family: Rajdhani;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 35px
   }
 
   .development-process-con h1 {
     font-size: 35px;
-    line-height: 35.24px;
+    line-height: 35.24px
   }
 
   .request_for_text h5 {
-    font-size: 35px !important;
+    font-size: 35px !important
   }
 
-  .our-healthcare-it-service-con > h1 {
-    font-size: 26px;
+  .our-healthcare-it-service-con>h1 {
+    font-size: 26px
   }
 
   .our-healthcare-card {
-    padding: 20px;
+    padding: 20px
   }
 
-  .healthcare-card-desc > h2 {
-    font-size: 20px;
+  .healthcare-card-desc>h2 {
+    font-size: 20px
   }
 
-  .healthcare-card-desc > p,
+  .healthcare-card-desc>p,
   .advance-healthcare-con p {
-    font-size: 16px !important;
+    font-size: 16px !important
   }
 
   .our-integration-service-2-cards-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .our-integration-service-2-card {
-    width: 100%;
+    width: 100%
   }
 
-  .our-integration-service-2-card > h3 {
-    font-size: 21px;
+  .our-integration-service-2-card>h3 {
+    font-size: 21px
   }
 
-  .our-integration-service-2-card > h3 {
-    font-size: 19px;
+  .our-integration-service-2-card>h3 {
+    font-size: 19px
   }
 
-  .our-integration-service-2-con > h1 {
-    font-size: 35px !important;
+  .our-integration-service-2-con>h1 {
+    font-size: 35px !important
   }
 
   .faq-item {
     padding: 11px 13px;
     font-size: 16px;
-    line-height: 22.46px;
+    line-height: 22.46px
   }
 
   .faq-section h4 {
     font-size: 20px;
-    line-height: 25.04px;
+    line-height: 25.04px
   }
 
   .development-process-box-1 {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .development-process-subbox {
-    width: 100%;
+    width: 100%
   }
 
   .development-process-box-1 {
-    gap: 10px;
+    gap: 10px
   }
 
   .get-in-touch-discuss-project {
     font-size: 18px;
-    line-height: 24.44px;
+    line-height: 24.44px
   }
 
   .discuss-project-con {
-    gap: 20px;
+    gap: 20px
   }
 
   .home_logo {
-    height: 60px;
+    height: 60px
   }
 
   .approches-con {
     margin-top: 35px;
-    gap: 27px;
+    gap: 27px
   }
 
   .it-sucess-box-left {
-    height: 480px;
+    height: 480px
   }
 
   .banner-text h1,
   .services-text-con h2,
   .driving-rapid-change-con h2,
-  .our-services-con > h2,
-  .it-sucess-box-right > h2,
-  .technology-expertise-con > h2,
-  .work-portfolio-con > h2,
-  .industries-we-serve-con > h2,
-  .testimonial-con > h2 {
+  .our-services-con>h2,
+  .it-sucess-box-right>h2,
+  .technology-expertise-con>h2,
+  .work-portfolio-con>h2,
+  .industries-we-serve-con>h2,
+  .testimonial-con>h2 {
     font-size: 35px;
     line-height: 40.7px;
-    margin: 0px;
-    text-align: center;
+    margin: 0;
+    text-align: center
   }
 
   .banner-text p,
   .services-text-con p,
-  .driving-rapid-change-con > p,
-  .our-services-con > p,
-  .our-services-info-box-right > p,
-  .it-sucess-box-right > p,
-  .technology-expertise-con > p,
-  .industries-we-serve-con > p,
-  .testimonial-con > p,
+  .driving-rapid-change-con>p,
+  .our-services-con>p,
+  .our-services-info-box-right>p,
+  .it-sucess-box-right>p,
+  .technology-expertise-con>p,
+  .industries-we-serve-con>p,
+  .testimonial-con>p,
   .cutting-edge-con p {
     font-size: 16px;
     line-height: 23.48px;
-    text-align: center;
+    text-align: center
   }
 
-  .work-portfolio-con > p {
+  .work-portfolio-con>p {
     font-size: 16px;
     line-height: 23.48px;
-    margin-bottom: 15px;
+    margin-bottom: 15px
   }
 
   .footer-middle h2,
   .footer-link-heading {
-    font-size: 25px;
+    font-size: 25px
   }
 
   .technology-frameworks-heading-con {
     gap: 25px;
-    overflow-x: scroll;
+    overflow-x: scroll
   }
 
   .it-success-con {
-    gap: unset;
+    gap: unset
   }
 
   .cutting-edge-con {
-    padding-block: 40px;
+    padding-block: 40px
   }
 
   .testimonial-card-upper::after {
-    left: 15%;
+    left: 15%
   }
 
   .services-card-con {
     flex-direction: column;
     width: 100%;
-    gap: 100px;
+    gap: 100px
   }
 
   .service-card-inner-con-left {
-    width: 100%;
+    width: 100%
   }
 
   .service-card-inner-con-right {
-    width: 100%;
+    width: 100%
   }
 
   .services-card-img {
-    left: 40%;
+    left: 40%
   }
 
   .services-card {
-    width: 100%;
+    width: 100%
   }
 
   .services-text-buttons-con {
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 0
   }
 
   .services-text-buttons-con {
-    gap: 20px;
+    gap: 20px
   }
 
   .right-arrow-sub-box {
-    padding-left: 10px;
+    padding-left: 10px
   }
 
   .our-services-sub-box {
-    padding: 14px 15px;
+    padding: 14px 15px
   }
 
-  .our-services-info-box-right > h2 {
+  .our-services-info-box-right>h2 {
     margin-right: 0%;
-    text-align: center;
+    text-align: center
   }
 
   .it-sucees-bottom-img-left img {
-    height: 100%;
+    height: 100%
   }
 
   .check-services-data-con {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 10px
   }
 
-  .approches-box-right > p {
+  .approches-box-right>p {
     font-size: 14px;
-    margin-right: 0%;
-  }
-
-  .no-js .owl-carousel,
-  .owl-carousel.owl-loaded {
-    /* padding-bottom: 0px !important; */
+    margin-right: 0%
   }
 
   .driving-rapid-box-con::before {
-    width: 0;
+    width: 0
   }
 
   .driving-rapid-box-con::after {
-    width: 0;
+    width: 0
   }
 
   .driving-rapid-box-con {
@@ -2503,673 +2439,651 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 10px
   }
 
   .driving-rapid-box {
     width: 100%;
     padding: 20px;
-    box-shadow: 0px 0px 4px 0px #00000040;
-    border-radius: 10px;
+    box-shadow: 0 0 4px 0 #00000040;
+    border-radius: 10px
   }
 
   .box-right {
-    width: 200px;
+    width: 200px
   }
 
   .our-services-con {
-    padding: 0px 0px 20px 0px;
+    padding: 0 0 20px 0
   }
 
   .banner-con {
-    gap: 20px;
+    gap: 20px
   }
 
   .logo {
-    padding-top: 10px;
+    padding-top: 10px
   }
 
   .header-con {
-    height: 73px;
+    height: 73px
   }
 
   .approches-box-left {
-    padding: 19px;
+    padding: 19px
   }
 
   .it-success-box-left-upper,
   .it-sucess-box-left,
   .it-success-box-left-bottom {
-    gap: 9px;
+    gap: 9px
   }
 
   .managed_it_title {
     font-size: 35px !important;
-    line-height: 40px;
+    line-height: 40px
   }
+
   .faq-con h2 {
     font-size: 35px !important;
-    line-height: 40px;
+    line-height: 40px
   }
+
   .center-text {
-    text-align: center;
+    text-align: center
   }
 
   .mobile_devlop_title,
-  .our-intergration-services-con-heading > h2 {
+  .our-intergration-services-con-heading>h2 {
     font-size: 35px;
-    line-height: 45px;
+    line-height: 45px
   }
 
-  .discuss-project-con > p {
+  .discuss-project-con>p {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 23px
   }
 
-  .faq-con > h1 {
+  .faq-con>h1 {
+    font-size: 35px !important
+  }
+
+  .discuss-project-con>h1 {
+    font-size: 35px
+  }
+
+  .blogs-articles-con>h1 {
+    font-size: 35px !important
+  }
+
+  .middle-slider-part-left>h1 {
+    font-size: 35px
+  }
+
+  .discuss-project-con>h2 {
     font-size: 35px !important;
+    line-height: 40px
   }
 
-  .discuss-project-con > h1 {
-    font-size: 35px;
-  }
-
-  .blogs-articles-con > h1 {
-    font-size: 35px !important;
-  }
-
-  .middle-slider-part-left > h1 {
-    font-size: 35px;
-  }
-
-  .discuss-project-con > h2 {
-    font-size: 35px !important;
-    line-height: 40px;
-  }
-
-  .discuss-project-con > p {
+  .discuss-project-con>p {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 23px
   }
 
   .client-onboarding-process-con h1 {
-    font-size: 35px;
+    font-size: 35px
   }
 
-  .ads_tabs {
-    /* padding-block: 40px; */
-  }
-
-  .how-to-apply-con > h1 {
-    font-size: 35px;
+  .how-to-apply-con>h1 {
+    font-size: 35px
   }
 
   .how-do-we-work-cards-con {
     gap: 20px;
-    flex-direction: column;
+    flex-direction: column
   }
 
-  /* .our-intergration-services-box>img {
-  width: 25%;
-} */
   .our-integration-service-2-cards-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .our-integration-service-2-card {
-    width: 100%;
+    width: 100%
   }
 
-  .our-integration-service-2-card > h3 {
-    font-size: 21px;
+  .our-integration-service-2-card>h3 {
+    font-size: 21px
   }
 
   .wrapper-section {
-    padding-block: 40px;
+    padding-block: 40px
   }
 
   .how-do-we-work-card {
-    width: calc(100% - 0px);
+    width: calc(100% - 0px)
   }
 
   #how-do-we-work-card-1::before,
   #how-do-we-work-card-2::before,
   #how-do-we-work-card-3::before,
   #how-do-we-work-card-4::before {
-    content: none;
+    content: none
   }
 
-  .how-do-we-work-inner-box > h2 {
-    font-size: 22px;
+  .how-do-we-work-inner-box>h2 {
+    font-size: 22px
   }
 
   h2.heading.how_text_mobile_view {
-    height: unset;
+    height: unset
   }
 
   #how-do-we-work-card-11::after {
-    top: 42%;
+    top: 42%
   }
 
   #how-do-we-work-card-22::after {
-    top: 42%;
+    top: 42%
   }
 
   #how-do-we-work-card-33::after {
-    top: 42%;
+    top: 42%
   }
 
   #how-do-we-work-card-44::after {
-    top: 42%;
+    top: 42%
   }
 
   #how-do-we-work-card-1::before {
-    top: -17%;
+    top: -17%
   }
 
   #how-do-we-work-card-2::before {
-    top: -17%;
+    top: -17%
   }
 
   #how-do-we-work-card-3::before {
-    top: -17%;
+    top: -17%
   }
 
   #how-do-we-work-card-4::before {
-    top: -17%;
+    top: -17%
   }
 
   .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
+    gap: 10px
   }
 
   .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con-left {
-    gap: 10px;
+    gap: 10px
   }
 
   .middle-slider-part-left-box-con {
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 5px
   }
 
   .banner-section-about-con h1 {
     font-size: 45px !important;
-    line-height: 50px !important;
+    line-height: 50px !important
   }
 
   .apply-info {
     gap: 16px;
-    align-items: flex-start;
+    align-items: flex-start
   }
 
   .apply-info-text {
-    gap: 0px;
+    gap: 0;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start
   }
 
   .apply-info-first-p {
-    margin-left: 0px;
+    margin-left: 0
   }
 
   .apply-info-second-p {
-    margin-left: 0;
+    margin-left: 0
   }
 
-  .apply-info-text > p {
-    text-align: left;
+  .apply-info-text>p {
+    text-align: left
   }
 
   .services_integration .frameworks-image-box-con {
-    gap: 30px;
+    gap: 30px
   }
 
   .services_integration .frameworks-image-box {
-    width: calc(50% - 15px);
+    width: calc(50% - 15px)
   }
 
   .middle-slider-part {
     padding-bottom: 30px;
-    margin-inline: 10px;
+    margin-inline: 10px
   }
 
   .hiring-models-boxes-con {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .hiring-models-box {
-    width: 100%;
+    width: 100%
   }
 
   #left-side-icon-our-slider {
     left: 40%;
     top: unset;
-    bottom: -0%;
-    transform: translate(-50%, -50%);
+    bottom: 0%;
+    transform: translate(-50%, -50%)
   }
 
   #right-side-icon-our-slider {
     right: 32%;
     top: unset;
-    bottom: -0%;
-    transform: translate(-50%, -50%);
+    bottom: 0%;
+    transform: translate(-50%, -50%)
   }
 
-  .our-intergration-services-box-lists-con > ul {
-    gap: 30px;
+  .our-intergration-services-box-lists-con>ul {
+    gap: 30px
   }
 
-  .integration-service > h1 {
+  .integration-service>h1 {
     font-size: 40px;
-    line-height: 40.5px;
+    line-height: 40.5px
   }
 
-  .integration-service > p,
+  .integration-service>p,
   #our-integration-service-2-p,
-  .Integration-Expertise-Across-Industries-con-left-subbox > p,
-  .Our-Expertise-in-Integration-con-right > p {
+  .Integration-Expertise-Across-Industries-con-left-subbox>p,
+  .Our-Expertise-in-Integration-con-right>p {
     line-height: 23.9px;
-    font-size: 16px;
-    /* text-align: center; */
+    font-size: 16px
   }
 
   .Integration-Expertise-Across-Industries-con-left {
-    flex-direction: column;
+    flex-direction: column
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox > h1 {
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
     text-align: center;
-    font-size: 35px;
+    font-size: 35px
   }
 
-  .Integration-Expertise-Across-Industries-con-left-subbox > p {
-    text-align: center;
+  .Integration-Expertise-Across-Industries-con-left-subbox>p {
+    text-align: center
   }
 
   .technology-frameworks-heading h1 {
     font-size: 19px;
-    line-height: 20.68px;
+    line-height: 20.68px
   }
 
   .technology-frameworks-heading-con {
-    gap: 20px;
+    gap: 20px
   }
 
   .technology-frameworks-heading {
     width: calc(100% - 45px);
     margin-inline: 0;
-    padding-block: 7px;
+    padding-block: 7px
   }
 
-  .our-intergration-services-box-lists-con > ul {
-    gap: 0px;
-    flex-direction: column;
+  .our-intergration-services-box-lists-con>ul {
+    gap: 0;
+    flex-direction: column
   }
 
   .our-intergration-services-box-lists-con li {
-    width: 100%;
+    width: 100%
   }
 
-  .our-intergration-services-con-heading > button {
-    width: unset;
+  .our-intergration-services-con-heading>button {
+    width: unset
   }
 
-  /* .Integration-Expertise-Across-Industries-con-left>img {
-  width: 100%;
-} */
-  .integration-service > h1,
+  .integration-service>h1,
   .h1,
-  .Integration-Expertise-Across-Industries-con-left-subbox > h1,
-  .Our-Expertise-in-Integration-con-right > h1,
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1,
+  .Our-Expertise-in-Integration-con-right>h1,
   .Success-Stories-services h1,
   .hiring-models-con h1,
-  .middle-slider-part-left > h1 {
+  .middle-slider-part-left>h1 {
     font-size: 35px !important;
     line-height: 45px !important;
-    text-align: center;
+    text-align: center
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width:425px) {
   .testimonial-card-bottom {
-    padding-left: 10px;
+    padding-left: 10px
   }
 
   .panel-title a {
-    gap: 16px;
+    gap: 16px
   }
 }
 
-@media only screen and (max-width: 376px) {
-
+@media only screen and (max-width:376px) {
   .empowering-card {
-    padding: 20px;
+    padding: 20px
   }
+
   .advance-healthcare-con h3 {
     font-size: 20px;
-    line-height: 26.3px;
-  }
-  .our-healthcare-it-service-con > h1 {
-    font-size: 24px;
+    line-height: 26.3px
   }
 
-  .healthcare-card-desc > h2 {
-    font-size: 19px;
+  .our-healthcare-it-service-con>h1 {
+    font-size: 24px
   }
 
-  .healthcare-card-desc > p {
-    font-size: 15px;
+  .healthcare-card-desc>h2 {
+    font-size: 19px
   }
 
-  .our-intergration-services-box-lists-con > ul {
-    gap: 0px;
-    flex-direction: column;
+  .healthcare-card-desc>p {
+    font-size: 15px
+  }
+
+  .our-intergration-services-box-lists-con>ul {
+    gap: 0;
+    flex-direction: column
   }
 
   .our-intergration-services-box-lists-con li {
-    width: 100%;
+    width: 100%
   }
 
   .testimonial-card-bottom {
-    padding-left: 6px;
+    padding-left: 6px
   }
 
-  .testimonial-card-upper > p {
+  .testimonial-card-upper>p {
     font-size: 16px;
-    line-height: 25.2px;
+    line-height: 25.2px
   }
 
   .services-card p {
-    text-align: center;
+    text-align: center
   }
 
   .driving-rapid-box-con::before {
-    width: 0;
+    width: 0
   }
 
   .driving-rapid-box-con::after {
-    width: 0;
+    width: 0
   }
 
   #driving-rapid-box-last {
-    border-block-end: none;
+    border-block-end: none
   }
 
   .driving-rapid-box {
-    width: 96%;
+    width: 96%
   }
 
   .Why-Should-You-Choose-UIUX-Design-con .check-services-data-con {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
+    gap: 10px
   }
 
-  .layer > h2 {
-    font-size: 23px;
+  .layer>h2 {
+    font-size: 23px
   }
 
-  .layer > p {
+  .layer>p {
     font-size: 17px;
-    line-height: 22px;
+    line-height: 22px
   }
 
   .services-wrapper {
-    padding-top: 35px;
+    padding-top: 35px
   }
 
   .right-arrow-sub-box {
-    padding-left: 10px;
+    padding-left: 10px
   }
 
   .our-services-sub-box {
-    padding: 12px 12px;
+    padding: 12px 12px
   }
 
   .banner-text h1,
   .services-text-con h2,
-  .our-services-con > h2,
-  .it-sucess-box-right > h2,
-  .technology-expertise-con > h2,
-  .work-portfolio-con > h2,
-  .industries-we-serve-con > h2,
-  .testimonial-con > h2,
+  .our-services-con>h2,
+  .it-sucess-box-right>h2,
+  .technology-expertise-con>h2,
+  .work-portfolio-con>h2,
+  .industries-we-serve-con>h2,
+  .testimonial-con>h2,
   .driving-rapid-change-con h2 {
     font-size: 35px;
-    line-height: 34.7px;
+    line-height: 34.7px
   }
 
   .banner-text p,
   .services-text-con p,
-  .driving-rapid-change-con > p,
-  .our-services-info-box-right > p,
+  .driving-rapid-change-con>p,
+  .our-services-info-box-right>p,
   .it-sucess-box-right p,
-  .technology-expertise-con > p,
-  .our-services-con > p,
-  .work-portfolio-con > p,
-  .industries-we-serve-con > p,
-  .testimonial-con > p {
-    font-size: 16px;
+  .technology-expertise-con>p,
+  .our-services-con>p,
+  .work-portfolio-con>p,
+  .industries-we-serve-con>p,
+  .testimonial-con>p {
+    font-size: 16px
   }
 
-  /* .our-services-info-box-right > h2 {
-  font-size: 25px;
-  line-height: 33.76px;
-  margin-right: 0%;
-} */
-
   .it-sucess-box-left {
-    height: 450px;
+    height: 450px
   }
 
   .Our-Expertise-in-Integration-con-left {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .Our-Expertise-in-Integration-con-left-card {
-    width: 100%;
+    width: 100%
   }
-
-  /* .box-right {
-  width: 112px;
-  height: 92px;
-} */
 
   .check-services-data-con {
     gap: 14px;
-    flex-direction: column;
+    flex-direction: column
   }
 
   .technology-frameworks-heading-con {
-    gap: 40px;
+    gap: 40px
   }
 
   .testimonial-card-upper::after {
-    left: 20%;
+    left: 20%
   }
 
-  .frameworks-image-box > p {
+  .frameworks-image-box>p {
     font-size: 18px;
     line-height: 22px;
     text-wrap: auto;
-    word-break: break-all;
+    word-break: break-all
   }
 
-  .frameworks-image-box > img {
-    width: auto;
+  .frameworks-image-box>img {
+    width: auto
   }
 
   h2.heading.how_text_mobile_view {
-    height: 30px;
+    height: 30px
   }
 
   .frameworks-image-box-con {
     margin-top: 20px;
-    gap: 26px;
+    gap: 26px
   }
 
   .frameworks-image-box {
-    width: calc(50% - 13px);
+    width: calc(50% - 13px)
   }
 
   .footer-bottom-con {
     flex-direction: column;
     gap: 10px;
-    padding-block: 10px;
+    padding-block: 10px
   }
 
   .footer-upper-box {
-    width: 100%;
+    width: 100%
   }
 
   .technology-frameworks-heading {
     width: calc(80% - 45px);
     margin-inline: 0;
-    padding-block: 7px;
+    padding-block: 7px
   }
 
   .technology-frameworks-heading h1 {
     font-size: 19px;
-    line-height: 20.68px;
+    line-height: 20.68px
   }
 
   .how-do-we-work-card {
     width: 100%;
-    gap: 45px;
+    gap: 45px
   }
 
   .our-intergration-services-box {
-    padding: 25px;
+    padding: 25px
   }
 
   #how-do-we-work-card-11::after {
-    top: 44%;
+    top: 44%
   }
 
   #how-do-we-work-card-22::after {
-    top: 44%;
+    top: 44%
   }
 
   #how-do-we-work-card-33::after {
-    top: 44%;
+    top: 44%
   }
 
   #how-do-we-work-card-44::after {
-    top: 44%;
+    top: 44%
   }
 
   #how-do-we-work-card-1::before {
-    top: -30%;
+    top: -30%
   }
 
   #how-do-we-work-card-2::before {
-    top: -24%;
+    top: -24%
   }
 
   #how-do-we-work-card-3::before {
-    top: -30%;
+    top: -30%
   }
 
   #how-do-we-work-card-4::before {
-    top: -30%;
+    top: -30%
   }
 
   .faq {
-    padding: 12px;
+    padding: 12px
   }
 
   .faq-answers {
-    padding: 15px 15px;
+    padding: 15px 15px
   }
 
-  .integration-service > h1,
+  .integration-service>h1,
   .h1,
-  .Integration-Expertise-Across-Industries-con-left-subbox > h1,
-  .Our-Expertise-in-Integration-con-right > h1,
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1,
+  .Our-Expertise-in-Integration-con-right>h1,
   .Success-Stories-services h1,
   .hiring-models-con h1,
-  .middle-slider-part-left > h1 {
+  .middle-slider-part-left>h1 {
     font-size: 35px !important;
-    line-height: 45px !important;
+    line-height: 45px !important
   }
 
-  .integration-service > p,
+  .integration-service>p,
   .p,
-  .Integration-Expertise-Across-Industries-con-left-subbox > p,
-  .Our-Expertise-in-Integration-con-right > p,
+  .Integration-Expertise-Across-Industries-con-left-subbox>p,
+  .Our-Expertise-in-Integration-con-right>p,
   .Success-Stories-services p,
-  .hiring-models-con > p,
-  .middle-slider-part-left > p {
-    font-size: 16px;
+  .hiring-models-con>p,
+  .middle-slider-part-left>p {
+    font-size: 16px
   }
 }
 
-@media only screen and (max-width: 320px) {
-  /* .our-services-info-box-right {
-    height: calc(100vh - 335px);
-} */
+@media only screen and (max-width:320px) {
   .services-card-img {
-    left: 35%;
+    left: 35%
   }
 
   .call-info-text p:first-child {
-    font-size: 17px;
+    font-size: 17px
   }
 
   .right-arrow-sub-box {
-    padding-left: 0px;
+    padding-left: 0
   }
 
   .approches-box {
-    gap: 20px;
+    gap: 20px
   }
 
   .technology-frameworks-heading h2 {
-    font-size: 20px;
+    font-size: 20px
   }
 
   .check-services-data-con {
-    flex-wrap: wrap;
+    flex-wrap: wrap
   }
 
   .check-services-data-con {
-    gap: 14px;
+    gap: 14px
   }
 
-  .our-services-sub-inner-box > p {
-    font-size: 14px;
+  .our-services-sub-inner-box>p {
+    font-size: 14px
   }
 
   .work-portfolio-card {
     padding: 15px;
-    margin: 12px 9px;
+    margin: 12px 9px
   }
 
   .work-portfolio-card {
-    width: 94%;
+    width: 94%
   }
 
-  .integration-service > h1,
+  .integration-service>h1,
   .h1,
-  .Integration-Expertise-Across-Industries-con-left-subbox > h1,
-  .Our-Expertise-in-Integration-con-right > h1,
+  .Integration-Expertise-Across-Industries-con-left-subbox>h1,
+  .Our-Expertise-in-Integration-con-right>h1,
   .Success-Stories-services h1,
   .hiring-models-con h1,
-  .middle-slider-part-left > h1 {
-    font-size: 35px;
+  .middle-slider-part-left>h1 {
+    font-size: 35px
   }
 
-  .integration-service > p,
+  .integration-service>p,
   .p,
-  .Integration-Expertise-Across-Industries-con-left-subbox > p,
-  .Our-Expertise-in-Integration-con-right > p,
+  .Integration-Expertise-Across-Industries-con-left-subbox>p,
+  .Our-Expertise-in-Integration-con-right>p,
   .Success-Stories-services p,
-  .hiring-models-con > p,
-  .middle-slider-part-left > p {
-    font-size: 16px;
+  .hiring-models-con>p,
+  .middle-slider-part-left>p {
+    font-size: 16px
   }
 }

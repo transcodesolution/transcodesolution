@@ -1,10 +1,9 @@
 :root {
   --root-black-color: #3f3f3f;
   --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
-  --white-color: #fff;
+  --white-color: #fff
 }
 
-/* *****************************************************banner-section-start***************************************************** */
 .banner-section-web-developmenttt {
   padding-block: 60px;
   display: flex;
@@ -15,9 +14,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
-  height: 400px;
+  height: 400px
 }
-
 
 .banner-section-about-con h1 {
   font-family: Rajdhani;
@@ -25,42 +23,41 @@
   font-weight: 700;
   line-height: 77.44px;
   text-align: center;
-  color: #ffffff;
-  margin: 0;
+  color: #fff;
+  margin: 0
 }
+
 #about-hero-info {
   margin-top: 40px;
   margin-bottom: 45px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
-
-/* ****************************************************contact-us-detail-boxes********************************************** */
 
 #contact-us-detail-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 60px;
-  padding-top: 120px;
+  padding-top: 120px
 }
 
 #contact-us-detail-wrapper .container {
-  overflow: visible;
+  overflow: visible
 }
 
 .contact-us-detail-box-con {
   display: flex;
   align-items: center;
-  gap: 72px;
+  gap: 72px
 }
 
 .contact-us-detail-box {
   width: calc(33% - 25px);
   padding: 55px 40px 15px 40px;
   border: 1px solid #3f3f3f;
-  border-radius: 8px;
+  border-radius: 8px
 }
 
 .contact-us-detail-box-img {
@@ -72,7 +69,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -100px;
+  margin-top: -100px
 }
 
 .contact-us-detail-box h2 {
@@ -82,7 +79,7 @@
   line-height: 36.3px;
   text-align: center;
   margin-top: 8px;
-  color: var(--root-black-color);
+  color: var(--root-black-color)
 }
 
 .contact-us-detail-box p {
@@ -92,31 +89,29 @@
   line-height: 28.01px;
   text-align: center;
   margin-top: 16px;
-  color: var(--root-black-color);
+  color: var(--root-black-color)
 }
-
-/* ****************************************contact-form-section-start************************************************************** */
 
 #form-section-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 60px
 }
 
 #form-section-wrapper .container {
-  overflow: visible;
+  overflow: visible
 }
 
 .form-section-con {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .form-section-con-left {
   width: 35%;
-  padding-top: 24px;
+  padding-top: 24px
 }
 
 .form-section-con-left h2 {
@@ -125,8 +120,9 @@
   font-weight: 700;
   line-height: 60.5px;
   text-align: left;
-  color: #63388b;
+  color: #63388b
 }
+
 .form-section-con h3 {
   font-family: Rajdhani;
   font-size: 44px;
@@ -134,7 +130,7 @@
   line-height: 47.08px;
   text-align: left;
   color: var(--root-black-color);
-  margin-top: 14px;
+  margin-top: 14px
 }
 
 .form-section-con p {
@@ -143,13 +139,13 @@
   font-weight: 400;
   line-height: 32.34px;
   text-align: left;
-  margin-top: 28px;
+  margin-top: 28px
 }
 
 .contact-social-link-con {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 20px
 }
 
 .contact-social-link {
@@ -161,27 +157,27 @@
   background-color: var(--root-black-color);
   border-radius: 50%;
   margin-top: 70px;
-  padding-top: 4px;
+  padding-top: 4px
 }
 
 .contact-social-link:hover {
-  background-color: black;
+  background-color: #000
 }
 
 .contact-social-link i {
   font-size: 25px;
-  color: white;
+  color: #fff
 }
 
 .form-section-con-right {
   width: 55%;
   padding: 40px;
-  border: 1px solid #ffffff;
-  box-shadow: 0px 0px 16.9px 0px #00000040;
+  border: 1px solid #fff;
+  box-shadow: 0 0 16.9px 0 #00000040;
   border-radius: 10px;
   position: relative;
   z-index: 99;
-  background-color: white;
+  background-color: #fff
 }
 
 .form-section-con-right h2 {
@@ -190,7 +186,7 @@
   font-weight: 700;
   line-height: 53.24px;
   text-align: left;
-  color: #63388b;
+  color: #63388b
 }
 
 .form-section-con-right p {
@@ -200,27 +196,27 @@
   line-height: 30px;
   text-align: left;
   margin-top: 8px;
-  color: var(--root-black-color);
+  color: var(--root-black-color)
 }
 
 .contact-form {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 28px
 }
 
 .form-field-con {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 25px
 }
 
 .field {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: calc(50% - 12.5px);
+  width: calc(50% - 12.5px)
 }
 
 .input-label {
@@ -229,7 +225,7 @@
   font-weight: 400;
   line-height: 24.3px;
   text-align: left;
-  color: var(--root-black-color);
+  color: var(--root-black-color)
 }
 
 .input-box {
@@ -237,14 +233,15 @@
   border: 1px solid #3f3f3f;
   border-radius: 5px;
   height: 45px;
-  font-size: 17px;
+  font-size: 17px
 }
+
 #field {
-  width: 100%;
+  width: 100%
 }
 
 .details-input-box {
-  width: 100% !important;
+  width: 100% !important
 }
 
 .document-input .attachments {
@@ -253,7 +250,7 @@
   font-weight: 400;
   line-height: 24.3px;
   text-align: left;
-  color: var(--root-black-color);
+  color: var(--root-black-color)
 }
 
 .document-input .please-attach {
@@ -263,7 +260,7 @@
   line-height: 21.6px;
   text-align: left;
   color: #878787;
-  margin-top: 5px;
+  margin-top: 5px
 }
 
 .document-input-box {
@@ -276,7 +273,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 5px;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .drop-file {
@@ -286,11 +283,11 @@
   line-height: 24.3px;
   text-align: left;
   color: var(--root-black-color);
-  margin-top: 5px;
+  margin-top: 5px
 }
 
 .drop-file span {
-  font-weight: 700;
+  font-weight: 700
 }
 
 .form-submit {
@@ -306,21 +303,27 @@
   cursor: pointer;
   padding: 10px 27px;
   width: fit-content;
-  color: white;
-  border: 2px solid transparent;
+  color: #fff;
+  border: 2px solid #fff0
 }
 
 .form-submit:hover {
   border: 2px solid #3f3f3f;
   color: #63388b;
-  background: transparent;
+  background: #fff0
 }
-/* ************************************************ Form Nice Select Start ****************************************************** */
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus{
-  border: 1px solid #3f3f3f !important;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #3f3f3f !important
 }
+
 .nice-select {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: #fff0;
   background-color: #fff;
   border-radius: 5px;
   border: solid 1px #3f3f3f !important;
@@ -332,7 +335,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   float: left;
   font-family: inherit;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   height: 45px !important;
   line-height: 40px;
   outline: none;
@@ -347,16 +350,19 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
-  width: auto;
+  width: auto
 }
+
 .nice-select:hover {
-  border-color: #dbdbdb;
+  border-color: #dbdbdb
 }
+
 .nice-select:active,
 .nice-select.open,
 .nice-select:focus {
-  border-color: #999;
+  border-color: #999
 }
+
 .nice-select:after {
   border-bottom: 2px solid #999;
   border-right: 2px solid #999;
@@ -371,60 +377,72 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   transform-origin: 66% 66%;
   transform: rotate(45deg);
   transition: all 0.15s ease-in-out;
-  width: 7px !important;
+  width: 7px !important
 }
+
 .nice-select.open:after {
   -webkit-transform: rotate(-135deg);
   -ms-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+  transform: rotate(-135deg)
 }
+
 .nice-select.open .list {
   width: 100%;
   opacity: 1;
   pointer-events: auto;
   transform: scale(1) translateY(0);
   font-family: Rubik;
-  font-size: 15px;
+  font-size: 15px
 }
+
 .nice-select.disabled {
   border-color: #ededed;
   color: #999;
-  pointer-events: none;
+  pointer-events: none
 }
+
 .nice-select.disabled:after {
-  border-color: #cccccc;
+  border-color: #ccc
 }
+
 .nice-select.wide {
-  width: 100%;
+  width: 100%
 }
+
 .nice-select.wide .list {
   left: 0 !important;
-  right: 0 !important;
+  right: 0 !important
 }
+
 .nice-select.right {
-  float: right;
+  float: right
 }
+
 .nice-select.right .list {
   left: auto;
-  right: 0;
+  right: 0
 }
+
 .nice-select.small {
   font-size: 12px;
   height: 36px;
-  line-height: 34px;
+  line-height: 34px
 }
+
 .nice-select.small:after {
   height: 4px;
-  width: 4px;
+  width: 4px
 }
+
 .nice-select.small .option {
   line-height: 34px;
-  min-height: 34px;
+  min-height: 34px
 }
+
 .nice-select .list {
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+  box-shadow: 0 0 0 1px rgb(68 68 68 / .11);
   box-sizing: border-box;
   margin-top: 4px;
   opacity: 0;
@@ -437,17 +455,18 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   -webkit-transform-origin: 50% 0;
   -ms-transform-origin: 50% 0;
   transform-origin: 50% 0;
-  -webkit-transform: scale(0.75) translateY(-21px);
-  -ms-transform: scale(0.75) translateY(-21px);
-  transform: scale(0.75) translateY(-21px);
-  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-    opacity 0.15s ease-out;
-  transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
-  z-index: 9;
+  -webkit-transform: scale(.75) translateY(-21px);
+  -ms-transform: scale(.75) translateY(-21px);
+  transform: scale(.75) translateY(-21px);
+  -webkit-transition: all 0.2s cubic-bezier(.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  transition: all 0.2s cubic-bezier(.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  z-index: 9
 }
+
 .nice-select .list:hover .option:not(:hover) {
-  background-color: transparent !important;
+  background-color: transparent !important
 }
+
 .nice-select .option {
   cursor: pointer;
   font-weight: 400;
@@ -459,246 +478,261 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   padding-right: 29px;
   text-align: left;
   -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  transition: all 0.2s
 }
+
 .nice-select .option:hover,
 .nice-select .option.focus,
 .nice-select .option.selected.focus {
-  background-color: #f6f6f6;
+  background-color: #f6f6f6
 }
+
 .nice-select .option.selected {
-  font-weight: bold;
+  font-weight: 700
 }
+
 .nice-select .option.disabled {
-  background-color: transparent;
+  background-color: #fff0;
   color: #999;
-  cursor: default;
+  cursor: default
 }
 
 .no-csspointerevents .nice-select .list {
-  display: none;
+  display: none
 }
 
 .no-csspointerevents .nice-select.open .list {
-  display: block;
+  display: block
 }
-span.current{
+
+span.current {
   font-size: 17px !important;
   font-family: Rubik;
-  color: #3f3f3f !important;
+  color: #3f3f3f !important
 }
-
-/* ************************************************ Form Nice Select end ****************************************************** */
-
-/* ************************************************map-section************************************************************* */
 
 #map {
   margin-top: -300px;
   position: relative;
   z-index: -99;
-  margin-bottom: -11px;
+  margin-bottom: -11px
 }
-
-/* **************************************************cutting-edge-section******************************************************* */
 
 .cutting-edge-section {
-  margin-top: 0 !important;
+  margin-top: 0 !important
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width:1200px) {
   .contact-us-detail-box {
-    padding-inline: 20px;
+    padding-inline: 20px
   }
 }
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width:1024px) {
   .contact-us-detail-box {
-    padding-inline: 15px;
+    padding-inline: 15px
   }
 
   .contact-us-detail-box p {
     font-size: 15px;
-    line-height: 24.01px;
+    line-height: 24.01px
   }
 
   .input-box::placeholder {
-    font-size: 14px;
+    font-size: 14px
   }
 }
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width:992px) {
   .contact-us-detail-box {
-    padding-inline: 10px;
+    padding-inline: 10px
   }
 
   #contact-us-detail-wrapper {
     padding-bottom: 30px;
-    padding-top: 80px;
+    padding-top: 80px
   }
 
   #form-section-wrapper {
-    padding-top: 30px;
+    padding-top: 30px
   }
 
   .input-box::placeholder {
-    font-size: 13px;
+    font-size: 13px
   }
 
   .form-section-con-left h2 {
     font-size: 40px;
-    line-height: 40.5px;
+    line-height: 40.5px
+  }
+
+  .form-section-con h3 {
+    font-size: 35px;
+    line-height: 26.08px;
+    margin-top: 10px
+  }
+
+  .form-section-con-right h2 {
+    font-size: 35px;
+    line-height: 35.24px
+  }
+
+  .form-section-con-right {
+    padding: 25px
+  }
+
+  .input-box {
+    padding: 8px;
+    height: 45px
+  }
+
+  .input-label {
+    font-size: 16px
+  }
+
+  .contact-form {
+    margin-top: 20px;
+    gap: 20px
+  }
 }
-.form-section-con h3 {
-  font-size: 35px;
-  line-height: 26.08px;
-  margin-top: 10px;
-}
-.form-section-con-right h2 {
-  font-size: 35px;
-  line-height: 35.24px;
-}
-.form-section-con-right {
-  padding: 25px;
-}
-.input-box {
-  padding: 8px;
-  height: 45px;
-}
-.input-label {
-  font-size: 16px;
-}
-.contact-form {
-  margin-top: 20px;
-  gap: 20px;
-}
-}
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width:768px) {
   .contact-us-detail-box-con {
-    flex-direction: column;
+    flex-direction: column
   }
+
   .contact-us-detail-box {
-    width: 100%;
+    width: 100%
   }
+
   #map {
-    margin-top: 0px;
-}
+    margin-top: 0
+  }
+
   .contact-us-detail-box p {
     font-size: 18px;
-
-    line-height: 28.01px;
+    line-height: 28.01px
   }
 
   .form-section-con {
     flex-direction: column;
-    gap: 40px;
+    gap: 40px
   }
 
   .form-section-con-right {
-    width: 100%;
+    width: 100%
   }
 
   .form-section-con-left {
     width: 100%;
-    padding-top: 0px;
+    padding-top: 0
   }
 
   .form-section-con-left h2 {
     text-align: center;
     font-size: 40px;
-    line-height: 40.5px;
+    line-height: 40.5px
   }
 
   .form-section-con h3 {
-    text-align: center;
+    text-align: center
   }
 
   .form-section-con p {
-    text-align: center;
+    text-align: center
   }
 
   .contact-social-link-con {
-    justify-content: center;
+    justify-content: center
   }
 
   .contact-social-link {
-    margin-top: 40px;
+    margin-top: 40px
   }
 
   .banner-section-about-con h1 {
-    font-size: 50px;
+    font-size: 50px
   }
 }
-@media only screen and (max-width: 576px) {
+
+@media only screen and (max-width:576px) {
   .form-section-con h3 {
     font-size: 35px;
     line-height: 40.08px;
-    margin-top: 10px;
+    margin-top: 10px
   }
 
   .form-section-con p {
     font-size: 20px;
     line-height: 25.34px;
-    margin-top: 15px;
+    margin-top: 15px
   }
 
   .contact-social-link {
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .form-section-con-right h2 {
     font-size: 35px;
     line-height: 35.24px;
-    text-align: center;
+    text-align: center
   }
 
   .form-submit {
     font-size: 20px;
-    line-height: 24.44px;
+    line-height: 24.44px
   }
 }
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width:480px) {
   .form-field-con {
     flex-direction: column;
-    gap: 15px;
+    gap: 15px
   }
+
   .field {
-    width: 100%;
+    width: 100%
   }
+
   .contact-us-detail-box {
-    width: 100%;
-}
-.vipodha-logo{
-  padding-top: 10px;
-}
+    width: 100%
+  }
+
+  .vipodha-logo {
+    padding-top: 10px
+  }
+
   .header-con {
-    height: 80px;
-}
-  .form-section-con > p {
-    margin-top: 0px;
+    height: 80px
+  }
+
+  .form-section-con>p {
+    margin-top: 0
   }
 
   .form-section-con p {
-    font-size: 16px;
+    font-size: 16px
   }
 
   .form-submit {
-    width: 100%;
+    width: 100%
   }
 
   .contact-form {
-    gap: 15px;
+    gap: 15px
   }
 
   .form-section-con-right {
-    padding: 20px;
+    padding: 20px
   }
 
   .form-submit {
-    font-size: 18px;
+    font-size: 18px
   }
 }
-@media only screen and (max-width: 375px) {
-}
-@media only screen and (max-width: 320px) {
+
+@media only screen and (max-width:320px) {
   .form-section-con p {
-    font-size: 15px;
+    font-size: 15px
   }
 }
