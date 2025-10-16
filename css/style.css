@@ -1,5 +1,137 @@
-@import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap);
+/* @import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap); */
+/* @import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap); */
+
+/* ********************************** Rajdhani ****************************** */
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('/assets/font/Rajdhani-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('/assets/font/Rajdhani-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('/assets/font/Rajdhani-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('/assets/font/Rajdhani-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('/assets/font/Rajdhani-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ********************************** Rubik ****************************** */
+@font-face {
+  font-family: 'Rubik';
+  src: url('/assets/font/Rubik-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/assets/font/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/assets/font/Rubik-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/assets/font/Rubik-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/assets/font/Rubik-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ********************************** Raleway ****************************** */
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/font/Raleway-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/font/Raleway-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/font/Raleway-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/font/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/font/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/font/Raleway-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 
 .custom-container {
   width: 100%;
@@ -100,7 +232,7 @@ h6,
 p {
   margin: 0;
   padding: 0;
-  font-family: Rajdhani
+  font-family: 'Rajdhani', sans-serif;
 }
 
 body {
@@ -109,50 +241,70 @@ body {
   overflow-x: hidden;
   position: relative;
   z-index: -1;
-  font-family: Rajdhani !important
+  font-family: 'Rajdhani', sans-serif !important;
 }
 
 .container {
   padding: 0 16px;
   overflow: hidden;
-  width: 100%
+  width: 100%;
 }
 
 .overflow-visible {
-  overflow: visible
+  overflow: visible;
 }
 
 .h2 {
-  font-family: Rajdhani !important;
+  font-family: 'Rajdhani', sans-serif !important;
   font-size: 44px !important;
   font-weight: 700 !important;
   line-height: 53.24px !important;
   text-align: center !important;
   color: #3f3f3f !important;
-  margin: 0 !important
+  margin: 0 !important;
 }
 
 .p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
   text-align: center;
   color: var(--root-black-color);
-  margin-top: 12px
+  margin-top: 12px;
 }
 
 ul,
 ol {
   margin: 0 !important;
-  padding: 0
+  padding: 0;
 }
 
 :root {
   --root-black-color: #3f3f3f;
   --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
-  --white-color: #fff
+  --white-color: #fff;
 }
+
+.hero_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer_logo,
+.years_experience,
+.service_icon,
+.call_icon,
+.our_services_icon,
+.check_icon,.work_portfolio {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .our-services-sub-box-img img {
+  width: 30px
+} */
+
 
 .header-wrapper {
   display: flex;
@@ -164,7 +316,7 @@ ol {
   top: 0;
   right: 0;
   left: 0;
-  background-color: var(--white-color)
+  background-color: var(--white-color);
 }
 
 .header-wrapper .container {
@@ -176,17 +328,17 @@ ol {
   align-items: center;
   justify-content: space-between;
   padding-block: 10px;
-  height: 100px
+  height: 100px;
 }
 
 .transcodezy-navbar-ul {
   display: flex;
   gap: 43px;
-  margin: 0
+  margin: 0;
 }
 
 .transcodezy-navbar-ul>li>a {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 21.13px;
@@ -231,7 +383,7 @@ ol {
 }
 
 .transcodezy-navbar-ul>li>.flex_wrapper>a {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 21.13px;
@@ -276,7 +428,7 @@ ol {
 }
 
 .transcodezy-navbar-ul>li>.industries_flex_wrapper>a {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 21.13px;
@@ -408,7 +560,7 @@ ol {
 
 .dropdown-list>p {
   margin-left: 12px !important;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px;
@@ -424,7 +576,7 @@ ol {
 }
 
 .header-contact-us-button button {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 18.78px;
@@ -477,18 +629,7 @@ ol {
   display: none
 }
 
-.banner-wrapper {
-  background: url(../assets/images/banner-bg-3.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: -99;
-  padding-bottom: 270px
-}
+
 
 .banner-con {
   display: flex;
@@ -506,7 +647,7 @@ ol {
 
 .banner-text h1 {
   margin: 0;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 51.7px;
@@ -516,7 +657,7 @@ ol {
 
 .banner-text p {
   margin: 0;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.48px;
@@ -525,7 +666,7 @@ ol {
 }
 
 .read-more {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 18.78px;
@@ -621,7 +762,7 @@ ol {
 }
 
 .services-card h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 25.83px;
@@ -642,7 +783,7 @@ ol {
 }
 
 .services-card p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 20.8px;
@@ -660,7 +801,7 @@ ol {
 
 .services-text-con h2 {
   margin: 0;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -670,7 +811,7 @@ ol {
 
 .services-text-con p {
   margin: 0;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -686,7 +827,7 @@ ol {
 }
 
 .discover-more {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 15.78px;
@@ -742,7 +883,7 @@ ol {
 }
 
 .call-info-text p:first-child {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.97px;
@@ -751,7 +892,7 @@ ol {
 }
 
 .call-info-text p:last-child {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.09px;
@@ -771,7 +912,7 @@ ol {
 .driving-rapid-change-con h2 {
   margin: 0;
   text-align: center;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 47.66px;
@@ -781,7 +922,7 @@ ol {
 
 .driving-rapid-change-con>p {
   margin: 0;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -810,7 +951,7 @@ ol {
 
 .box-right p:first-child {
   margin: 0;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 40px;
   font-weight: 600;
   line-height: 47.4px;
@@ -820,7 +961,7 @@ ol {
 
 .box-right p:last-child {
   margin: 0;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.33px;
@@ -833,7 +974,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/images/back-ground.jpg);
+  background-image: url(../assets/images/back-ground.webp);
   background-repeat: no-repeat;
   min-height: 872px;
   background-size: cover
@@ -855,7 +996,7 @@ ol {
 
 .our-services-con>h2 {
   margin: 0;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -864,7 +1005,7 @@ ol {
 }
 
 .our-services-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -903,7 +1044,7 @@ ol {
 
 .our-services-sub-inner-box>p {
   padding-left: 10px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 20.46px;
@@ -924,7 +1065,7 @@ ol {
 }
 
 .our-services-info-box-right>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 37.76px;
@@ -934,7 +1075,7 @@ ol {
 }
 
 .our-services-info-box-right>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.9px;
@@ -955,7 +1096,7 @@ ol {
 }
 
 .check-services-data>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 25.38px;
@@ -980,7 +1121,7 @@ ol {
   cursor: pointer;
   outline: none;
   border: none;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 18.96px;
@@ -1054,15 +1195,15 @@ ol {
   justify-content: center
 }
 
-.number-plus>h1 {
-  font-family: Rubik;
+.number-plus>h3 {
+  font-family: 'Rubik', sans-serif;
   font-size: 45px;
   font-weight: 500;
   line-height: 53.33px
 }
 
 .it-sucees-upper-right>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 23.7px;
@@ -1099,7 +1240,7 @@ ol {
 }
 
 .it-sucess-box-right>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -1108,7 +1249,7 @@ ol {
 }
 
 .it-sucess-box-right p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -1143,7 +1284,7 @@ ol {
 }
 
 .approches-box-right>h3 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 23.7px;
@@ -1153,7 +1294,7 @@ ol {
 }
 
 .approches-box-right>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 22.65px;
@@ -1171,7 +1312,7 @@ ol {
 }
 
 .technology-expertise-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 50.01px;
@@ -1181,7 +1322,7 @@ ol {
 }
 
 .technology-expertise-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.58px;
@@ -1207,8 +1348,8 @@ ol {
   width: 100%
 }
 
-.technology-frameworks-heading h1 {
-  font-family: Rubik;
+.technology-frameworks-heading h3 {
+  font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30.68px;
@@ -1239,7 +1380,7 @@ ol {
 
 .frameworks-image-box>p {
   font-size: 20px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   color: #494949;
   text-align: center;
   font-weight: 400;
@@ -1260,7 +1401,7 @@ ol {
 }
 
 .work-portfolio-con>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -1270,7 +1411,7 @@ ol {
 }
 
 .work-portfolio-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 28.04px;
@@ -1302,8 +1443,8 @@ ol {
   border-block-end: .5px solid #343737
 }
 
-.work-portfolio-card-heading>h1 {
-  font-family: Rubik;
+.work-portfolio-card-heading>h3 {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 20.96px;
@@ -1313,7 +1454,7 @@ ol {
 }
 
 .work-portfolio-card>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 20.12px;
@@ -1328,11 +1469,11 @@ ol {
 }
 
 .work-portfolio-read-more {
-  margin-top: 14px;
+  margin-top: 0px;
   cursor: pointer;
   border: none;
   outline: none;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 14.22px;
@@ -1361,7 +1502,7 @@ ol {
 }
 
 .industries-we-serve-con>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -1371,7 +1512,7 @@ ol {
 }
 
 .industries-we-serve-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -1404,7 +1545,7 @@ ol {
 }
 
 .industries-we-serve-subcard p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 23.7px;
@@ -1436,7 +1577,7 @@ ol {
 }
 
 .testimonial-con>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -1446,7 +1587,7 @@ ol {
 }
 
 .testimonial-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -1500,7 +1641,7 @@ ol {
 }
 
 .testimonial-card-upper>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 30.2px;
@@ -1517,7 +1658,7 @@ ol {
 }
 
 .testimonial-card-bottom h3 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 33.22px;
@@ -1527,7 +1668,7 @@ ol {
 }
 
 .testimonial-card-bottom p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.18px;
@@ -1555,7 +1696,7 @@ ol {
 }
 
 .cutting-edge-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 37.92px;
@@ -1565,7 +1706,7 @@ ol {
 }
 
 .cutting-edge-con p {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 30.2px;
@@ -1575,7 +1716,7 @@ ol {
 }
 
 .get-in-touch {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30.62px;
@@ -1627,7 +1768,7 @@ ol {
 }
 
 .footer-upper-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 21.59px;
@@ -1637,7 +1778,7 @@ ol {
 }
 
 .footer-get-in-touch {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.59px;
@@ -1661,7 +1802,7 @@ ol {
 }
 
 .footer-link-heading {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 29px;
   font-weight: 500;
   line-height: 34.37px;
@@ -1678,7 +1819,7 @@ ol {
 }
 
 .footer-upper-link-con a {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 18.96px;
@@ -1707,7 +1848,7 @@ ol {
 }
 
 .contact-box p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20.64px;
@@ -1728,7 +1869,7 @@ ol {
 }
 
 .footer-middle h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 35px;
   font-weight: 500;
   line-height: 41.48px;
@@ -1738,7 +1879,7 @@ ol {
 }
 
 .footer-middle p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 26.99px;
@@ -1751,7 +1892,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 34px;
   font-weight: 500;
   line-height: 40.29px;
@@ -1813,7 +1954,7 @@ ol {
 }
 
 .footer-bottom p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 18.96px;
@@ -1845,12 +1986,12 @@ ol {
   opacity: 1
 }
 
-.technology-frameworks-heading h1 {
+.technology-frameworks-heading h3 {
   cursor: pointer;
   transition: font-weight 0.3s ease-in-out
 }
 
-.technology-frameworks-heading h1:hover {
+.technology-frameworks-heading h3:hover {
   font-weight: 700
 }
 
@@ -1994,7 +2135,7 @@ a:active {
 .acrrodin_text_1 {
   font-size: 19px;
   color: #494949;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
   margin: 0 0 10px 0
 }
@@ -2002,7 +2143,7 @@ a:active {
 .acrrodin_text_2 {
   font-size: 16px;
   color: #494949;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   margin-bottom: 12px
 }
@@ -2011,7 +2152,7 @@ a:active {
   margin-bottom: 0px !important;
   color: #3f3f3f;
   font-weight: 400;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   text-decoration: unset
 }
@@ -2022,10 +2163,6 @@ a:active {
 
 .panel:last-child .panel-body {
   border-radius: 0 0 0 0px !important
-}
-
-.our-services-sub-box-img img {
-  width: 30px
 }
 
 .panel:last-child .panel-heading {
@@ -2073,7 +2210,7 @@ a:active {
 }
 
 #accordion .panel-heading a:before {
-  content: "expand_more";
+  content: none;
   font-size: 29px;
   position: absolute;
   font-family: "Material Icons";
@@ -2104,7 +2241,7 @@ a:active {
 
 .mobile_devlop_title {
   font-size: 44px;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
   line-height: 60.5px;
   position: relative;
@@ -2123,7 +2260,7 @@ a:active {
 }
 
 .integration-service>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.9px;
@@ -2143,7 +2280,7 @@ a:active {
 }
 
 .our-intergration-services-con-heading>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -2162,7 +2299,7 @@ a:active {
   outline: none;
   border: none;
   border-radius: 50px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 18.96px;
@@ -2209,7 +2346,7 @@ a:active {
 }
 
 .our-intergration-services-box-desc>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -2231,7 +2368,7 @@ a:active {
 }
 
 .our-intergration-services-box-lists-con li {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32.22px;
@@ -2242,7 +2379,7 @@ a:active {
 }
 
 .our-intergration-services-box-h2>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 41.14px;
@@ -2256,7 +2393,7 @@ a:active {
 }
 
 .hiring-models-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -2280,7 +2417,7 @@ a:active {
 }
 
 .hiring-models-box>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 500;
   line-height: 38.22px;
@@ -2292,7 +2429,7 @@ a:active {
 }
 
 .hiring-models-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -2314,7 +2451,7 @@ a:active {
 .managed_it_title {
   text-align: center;
   font-size: 44px;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
   line-height: 60.5px;
   color: var(--root-black-color)
@@ -2532,7 +2669,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .how-do-we-work-inner-box>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 36.3px;
@@ -2543,7 +2680,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .how-do-we-work-inner-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -2620,7 +2757,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .middle-slider-part-left>h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -2629,7 +2766,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .middle-slider-part-left>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -2653,7 +2790,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .middle-slider-part-left-box>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.62px;
@@ -2674,7 +2811,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .middle-slider-part-left-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20.58px;
@@ -2731,7 +2868,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .faq>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -2747,7 +2884,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .faq-answers>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.2px;
@@ -2763,7 +2900,7 @@ h2.heading.how_text_mobile_view {
 
 .faq-ul>li {
   list-style: disc;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 23.2px;
@@ -2797,7 +2934,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .date-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -2807,7 +2944,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .blogs-box>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 30px;
@@ -2818,7 +2955,7 @@ h2.heading.how_text_mobile_view {
 
 .blogs-box>a {
   margin-top: 20px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -2830,7 +2967,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .discuss-project-con>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 58.08px;
@@ -2846,7 +2983,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .discuss-project-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 38.22px;
@@ -2862,7 +2999,7 @@ h2.heading.how_text_mobile_view {
   cursor: pointer;
   border: none;
   outline: none;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 28.44px;
@@ -2895,7 +3032,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .apply-info-text>strong {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27.18px;
@@ -2904,7 +3041,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .apply-info-text>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.18px;
@@ -2925,7 +3062,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .how-to-apply-con>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 33px;
   font-weight: 500;
   line-height: 53.24px;
@@ -2936,7 +3073,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .how-to-apply-con>h3 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -2947,7 +3084,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .how-to-apply-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -2982,7 +3119,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .apply-info-text>strong {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27.18px;
@@ -2991,7 +3128,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .apply-info-text>a {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.18px;
@@ -3020,7 +3157,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .Integration-Expertise-Across-Industries-con-left-subbox>h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3029,7 +3166,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .Integration-Expertise-Across-Industries-con-left-subbox>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.6px;
@@ -3064,7 +3201,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .Integration-Expertise-Across-Industries-sub-boxes>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 35.28px;
@@ -3113,7 +3250,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .Our-Expertise-in-Integration-con-left-card>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 36.3px;
@@ -3123,7 +3260,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .Our-Expertise-in-Integration-con-left-card>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -3136,8 +3273,8 @@ h2.heading.how_text_mobile_view {
   flex: 1
 }
 
-.Our-Expertise-in-Integration-con-right>h1 {
-  font-family: Rajdhani;
+.Our-Expertise-in-Integration-con-right>h3 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3146,7 +3283,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .Our-Expertise-in-Integration-con-right>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.6px;
@@ -3166,7 +3303,7 @@ h2.heading.how_text_mobile_view {
   background: var(--gradient-color);
   color: var(--white-color);
   border-radius: 50px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 18.96px;
@@ -3196,7 +3333,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .our-services-info-box-right h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3216,7 +3353,7 @@ h2.heading.how_text_mobile_view {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgb(0 0 0 / .1);
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 29.04px;
@@ -3224,7 +3361,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .service-item h3 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 29.04px;
@@ -3232,7 +3369,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .service-item p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -3256,7 +3393,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .advance-healthcare-con h3 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 36.3px;
@@ -3278,7 +3415,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .advance-healthcare-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3287,7 +3424,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .advance-healthcare-con p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -3299,7 +3436,7 @@ h2.heading.how_text_mobile_view {
 .ads_title {
   font-size: 44px;
   font-weight: 700;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   text-align: center;
   margin-bottom: 12px
 }
@@ -3311,7 +3448,7 @@ h2.heading.how_text_mobile_view {
 .ads_text {
   font-size: 18px;
   font-weight: 600;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   text-align: center;
   color: #3f3f3f;
   margin-bottom: 25px
@@ -3320,7 +3457,7 @@ h2.heading.how_text_mobile_view {
 .tab_title {
   font-size: 44px;
   font-weight: 700;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   text-align: center;
   color: #3f3f3f;
   margin: 10px 0 14px 0
@@ -3331,7 +3468,7 @@ h2.heading.how_text_mobile_view {
   font-weight: 600;
   color: #3f3f3f;
   text-align: center;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   margin-bottom: 25px
 }
 
@@ -3364,7 +3501,7 @@ h2.heading.how_text_mobile_view {
   margin-right: 0px !important;
   padding: 10px 29px !important;
   font-size: 26px;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
   border: none !important;
   color: #3f3f3f;
@@ -3404,7 +3541,7 @@ h2.heading.how_text_mobile_view {
   font-weight: 600;
   color: #3f3f3f;
   text-align: center;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   margin: 15px
 }
 
@@ -3445,7 +3582,7 @@ h2.heading.how_text_mobile_view {
   color: #fff;
   font-size: 29px;
   font-weight: 600;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   z-index: 14
 }
 
@@ -3491,7 +3628,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .search_campaigns_box p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.33px;
@@ -3502,7 +3639,7 @@ h2.heading.how_text_mobile_view {
 .search_campaigns_title {
   font-size: 26px;
   font-weight: 500;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   margin-bottom: 10px
 }
 
@@ -3513,7 +3650,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .client-onboarding-process-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3522,7 +3659,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .client-onboarding-process-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -3563,7 +3700,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .client-onboarding-process-box-number p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 20.15px;
@@ -3583,7 +3720,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .client-onboarding-process-box-desc>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -3592,7 +3729,7 @@ h2.heading.how_text_mobile_view {
 }
 
 .client-onboarding-process-box-desc>strong {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 29.4px;
@@ -3613,7 +3750,7 @@ h2.heading.how_text_mobile_view {
 .request_for_text h5 {
   font-size: 44px;
   font-weight: 700;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   line-height: 63.8px;
   color: #3f3f3f;
   margin-bottom: 32px
@@ -3622,7 +3759,7 @@ h2.heading.how_text_mobile_view {
 .request_for_text p {
   font-size: 22px;
   font-weight: 400;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   line-height: 32.34px;
   color: #3f3f3f
 }
@@ -3650,7 +3787,7 @@ input.form_input {
 input::placeholder {
   font-size: 20px;
   font-weight: 400;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   line-height: 30.2px;
   color: #717171
 }
@@ -3676,7 +3813,7 @@ textarea#text {
   background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
   color: var(--white-color);
   border-radius: 50px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 18.96px;
@@ -3783,7 +3920,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .our-healthcare-it-service-con>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3815,7 +3952,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .healthcare-card-desc>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 500;
   line-height: 30.81px;
@@ -3824,7 +3961,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .healthcare-card-desc>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
@@ -3833,7 +3970,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .development-process-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -3842,7 +3979,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .development-process-con p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -3910,7 +4047,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .development-process-subbox-name h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 32.34px;
@@ -3920,7 +4057,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .development-process-subbox-name p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 26.46px;
@@ -3954,7 +4091,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .our-integration-service-2-card>h3 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 32.34px;
@@ -3963,7 +4100,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .our-integration-service-2-card>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 23.52px;
@@ -3980,7 +4117,7 @@ textarea:-webkit-autofill:focus {
 
 .faq-section h4 {
   position: relative;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #000;
@@ -4014,7 +4151,7 @@ textarea:-webkit-autofill:focus {
   padding: 14px 24px;
   border-radius: 8px;
   box-shadow: 0 0 14.2px 0 #00000040;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -4036,7 +4173,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .healthcare-tech-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -4045,7 +4182,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .healthcare-tech-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -4106,7 +4243,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .healthcare-tech-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.33px;
@@ -4138,7 +4275,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .box-nuvber p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 29px;
   font-weight: 600;
   line-height: 34.37px;
@@ -4158,7 +4295,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .empowering-desc>h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -4167,7 +4304,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .empowering-desc>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 35px;
   font-weight: 700;
   line-height: 42.35px;
@@ -4178,7 +4315,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .empowering-desc>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -4191,7 +4328,7 @@ textarea:-webkit-autofill:focus {
   padding: 12px 25px;
   background: var(--gradient-color);
   color: var(--white-color);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 18.78px;
@@ -4256,7 +4393,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .empowering-card>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 38.72px;
@@ -4266,7 +4403,7 @@ textarea:-webkit-autofill:focus {
 }
 
 .empowering-card>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -4287,7 +4424,7 @@ textarea:-webkit-autofill:focus {
   outline: none;
   background-color: #fff0;
   color: var(--root-black-color);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 18.78px;
@@ -4339,7 +4476,7 @@ textarea:-webkit-autofill:focus {
   color: #3f3f3f;
   line-height: 26px;
   font-weight: 400;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   padding: 16px 0
 }
 
@@ -4355,7 +4492,7 @@ textarea:-webkit-autofill:focus {
   padding: 0 !important;
   margin: 0 !important;
   color: #3f3f3f;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   list-style-type: disc
@@ -4405,4 +4542,8 @@ textarea:-webkit-autofill:focus {
 
 .footer-slider::after {
   bottom: 0
+}
+
+.map_style {
+  border: 0px;
 }

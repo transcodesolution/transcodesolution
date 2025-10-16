@@ -8,6 +8,8 @@
   <title>Our Team | Transcodezy</title>
   <meta name="description"
     content="Meet the experts at Transcodezy! Our team of professionals drives IT services, consultancy, and digital transformation with innovation and a passion for excellence.">
+
+  <link rel="canonical" href="https://transcodezyitsolutions.com/ourteam.html" />
   <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
   <!-- ***************************************css-links******************************************* -->
@@ -19,8 +21,8 @@
 
   <!-- ******************************************google-fonts-links*********************************** -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com" />
+  <link rel="preload" href="https://fonts.gstatic.com" crossorigin />
 
   <!-- **********************************************font-awesome-link*************************** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -29,7 +31,38 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": " transcodezyitsolutions ",
+  "url": " https://www.transcodezyitsolutions.com/",
+  "logo": " https://www.transcodezyitsolutions.com/assets/images/Tc.svg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919879868908",
+    "contactType": "Customer Service",
+    "areaServed": "IN",
+    "availableLanguage": "English"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61560581161343",
+    "https://www.instagram.com/transcodezy_it_solutions/",
+    "https://www.linkedin.com/company/transcodesolution/?viewAsMember=true"
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MKRRY6798"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-3MKRRY6798');
+  </script>
 
 </head>
 
@@ -41,11 +74,11 @@
     <div class="custom-container">
       <div class="header-con">
         <a href="index.html">
-          <img class="home_logo" src="/assets/images/Tc.svg" alt="transcodezy-logo" />
+          <img class="home_logo" src="/assets/images/Tc.svg" loading="lazy" alt="transcodezy-logo" />
         </a>
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
-            <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            <li><ion-icon name="close-outline" class="close-icon"></ion-icon></li>
             <!-- <li><a href="index.html">Home</a></li> -->
             <!-- <li><a href="about.html">About us</a></li> -->
             <li class="services-nav">
@@ -60,8 +93,10 @@
                 <li>
                   <a href="integration-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-1.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-11.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Integration Services</p>
                     </div>
                   </a>
@@ -69,8 +104,10 @@
                 <li>
                   <a href="managed-it-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-2.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-2.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Managed IT Services</p>
                     </div>
                   </a>
@@ -78,8 +115,10 @@
                 <li>
                   <a href="custom-app-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-3.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-33.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-3.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-33.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Mobile App Development Services</p>
                     </div>
                   </a>
@@ -87,8 +126,10 @@
                 <li>
                   <a href="custom-web-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-4.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-44.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Website Development Services</p>
                     </div>
                   </a>
@@ -96,8 +137,10 @@
                 <li>
                   <a href="uiux-design-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-5.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-55.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-5.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-55.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>UI/UX Design Service</p>
                     </div>
                   </a>
@@ -105,8 +148,10 @@
                 <li>
                   <a href="custom-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-6.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-66.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Software Development Service</p>
                     </div>
                   </a>
@@ -114,8 +159,10 @@
                 <li>
                   <a href="software-testing.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-7.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-77.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-7.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-77.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Q/A Testing Service</p>
                     </div>
                   </a>
@@ -123,8 +170,10 @@
                 <li>
                   <a href="hire-dedicated-developers.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-8.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-88.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-8.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-88.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Hire Dedicated Developers</p>
                     </div>
                   </a>
@@ -132,9 +181,9 @@
                 <li>
                   <a href="digital-marketing-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
+                      <img src="./assets/images/digital_marketing_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
+                      <img src="./assets/images/digital_marketing_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>Digital Marketing</p>
                     </div>
@@ -143,9 +192,9 @@
                 <li>
                   <a href="cyber-security-solutions.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
+                      <img src="./assets/images/cyber_security_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
+                      <img src="./assets/images/cyber_security_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>Cyber Security</p>
                     </div>
@@ -154,9 +203,9 @@
                 <li>
                   <a href="seo-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
+                      <img src="./assets/images/search_engine_optimization_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
+                      <img src="./assets/images/search_engine_optimization_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>Search Engine Optimization(SEO)</p>
                     </div>
@@ -165,9 +214,9 @@
                 <li>
                   <a href="devops-development-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/devops_icon.svg" alt="services-icon"
+                      <img src="./assets/images/devops_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/devops_icon.svg" alt="services-icon"
+                      <img src="./assets/images/devops_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>DevOps</p>
                     </div>
@@ -185,8 +234,10 @@
                 <li>
                   <a href="healthcare-it-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-1.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-11.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Healthcare</p>
                     </div>
                   </a>
@@ -194,8 +245,10 @@
                 <li>
                   <a href="industry-custom-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-2.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-2.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Software Development</p>
                     </div>
                   </a>
@@ -203,8 +256,10 @@
                 <li>
                   <a href="fintech-software-solutions.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-3.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-33.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-3.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-33.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Fintech</p>
                     </div>
                   </a>
@@ -212,8 +267,10 @@
                 <li>
                   <a href="realestate-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-4.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-44.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Real Estate Industries</p>
                     </div>
                   </a>
@@ -221,8 +278,10 @@
                 <li>
                   <a href="ecommerce-website-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-5.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-55.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-5.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-55.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Retail E-Commerce Industries</p>
                     </div>
                   </a>
@@ -230,8 +289,10 @@
                 <li>
                   <a href="hospitality-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-6.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-66.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Travel and Hospitality</p>
                     </div>
                   </a>
@@ -240,7 +301,8 @@
             </li>
             <li><a href="technology-consulting-services.html">Technology</a></li>
             <li><a href="it-services-portfolio.html">Portfolio</a></li>
-            <li><a href="https://casestudy.transcodezyitsolutions.com/" target="_blank">Case Studies</a></li>
+            <li><a href="https://casestudy.transcodezyitsolutions.com/" target="_blank" rel="noopener">Case Studies</a>
+            </li>
             <!-- <li><a href="career.html">Career</a></li> -->
             <li class="company-nav">
               <div class="flex_wrapper">
@@ -252,9 +314,10 @@
                 <li>
                   <a href="about.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/about_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/about_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>About us</p>
                     </div>
                   </a>
@@ -262,9 +325,10 @@
                 <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/career_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/career_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Career</p>
                     </div>
                   </a>
@@ -272,9 +336,10 @@
                 <li>
                   <a href="ourteam.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/our_team_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-11.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Our Team</p>
                     </div>
                   </a>
@@ -282,9 +347,10 @@
                 <li>
                   <a href="blog.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/blogs_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Blogs</p>
                     </div>
                   </a>
@@ -292,8 +358,8 @@
                 <!-- <li>
                     <a href="career.html">
                       <div class="dropdown-list">
-                        <img src="./assets/images/job_opportunities_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                        <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                        <img src="./assets/images/job_opportunities_navbar.svg" loading="lazy" alt="services-icon" class="services-dropdown-gray-icon" />
+                        <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon" class="services-dropdown-white-icon" />
                         <p>Job Opportunities</p>
                       </div>
                     </a>
@@ -301,9 +367,10 @@
                 <li>
                   <a href="become-partner.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/become_partner_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Become a Partner</p>
                     </div>
                   </a>
@@ -327,7 +394,7 @@
   <section class="banner-section-our-team">
     <div class="container">
       <div class="banner-section-about-con">
-        <h1>Our Team</h1>
+        <h1 class="banner-section-about-title">Our Team</h1>
       </div>
     </div>
   </section>
@@ -362,255 +429,24 @@
             enabling teams to develop cutting-edge solutions that address real-world challenges.</p>
         </div>
       </div>
+      
       <div class="team_detalis">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Dharmesh.webp" alt="Dharmesh">
-              <h6>Dharmesh Kumbhani</h6>
-              <p>CEO</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/ceo_1.webp" alt="ceo_1">
-              <h6>Shubham Sutariya</h6>
-              <p>CTO</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/coo.webp" alt="coo">
-              <h6>Arpit Nakrani</h6>
-              <p>COO</p>
-            </div>
-          </div>
+        <div class="ceo_card">
+          <img class="team_images" src="assets/images/ourteam/Dharmesh.webp" loading="lazy" alt="Dharmesh">
+          <h6>Dharmesh Kumbhani</h6>
+          <p>CEO</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- ********************************************* Sales Team ************************************************ -->
+        <div class="ceo_card">
+          <img class="team_images" src="assets/images/ourteam/ceo_1.webp" loading="lazy" alt="Shubham Sutariya">
+          <h6>Shubham Sutariya</h6>
+          <p>CTO</p>
+        </div>
 
-  <section class="wrapper-section">
-    <div class="custom-container">
-      <div class="pioneers_box">
-        <div class="visionaries_box">
-          <p>Driving Force</p>
-          <h5>Our Sales Team</h5>
-        </div>
-        <div class="visionaries_box_text">
-          <p>Our Sales Team is the driving force behind our growth and client relationships. Committed to
-            understanding the unique needs of our clients, we strive to deliver tailored IT solutions that
-            empower businesses.</p>
-        </div>
-      </div>
-      <div class="team_detalis">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Jemisha.webp" alt="Jemisha">
-              <h6>Jemisha Bhuva</h6>
-              <p>BDM</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Bindiya.webp" alt="Bindiya">
-              <h6>Bindiya Kakadiya</h6>
-              <p>BDE</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Anjali.webp" alt="Anjali">
-              <h6> Anjali Pandav </h6>
-              <p>BDE</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/rajat.webp" alt="rajat">
-              <h6>Rajat Verma</h6>
-              <p>BDE</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/vivek.webp" alt="vivek">
-              <h6>Vivek Kumbhani</h6>
-              <p>BDE</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Ansh.webp" alt="Ansh">
-              <h6>Ansh Ramani</h6>
-              <p>BDE</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/ceo.webp" alt="ceo">
-              <h6>Rohan</h6>
-              <p>BDE</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/ceo.webp" alt="ceo">
-              <h6>Prashant Desani</h6>
-              <p>BDM</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ********************************************* Development Team ************************************************ -->
-
-  <section class="wrapper-section">
-    <div class="custom-container">
-      <div class="pioneers_box">
-        <div class="visionaries_box">
-          <p>Collaborative Spirit</p>
-          <h5>Development Team</h5>
-        </div>
-        <div class="visionaries_box_text">
-          <p>We provide top-quality work environment, challenging yet amicable and encouraging atmosphere, and
-            the best opportunities to advance in theoretical knowledge and hands-on experience.</p>
-        </div>
-      </div>
-      <div class="team_detalis">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Akshay.webp" alt="Akshay">
-              <h6>Akshay Sangani</h6>
-              <p>Full-Stack Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Yash.webp" alt="Yash">
-              <h6>Yash Patoliya</h6>
-              <p>Full-Stack Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Dixita.webp" alt="Dixita">
-              <h6>Dixita Thummar</h6>
-              <p>React Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Arshita.webp" alt="Arshita">
-              <h6>Arshita Bhuva</h6>
-              <p>React Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Vrutika.webp" alt="Vrutika">
-              <h6>Vrutika Moghariya</h6>
-              <p>Node Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Hiral.webp" alt="Hiral">
-              <h6>Hiral Ramani</h6>
-              <p>Node Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/kunjesh.webp" alt="kunjesh">
-              <h6>Kunjesh Donga</h6>
-              <p>React Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Pramit.webp" alt="Pramit">
-              <h6>Pramit Mangukiya</h6>
-              <p>Node Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Abhisek.webp" alt="Abhisek">
-              <h6>Abhishek Vithani</h6>
-              <p>React Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/kedar.webp" alt="kedar">
-              <h6>Kedar Godhani</h6>
-              <p>React Developer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/shradhha.webp" alt="shradhha">
-              <h6>Shraddha Viradiya</h6>
-              <p>React Developer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ********************************************* Design Team ************************************************ -->
-
-  <section class="wrapper-section">
-    <div class="custom-container">
-      <div class="pioneers_box">
-        <div class="visionaries_box">
-          <p>Driving Force</p>
-          <h5>Our Design Team</h5>
-        </div>
-        <div class="visionaries_box_text">
-          <p>Our Design Team is at the forefront of creating visually compelling and user-centric solutions.
-            We believe that great design is about enhancing the user experience and effectively
-            communicating our clients' messages.</p>
-        </div>
-      </div>
-      <div class="team_detalis">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Bansi.webp" alt="Bansi">
-              <h6>Bansi Shingala</h6>
-              <p>UI/UX Designer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Priyanshee.webp" alt="Priyanshee">
-              <h6>Priyanshee</h6>
-              <p>UI/UX Designer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/vivek.webp" alt="vivek">
-              <h6>Vivek Kumbhani</h6>
-              <p>Web Designer</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/vraj.webp" alt="vraj">
-              <h6>Vraj Amipara</h6>
-              <p>UI/UX Designer</p>
-            </div>
-          </div>
+        <div class="ceo_card">
+          <img class="team_images" src="assets/images/ourteam/coo.webp" loading="lazy" alt="Arpit Nakrani">
+          <h6>Arpit Nakrani</h6>
+          <p>COO</p>
         </div>
       </div>
     </div>
@@ -632,15 +468,228 @@
         </div>
       </div>
       <div class="team_detalis">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-6"> -->
             <div class="ceo_card">
-              <img class="team_images" src="assets/images/ourteam/Sidhhi.webp" alt="Sidhhi">
+              <img class="team_images" src="assets/images/ourteam/Sidhhi.webp" loading="lazy" alt="Sidhhi">
               <h6>Siddhi Ghoghari</h6>
               <p>HR Executive</p>
             </div>
-          </div>
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ********************************************* Sales Team ************************************************ -->
+
+  <section class="wrapper-section">
+    <div class="custom-container">
+      <div class="pioneers_box">
+        <div class="visionaries_box">
+          <p>Driving Force</p>
+          <h5>Our Sales & Marketing Team</h5>
         </div>
+        <div class="visionaries_box_text">
+          <p>Our Sales Team is the driving force behind our growth and client relationships. Committed to
+            understanding the unique needs of our clients, we strive to deliver tailored IT solutions that
+            empower businesses.</p>
+        </div>
+      </div>
+      <div class="team_detalis">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/Anjali.webp" loading="lazy" alt="Anjali">
+              <h6> Anjali Pandav </h6>
+              <p>BDE</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/rajat.webp" loading="lazy" alt="rajat">
+              <h6>Rajat Verma</h6>
+              <p>BDE</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/Ansh.webp" loading="lazy" alt="Ansh">
+              <h6>Ansh Ramani</h6>
+              <p>BDE</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/male.png" loading="lazy" alt="Ansh">
+              <h6>Mihir Gelani</h6>
+              <p>SEO</p>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ********************************************* Development Team ************************************************ -->
+
+  <section class="wrapper-section">
+    <div class="custom-container">
+      <div class="pioneers_box">
+        <div class="visionaries_box">
+          <p>Collaborative Spirit</p>
+          <h5>Development Team</h5>
+        </div>
+        <div class="visionaries_box_text">
+          <p>We provide top-quality work environment, challenging yet amicable and encouraging atmosphere, and
+            the best opportunities to advance in theoretical knowledge and hands-on experience.</p>
+        </div>
+      </div>
+      <div class="team_detalis">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/Yash.webp" loading="lazy" alt="Yash">
+              <h6>Yash Patoliya</h6>
+              <p>Full-Stack Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/Dixita.webp" loading="lazy" alt="Dixita">
+              <h6>Dixita Thummar</h6>
+              <p>React Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/Vrutika.webp" loading="lazy" alt="Vrutika">
+              <h6>Vrutika Moghariya</h6>
+              <p>Node Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/kunjesh.webp" loading="lazy" alt="kunjesh">
+              <h6>Kunjesh Donga</h6>
+              <p>React Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/kedar.webp" loading="lazy" alt="kedar">
+              <h6>Kedar Godhani</h6>
+              <p>React Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/male.png" loading="lazy" alt="kedar">
+              <h6>Smit Goyani</h6>
+              <p>Full-Stack Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/male.png" loading="lazy" alt="kedar">
+              <h6>Sanket Talaviya</h6>
+              <p>Mern Stack Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/male.png" loading="lazy" alt="kedar">
+              <h6>Om Patel</h6>
+              <p>Node Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/female.png" loading="lazy" alt="kedar">
+              <h6>Hardi Desai</h6>
+              <p>Node Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/female.png" loading="lazy" alt="kedar">
+              <h6>Dhruvi Rabadiya</h6>
+              <p>React Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/female.png" loading="lazy" alt="kedar">
+              <h6>Nikita Trapasiya</h6>
+              <p>Flutter Developer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/female.png" loading="lazy" alt="kedar">
+              <h6>Hemansi Chalodiya</h6>
+              <p>React Developer</p>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ********************************************* Design Team ************************************************ -->
+
+  <section class="wrapper-section">
+    <div class="custom-container">
+      <div class="pioneers_box">
+        <div class="visionaries_box">
+          <p>Driving Force</p>
+          <h5>Our Design Team</h5>
+        </div>
+        <div class="visionaries_box_text">
+          <p>Our Design Team is at the forefront of creating visually compelling and user-centric solutions.
+            We believe that great design is about enhancing the user experience and effectively
+            communicating our clients' messages.</p>
+        </div>
+      </div>
+      <div class="team_detalis">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/female.png" loading="lazy" alt="Priyanshee">
+              <h6>Priyanshee</h6>
+              <p>UI/UX Designer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/vivek.webp" loading="lazy" alt="vivek">
+              <h6>Vivek Kumbhani</h6>
+              <p>Web Designer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/vraj.webp" loading="lazy" alt="vraj">
+              <h6>Vraj Amipara</h6>
+              <p>UI/UX Designer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/male.png" loading="lazy" alt="vraj">
+              <h6>Sanket Unagar</h6>
+              <p>UI/UX Designer</p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4"> -->
+            <div class="ceo_card">
+              <img class="team_images" src="assets/images/ourteam/male.png" loading="lazy" alt="vraj">
+              <h6>Om Patoliya</h6>
+              <p>UI/UX Designer</p>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
       </div>
     </div>
   </section>
@@ -652,7 +701,7 @@
       <div class="footer-con">
         <div class="footer-upper">
           <div class="footer-upper-box">
-            <img src="/assets/images/Tc.svg" alt="transcodezy-logo" />
+            <img src="/assets/images/Tc.svg" loading="lazy" alt="transcodezy-logo" />
             <p>
               Contact us today to learn more about our services and how we can
               help your business achieve its goals.
@@ -662,7 +711,7 @@
             </a>
           </div>
           <div class="footer-upper-box">
-            <h1 class="footer-link-heading">Quick Links</h1>
+            <h4 class="footer-link-heading">Quick Links</h4>
             <div class="footer-upper-link-con">
               <a href="it-services.html">Services</a>
               <a href="it-solutions-for-industries.html">Industries</a>
@@ -672,7 +721,7 @@
             </div>
           </div>
           <div class="footer-upper-box">
-            <h1 class="footer-link-heading">Services</h1>
+            <h4 class="footer-link-heading">Services</h4>
             <div class="footer-upper-link-con">
               <a href="custom-software-development.html">Software Development</a>
               <a href="custom-web-development.html">Web Development</a>
@@ -685,12 +734,12 @@
             </div>
           </div>
           <div class="footer-upper-box footer-upper-last-box">
-            <h1 class="footer-link-heading">Connect with Us</h1>
+            <h4 class="footer-link-heading">Connect with Us</h4>
 
             <div class="footer-contact-info">
               <a href="https://maps.app.goo.gl/4vWdtwfgFjZJ38xx8">
                 <div class="contact-box">
-                  <img src="./assets/images/location-icon-footer.svg" alt="location-icon" />
+                  <img src="./assets/images/location-icon-footer.svg" loading="lazy" alt="location-icon" />
                   <p>
                     301, Ambika Pinnacle, beside Lajamni Chowk, Mota Varachha,
                     Surat - 394101
@@ -699,13 +748,13 @@
               </a>
               <a href="tel:+9510249833">
                 <div class="contact-box">
-                  <img src="./assets/images/call-icon-footer.svg" alt="location-icon" />
+                  <img src="./assets/images/call-icon-footer.svg" loading="lazy" alt="location-icon" />
                   <p>+91 9510249833 , +91 9879868908</p>
                 </div>
               </a>
               <a href="mailto:info@transcodesolution.com">
                 <div class="contact-box last-contact-box">
-                  <img src="./assets/images/mail-icon-footer.svg" alt="location-icon" />
+                  <img src="./assets/images/mail-icon-footer.svg" loading="lazy" alt="location-icon" />
                   <p>info@transcodesolution.com</p>
                 </div>
               </a>
@@ -731,17 +780,20 @@
         <div class="footer-bottom-con">
           <div class="social-media-link-con">
             <div class="footer-social-link">
-              <a href="https://www.facebook.com/profile.php?id=61560581161343" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=61560581161343" target="_blank"
+                aria-label="Visit us on Facebook" rel="noopener">
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </div>
             <div class="footer-social-link">
-              <a href="https://www.instagram.com/transcodezy_it_solutions/" target="_blank">
+              <a href="https://www.instagram.com/transcodezy_it_solutions/" target="_blank"
+                aria-label="Visit us on Instagram" rel="noopener">
                 <i class="fa-brands fa-square-instagram"></i>
               </a>
             </div>
             <div class="footer-social-link">
-              <a href="https://www.linkedin.com/company/transcodesolution/?viewAsMember=true" target="_blank">
+              <a href="https://www.linkedin.com/company/transcodesolution/?viewAsMember=true" target="_blank"
+                aria-label="Visit us on LinkedIn" rel="noopener">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </div>
@@ -752,10 +804,10 @@
     </section>
   </footer>
 
-  <script src="./js/navBarToggle.js"></script>
-  <script src="./js/responsiveNavDropdown.js"></script>
-  <script src="./js/script.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="./js/navBarToggle.js" defer></script>
+  <script src="./js/responsiveNavDropdown.js" defer></script>
+  <script src="./js/script.js" defer></script>
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {

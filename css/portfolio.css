@@ -46,7 +46,7 @@
 
 
 .banner-section-about-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 77.44px;
@@ -54,6 +54,7 @@
   color: #ffffff;
   margin: 0;
 }
+
 #about-hero-info {
   margin-top: 40px;
   margin-bottom: 45px;
@@ -61,6 +62,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /* <!-- *******************************************************success-stories******************************************** --> */
 
 .success-stories-con {
@@ -76,7 +78,7 @@
 }
 
 .success-stories-con-upper-left h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 51.14px;
@@ -85,7 +87,7 @@
 }
 
 .success-stories-con-upper-right p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -94,7 +96,7 @@
 }
 
 .success-stories-view-all {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 18.96px;
@@ -125,7 +127,7 @@
 }
 
 .success-stories-con-bottom p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 31.16px;
@@ -145,7 +147,7 @@
 }
 
 .our-portfolio-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -159,8 +161,8 @@
   overflow: hidden;
 } */
 
-.our-portfolio-con > p {
-  font-family: Rubik;
+.our-portfolio-con>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -179,7 +181,7 @@
 .our-portfolio-hading {
   /* width: calc(25% - 18.75px); */
   width: fit-content;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 35.73px;
@@ -208,7 +210,7 @@
   width: calc(33% - 22.33px);
 }
 
-.our-portfoilo-card > img {
+.our-portfoilo-card>img {
   width: 100%;
   border-radius: 10px;
 }
@@ -217,7 +219,7 @@
   margin-top: 14px;
   padding-bottom: 4px;
   border-block-end: 0.5px solid var(--root-black-color);
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 18.96px;
@@ -227,7 +229,7 @@
 
 .our-portfolio-spiceseed-detail {
   margin-top: 6px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20.12px;
@@ -242,7 +244,7 @@
 
 .view-case-study-btn {
   margin-top: 12px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: var(--white-color);
@@ -276,8 +278,8 @@
   gap: 25px;
 }
 
-.why-should-you-con > h2 {
-  font-family: Rajdhani;
+.why-should-you-con>h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -285,8 +287,8 @@
   color: var(--root-black-color);
 }
 
-.why-should-you-con > p {
-  font-family: Rubik;
+.why-should-you-con>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -308,8 +310,8 @@
   width: calc(33% - 33px);
 }
 
-.why-should-checked-list > p {
-  font-family: Rubik;
+.why-should-checked-list>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 23.7px;
@@ -319,7 +321,7 @@
 }
 
 .schedule-consultation {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 28.44px;
@@ -342,36 +344,40 @@
   border: 2px solid var(--root-black-color);
 }
 
-@media only screen and (max-width: 1400px) {
-}
-@media only screen and (max-width: 1360px) {
-}
+@media only screen and (max-width: 1400px) {}
+
+@media only screen and (max-width: 1360px) {}
+
 @media only screen and (max-width: 1200px) {
   .our-portfolio-cards-con {
     gap: 39px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .our-portfolio-cards-con {
     gap: 38px;
   }
+
   .our-portfoilo-card {
     width: calc(50% - 22px);
   }
 
-  .why-should-checked-list > p {
+  .why-should-checked-list>p {
     white-space: nowrap;
   }
 }
+
 @media only screen and (max-width: 992px) {
-  .our-portfolio-headings-con{
+  .our-portfolio-headings-con {
     overflow-x: scroll;
   }
+
   .our-portfolio-cards-con {
     gap: 34px;
   }
 
-  .why-should-checked-list > p {
+  .why-should-checked-list>p {
     white-space: unset;
   }
 
@@ -379,10 +385,12 @@
     padding-block: 30px;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .success-stories-con-upper {
     flex-direction: column;
   }
+
   .success-stories-con-upper-left h2 {
     text-align: center;
     font-size: 40px;
@@ -407,18 +415,19 @@
     gap: 0px;
   }
 
-.success-stories-con-bottom p {
+  .success-stories-con-bottom p {
     font-size: 16px;
     line-height: 29.16px;
     text-align: center;
     margin-top: 20px;
-}
+  }
+
   .our-portfolio-con h2 {
     font-size: 40px;
     line-height: 40.14px;
   }
 
-  .our-portfolio-con > p {
+  .our-portfolio-con>p {
     line-height: 25.04px;
   }
 
@@ -446,23 +455,26 @@
     position: absolute;
     top: 50%;
   }
+
   .our-portfolio-hading {
     font-size: 24px;
     line-height: 30.73px;
-}
+  }
+
   .our-portfoilo-card {
     width: calc(50% - 19.5px);
   }
 
-  .why-should-you-con > h2 {
+  .why-should-you-con>h2 {
     font-size: 40px;
     line-height: 44.14px;
   }
+
   .why-should-you-con {
     gap: 15px;
   }
 
-  .why-should-checked-list > p {
+  .why-should-checked-list>p {
     font-size: 17px;
   }
 
@@ -472,37 +484,43 @@
     padding: 12px 25px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .our-portfolio-cards-con {
     margin-top: 30px;
-}
+  }
+
   .our-portfolio-hading {
     font-size: 20px;
     line-height: 25.73px;
-}
+  }
+
   .our-portfoilo-card {
     width: calc(100% - 0px);
-}
+  }
+
   .why-should-checked-list-con {
     display: flex;
     gap: 25px;
     align-items: center;
     flex-direction: column;
-}
+  }
 
   .why-should-checked-list {
     width: calc(100% - 15px);
   }
 }
+
 @media only screen and (max-width: 480px) {
   .our-portfoilo-card {
     width: 100%;
   }
-.our-technology-stack-con > h2
-  .our-portfolio-cards-con {
+
+  .our-technology-stack-con>h2 .our-portfolio-cards-con {
     margin-top: 35px;
   }
 }
+
 @media only screen and (max-width: 376px) {
   .our-portfolio-hading {
     width: 100%;
@@ -511,6 +529,7 @@
   .our-portfolio-headings-con::after {
     width: 0;
   }
+
   .our-portfolio-headings-con::before {
     width: 0;
   }
@@ -523,26 +542,35 @@
     padding-bottom: 15px;
     margin-inline: 8px;
   }
-  .success-stories-con-upper-left h2,.our-portfolio-con h2,.why-should-you-con > h2 {
+
+  .success-stories-con-upper-left h2,
+  .our-portfolio-con h2,
+  .why-should-you-con>h2 {
     font-size: 35px;
-}
-.our-portfolio-con > p {
-  font-size: 17px;
-  margin-top: 10px;
-}
-/* .our-portfolio-hading {
+  }
+
+  .our-portfolio-con>p {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  /* .our-portfolio-hading {
   font-size: 21px;
 } */
-.our-portfolio-hading {
-  padding-bottom: 0px;
-}
-.success-stories-con-upper-right p,.why-should-you-con > p {
-  font-size: 16px;
-}
-.success-stories-con-bottom p {
-  font-size: 17px;
-  line-height: 29.16px;
-}
+  .our-portfolio-hading {
+    padding-bottom: 0px;
+  }
+
+  .success-stories-con-upper-right p,
+  .why-should-you-con>p {
+    font-size: 16px;
+  }
+
+  .success-stories-con-bottom p {
+    font-size: 17px;
+    line-height: 29.16px;
+  }
+
   #desktop-software {
     border-block-end: none;
   }
@@ -561,5 +589,5 @@
     gap: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
-}
+
+@media only screen and (max-width: 320px) {}

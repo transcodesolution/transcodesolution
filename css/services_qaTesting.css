@@ -21,7 +21,7 @@
 }
 
 .banner-section-about-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 77.44px;
@@ -212,6 +212,7 @@ h2.heading.how_text_mobile_view {
 }
 
 @media (max-width:320px) {
+
   #how-do-we-work-card-22::after,
   #how-do-we-work-card-33::after,
   #how-do-we-work-card-11::after,

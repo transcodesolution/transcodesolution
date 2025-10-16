@@ -33,7 +33,7 @@ li {
 }
 
 .banner-section-about-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 77.44px;
@@ -254,8 +254,8 @@ h2.heading.batter {
   background: #307aac;
 }
 
-.how-do-we-work-inner-box > h2 {
-  font-family: Rajdhani;
+.how-do-we-work-inner-box>h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 36.3px;
@@ -265,8 +265,8 @@ h2.heading.batter {
   z-index: 99;
 }
 
-.how-do-we-work-inner-box > p {
-  font-family: Rubik;
+.how-do-we-work-inner-box>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -308,9 +308,14 @@ h2.heading.batter {
 } */
 
 @media (max-width: 1360px) {
-  #how-do-we-work-card-11::after,#how-do-we-work-card-22::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after{
+
+  #how-do-we-work-card-11::after,
+  #how-do-we-work-card-22::after,
+  #how-do-we-work-card-33::after,
+  #how-do-we-work-card-44::after {
     top: 32%;
-}
+  }
+
   .development-process-steps-con {
     gap: 100px;
   }
@@ -319,7 +324,7 @@ h2.heading.batter {
     gap: 44px;
   }
 
-  .how-do-we-work-inner-box > h2 {
+  .how-do-we-work-inner-box>h2 {
     font-size: 27px;
   }
 }
@@ -343,28 +348,39 @@ h2.heading.batter {
 }
 
 @media (max-width: 1024px) {
-  .how-do-we-work-inner-box > h2 {
+  .how-do-we-work-inner-box>h2 {
     font-size: 22px;
   }
+
   .how-do-we-work-inner-box p {
     padding: 45px 22px 43px 22px;
-}
-#how-do-we-work-card-22::after,#how-do-we-work-card-11::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after {
-  top: 30%;
-}
-#how-do-we-work-card-1::before,#how-do-we-work-card-3::before,#how-do-we-work-card-2::before,#how-do-we-work-card-4::before {
-  top: -10%;
-}
+  }
+
+  #how-do-we-work-card-22::after,
+  #how-do-we-work-card-11::after,
+  #how-do-we-work-card-33::after,
+  #how-do-we-work-card-44::after {
+    top: 30%;
+  }
+
+  #how-do-we-work-card-1::before,
+  #how-do-we-work-card-3::before,
+  #how-do-we-work-card-2::before,
+  #how-do-we-work-card-4::before {
+    top: -10%;
+  }
 }
 
 @media (max-width: 992px) {
   #how-do-we-work-card-22::after {
     top: 33%;
   }
+
   #how-do-we-work-card-33::after,
   #how-do-we-work-card-44::after {
     top: 32%;
   }
+
   .search_campaigns_box {
     height: 250px;
   }
@@ -373,11 +389,11 @@ h2.heading.batter {
     padding: 25px 25px 25px 25px;
   }
 
-  .healthcare-card-desc > p {
+  .healthcare-card-desc>p {
     font-size: 16px;
   }
 
-  .healthcare-card-desc > h2 {
+  .healthcare-card-desc>h2 {
     font-size: 22px;
   }
 
@@ -411,13 +427,20 @@ h2.heading.batter {
     content: none !important;
   }
 }
+
 @media (max-width:768px) {
-  #how-do-we-work-card-22::after, #how-do-we-work-card-11::after, #how-do-we-work-card-33::after, #how-do-we-work-card-44::after {
+
+  #how-do-we-work-card-22::after,
+  #how-do-we-work-card-11::after,
+  #how-do-we-work-card-33::after,
+  #how-do-we-work-card-44::after {
     top: 34%;
+  }
 }
-}
+
 @media (max-width: 767px) {
-  .integration-service > h1,
+
+  .integration-service>h1,
   .tab_title {
     font-size: 40px;
   }
@@ -430,7 +453,7 @@ h2.heading.batter {
     bottom: -59%;
   }
 
-  .how-do-we-works-con > h1 {
+  .how-do-we-works-con>h1 {
     font-size: 40px !important;
   }
 
@@ -476,14 +499,17 @@ h2.heading.batter {
 }
 
 @media (max-width: 576px) {
+
   #how-do-we-work-card-22::after,
   #how-do-we-work-card-44::after,
   #how-do-we-work-card-33::after {
     top: 39%;
   }
+
   .how-do-we-work-card {
     width: calc(100% - 0px) !important;
   }
+
   .how-do-we-work-cards-con {
     justify-content: space-between;
   }
@@ -502,9 +528,14 @@ h2.heading.batter {
 }
 
 @media (max-width: 480px) {
-#how-do-we-work-card-11::after,#how-do-we-work-card-22::after,#how-do-we-work-card-33::after,#how-do-we-work-card-44::after{
+
+  #how-do-we-work-card-11::after,
+  #how-do-we-work-card-22::after,
+  #how-do-we-work-card-33::after,
+  #how-do-we-work-card-44::after {
     top: 36%;
-}
+  }
+
   .search_campaigns_box {
     height: 174px;
   }
@@ -529,7 +560,7 @@ h2.heading.batter {
     height: 80%;
   }
 
-  .integration-service > h1,
+  .integration-service>h1,
   .tab_title,
   .development-process-con h1 {
     font-size: 35px;

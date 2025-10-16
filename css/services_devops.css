@@ -3,10 +3,20 @@
     --gradient-color: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%);
     --white-color: #fff;
 }
-h1,h2,h3,h4,h5,h6,p,ul,li{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
     margin: 0px;
     padding: 0px;
 }
+
 a:hover {
     color: #0056b3;
     text-decoration: none;
@@ -24,24 +34,25 @@ a:hover {
     background-size: cover;
     min-height: 400px;
     height: 400px;
-  } 
-  
-  .banner-section-about-con h1 {
-    font-family: Rajdhani;
+}
+
+.banner-section-about-con h1 {
+    font-family: 'Rajdhani', sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 77.44px;
     text-align: center;
     color: #ffffff;
     margin: 0;
-  }
-  #about-hero-info {
+}
+
+#about-hero-info {
     margin-top: 40px;
     margin-bottom: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 .development-process-steps-con {
     display: flex;
@@ -50,23 +61,26 @@ a:hover {
     gap: 50px;
     margin-top: 10px;
 }
+
 /* ***************************************************** our-core-section-start ***************************************************** */
-.our_core_title{
+.our_core_title {
     font-size: 44px;
     font-weight: 700;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     text-align: center;
     color: #3F3F3F;
-    margin: 0 0 21px 0 ;
+    margin: 0 0 21px 0;
 }
-.our_core_text{
+
+.our_core_text {
     font-size: 18px;
     font-weight: 400;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     line-height: 27.9px;
     margin-bottom: 22px;
     text-align: center;
 }
+
 .our_core_container {
     display: flex;
     flex-flow: row nowrap;
@@ -74,6 +88,7 @@ a:hover {
     align-items: center;
     margin: 65px 0px 10px 0px;
 }
+
 .our_core_item {
     background: #fff;
     border-radius: 16px;
@@ -85,10 +100,12 @@ a:hover {
     height: inherit;
     align-self: stretch;
 }
+
 .our_core_number {
     position: relative;
     padding-top: 42px;
 }
+
 .our_core_number::after {
     content: "";
     position: absolute;
@@ -100,6 +117,7 @@ a:hover {
     background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.39) -48.91%, rgba(99, 56, 139, 0.39) 79.49%);
     border-radius: 50%;
 }
+
 .our_core_count {
     position: absolute;
     width: 57px;
@@ -114,10 +132,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     font-size: 26px;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     color: white;
     font-weight: 700;
 }
+
 .our_core_count:after {
     content: "";
     position: absolute;
@@ -127,9 +146,10 @@ a:hover {
     background: linear-gradient(244.73deg, rgba(4, 191, 215, 0.39) -48.91%, rgba(99, 56, 139, 0.39) 79.49%);
     z-index: -1;
 }
-.kafelki_name{
+
+.kafelki_name {
     font-size: 16px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: #3F3F3F;
     text-align: center;
@@ -140,25 +160,30 @@ a:hover {
         top: -50.5%;
         right: 33.8%;
     }
+
     .our_core_item {
         padding: 24px 20px;
     }
 }
+
 @media (max-width:1280px) {
     .our_core_count {
         right: 33.8%;
     }
 }
+
 @media (max-width:1199px) {
     .our_core_item {
         width: 28%;
         margin: 15px auto;
         padding: 16px 15px;
     }
+
     .our_core_container {
         /* flex-flow: row wrap; */
         gap: 30px;
     }
+
     /* .mobile_screen{
         height: 54px;
     } */
@@ -166,71 +191,89 @@ a:hover {
         right: 33.8%;
     }
 }
+
 @media (max-width:1024px) {
     .our_core_count {
         right: 29.8%;
     }
 }
+
 @media (max-width:991px) {
     .our_core_container {
         flex-flow: row wrap;
         gap: 40px;
     }
+
     .our_core_count {
         right: 37.8%;
         top: -50.5%;
     }
-    .kafelki_name{
+
+    .kafelki_name {
         font-size: 18px;
     }
 }
+
 @media (max-width:768px) {
     .our_core_title {
         font-size: 40px;
         margin: 0 0 10px 0;
     }
+
     .our_core_item {
         width: 32%;
         margin: 40px auto;
         padding: 16px 15px;
     }
+
     .our_core_container {
         gap: 15px;
         margin: 40px 0px 0px 0px;
     }
+
     .our_core_count {
         right: 35.8%;
     }
-    .our_core_item:nth-child(5){
+
+    .our_core_item:nth-child(5) {
         margin-bottom: 10px;
     }
 }
+
 @media (max-width:576px) {
     .our_core_count {
         right: 44.3%;
         top: -62.5%;
     }
+
     .our_core_item {
         width: 100%;
         margin: 40px auto;
         padding: 16px 15px;
     }
+
     .development-process-steps-con {
         gap: 0px;
     }
 }
+
 @media (max-width:480px) {
     .our_core_title {
         font-size: 35px;
         margin: 0 0 10px 0;
     }
+
     .our_core_count {
         right: 43%;
     }
-    .development-process-steps-img img{
+
+    .development-process-steps-img img {
         width: 100%;
     }
-    .our_core_text,.development-process-con p,.our-intergration-services-box-desc>p{
+
+    .our_core_text,
+    .development-process-con p,
+    .our-intergration-services-box-desc>p {
         font-size: 16px;
     }
 }
@@ -240,9 +283,11 @@ a:hover {
         width: 100%;
         margin: 30px auto;
     }
+
     .mobile_screen {
         height: 100%;
     }
+
     .our_core_count {
         top: -19.5%;
         left: 50%;
@@ -251,28 +296,42 @@ a:hover {
         width: 53px;
         height: 53px;
     }
+
     .our_core_number::after {
         width: 86px;
         height: 86px;
     }
+
     .our_core_title {
         font-size: 35px;
         margin: 0 0 15px 0;
     }
-    .our_core_text,.development-process-con p,.our-intergration-services-box-desc>p,.discuss-project-con > p, .how-to-apply-con > p {
+
+    .our_core_text,
+    .development-process-con p,
+    .our-intergration-services-box-desc>p,
+    .discuss-project-con>p,
+    .how-to-apply-con>p {
         font-size: 16px;
         line-height: 24.9px;
     }
-    .footer-middle h1,.footer-link-heading {
+
+    .footer-middle h1,
+    .footer-link-heading {
         font-size: 25px;
     }
-    .request_for_text h5,.testimonial-con > h1,.how-to-apply-con > h1 {
+
+    .request_for_text h5,
+    .testimonial-con>h1,
+    .how-to-apply-con>h1 {
         font-size: 35px;
     }
+
     .our-intergration-services-con-heading {
         flex-direction: column;
         gap: 20px;
     }
+
     .banner-section-about-con h1 {
         line-height: 40.44px;
     }

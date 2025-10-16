@@ -80,32 +80,61 @@
 // });
 
 // ***************************************************** industryHealthcareTab *************************
-let images = document.querySelectorAll(".past-project-left-box img");
-let tabs = document.querySelectorAll(".past-projects-list");
+// let images = document.querySelectorAll(".past-project-left-box img");
+// let tabs = document.querySelectorAll(".past-projects-list");
 
-images[0].style.display = "block";
-tabs[0].style.background =
-  " linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%)";
-tabs[0].style.boxShadow = "none";
+// images[0].style.display = "block";
+// tabs[0].style.background =
+//   " linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%)";
+// tabs[0].style.boxShadow = "none";
 
-for (let i = 0; i < 4; i++) {
-  tabs[i].addEventListener("click", () => {
-    images[i].style.display = "block";
-    tabs[i].style.background =
-      " linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%)";
-    tabs[i].style.boxShadow = "none";
+// for (let i = 0; i < 4; i++) {
+//   tabs[i].addEventListener("click", () => {
+//     images[i].style.display = "block";
+//     tabs[i].style.background =
+//       " linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%)";
+//     tabs[i].style.boxShadow = "none";
 
-    for (let j = 0; j < 4; j++) {
-      if (i == j) {
-        continue;
-      } else {
-        images[j].style.display = "none";
-        tabs[j].style.background = "transparent";
-        tabs[j].style.boxShadow = "0px 0px 10px 0px #00000040";
-      }
+//     for (let j = 0; j < 4; j++) {
+//       if (i == j) {
+//         continue;
+//       } else {
+//         images[j].style.display = "none";
+//         tabs[j].style.background = "transparent";
+//         tabs[j].style.boxShadow = "0px 0px 10px 0px #00000040";
+//       }
+//     }
+//   });
+// }
+
+const images = document.querySelectorAll(".past-project-left-box img");
+const tabs = document.querySelectorAll(".past-projects-list");
+
+function setActiveTab(index) {
+  images.forEach((img, i) => {
+    img.style.display = i === index ? "block" : "none";
+  });
+
+  tabs.forEach((tab, i) => {
+    if (i === index) {
+      tab.style.background =
+        "linear-gradient(244.73deg, rgba(4, 191, 215, 0.3) -48.91%, rgba(99, 56, 139, 0.3) 79.49%)";
+      tab.style.boxShadow = "none";
+    } else {
+      tab.style.background = "transparent";
+      tab.style.boxShadow = "0px 0px 10px 0px #00000040";
     }
   });
 }
+
+// Set initial active tab
+setActiveTab(0);
+
+// Add event listeners
+tabs.forEach((tab, i) => {
+  tab.addEventListener("click", () => setActiveTab(i));
+});
+
 
 // ***************************************************** Faq *************************
 // let faqTab = document.querySelectorAll(".faq-list-box");

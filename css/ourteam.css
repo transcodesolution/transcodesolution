@@ -1,176 +1,225 @@
 /* <!-- ************************************************career-banner********************************************** --> */
 .banner-section-our-team {
-    padding-block: 60px;
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/ourteam/ourteam_banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  height: 400px;
+}
+
+.banner-section-about {
+  background: url(../assets/images/career/banner.svg);
+}
+
+
+
+
+.team_section {
+  padding-block: 70px;
+}
+
+.pioneers_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.visionaries_box {
+  width: 30%;
+  position: relative;
+}
+
+.visionaries_box::after {
+  content: "";
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  height: 100%;
+  width: 2px;
+  background-color: #3F3F3F;
+}
+
+.visionaries_box p {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  color: #3F3F3F;
+}
+
+.visionaries_box h5 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
+  line-height: 38px;
+  margin: 7px 0 0 0;
+}
+
+.visionaries_box_text {
+  width: 70%;
+}
+
+.visionaries_box_text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: 'Rubik', sans-serif;
+  padding-left: 50px;
+}
+
+.ceo_card h6 {
+  margin-top: 19px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #3F3F3F;
+  text-align: center;
+}
+
+.ceo_card p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.4px;
+  color: #3F3F3F;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.team_detalis {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.ceo_card {
+  border: 4px solid #868686;
+  padding: 22px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+  max-width: 400px;
+}
+
+.ceo_card:hover {
+  transform: translateY(-6px);
+}
+
+.team_images {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+
+@media (max-width:1200px) {
+
+  .team_images {
+    max-width: -webkit-fill-available;
+  }
+
+  .ceo_card {
+    padding: 15px;
+  }
+
+  .team_section {
+    padding-block: 30px;
+  }
+}
+
+@media (max-width:1024px) {
+  .ceo_card h6 {
+    margin-top: 11px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .ceo_card p {
+    font-size: 20px;
+    line-height: 22.4px;
+  }
+}
+
+@media (max-width:992px) {
+  .visionaries_box {
+    width: 50%;
+  }
+
+  .ceo_card h6 {
+    margin-top: 11px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .ceo_card p {
+    font-size: 20px;
+    line-height: 22.4px;
+  }
+}
+
+@media (max-width:767px) {
+  .visionaries_box_text p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 0px;
+  }
+
+  .pioneers_box {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../assets/images/ourteam/ourteam_banner.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    height: 400px;
-  }
-  .banner-section-about {
-    background: url(../assets/images/career/banner.svg);
+    flex-direction: column;
   }
 
-
-
-
-  .team_section{
-    padding-block: 70px;
-  }
-  .pioneers_box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .visionaries_box {
     width: 100%;
   }
-  .visionaries_box{
-    width: 30%;
-    position: relative;
+
+  .visionaries_box_text {
+    width: 100%;
   }
-  .visionaries_box::after{
-    content: "";
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    height: 100%;
-    width: 2px;
-    background-color: #3F3F3F;
+
+  .visionaries_box::after {
+    content: none;
   }
-  .visionaries_box p{
-    font-family: Rajdhani;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 36px;
-    color: #3F3F3F;
-  }
+
   .visionaries_box h5 {
-    font-size: 45px;
-    font-weight: 700;
-    font-family: Rajdhani;
-    line-height: 38px;
-    margin: 7px 0 0 0;
+    font-size: 40px;
+    margin: 7px 0 10px 0;
+  }
 }
-  .visionaries_box_text{
-    width: 70%;
-  }
-  .visionaries_box_text p{
-    font-size: 18px;
-    font-weight: 400;
+@media (max-width:575px) {
+  .ceo_card {
+  max-width: 100%;
+}
+}
+@media (max-width:480px) {
+  .visionaries_box_text p {
+    font-size: 16px;
     line-height: 26px;
-    font-family: Rubik;
-    padding-left: 50px;
+    padding-left: 0px;
   }
-  .ceo_card{
-    border: 4px solid #868686;
-    padding: 22px;
-    border-radius: 10px;
-    margin: 20px 0;
+
+  .visionaries_box h5 {
+    font-size: 35px;
+    margin: 7px 0 5px 0;
   }
-  .ceo_card h6{
-    margin-top: 19px;
-    font-family: Rubik;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 500;
-    color: #3F3F3F;
-    text-align: center;
+
+  .visionaries_box p {
+    font-size: 22px;
+    line-height: 25px;
   }
-  .ceo_card p{
-    font-family: Rubik;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29.4px;
-    color: #3F3F3F;
-    text-align: center;
-    margin-bottom: 0px;
-  }
-  .team_images{
-    max-width: 345px;
-    border-radius: 10px;
-  }
-  .team_detalis{
-    margin-top: 30px;
-  }
+  
+}
 
 
 
-  @media (max-width:1200px) {
-    
-    .team_images {
-        max-width: -webkit-fill-available;
-    }
-    .ceo_card {
-        padding: 15px;
-    }
-    .team_section {
-        padding-block: 30px;
-    }
-  }
-  @media (max-width:1024px) {
-    .ceo_card h6 {
-        margin-top: 11px;
-        font-size: 24px;
-        line-height: 27px;
-    }
-    .ceo_card p {
-        font-size: 20px;
-        line-height: 22.4px;
-    }
-  }
-  @media (max-width:992px) {
-    .visionaries_box{
-        width: 50%;
-    }
-    .ceo_card h6 {
-        margin-top: 11px;
-        font-size: 24px;
-        line-height: 27px;
-    }
-    .ceo_card p {
-        font-size: 20px;
-        line-height: 22.4px;
-    }
-  }
-  @media (max-width:767px) {
-    .visionaries_box_text p {
-        font-size: 18px;
-        line-height: 26px;
-        padding-left: 0px;
-    }
-    .pioneers_box {
-        display: flex;
-        flex-direction: column;
-    }
-    .visionaries_box {
-        width: 100%;
-    }
-    .visionaries_box_text {
-        width: 100%;
-    }
-    .visionaries_box::after {
-        content: none;
-    }
-    .visionaries_box h5 {
-        font-size: 40px;
-        margin: 7px 0 10px 0;
-    }
-  }
-  @media (max-width:480px) {
-    .visionaries_box_text p {
-      font-size: 16px;
-      line-height: 26px;
-      padding-left: 0px;
-  }
-    .visionaries_box h5 {
-        font-size: 35px;
-        margin: 7px 0 5px 0;
-    }
-    .visionaries_box p {
-        font-size: 22px;
-        line-height: 25px;
-    }
-  }

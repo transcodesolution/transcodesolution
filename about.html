@@ -19,8 +19,8 @@
 
   <!-- ******************************************google-fonts-links*********************************** -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com" />
+  <link rel="preload" href="https://fonts.gstatic.com" crossorigin />
 
   <!-- **********************************************font-awesome-link*************************** -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -30,8 +30,39 @@
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
-  <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="//bootstrap/3.3.5/css/bootstrap.min.css"> -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": " transcodezyitsolutions ",
+  "url": " https://www.transcodezyitsolutions.com/",
+  "logo": " https://www.transcodezyitsolutions.com/assets/images/Tc.svg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919879868908",
+    "contactType": "Customer Service",
+    "areaServed": "IN",
+    "availableLanguage": "English"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61560581161343",
+    "https://www.instagram.com/transcodezy_it_solutions/",
+    "https://www.linkedin.com/company/transcodesolution/?viewAsMember=true"
+  ]
+}
+</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MKRRY6798"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-3MKRRY6798');
+  </script>
 
 </head>
 
@@ -43,11 +74,11 @@
     <div class="custom-container">
       <div class="header-con">
         <a href="index.html">
-          <img class="home_logo" src="/assets/images/Tc.svg" alt="transcodezy-logo" />
+          <img class="home_logo" src="/assets/images/Tc.svg" loading="lazy" alt="transcodezy-logo" />
         </a>
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
-            <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            <li><ion-icon name="close-outline" class="close-icon"></ion-icon></li>
             <!-- <li><a href="index.html">Home</a></li> -->
             <!-- <li><a href="about.html">About us</a></li> -->
             <li class="services-nav">
@@ -62,8 +93,10 @@
                 <li>
                   <a href="integration-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-1.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-11.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Integration Services</p>
                     </div>
                   </a>
@@ -71,8 +104,10 @@
                 <li>
                   <a href="managed-it-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-2.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-2.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Managed IT Services</p>
                     </div>
                   </a>
@@ -80,8 +115,10 @@
                 <li>
                   <a href="custom-app-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-3.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-33.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-3.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-33.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Mobile App Development Services</p>
                     </div>
                   </a>
@@ -89,8 +126,10 @@
                 <li>
                   <a href="custom-web-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-4.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-44.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Website Development Services</p>
                     </div>
                   </a>
@@ -98,8 +137,10 @@
                 <li>
                   <a href="uiux-design-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-5.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-55.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-5.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-55.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>UI/UX Design Service</p>
                     </div>
                   </a>
@@ -107,8 +148,10 @@
                 <li>
                   <a href="custom-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-6.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-66.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Software Development Service</p>
                     </div>
                   </a>
@@ -116,8 +159,10 @@
                 <li>
                   <a href="software-testing.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-7.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-77.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-7.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-77.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Q/A Testing Service</p>
                     </div>
                   </a>
@@ -125,8 +170,10 @@
                 <li>
                   <a href="hire-dedicated-developers.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/sd-8.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/sd-88.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/sd-8.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/sd-88.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Hire Dedicated Developers</p>
                     </div>
                   </a>
@@ -134,9 +181,9 @@
                 <li>
                   <a href="digital-marketing-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
+                      <img src="./assets/images/digital_marketing_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/digital_marketing_icon.svg" alt="services-icon"
+                      <img src="./assets/images/digital_marketing_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>Digital Marketing</p>
                     </div>
@@ -145,9 +192,9 @@
                 <li>
                   <a href="cyber-security-solutions.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
+                      <img src="./assets/images/cyber_security_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/cyber_security_icon.svg" alt="services-icon"
+                      <img src="./assets/images/cyber_security_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>Cyber Security</p>
                     </div>
@@ -156,9 +203,9 @@
                 <li>
                   <a href="seo-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
+                      <img src="./assets/images/search_engine_optimization_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/search_engine_optimization_icon.svg" alt="services-icon"
+                      <img src="./assets/images/search_engine_optimization_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>Search Engine Optimization(SEO)</p>
                     </div>
@@ -167,9 +214,9 @@
                 <li>
                   <a href="devops-development-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/devops_icon.svg" alt="services-icon"
+                      <img src="./assets/images/devops_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/devops_icon.svg" alt="services-icon"
+                      <img src="./assets/images/devops_icon.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-white-icon" />
                       <p>DevOps</p>
                     </div>
@@ -187,8 +234,10 @@
                 <li>
                   <a href="healthcare-it-services.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-1.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-1.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-11.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Healthcare</p>
                     </div>
                   </a>
@@ -196,8 +245,10 @@
                 <li>
                   <a href="industry-custom-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-2.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-2.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Software Development</p>
                     </div>
                   </a>
@@ -205,8 +256,10 @@
                 <li>
                   <a href="fintech-software-solutions.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-3.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-33.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-3.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-33.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Fintech</p>
                     </div>
                   </a>
@@ -214,8 +267,10 @@
                 <li>
                   <a href="realestate-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-4.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-44.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-4.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-44.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Real Estate Industries</p>
                     </div>
                   </a>
@@ -223,8 +278,10 @@
                 <li>
                   <a href="ecommerce-website-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-5.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-55.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-5.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-55.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Retail E-Commerce Industries</p>
                     </div>
                   </a>
@@ -232,8 +289,10 @@
                 <li>
                   <a href="hospitality-software-development.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/id-6.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-66.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-6.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-66.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Travel and Hospitality</p>
                     </div>
                   </a>
@@ -242,7 +301,8 @@
             </li>
             <li><a href="technology-consulting-services.html">Technology</a></li>
             <li><a href="it-services-portfolio.html">Portfolio</a></li>
-            <li><a href="https://casestudy.transcodezyitsolutions.com/" target="_blank">Case Studies</a></li>
+            <li><a href="https://casestudy.transcodezyitsolutions.com/" target="_blank" rel="noopener">Case Studies</a>
+            </li>
             <!-- <li><a href="career.html">Career</a></li> -->
             <li class="company-nav">
               <div class="flex_wrapper">
@@ -254,9 +314,10 @@
                 <li>
                   <a href="about.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/about_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/about_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>About us</p>
                     </div>
                   </a>
@@ -264,9 +325,10 @@
                 <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/career_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/career_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Career</p>
                     </div>
                   </a>
@@ -274,9 +336,10 @@
                 <li>
                   <a href="ourteam.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/our_team_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/our_team_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-11.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-11.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Our Team</p>
                     </div>
                   </a>
@@ -284,9 +347,10 @@
                 <li>
                   <a href="blog.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/blogs_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/blogs_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Blogs</p>
                     </div>
                   </a>
@@ -294,8 +358,8 @@
                 <!-- <li>
                   <a href="career.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/job_opportunities_navbar.svg" alt="services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/job_opportunities_navbar.svg" loading="lazy" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon" class="services-dropdown-white-icon" />
                       <p>Job Opportunities</p>
                     </div>
                   </a>
@@ -303,9 +367,10 @@
                 <li>
                   <a href="become-partner.html">
                     <div class="dropdown-list">
-                      <img src="./assets/images/become_partner_navbar.svg" alt="services-icon"
+                      <img src="./assets/images/become_partner_navbar.svg" loading="lazy" alt="services-icon"
                         class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" alt="services-icon" class="services-dropdown-white-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                        class="services-dropdown-white-icon" />
                       <p>Become a Partner</p>
                     </div>
                   </a>
@@ -329,7 +394,7 @@
   <section class="banner-section-about-main">
     <div class="custom-container">
       <div class="banner-section-about-con">
-        <h1>About Us</h1>
+        <h1 class="banner-section-about-title">About Us</h1>
       </div>
     </div>
   </section>
@@ -357,7 +422,7 @@
         <div class="about-us-hero-con-bottom">
           <div class="about-us-hero-card">
             <div class="about-us-hero-card-image">
-              <img src="./assets/images/aboutus/about-icon-1.svg" alt="our-service-icon-1" />
+              <img src="./assets/images/aboutus/about-icon-1.svg" loading="lazy" alt="our-service-icon-1" />
             </div>
 
             <h2>Our History</h2>
@@ -368,7 +433,7 @@
           </div>
           <div class="about-us-hero-card">
             <div class="about-us-hero-card-image">
-              <img src="./assets/images/aboutus/Vector.png" alt="our-service-icon-1" />
+              <img src="./assets/images/aboutus/Vector.png" loading="lazy" alt="our-service-icon-1" />
             </div>
 
             <h2>Our Mission</h2>
@@ -381,7 +446,7 @@
           </div>
           <div class="about-us-hero-card">
             <div class="about-us-hero-card-image">
-              <img src="./assets/images/aboutus/Vector (1).png" alt="our-service-icon-1" />
+              <img src="./assets/images/aboutus/Vector (1).png" loading="lazy" alt="our-service-icon-1" />
             </div>
 
             <h2>Our Vision</h2>
@@ -402,7 +467,7 @@
     <div class="custom-container">
       <div class="our-main-con">
         <div class="our-main-info-box-left">
-          <img src="./assets/images/aboutus/about-icon-4.svg" alt="software-development-icon" />
+          <img src="./assets/images/aboutus/about-icon-4.svg" loading="lazy" alt="software-development-icon" />
         </div>
         <div class="our-main-info-right">
           <h5>Why Choose Us</h5>
@@ -416,29 +481,30 @@
           <div class="check-main-data-con">
             <div class="check-main-con-left">
               <div class="check-main-data">
-                <img class="icon-img" src="./assets/images/aboutus/icon-1.svg" alt="Quality comes First icon" />
+                <img class="icon-img" src="./assets/images/aboutus/icon-1.svg" loading="lazy"
+                  alt="Quality comes First icon" />
                 <p>Quality comes First</p>
               </div>
               <div class="check-main-data">
-                <img src="./assets/images/aboutus/icon-2.svg" alt="On Time Delivery icon" />
+                <img src="./assets/images/aboutus/icon-2.svg" loading="lazy" alt="On Time Delivery icon" />
                 <p>On Time Delivery</p>
               </div>
               <div class="check-main-data">
-                <img src="./assets/images/aboutus/icon-3.svg" alt="Qualified Developers icon" />
+                <img src="./assets/images/aboutus/icon-3.svg" loading="lazy" alt="Qualified Developers icon" />
                 <p>Qualified Developers</p>
               </div>
             </div>
             <div class="check-main-con-left">
               <div class="check-main-data">
-                <img src="./assets/images/aboutus/icon-4.svg" alt="Flexible Co-Operation icon" />
+                <img src="./assets/images/aboutus/icon-4.svg" loading="lazy" alt="Flexible Co-Operation icon" />
                 <p>Flexible Co-Operation</p>
               </div>
               <div class="check-main-data">
-                <img src="./assets/images/aboutus/icon-5.svg" alt="Transparent Costs icon" />
+                <img src="./assets/images/aboutus/icon-5.svg" loading="lazy" alt="Transparent Costs icon" />
                 <p>Transparent Costs</p>
               </div>
               <div class="check-main-data">
-                <img src="./assets/images/aboutus/icon-6.svg" alt="Quick Scale Up icon" />
+                <img src="./assets/images/aboutus/icon-6.svg" loading="lazy" alt="Quick Scale Up icon" />
                 <p>Quick Scale Up</p>
               </div>
             </div>
@@ -459,27 +525,27 @@
 
         <div class="our-Culture-img">
           <div>
-            <img src="./assets/images/aboutus/about-icon-11.svg" alt="about-icon-11" />
+            <img src="./assets/images/aboutus/about-icon-11.svg" loading="lazy" alt="about-icon-11" />
           </div>
           <div class="our-Culture-img-2">
             <div>
-              <img src="./assets/images/aboutus/about-icon-12.svg" alt="about-icon-12" />
+              <img src="./assets/images/aboutus/about-icon-12.svg" loading="lazy" alt="about-icon-12" />
             </div>
             <div>
-              <img src="./assets/images/aboutus/about-icon-13.svg" alt="about-icon-13" />
+              <img src="./assets/images/aboutus/about-icon-13.svg" loading="lazy" alt="about-icon-13" />
             </div>
             <div>
-              <img src="./assets/images/aboutus/about-icon-14.svg" alt="about-icon-14" />
+              <img src="./assets/images/aboutus/about-icon-14.svg" loading="lazy" alt="about-icon-14" />
             </div>
             <div>
-              <img src="./assets/images/aboutus/about-icon-15.svg" alt="about-icon-15" />
+              <img src="./assets/images/aboutus/about-icon-15.svg" loading="lazy" alt="about-icon-15" />
             </div>
             <div>
-              <img src="./assets/images/aboutus/about-icon-16.svg" alt="about-icon-16" />
+              <img src="./assets/images/aboutus/about-icon-16.svg" loading="lazy" alt="about-icon-16" />
             </div>
           </div>
           <div class="last-img-box">
-            <img src="./assets/images/aboutus/about-icon-17.svg" alt="about-icon-17" />
+            <img src="./assets/images/aboutus/about-icon-17.svg" loading="lazy" alt="about-icon-17" />
           </div>
         </div>
 
@@ -524,7 +590,7 @@
       <div class="footer-con">
         <div class="footer-upper">
           <div class="footer-upper-box">
-            <img src="/assets/images/Tc.svg" alt="transcodezy-logo" />
+            <img src="/assets/images/Tc.svg" loading="lazy" alt="transcodezy-logo" />
             <p>
               Contact us today to learn more about our services and how we can
               help your business achieve its goals.
@@ -534,7 +600,7 @@
             </a>
           </div>
           <div class="footer-upper-box">
-            <h1 class="footer-link-heading">Quick Links</h1>
+            <h4 class="footer-link-heading">Quick Links</h4>
             <div class="footer-upper-link-con">
               <a href="it-services.html">Services</a>
               <a href="it-solutions-for-industries.html">Industries</a>
@@ -544,7 +610,7 @@
             </div>
           </div>
           <div class="footer-upper-box">
-            <h1 class="footer-link-heading">Services</h1>
+            <h4 class="footer-link-heading">Services</h4>
             <div class="footer-upper-link-con">
               <a href="custom-software-development.html">Software Development</a>
               <a href="custom-web-development.html">Web Development</a>
@@ -557,12 +623,12 @@
             </div>
           </div>
           <div class="footer-upper-box footer-upper-last-box">
-            <h1 class="footer-link-heading">Connect with Us</h1>
+            <h4 class="footer-link-heading">Connect with Us</h4>
 
             <div class="footer-contact-info">
               <a href="https://maps.app.goo.gl/4vWdtwfgFjZJ38xx8">
                 <div class="contact-box">
-                  <img src="./assets/images/location-icon-footer.svg" alt="location-icon" />
+                  <img src="./assets/images/location-icon-footer.svg" loading="lazy" alt="location-icon" />
                   <p>
                     301, Ambika Pinnacle, beside Lajamni Chowk, Mota Varachha,
                     Surat - 394101
@@ -571,13 +637,13 @@
               </a>
               <a href="tel:+9510249833">
                 <div class="contact-box">
-                  <img src="./assets/images/call-icon-footer.svg" alt="location-icon" />
+                  <img src="./assets/images/call-icon-footer.svg" loading="lazy" alt="location-icon" />
                   <p>+91 9510249833 , +91 9879868908</p>
                 </div>
               </a>
               <a href="mailto:info@transcodesolution.com">
                 <div class="contact-box last-contact-box">
-                  <img src="./assets/images/mail-icon-footer.svg" alt="location-icon" />
+                  <img src="./assets/images/mail-icon-footer.svg" loading="lazy" alt="location-icon" />
                   <p>info@transcodesolution.com</p>
                 </div>
               </a>
@@ -603,17 +669,20 @@
         <div class="footer-bottom-con">
           <div class="social-media-link-con">
             <div class="footer-social-link">
-              <a href="https://www.facebook.com/profile.php?id=61560581161343" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=61560581161343" target="_blank"
+                aria-label="Visit us on Facebook" rel="noopener">
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </div>
             <div class="footer-social-link">
-              <a href="https://www.instagram.com/transcodezy_it_solutions/" target="_blank">
+              <a href="https://www.instagram.com/transcodezy_it_solutions/" target="_blank"
+                aria-label="Visit us on Instagram" rel="noopener">
                 <i class="fa-brands fa-square-instagram"></i>
               </a>
             </div>
             <div class="footer-social-link">
-              <a href="https://www.linkedin.com/company/transcodesolution/?viewAsMember=true" target="_blank">
+              <a href="https://www.linkedin.com/company/transcodesolution/?viewAsMember=true" target="_blank"
+                aria-label="Visit us on LinkedIn" rel="noopener">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </div>
@@ -628,10 +697,10 @@
 
   <!-- *******************************************js-script-file************************************************ -->
 
-  <script src="./js/navBarToggle.js"></script>
-  <script src="./js/responsiveNavDropdown.js"></script>
+  <script src="./js/navBarToggle.js" defer></script>
+  <script src="./js/responsiveNavDropdown.js" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 
   <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
   <script src="js/owl.carousel.min.js"></script>

@@ -13,18 +13,28 @@
             }
         }
 
-         @media (max-width:425px) {
+        @media (max-width:425px) {
             .back-home-link {
                 margin-top: 0px;
             }
         }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MKRRY6798"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3MKRRY6798');
+    </script>
+    
 </head>
 
 <body>
     <div class="Img404">
         <div class="content">
-            <img src="./assets/images/Not Found Page.svg" alt="404 PAGE IMG" />
+            <img src="./assets/images/Not Found Page.svg" loading="lazy" alt="404 PAGE IMG" />
             <a href="./index.html" class="back-home-link">Back To Home</a>
         </div>
     </div>

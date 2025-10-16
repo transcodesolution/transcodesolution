@@ -14,7 +14,7 @@
 
 
 .banner-section-about-con h1 {
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 77.44px;
@@ -27,7 +27,7 @@
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     color: #494949;
     text-align: center;
     margin-top: 10px;
@@ -61,7 +61,7 @@
 }
 
 .daily_changes p {
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 15px;
@@ -110,14 +110,14 @@
     display: block;
     font-size: 16px;
     font-weight: 500;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
 }
 
 .month {
     display: block;
     font-size: 16px;
     font-weight: 500;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
 }
 
 .content {
@@ -137,7 +137,7 @@
 }
 
 .access_blog_box h2 {
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     line-height: 24px;
     font-size: 20px;
     color: #5B4492;
@@ -147,7 +147,7 @@
 
 .access_blog_box p {
     font-size: 16px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     line-height: 20px;
     color: #000000;
@@ -161,7 +161,7 @@
 .read_more_blog {
     color: #5B4492;
     font-size: 14px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     line-height: 13px;
     display: flex;

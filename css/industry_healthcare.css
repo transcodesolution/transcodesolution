@@ -15,7 +15,7 @@
 
 
 .banner-section-about-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 77.44px;
@@ -40,7 +40,7 @@
 }
 
 .advance-healthcare-con h3 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 36.3px;
@@ -62,7 +62,7 @@
 }
 
 .advance-healthcare-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -71,7 +71,7 @@
 }
 
 .advance-healthcare-con p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -86,7 +86,7 @@
 }
 
 .our-healthcare-it-service-con>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -118,7 +118,7 @@
 }
 
 .healthcare-card-desc>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 500;
   line-height: 30.81px;
@@ -127,7 +127,7 @@
 }
 
 .healthcare-card-desc>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
@@ -142,7 +142,7 @@
 }
 
 .healthcare-tech-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -151,7 +151,7 @@
 }
 
 .healthcare-tech-con > p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -209,7 +209,7 @@
 }
 
 .healthcare-tech-box > p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.33px;
@@ -241,7 +241,7 @@
 }
 
 .box-nuvber p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 29px;
   font-weight: 600;
   line-height: 34.37px;
@@ -252,7 +252,7 @@
 /* <!-- **********************************************************development-process************************************ --> */
 
 .development-process-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -261,7 +261,7 @@
 }
 
 .development-process-con p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -322,7 +322,7 @@
 }
 
 .development-process-subbox-name h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 32.34px;
@@ -332,7 +332,7 @@
 }
 
 .development-process-subbox-name p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 26.46px;
@@ -344,7 +344,7 @@
 /* <!-- **********************************************************Client Onboarding Process************************************ --> */
 
 .client-onboarding-process-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -353,7 +353,7 @@
 }
 
 .client-onboarding-process-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -395,7 +395,7 @@
 }
 
 .client-onboarding-process-box-number p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 20.15px;
@@ -414,7 +414,7 @@
 }
 
 .client-onboarding-process-box-desc>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 26.46px;
@@ -423,7 +423,7 @@
 }
 
 .client-onboarding-process-box-desc>strong {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 29.4px;
@@ -434,7 +434,7 @@
 /* <!-- **********************************************************Hiring Models************************************ --> */
 
 .hiring-models-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -443,7 +443,7 @@
 }
 
 .hiring-models-con>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -467,7 +467,7 @@
 }
 
 .hiring-models-box>h2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 500;
   line-height: 38.22px;
@@ -489,7 +489,7 @@
 }
 
 .hiring-models-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -524,7 +524,7 @@
 }
 
 .past-project-right-box>h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 40.24px;
@@ -533,7 +533,7 @@
 }
 
 .past-project-right-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
@@ -559,7 +559,7 @@
 }
 
 .past-projects-list p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 31.16px;
@@ -585,13 +585,13 @@
   font-weight: 400;
   color: #3F3F3F;
   text-align: center;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   margin: 15px 0 30px 0;
   line-height: 25px;
 }
 
 .search_campaigns_box p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.33px;
@@ -648,7 +648,7 @@
 }
 
 .why-transcode-box>h5 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 35.55px;
@@ -658,7 +658,7 @@
 }
 
 .why-transcode-box>p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -681,22 +681,26 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  height: fit-content;
 }
 
 .case-study .work-portfolio-card p {
-  margin-top: 13px;
-
-  font-family: Rubik;
+  margin-top: 0px;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
   text-align: left;
   color: var(--root-black-color);
   margin-bottom: 16px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .case-study .work-portfolio-card .work-portfolio-read-more a {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
@@ -712,18 +716,18 @@
   margin-top: 5px;
 }
 
-.case-study .work-portfolio-card .work-portfolio-card-heading h4 {
-  font-family: Rubik;
+.case-study .work-portfolio-card .work-portfolio-card-heading h3 {
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 26px;
   text-align: left;
   color: var(--root-black-color);
   margin-top: 5px;
 }
 
 .case-study .work-portfolio-card .work-portfolio-read-more {
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 
 @media only screen and (max-width: 1360px) {
@@ -976,10 +980,12 @@
     font-size: 25px;
     line-height: 35.24px;
   }
+
   .advance-healthcare-con h2 {
     font-size: 40px;
     line-height: 44.24px;
-}
+  }
+
   .advance-healthcare-con p {
     line-height: 24px;
   }
@@ -1201,12 +1207,16 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .benefits_text,.development-process-con p{
+
+  .benefits_text,
+  .development-process-con p {
     font-size: 16px;
   }
+
   .client-onboarding-process-con>p {
     font-size: 16px;
-}
+  }
+
   .advance-healthcare-con h2 {
     font-size: 35px;
     line-height: 40.24px;

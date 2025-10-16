@@ -52,8 +52,8 @@
   flex: 1;
 }
 
-.type-of-services-card > p {
-  font-family: Rubik;
+.type-of-services-card>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
@@ -65,11 +65,9 @@
 .number-outer-con {
   height: 90px;
   width: 90px;
-  background: linear-gradient(
-    244.73deg,
-    rgba(4, 191, 215, 0.39) -48.91%,
-    rgba(99, 56, 139, 0.39) 79.49%
-  );
+  background: linear-gradient(244.73deg,
+      rgba(4, 191, 215, 0.39) -48.91%,
+      rgba(99, 56, 139, 0.39) 79.49%);
   padding: 15px;
   border-radius: 50%;
 
@@ -80,11 +78,9 @@
 .number-middle-con {
   height: 60px;
   width: 60px;
-  background: linear-gradient(
-    244.73deg,
-    rgba(4, 191, 215, 0.39) -48.91%,
-    rgba(99, 56, 139, 0.39) 79.49%
-  );
+  background: linear-gradient(244.73deg,
+      rgba(4, 191, 215, 0.39) -48.91%,
+      rgba(99, 56, 139, 0.39) 79.49%);
   padding: 3px;
   border-radius: 50%;
 }
@@ -100,8 +96,8 @@
   justify-content: center;
 }
 
-.number-inner-con > p {
-  font-family: Rajdhani;
+.number-inner-con>p {
+  font-family: 'Rajdhani', sans-serif;
   color: white;
   font-weight: 700;
   font-size: 32px;

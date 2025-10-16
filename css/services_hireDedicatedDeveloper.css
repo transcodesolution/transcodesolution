@@ -19,6 +19,7 @@
   min-height: 400px;
   height: 400px;
 }
+
 /* .banner-section-about {
   background: url(../assets/images/services_hire/banner.svg) center;
 } */
@@ -26,7 +27,7 @@
 /* <!-- *****************************************Ready to Transform Your Projects?************************************** --> */
 
 .ready-to-transform-your-Project h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 58.08px;
@@ -35,7 +36,7 @@
 }
 
 .ready-to-transform-your-Project-p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 35.22px;
@@ -49,7 +50,7 @@
 }
 
 .ready-to-transform-your-Project-p2 {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 38.22px;
@@ -66,7 +67,7 @@
   cursor: pointer;
   border: none;
   outline: none;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 26.07px;
@@ -83,8 +84,9 @@
   border: 2px solid var(--root-black-color);
   color: var(--purple-color);
 }
-.apply-info-text > a {
-  font-family: Rubik;
+
+.apply-info-text>a {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.18px;
@@ -92,7 +94,8 @@
   color: var(--root-black-color);
   margin: 0;
 }
-.hiring-models-box > h2::after {
+
+.hiring-models-box>h2::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -101,9 +104,10 @@
   background: var(--root-black-color);
   bottom: -10px;
 }
-.ready_hire{
+
+.ready_hire {
   font-size: 44px;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
   line-height: 60.5px;
   text-align: left;
@@ -114,7 +118,8 @@
     font-size: 40px;
     line-height: 45.5px;
     text-align: center;
-}
+  }
+
   .ready-to-transform-your-Project h1 {
     text-align: center;
   }
@@ -135,9 +140,11 @@
   .schedule-interview-button {
     margin-inline: auto;
   }
-  .ready_hire{
+
+  .ready_hire {
     text-align: center;
   }
+
   .ready-to-transform-your-Project h1 {
     font-size: 40px;
     line-height: 40px;
@@ -148,22 +155,26 @@
     line-height: 20px;
     margin-top: 20px;
   }
+
   .ready-to-transform-your-Project h1 {
     font-size: 38px;
     line-height: 35px;
   }
 }
+
 @media (max-width:480px) {
   .ready_hire {
     font-size: 35px;
     line-height: 40.7px;
-}
-.ready-to-transform-your-Project-p {
-  font-size: 17px;
-  line-height: 24px;
-}
-.ready-to-transform-your-Project-p2 {
-  font-size: 17px;
-  line-height: 24px;
-}
+  }
+
+  .ready-to-transform-your-Project-p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .ready-to-transform-your-Project-p2 {
+    font-size: 17px;
+    line-height: 24px;
+  }
 }

@@ -14,7 +14,7 @@
 
 
 .banner-section-about-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 77.44px;
@@ -45,7 +45,7 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 44px;
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   margin-top: 13px;
   color: #5B4492;
 }
@@ -64,14 +64,14 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   color: white;
   padding-bottom: 15px;
 }
 
 .newsletter_text {
   font-size: 22px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 32px;
   color: white;
@@ -86,7 +86,7 @@
   width: 100%;
   margin-bottom: 11px;
   font-size: 22px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 44px;
   color: #666666;
@@ -94,7 +94,7 @@
 
 .news_input::placeholder {
   font-size: 22px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 44px;
   color: #666666;
@@ -110,7 +110,7 @@
   width: 100%;
   margin-top: 7px;
   font-size: 19px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 44px;
   display: flex;
@@ -133,7 +133,7 @@
 }
 
 .access_icon_text {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -141,7 +141,7 @@
 }
 
 .access_text {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -153,7 +153,7 @@
 }
 
 .benefits_title {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
@@ -174,16 +174,18 @@
 
 .benefits_ul {
   list-style-type: disc;
-  padding: 20px 0 0 25px;
+  padding: 10px 0 0 18px;
 }
-.blog_architecture_text{
+
+.blog_architecture_text {
   font-size: 18px;
   font-weight: 500;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   padding-top: 15px;
 }
+
 .benefits_number_text {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -206,23 +208,25 @@
 
 .cricle_list li {
   list-style-type: circle !important;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   color: #3F3F3F;
 }
-.blog_architecture_strong_text{
+
+.blog_architecture_strong_text {
   font-size: 19px;
   font-weight: 700;
   padding-top: 20px;
 }
+
 .pt-2 {
   padding-top: 15px;
 }
 
 .benefits_li {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   line-height: 32px;
   font-weight: 600;
@@ -231,7 +235,7 @@
 }
 
 .benefits_p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -243,13 +247,13 @@
   font-size: 40px;
   line-height: 44px;
   font-weight: 600;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   color: #494949;
 }
 
 .leave_p {
   font-size: 21px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 26px;
   color: #494949;
@@ -267,7 +271,7 @@
   font-size: 20px;
   color: #494949;
   font-weight: 500;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   line-height: 27px;
 }
 
@@ -275,7 +279,7 @@
   font-size: 20px;
   color: #494949;
   font-weight: 500;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   line-height: 27px;
 }
 

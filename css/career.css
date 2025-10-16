@@ -19,6 +19,7 @@
   min-height: 400px;
   height: 400px;
 }
+
 .banner-section-about {
   background: url(../assets/images/career/banner.svg);
 }
@@ -39,7 +40,7 @@
 }
 
 .career-at-transcodezy-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -49,7 +50,7 @@
 }
 
 .career-at-transcodezy-con p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -89,7 +90,7 @@
 }
 
 .join-our-team-left h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 55px;
   font-weight: 700;
   line-height: 74.25px;
@@ -98,7 +99,7 @@
   border-radius: 21px;
 }
 
-.join-our-team-left h2 > span {
+.join-our-team-left h2>span {
   color: var(--purple-color);
 }
 
@@ -108,7 +109,7 @@
 }
 
 .join-our-team-right p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.24px;
@@ -135,7 +136,7 @@
 }
 
 .why-work-with-us-con h2 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -144,7 +145,7 @@
 }
 
 .why-work-with-us-con p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -170,6 +171,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .why-work-with-us-box-2 {
   box-shadow: 0px 0px 10.9px 0px #00000040;
   border-radius: 14px;
@@ -190,6 +192,7 @@
 .why-work-with-us-box:hover {
   box-shadow: none;
 }
+
 .why-work-with-us-box-2:hover h1,
 .why-work-with-us-box-2:hover p {
   color: white;
@@ -210,6 +213,7 @@
   left: 0;
   transition: all 0.5s ease-in-out;
 }
+
 .why-work-with-us-box-2::after {
   content: "";
   width: 35%;
@@ -232,6 +236,7 @@
   background: url(../assets/images/career/career_hover_1.jpg) no-repeat;
   background-size: cover;
 }
+
 .why-work-with-us-box-2:hover::after {
   width: 100%;
   height: 100%;
@@ -243,26 +248,28 @@
   background-size: cover;
 }
 
-.why-work-with-us-box:hover .arrow-con > img {
-  rotate: -90deg;
-  transition: all 0.5s ease-in-out;
-}
-.why-work-with-us-box-2:hover .arrow-con > img {
+.why-work-with-us-box:hover .arrow-con>img {
   rotate: -90deg;
   transition: all 0.5s ease-in-out;
 }
 
-.why-work-with-us-box > img {
-  width: 30%;
-  margin: 0 auto;
+.why-work-with-us-box-2:hover .arrow-con>img {
+  rotate: -90deg;
+  transition: all 0.5s ease-in-out;
 }
-.why-work-with-us-box-2 > img {
+
+.why-work-with-us-box>img {
   width: 30%;
   margin: 0 auto;
 }
 
-.why-work-with-us-box h1 {
-  font-family: Rajdhani;
+.why-work-with-us-box-2>img {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.why-work-with-us-box h3 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 35.28px;
@@ -272,8 +279,9 @@
   position: relative;
   z-index: 99;
 }
+
 .why-work-with-us-box-2 h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 35.28px;
@@ -285,7 +293,7 @@
 }
 
 .why-work-with-us-box p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.52px;
@@ -296,8 +304,9 @@
   position: relative;
   z-index: 99;
 }
+
 .why-work-with-us-box-2 p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.52px;
@@ -308,6 +317,7 @@
   position: relative;
   z-index: 99;
 }
+
 /* ************************************************** Box - 3 ************************************************* */
 .why-work-with-us-box-3 {
   box-shadow: 0px 0px 10.9px 0px #00000040;
@@ -320,6 +330,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .why-work-with-us-box-3:hover h1,
 .why-work-with-us-box-3:hover p {
   color: white;
@@ -328,6 +339,7 @@
 .why-work-with-us-box-3:hover {
   box-shadow: none;
 }
+
 .why-work-with-us-box-3::after {
   content: "";
   width: 35%;
@@ -339,6 +351,7 @@
   left: 0;
   transition: all 0.5s ease-in-out;
 }
+
 .why-work-with-us-box-3:hover::after {
   width: 100%;
   height: 100%;
@@ -349,16 +362,19 @@
   background: url(../assets/images/career/career_hover_3.jpg) no-repeat;
   background-size: cover;
 }
-.why-work-with-us-box-3:hover .arrow-con > img {
+
+.why-work-with-us-box-3:hover .arrow-con>img {
   rotate: -90deg;
   transition: all 0.5s ease-in-out;
 }
-.why-work-with-us-box-3 > img {
+
+.why-work-with-us-box-3>img {
   width: 30%;
   margin: 0 auto;
 }
+
 .why-work-with-us-box-3 h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 35.28px;
@@ -368,8 +384,9 @@
   position: relative;
   z-index: 99;
 }
+
 .why-work-with-us-box-3 p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.52px;
@@ -380,6 +397,7 @@
   position: relative;
   z-index: 99;
 }
+
 /* ************************************************** Box - 4 ************************************************* */
 .why-work-with-us-box-4 {
   box-shadow: 0px 0px 10.9px 0px #00000040;
@@ -392,6 +410,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .why-work-with-us-box-4:hover h1,
 .why-work-with-us-box-4:hover p {
   color: white;
@@ -400,6 +419,7 @@
 .why-work-with-us-box-4:hover {
   box-shadow: none;
 }
+
 .why-work-with-us-box-4::after {
   content: "";
   width: 35%;
@@ -411,6 +431,7 @@
   left: 0;
   transition: all 0.5s ease-in-out;
 }
+
 .why-work-with-us-box-4:hover::after {
   width: 100%;
   height: 100%;
@@ -421,16 +442,19 @@
   background: url(../assets/images/career/career_hover_4.jpg) no-repeat;
   background-size: cover;
 }
-.why-work-with-us-box-4:hover .arrow-con > img {
+
+.why-work-with-us-box-4:hover .arrow-con>img {
   rotate: -90deg;
   transition: all 0.5s ease-in-out;
 }
-.why-work-with-us-box-4 > img {
+
+.why-work-with-us-box-4>img {
   width: 30%;
   margin: 0 auto;
 }
+
 .why-work-with-us-box-4 h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 35.28px;
@@ -440,8 +464,9 @@
   position: relative;
   z-index: 99;
 }
+
 .why-work-with-us-box-4 p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.52px;
@@ -483,12 +508,15 @@
 .why-work-with-us-box:hover .image-hover {
   display: block;
 }
+
 .why-work-with-us-box-2:hover .image-hover-before {
   display: none;
 }
+
 .why-work-with-us-box-2:hover .image-hover {
   display: block;
 }
+
 .why-work-with-us-box-3:hover .image-hover-before {
   display: none;
 }
@@ -496,6 +524,7 @@
 .why-work-with-us-box-3:hover .image-hover {
   display: block;
 }
+
 .why-work-with-us-box-4:hover .image-hover-before {
   display: none;
 }
@@ -516,11 +545,12 @@ button.owl-dot.active {
   padding: 10px !important;
   width: 28px;
   height: 28px;
-  border: 2px solid transparent !important; 
-  background-image: linear-gradient(white, white), linear-gradient(180deg, #6236FF, #4897E8) !important; 
+  border: 2px solid transparent !important;
+  background-image: linear-gradient(white, white), linear-gradient(180deg, #6236FF, #4897E8) !important;
   background-origin: border-box !important;
-  background-clip: content-box, border-box !important; 
+  background-clip: content-box, border-box !important;
 }
+
 #our-current-openings-wrapper {
   display: flex;
   align-items: center;
@@ -528,8 +558,8 @@ button.owl-dot.active {
   padding-block: 60px;
 }
 
-.our-current-openings-con > h2 {
-  font-family: Rajdhani;
+.our-current-openings-con>h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -552,8 +582,8 @@ button.owl-dot.active {
   flex: 1;
 }
 
-.our-current-opening-right-box > h2 {
-  font-family: Rajdhani;
+.our-current-opening-right-box>h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 56.14px;
@@ -585,7 +615,7 @@ button.owl-dot.active {
 }
 
 .location-london-con-left p {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30.62px;
@@ -598,7 +628,7 @@ button.owl-dot.active {
 }
 
 .location-london-con-right p {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30.62px;
@@ -607,7 +637,7 @@ button.owl-dot.active {
 }
 
 .job-desc {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -617,7 +647,7 @@ button.owl-dot.active {
 }
 
 .job-desc strong {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30.62px;
@@ -635,8 +665,8 @@ button.owl-dot.active {
   width: 50%;
 }
 
-.responsibilities > h1 {
-  font-family: Rajdhani;
+.responsibilities>h1 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30.62px;
@@ -658,7 +688,7 @@ button.owl-dot.active {
 }
 
 .checked-icon-list p {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px;
@@ -688,8 +718,8 @@ button.owl-dot.active {
   overflow: visible;
 }
 
-.life-at-transcodezy-con > h2 {
-  font-family: Rajdhani;
+.life-at-transcodezy-con>h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -697,8 +727,8 @@ button.owl-dot.active {
   color: var(--root-black-color);
 }
 
-.life-at-transcodezy-con > p {
-  font-family: Rubik;
+.life-at-transcodezy-con>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -733,8 +763,8 @@ button.owl-dot.active {
   gap: 5px;
 }
 
-.life-at-box-text > h3 {
-  font-family: Rubik;
+.life-at-box-text>h3 {
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 35.28px;
@@ -742,8 +772,8 @@ button.owl-dot.active {
   color: var(--root-black-color);
 }
 
-.life-at-box-text > p {
-  font-family: Rubik;
+.life-at-box-text>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26.46px;
@@ -755,7 +785,7 @@ button.owl-dot.active {
   width: 50%;
 }
 
-.life-at-transcodezy-right-box > form {
+.life-at-transcodezy-right-box>form {
   padding: 26px;
   border: 1px solid #f0f0f0;
   box-shadow: 0px 0px 15px 0px #00000040;
@@ -778,7 +808,7 @@ button.owl-dot.active {
   border: 1px solid #ffffff;
   border-radius: 5px;
   outline: none;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29.4px;
@@ -786,7 +816,7 @@ button.owl-dot.active {
 }
 
 .life-at-form-input-box::placeholder {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29.4px;
@@ -800,7 +830,7 @@ button.owl-dot.active {
   border-radius: 5px;
   outline: none;
   resize: none;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29.4px;
@@ -809,7 +839,7 @@ button.owl-dot.active {
 
 .life-at-transcodezy-right-box .life-at-form-textarea::placeholder {
   width: 100%;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29.4px;
@@ -818,7 +848,7 @@ button.owl-dot.active {
 }
 
 .life-at-send-now {
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 38.22px;
@@ -831,14 +861,16 @@ button.owl-dot.active {
   background: var(--gradient-color-2);
   padding: 10px 45px;
   width: fit-content;
-  border: 2px solid  transparent;
+  border: 2px solid transparent;
   margin-top: 8px;
 }
+
 .life-at-send-now:hover {
   border: 2px solid #3f3f3f;
   color: #63388b;
   background: transparent;
 }
+
 /* ****************************************************how-to-apply-section*********************************************** */
 
 #how-to-apply-wrapper {
@@ -848,8 +880,8 @@ button.owl-dot.active {
   padding-block: 60px;
 }
 
-.how-to-apply-con > h2 {
-  font-family: Rajdhani;
+.how-to-apply-con>h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 53.24px;
@@ -857,8 +889,8 @@ button.owl-dot.active {
   color: var(--root-black-color);
 }
 
-.how-to-apply-con > p {
-  font-family: Rubik;
+.how-to-apply-con>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
@@ -892,8 +924,8 @@ button.owl-dot.active {
   margin-left: 15px;
 }
 
-.apply-info-text > strong {
-  font-family: Rubik;
+.apply-info-text>strong {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27.18px;
@@ -901,8 +933,8 @@ button.owl-dot.active {
   color: var(--root-black-color);
 }
 
-.apply-info-text > p {
-  font-family: Rubik;
+.apply-info-text>p {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.18px;
@@ -916,22 +948,26 @@ button.owl-dot.active {
   width: unset;
   height: unset;
 }
-.slider_1 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+.slider_1 .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   /* background: linear-gradient(244.73deg, #04bfd7 -48.91%, #63388b 79.49%) !important; */
-  background:#D6D6D6 !important;
+  background: #D6D6D6 !important;
   box-shadow: none;
 
-    width: 10px;
-    height: 10px;
-    margin: 5px 7px;
-    background: #D6D6D6;
-   
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+
 
 }
+
 @media only screen and (max-width: 1024px) {
   .career-at-transcodezy-con p {
     padding-inline: 0px;
-}
+  }
+
   .why-work-with-us-boxes-con {
     flex-wrap: wrap;
     gap: 30px;
@@ -940,12 +976,15 @@ button.owl-dot.active {
   .why-work-with-us-box {
     width: calc(50% - 15px);
   }
+
   .why-work-with-us-box-2 {
     width: calc(50% - 15px);
   }
+
   .why-work-with-us-box-3 {
     width: calc(50% - 15px);
   }
+
   .why-work-with-us-box-4 {
     width: calc(50% - 15px);
   }
@@ -958,7 +997,8 @@ button.owl-dot.active {
   .our-current-opening-left-box img {
     width: 100%;
   }
-  .our-current-opening-right-box > h2 {
+
+  .our-current-opening-right-box>h2 {
     text-align: center;
   }
 
@@ -978,11 +1018,11 @@ button.owl-dot.active {
     flex-direction: column;
   }
 
-  .life-at-box-text > p {
+  .life-at-box-text>p {
     text-align: center;
   }
 
-  .life-at-box-text > h3 {
+  .life-at-box-text>h3 {
     text-align: center;
   }
 
@@ -994,14 +1034,17 @@ button.owl-dot.active {
     width: 55%;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .join-our-team-left h2 {
     font-size: 45px;
     line-height: 50.25px;
-}
+  }
+
   .responsibilities-qualifications-con {
     margin-bottom: 25px;
-}
+  }
+
   .life-at-transcodezy-main {
     flex-direction: column;
     gap: 50px;
@@ -1019,25 +1062,29 @@ button.owl-dot.active {
     width: calc(50% - 15px);
   }
 
-  .life-at-box-text > p {
+  .life-at-box-text>p {
     text-align: left;
   }
 
-  .life-at-box-text > h3 {
+  .life-at-box-text>h3 {
     text-align: left;
   }
+
   .life-at-transcodezy-right-box {
     width: 100%;
   }
+
   .our-current-opening-main-box {
     flex-direction: column;
     gap: 0;
   }
+
   .our-current-opening-left-box {
     width: 100%;
     text-align: -webkit-center;
 
-}
+  }
+
   #career-at-transcodezy-wrapper {
     padding-block: 30px;
   }
@@ -1057,6 +1104,7 @@ button.owl-dot.active {
   #our-current-openings-wrapper {
     padding-block: 40px;
   }
+
   #life-at-transcodezy-wrapper {
     padding-block: 30px;
   }
@@ -1065,6 +1113,7 @@ button.owl-dot.active {
     padding-block: 30px;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .career-at-transcodezy-con h2 {
     font-size: 40px;
@@ -1092,7 +1141,8 @@ button.owl-dot.active {
     padding-right: 0;
   }
 
-  .join-our-team-left h2,.why-work-with-us-con h2 {
+  .join-our-team-left h2,
+  .why-work-with-us-con h2 {
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -1113,7 +1163,7 @@ button.owl-dot.active {
     width: 0%;
   }
 
-  .why-work-with-us-con > h1 {
+  .why-work-with-us-con>h1 {
     font-size: 40px;
 
     line-height: 40.24px;
@@ -1127,20 +1177,21 @@ button.owl-dot.active {
     margin-top: 30px;
   }
 
-  .why-work-with-us-box h1 {
+  .why-work-with-us-box h3 {
     font-size: 24px;
     line-height: 30.28px;
   }
 
-  .our-current-openings-con > h2 {
+  .our-current-openings-con>h2 {
     font-size: 40px;
     line-height: 40.24px;
   }
 
-  .our-current-opening-right-box > h2 {
+  .our-current-opening-right-box>h2 {
     font-size: 32px;
     line-height: 40.14px;
   }
+
   .job-desc {
     line-height: 24px;
   }
@@ -1151,7 +1202,7 @@ button.owl-dot.active {
     line-height: 24.62px;
   }
 
-  .responsibilities > h1 {
+  .responsibilities>h1 {
     font-size: 22px;
     line-height: 24.62px;
   }
@@ -1160,33 +1211,35 @@ button.owl-dot.active {
     align-items: flex-start;
   }
 
-  .life-at-transcodezy-con > h2 {
+  .life-at-transcodezy-con>h2 {
     font-size: 40px;
 
     line-height: 40.24px;
   }
 
-  .life-at-transcodezy-con > p {
+  .life-at-transcodezy-con>p {
     margin-top: 15px;
   }
 
-  .life-at-transcodezy-con > p {
+  .life-at-transcodezy-con>p {
     line-height: 24.46px;
   }
 
-  .life-at-box-text > h3 {
+  .life-at-box-text>h3 {
     font-size: 20px;
     line-height: 24.28px;
   }
 
-  .life-at-box-text > p {
+  .life-at-box-text>p {
     font-size: 16px;
     line-height: 22.46px;
   }
+
   .slider_1 .owl-item .slider_img {
     display: block;
     width: 100% !important;
-}
+  }
+
   .life-at-form-input-box {
     font-size: 20px;
 
@@ -1199,13 +1252,13 @@ button.owl-dot.active {
     line-height: 24.22px;
   }
 
-  .how-to-apply-con > h2 {
+  .how-to-apply-con>h2 {
     font-size: 40px;
     line-height: 40.24px;
     text-align: left;
   }
 
-  .how-to-apply-con > p {
+  .how-to-apply-con>p {
     font-size: 20px;
 
     line-height: 27px;
@@ -1217,13 +1270,16 @@ button.owl-dot.active {
     gap: 5px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .location-london-con-left {
     padding: 10px 22px 10px 24px;
-}
-.location-london-con-left p {
-  font-size: 20px;
-}
+  }
+
+  .location-london-con-left p {
+    font-size: 20px;
+  }
+
   .life-at-box {
     width: 100%;
   }
@@ -1240,31 +1296,41 @@ button.owl-dot.active {
     padding: 15px;
   }
 
-  .how-to-apply-con > p {
+  .how-to-apply-con>p {
     font-size: 19px;
   }
 
-  .apply-info-text > p {
+  .apply-info-text>p {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .career-at-transcodezy-con p,.join-our-team-right p,.why-work-with-us-con p,.life-at-transcodezy-con > p,.how-to-apply-con > p{
+
+  .career-at-transcodezy-con p,
+  .join-our-team-right p,
+  .why-work-with-us-con p,
+  .life-at-transcodezy-con>p,
+  .how-to-apply-con>p {
     font-size: 16px;
   }
+
   .why-work-with-us-box {
     width: 100%;
   }
+
   .why-work-with-us-box-2 {
     width: 100%;
   }
+
   .why-work-with-us-box-3 {
     width: 100%;
   }
+
   .why-work-with-us-box-4 {
     width: 100%;
   }
-  
+
 
   .location-london-con-right p {
     font-size: 18px;
@@ -1293,12 +1359,19 @@ button.owl-dot.active {
 
     width: unset;
   }
-  .career-at-transcodezy-con h2,.join-our-team-left h2,.why-work-with-us-con > h2,.our-current-openings-con > h2,.life-at-transcodezy-con > h2 {
+
+  .career-at-transcodezy-con h2,
+  .join-our-team-left h2,
+  .why-work-with-us-con>h2,
+  .our-current-openings-con>h2,
+  .life-at-transcodezy-con>h2 {
     font-size: 35px;
-}
-.our-current-opening-left-box {
-  width: auto;
-}
+  }
+
+  .our-current-opening-left-box {
+    width: auto;
+  }
+
   .apply-info-text {
     gap: 0px;
     flex-direction: column;
@@ -1318,7 +1391,7 @@ button.owl-dot.active {
     margin-left: 0;
   }
 
-  .apply-info-text > p {
+  .apply-info-text>p {
     text-align: left;
   }
 
@@ -1330,6 +1403,7 @@ button.owl-dot.active {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 376px) {
   .responsibilities-qualifications-con {
     flex-direction: column;
@@ -1344,6 +1418,7 @@ button.owl-dot.active {
     padding-right: 0px;
     border-inline-end: none;
   }
+
   .qualifications {
     padding-left: 0px;
   }
@@ -1356,11 +1431,11 @@ button.owl-dot.active {
     gap: 15px;
   }
 
-  .life-at-box-text > h3 {
+  .life-at-box-text>h3 {
     font-size: 19px;
   }
 
-  .life-at-box-text > p {
+  .life-at-box-text>p {
     font-size: 16px;
     line-height: 20.46px;
   }
@@ -1368,19 +1443,30 @@ button.owl-dot.active {
   .life-at-send-now {
     font-size: 20px;
   }
-  .career-at-transcodezy-con h2,.join-our-team-left h2,.why-work-with-us-con > h2,.our-current-openings-con > h2,.life-at-transcodezy-con > h2 {
+
+  .career-at-transcodezy-con h2,
+  .join-our-team-left h2,
+  .why-work-with-us-con>h2,
+  .our-current-openings-con>h2,
+  .life-at-transcodezy-con>h2 {
     font-size: 35px;
+  }
+
+  .career-at-transcodezy-con p,
+  .join-our-team-right p,
+  .why-work-with-us-con p,
+  .life-at-transcodezy-con>p {
+    font-size: 16px;
+  }
+
+  .life-at-transcodezy-right-box>form {
+    padding: 15px;
+    gap: 16px;
+  }
+
+  .form-field-con {
+    gap: 16px;
+  }
 }
-.career-at-transcodezy-con p,.join-our-team-right p,.why-work-with-us-con p,.life-at-transcodezy-con > p {
-  font-size: 16px;
-}
-.life-at-transcodezy-right-box > form {
-  padding: 15px;
-  gap: 16px;
-}
-.form-field-con {
-  gap: 16px;
-}
-}
-@media only screen and (max-width: 320px) {
-}
+
+@media only screen and (max-width: 320px) {}

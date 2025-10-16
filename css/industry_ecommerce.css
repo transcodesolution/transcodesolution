@@ -22,7 +22,7 @@
 
 
 .banner-section-about-con h1 {
-  font-family: Rajdhani;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 77.44px;
@@ -30,6 +30,7 @@
   color: #ffffff;
   margin: 0;
 }
+
 #about-hero-info {
   margin-top: 40px;
   margin-bottom: 45px;
@@ -37,6 +38,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /* <!-- **************************************************technology-expertise************************************** --> */
 
 .ind-ecomm .technology-frameworks-heading-con {

@@ -1,5 +1,12 @@
-
-h1,h2,h3,h4,h5,h6,p,ul,li{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
     margin: 0px;
     padding: 0px;
 }
@@ -16,77 +23,90 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     background-size: cover;
     min-height: 400px;
     height: 400px;
-  }
-  
-  
-  .banner-section-about-con h1 {
-    font-family: Rajdhani;
+}
+
+
+.banner-section-about-con h1 {
+    font-family: 'Rajdhani', sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 77.44px;
     text-align: center;
     color: #ffffff;
     margin: 0;
-  }
-  #about-hero-info {
+}
+
+#about-hero-info {
     margin-top: 40px;
     margin-bottom: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 @media (max-width:1360px) {
     .search_campaigns_box {
         width: 219px;
         height: 220px;
     }
+
     .ads_box_flex {
         justify-content: space-between;
     }
 }
+
 @media (max-width:991px) {
     .search_campaigns_box {
         width: 390px;
         height: 155px;
     }
+
     .search_ads_box {
         width: 47%;
         margin-bottom: 50px;
     }
+
     .search_ads_box:after {
         bottom: -25%;
     }
 }
+
 @media (max-width:767px) {
     .search_campaigns_box {
         height: 200px;
     }
+
     .search_ads_box {
         width: 46%;
     }
+
     .development-process-con h2 {
         font-size: 20px;
         line-height: 28.24px;
     }
 }
+
 @media (max-width:575px) {
     .search_ads_box {
         width: 100%;
     }
+
     .search_campaigns_box {
         height: 146px;
         width: 465px;
     }
 }
+
 @media (max-width:425px) {
     .search_ads_box:after {
         bottom: -16%;
     }
+
     .search_campaigns_box {
         height: 190px;
     }
 }
+
 /* .ads_tabs {
     margin: 0 0 60px 0;
     padding-block: 60px;
@@ -94,7 +114,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .tab_title {
     font-size: 44px;
     font-weight: 700;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     text-align: center;
     color: #3F3F3F;
     margin: 0px 0 14px 0;
@@ -103,14 +123,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     margin-bottom: 30px;
 }
 .benefits_card_text{
     margin-top: 8px;
     font-size: 18px;
     font-weight: 400;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
 }
 .search_campaigns_box {
     width: 278px;
@@ -131,7 +151,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .we_follow_text{
     font-weight: 400;
     font-size: 18px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     padding-bottom: 13px;
     color: #3F3F3F;
 }

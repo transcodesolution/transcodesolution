@@ -25,7 +25,7 @@
 
 
 let technologyName = document.querySelectorAll(
-  ".technology-frameworks-heading h1"
+  ".technology-frameworks-heading h3"
 );
 let cardTabs = document.querySelectorAll(".frameworks-image-box-con");
 
