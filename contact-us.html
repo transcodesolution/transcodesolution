@@ -534,13 +534,7 @@
             <div class="form-field-con">
               <div class="field" id="field">
                 <label class="input-label">Project Budget</label>
-                <select id="select" class="input-box">
-                  <option value="" disabled selected>Select</option>
-                  <option value="Some option">Some option</option>
-                  <option value="Another option">Another option</option>
-                  <option value="A option">A option</option>
-                  <option value="Potato">other option</option>
-                </select>
+                <input type="text" id="select" name="projectBudget" class="input-box" placeholder="Enter your estimated budget" />
               </div>
             </div>
             <div class="form-field-con">
@@ -706,7 +700,7 @@
               </a>
             </div>
           </div>
-          <p>Copyrighted © 2024 All Rights Reserved</p>
+          <p>Copyrighted © 2025 All Rights Reserved</p>
         </div>
       </div>
     </section>
@@ -742,30 +736,45 @@
     })();
   </script>
 
-  <script>
-    toastr.options = {
-      "closeButton": true,
-      "positionClass": "toast-top-right",
-      "timeOut": 9000,
-      "extendedTimeOut": 0,
-      "newestOnTop": true,
-      "zIndex": 9999
-    };
+<script>
+  toastr.options = {
+    "closeButton": true,
+    "positionClass": "toast-top-right",
+    "timeOut": 9000,
+    "extendedTimeOut": 0,
+    "newestOnTop": true,
+    "zIndex": 9999
+  };
 
-    document.querySelector('.form-submit').addEventListener('click', function (event) {
-      event.preventDefault();
+  document.querySelector('.form-submit').addEventListener('click', function (event) {
+    event.preventDefault();
 
-      // Validate form fields
-      var fname = document.getElementById("fname").value.trim();
-      var email = document.getElementById("email").value.trim();
-      var organisation = document.getElementById("organisation").value.trim();
-      var phone = document.getElementById("phone").value.trim();
-      var details = document.getElementById("details").value.trim();
-      var fileInput = document.getElementById("file");
-      var select = document.getElementById("select").value;
+    // Validate form fields
+    var fname = document.getElementById("fname").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var organisation = document.getElementById("organisation").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+    var details = document.getElementById("details").value.trim();
+    var select = document.getElementById("select").value.trim();
+    var fileInput = document.getElementById("file");
 
-      if (!fname || !email || !organisation || !phone || !details || !select) {
-        toastr.error("Please fill in all required fields.", null, {
+    if (!fname || !email || !organisation || !phone || !details || !select) {
+      toastr.error("Please fill in all required fields.", null, {
+        "positionClass": "toast-top-right",
+        "progressBar": false,
+        "closeButton": true,
+        "timeOut": 2000,
+        "extendedTimeOut": 2000
+      });
+      return;
+    }
+
+    // Check file size (only if file is attached)
+    if (fileInput.files.length > 0) {
+      var fileSize = fileInput.files[0].size;
+      var maxSize = 50 * 1024 * 1024; // 50 MB
+      if (fileSize > maxSize) {
+        toastr.error("File size exceeds 50 MB limit.", null, {
           "positionClass": "toast-top-right",
           "progressBar": false,
           "closeButton": true,
@@ -774,64 +783,49 @@
         });
         return;
       }
+    }
 
-      // Check file size (only if file is attached)
-      if (fileInput.files.length > 0) {
-        var fileSize = fileInput.files[0].size;
-        var maxSize = 50 * 1024 * 1024; // 50 MB
-        if (fileSize > maxSize) {
-          toastr.error("File size exceeds 50 MB limit.", null, {
-            "positionClass": "toast-top-right",
-            "progressBar": false,
-            "closeButton": true,
-            "timeOut": 2000,
-            "extendedTimeOut": 2000
-          });
-          return;
-        }
-      }
+    var templateParams = {
+      fname: fname,
+      email: email,
+      organisation: organisation,
+      phone: phone,
+      details: details,
+      select: select,
+      file: fileInput.files[0] ? fileInput.files[0].name : ""
+    };
 
-      var templateParams = {
-        fname: fname,
-        email: email,
-        organisation: organisation,
-        phone: phone,
-        details: details,
-        select: select,
-        file: fileInput.files[0] ? fileInput.files[0].name : ""
-      };
+    // Send email via EmailJS
+    emailjs.send("service_getyul6", "template_oofo38h", templateParams)
+      .then(function (response) {
 
-      // Send email via EmailJS
-      emailjs.send("service_getyul6", "template_oofo38h", templateParams)
-        .then(function (response) {
-
-          toastr.success("Your message has been sent successfully!", null, {
-            "positionClass": "toast-top-right",
-            "progressBar": false,
-            "closeButton": true,
-            "timeOut": 1500,
-            "extendedTimeOut": 1500
-          });
-
-          document.querySelector('.contact-form').reset(); 
-
-          // REDIRECT TO THANK YOU PAGE AFTER SUCCESS
-          setTimeout(function () {
-            window.location.href = "thank-you.html";
-          }, 1500);
-
-        }, function (error) {
-          toastr.error("Failed to send your message. Please try again.", null, {
-            "positionClass": "toast-top-right",
-            "progressBar": false,
-            "closeButton": true,
-            "timeOut": 2000,
-            "extendedTimeOut": 2000
-          });
-          console.error("Error sending email:", error);
+        toastr.success("Your message has been sent successfully!", null, {
+          "positionClass": "toast-top-right",
+          "progressBar": false,
+          "closeButton": true,
+          "timeOut": 1500,
+          "extendedTimeOut": 1500
         });
-    });
-  </script>
+
+        document.querySelector('.contact-form').reset();
+
+        // REDIRECT TO THANK YOU PAGE
+        setTimeout(function () {
+          window.location.href = "thank-you.html";
+        }, 1500);
+
+      }, function (error) {
+        toastr.error("Failed to send your message. Please try again.", null, {
+          "positionClass": "toast-top-right",
+          "progressBar": false,
+          "closeButton": true,
+          "timeOut": 2000,
+          "extendedTimeOut": 2000
+        });
+        console.error("Error sending email:", error);
+      });
+  });
+</script>
 
   <script>
     function updateFileName() {
@@ -845,7 +839,6 @@
       }
     }
   </script>
-
 
 
 </body>
