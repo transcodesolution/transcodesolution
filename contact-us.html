@@ -10,7 +10,7 @@
   <meta name="description"
     content="Get in touch with Transcodezy for IT services, consultancy, and digital transformation solutions. Contact us today to discuss how we can empower your business.">
   <link rel="canonical" href="https://transcodezyitsolutions.com/contact-us.html" />
-  
+
   <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
   <!-- ***************************************css-links******************************************* -->
@@ -75,24 +75,24 @@
     gtag('config', 'G-3MKRRY6798');
   </script>
 
-<!-- Google Tag Manager -->
-<script>(function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-T582TB82');</script>
-<!-- End Google Tag Manager -->
- 
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T582TB82');</script>
+  <!-- End Google Tag Manager -->
+
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T582TB82" height="0" width="0"
-    style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T582TB82" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <!-- ***************************************************header-code-start************************************************* -->
 
@@ -431,7 +431,7 @@
   <section id="contact-us-detail-wrapper">
     <div class="custom-container">
       <div class="contact-us-detail-box-con">
-  
+
         <!-- Location (Whole Card Clickable) -->
         <a href="https://maps.app.goo.gl/4vWdtwfgFjZJ38xx8" target="_blank" rel="noopener noreferrer"
           class="contact-us-detail-box">
@@ -444,7 +444,7 @@
             Gujarat 394101
           </p>
         </a>
-  
+
         <!-- Mail (Whole Card Clickable) -->
         <a href="mailto:info@transcodezy.com" class="contact-us-detail-box">
           <div class="contact-us-detail-box-img">
@@ -456,7 +456,7 @@
             hr@transcodesolution.com
           </p>
         </a>
-  
+
         <!-- Contact (Whole Card Clickable) -->
         <a href="tel:+9510249833" class="contact-us-detail-box">
           <div class="contact-us-detail-box-img">
@@ -468,7 +468,7 @@
             Office Telephone: 9016558916
           </p>
         </a>
-  
+
       </div>
     </div>
   </section>
@@ -555,14 +555,14 @@
                 Please attach any project specification, or document that you
                 would like to share
               </p>
-          <div class="document-input-box" onclick="document.getElementById('file').click()">
-            <input type="file" id="file" name="file" hidden onchange="updateFileName()" />
-            <img src="./assets/images/contact-us/upload icon.svg" loading="lazy" alt="document-upload-icon" />
-            <p class="drop-file">
-              Drop files here or <span>Select files</span>
-            </p>
-            <p id="file-name" class="file-name-display"></p>
-          </div>
+              <div class="document-input-box" onclick="document.getElementById('file').click()">
+                <input type="file" id="file" name="file" hidden onchange="updateFileName()" />
+                <img src="./assets/images/contact-us/upload icon.svg" loading="lazy" alt="document-upload-icon" />
+                <p class="drop-file">
+                  Drop files here or <span>Select files</span>
+                </p>
+                <p id="file-name" class="file-name-display"></p>
+              </div>
               <p class="please-attach">Max. file size: 50 MB</p>
             </div>
             <button type="submit" class="form-submit" onclick="validateAndSendEmail()">Submit</button>
@@ -608,7 +608,8 @@
       <div class="footer-con">
         <div class="footer-upper">
           <div class="footer-upper-box">
-          <img class="footer_logo" src="/assets/images/Tc.svg" width="80px" height="80px" loading="lazy" alt="transcodezy-logo" />
+            <img class="footer_logo" src="/assets/images/Tc.svg" width="80px" height="80px" loading="lazy"
+              alt="transcodezy-logo" />
             <p>
               Contact us today to learn more about our services and how we can
               help your business achieve its goals.
@@ -752,7 +753,7 @@
     };
 
     document.querySelector('.form-submit').addEventListener('click', function (event) {
-      event.preventDefault(); // Prevent default form submission
+      event.preventDefault();
 
       // Validate form fields
       var fname = document.getElementById("fname").value.trim();
@@ -763,8 +764,8 @@
       var fileInput = document.getElementById("file");
       var select = document.getElementById("select").value;
 
-      if (!fname || !email || !organisation || !phone || !details || !select || fileInput.files.length === 0) {
-        toastr.error("Please fill in all fields and select a file.", null, {
+      if (!fname || !email || !organisation || !phone || !details || !select) {
+        toastr.error("Please fill in all required fields.", null, {
           "positionClass": "toast-top-right",
           "progressBar": false,
           "closeButton": true,
@@ -774,11 +775,10 @@
         return;
       }
 
-      // Check file size
+      // Check file size (only if file is attached)
       if (fileInput.files.length > 0) {
-        var fileSize = fileInput.files[0].size; // Get the file size in bytes
-        var maxSize = 50 * 1024 * 1024; // 50 MB in bytes
-
+        var fileSize = fileInput.files[0].size;
+        var maxSize = 50 * 1024 * 1024; // 50 MB
         if (fileSize > maxSize) {
           toastr.error("File size exceeds 50 MB limit.", null, {
             "positionClass": "toast-top-right",
@@ -791,7 +791,6 @@
         }
       }
 
-      // Prepare email parameters
       var templateParams = {
         fname: fname,
         email: email,
@@ -799,20 +798,28 @@
         phone: phone,
         details: details,
         select: select,
-        file: fileInput.files[0] ? fileInput.files[0].name : "" // Include file name
+        file: fileInput.files[0] ? fileInput.files[0].name : ""
       };
 
-      // Send email using EmailJS
+      // Send email via EmailJS
       emailjs.send("service_getyul6", "template_oofo38h", templateParams)
         .then(function (response) {
+
           toastr.success("Your message has been sent successfully!", null, {
             "positionClass": "toast-top-right",
             "progressBar": false,
             "closeButton": true,
-            "timeOut": 2000,
-            "extendedTimeOut": 2000
+            "timeOut": 1500,
+            "extendedTimeOut": 1500
           });
-          document.querySelector('.contact-form').reset(); // Reset the form
+
+          document.querySelector('.contact-form').reset(); 
+
+          // REDIRECT TO THANK YOU PAGE AFTER SUCCESS
+          setTimeout(function () {
+            window.location.href = "thank-you.html";
+          }, 1500);
+
         }, function (error) {
           toastr.error("Failed to send your message. Please try again.", null, {
             "positionClass": "toast-top-right",
@@ -827,7 +834,7 @@
   </script>
 
   <script>
-  function updateFileName() {
+    function updateFileName() {
       const fileInput = document.getElementById("file");
       const fileNameDisplay = document.getElementById("file-name");
 
@@ -837,8 +844,8 @@
         fileNameDisplay.textContent = "";
       }
     }
-
   </script>
+
 
 
 </body>
