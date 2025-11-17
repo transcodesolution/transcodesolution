@@ -534,7 +534,12 @@
             <div class="form-field-con">
               <div class="field" id="field">
                 <label class="input-label">Project Budget</label>
-                <input type="text" id="select" name="projectBudget" class="input-box" placeholder="Enter your estimated budget" />
+                <select id="select" class="input-box">
+                  <option value="" disabled selected>Select</option>
+                  <option value="Some option">$1k to $5k</option>
+                  <option value="Another option">$5k to $10k</option>
+                  <option value="A option">$10k+</option>
+                </select>
               </div>
             </div>
             <div class="form-field-con">
@@ -750,13 +755,13 @@
     event.preventDefault();
 
     // Validate form fields
-    var fname = document.getElementById("fname").value.trim();
+   var fname = document.getElementById("fname").value.trim();
     var email = document.getElementById("email").value.trim();
     var organisation = document.getElementById("organisation").value.trim();
     var phone = document.getElementById("phone").value.trim();
     var details = document.getElementById("details").value.trim();
-    var select = document.getElementById("select").value.trim();
     var fileInput = document.getElementById("file");
+    var select = document.getElementById("select").value;
 
     if (!fname || !email || !organisation || !phone || !details || !select) {
       toastr.error("Please fill in all required fields.", null, {
