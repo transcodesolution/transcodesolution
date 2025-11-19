@@ -1081,7 +1081,8 @@ ol {
   line-height: 27.9px;
   text-align: justify;
   color: #494949;
-  margin-top: 17px
+  margin-top: 17px;
+  width: 100%;
 }
 
 .check-services-data-con {

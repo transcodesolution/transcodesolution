@@ -620,8 +620,8 @@
   }
 
   .our-services-info-con {
-    flex-direction: column;
-    gap: 20px
+    flex-direction: row;
+    gap: 20px;
   }
 
   .our-services-info-box-right {
@@ -725,6 +725,16 @@
   .Our-Expertise-in-Integration-con {
     gap: 50px
   }
+
+    .our-services-info-box-right>p {
+      max-width: 450px;
+    }
+
+        .check-services-data-con{
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
 }
 
 @media only screen and (max-width:992px) {
@@ -1043,6 +1053,11 @@
   #how-do-we-work-card-1::before {
     content: none !important
   }
+
+    .our-services-info-con {
+      flex-direction: row;
+      gap: 20px;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -1801,6 +1816,29 @@
   }
 }
 
+@media (max-width:768px) {
+  .mobile_faq {
+    display: none
+  }
+
+        .mobile_view_show {
+          display: block;
+          padding: 0px !important;
+          margin-top: 30px
+        }
+
+                .panel-title a {
+                  gap: 16px
+                }
+
+                                 .check-services-data-con {
+                                  flex-direction: row;
+                                   margin-top: 44px;
+                                   display: flex;
+                                   gap: 48px;
+                                 }
+}
+
 @media (max-width:767px) {
   .footer-upper-box {
     width: 100%;
@@ -1811,15 +1849,15 @@
     height: calc(100vh - 500px)
   }
 
-  .mobile_faq {
+  /* .mobile_faq {
     display: none
-  }
+  } */
 
-  .mobile_view_show {
+  /* .mobile_view_show {
     display: block;
     padding: 0px !important;
     margin-top: 30px
-  }
+  } */
 
   .check-services-data-con {
     justify-content: flex-start;
@@ -1841,6 +1879,9 @@
     padding-left: 21px
   }
 }
+
+
+
 
 @media only screen and (max-width:576px) {
   .testimonial-card-upper {
