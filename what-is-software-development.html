@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ********************************transcodezy-title-and-logo********************************** -->
+    <title>Blog Detail | Transcodezy</title>
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+    <!-- ***************************************css-links******************************************* -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="./css/what-is-software-development.css" />
+    <link rel="stylesheet" href="css/services.css">
+
+    <!-- ******************************************google-fonts-links*********************************** -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- **********************************************font-awesome-link*************************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- ******************************owl-carousel-slider************************************************* -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": " transcodezyitsolutions ",
+  "url": " https://www.transcodezyitsolutions.com/",
+  "logo": " https://www.transcodezyitsolutions.com/assets/images/Tc.svg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919879868908",
+    "contactType": "Customer Service",
+    "areaServed": "IN",
+    "availableLanguage": "English"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61560581161343",
+    "https://www.instagram.com/transcodezy_it_solutions/",
+    "https://www.linkedin.com/company/transcodesolution/?viewAsMember=true"
+  ]
+}
+</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MKRRY6798"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3MKRRY6798');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T582TB82');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T582TB82" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="header-wrapper">
+        <div class="custom-container">
+            <div class="header-con">
+                <a href="index.html">
+                    <img class="home_logo" src="/assets/images/Tc.svg" loading="lazy" alt="transcodezy-logo" />
+                </a>
+                <nav class="transcodezy-navbar">
+                    <ul class="transcodezy-navbar-ul">
+                        <li><ion-icon name="close-outline" class="close-icon"></ion-icon></li>
+                        <!-- <li><a href="index.html">Home</a></li> -->
+                        <!-- <li><a href="about.html">About us</a></li> -->
+                        <li class="services-nav">
+                            <!-- <li class="service_hover"> -->
+                            <div class="flex_wrapper">
+                                <a href="it-services.html">Services</a>
+                                <i class="fa-solid fa-plus nav-plus-icon"></i>
+                                <i class="fa-solid fa-minus nav-minus-icon"></i>
+                            </div>
+                            <!-- </li> -->
+                            <ul class="dropdown-con">
+                                <li>
+                                    <a href="integration-services.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-1.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-11.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Integration Services</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="managed-it-services.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-2.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-22.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Managed IT Services</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="custom-app-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-3.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-33.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Mobile App Development Services</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="custom-web-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-4.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-44.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Website Development Services</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="uiux-design-services.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-5.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-55.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>UI/UX Design Service</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="custom-software-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-6.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-66.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Software Development Service</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="software-testing.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-7.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-77.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Q/A Testing Service</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="hire-dedicated-developers.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/sd-8.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/sd-88.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Hire Dedicated Developers</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="digital-marketing-services.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/digital_marketing_icon.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/digital_marketing_icon.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-white-icon" />
+                                            <p>Digital Marketing</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cyber-security-solutions.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/cyber_security_icon.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/cyber_security_icon.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-white-icon" />
+                                            <p>Cyber Security</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="seo-services-usa.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/search_engine_optimization_icon.svg"
+                                                loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/search_engine_optimization_icon.svg"
+                                                loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Search Engine Optimization(SEO)</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="devops-development-services.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/devops_icon.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/devops_icon.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-white-icon" />
+                                            <p>DevOps</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="industries-nav">
+                            <div class="flex_wrapper">
+                                <a href="it-solutions-for-industries.html">Industries</a>
+                                <i class="fa-solid fa-plus nav-plus-icon"></i>
+                                <i class="fa-solid fa-minus nav-minus-icon"></i>
+                            </div>
+                            <ul class="dropdown-con">
+                                <li>
+                                    <a href="healthcare-it-services.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/id-1.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-11.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Healthcare</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="industry-custom-software-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/id-2.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Software Development</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fintech-software-solutions.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/id-3.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-33.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Fintech</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="realestate-software-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/id-4.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-44.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Real Estate Industries</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="ecommerce-website-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/id-5.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-55.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Retail E-Commerce Industries</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="hospitality-software-development.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/id-6.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-66.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Travel and Hospitality</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="technology-consulting-services.html">Technology</a></li>
+                        <li><a href="it-services-portfolio.html">Portfolio</a></li>
+                        <li><a href="https://casestudy.transcodezyitsolutions.com/" target="_blank" rel="noopener">Case
+                                Studies</a>
+                        </li>
+                        <!-- <li><a href="career.html">Career</a></li> -->
+                        <li class="company-nav">
+                            <div class="flex_wrapper">
+                                <a href="">Company</a>
+                                <i class="fa-solid fa-plus nav-plus-icon"></i>
+                                <i class="fa-solid fa-minus nav-minus-icon"></i>
+                            </div>
+                            <ul class="dropdown-con">
+                                <li>
+                                    <a href="about.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/about_navbar.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>About us</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="career.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/career_navbar.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Career</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="ourteam.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/our_team_navbar.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-11.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Our Team</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/blogs_navbar.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Blogs</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                  <a href="career.html">
+                    <div class="dropdown-list">
+                      <img src="./assets/images/job_opportunities_navbar.svg" loading="lazy" alt="services-icon" class="services-dropdown-gray-icon" />
+                      <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon" class="services-dropdown-white-icon" />
+                      <p>Job Opportunities</p>
+                    </div>
+                  </a>
+                </li> -->
+                                <li>
+                                    <a href="become-partner.html">
+                                        <div class="dropdown-list">
+                                            <img src="./assets/images/become_partner_navbar.svg" loading="lazy"
+                                                alt="services-icon" class="services-dropdown-gray-icon" />
+                                            <img src="./assets/images/id-22.svg" loading="lazy" alt="services-icon"
+                                                class="services-dropdown-white-icon" />
+                                            <p>Become a Partner</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-contact-us-button-con">
+                    <a class="header-contact-us-button" href="contact-us.html">
+                        <button>Contact Us</button>
+                    </a>
+                    <i class="fa-solid fa-bars navbar-bars-icon"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ************************************************contact-us-banner************************************** -->
+
+    <section class="banner-section-blog_detail">
+        <div class="custom-container">
+            <div class="banner-section-about-con">
+                <h1 class="banner-section-about-title">What Is Software Development? A Complete Beginner-Friendly Guide
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************************************contact-us-banner************************************** -->
+
+    <section class="wrapper-section">
+        <div class="custom-container">
+            <h3 class="managed_it_title text_align">Blogs and Articles</h3>
+            <div class="access_to_detali">
+                <div class="innovation_box">
+                    <img class="blog_detail_img" src="assets/images/blog/blog_detail_img.jpg" loading="lazy"
+                        alt="blog_detail_img">
+                    <h5 class="blog_page_sub_text">What Is Software Development? A Complete Beginner-Friendly Guide</h5>
+                    <div class="access_blog">
+                        <div class="access_flex">
+                            <img src="assets/images/blog/by_admin_icon.jpg" class="access_images" loading="lazy"
+                                alt="by_admin">
+                            <p class="access_icon_text">By Admin</p>
+                        </div>
+                        <div class="access_flex">
+                            <img src="assets/images/blog/comments_icon.svg" class="access_images" loading="lazy"
+                                alt="comments_icon">
+                            <p class="access_icon_text">3 comments</p>
+                        </div>
+                        <div class="access_flex">
+                            <img src="assets/images/blog/like_icon.svg" class="access_images" loading="lazy"
+                                alt="like_icon">
+                            <p class="access_icon_text">Like</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter_box">
+                    <div class="newsletter_background">
+                        <h6 class="news_title">Newsletter</h6>
+                        <p class="newsletter_text">Sign up our newsletter to get update information, news and free
+                            insight</p>
+                        <input type="text" name="" id="" placeholder="Name" class="news_input">
+                        <input type="text" name="" id="" placeholder="Email" class="news_input">
+                        <a class="mail_send_btn" href="">
+                            <button><img src="assets/images/blog/mail_icon.svg" loading="lazy" alt="mail_icon"> SIGN
+                                UP</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="access_text">Software development is the process of designing, building, testing, and maintaining
+                software applications that solve
+                real-world problems. Whether it’s a mobile app, an AI-powered tool, a website, or a custom enterprise
+                system, every
+                digital product we use today is created through structured software development practices.
+            </p>
+
+            <p class="access_text">As an IT company with years of hands-on experience, we follow a disciplined and
+                efficient development approach that
+                ensures every product is functional, scalable, secure and user-centric.
+            </p>
+
+            <p class="benefits_title pt-3">Why Software Development Matters Today</p>
+            <ul class="benefits_ul">
+                <p class="access_text">Modern businesses rely on software to:</p>
+                <li class="benefits_li cricle_list">Automate manual work</li>
+                <li class="benefits_li cricle_list">Reduce operational costs</li>
+                <li class="benefits_li cricle_list">Enhance customer experience</li>
+                <li class="benefits_li cricle_list">Improve productivity</li>
+                <li class="benefits_li cricle_list">Stay competitive in digital markets</li>
+            </ul>
+
+            <p class="access_text">Whether you’re a startup or an enterprise, the right software can become your biggest
+                asset.</p>
+
+            <div class="blog-article">
+                <h2 class="benefits_title pt-2">Understanding Software Development (Simple & Clear)</h2>
+                <p class="access_text pt-2">Software development is not just "coding."
+                    <span>It involves a complete lifecycle that includes:</span>
+                </p>
+
+                <table class="dev-lifecycle-table">
+                    <thead>
+                        <tr>
+                            <th>Stage</th>
+                            <th>What Happens Here</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Stage"><strong>1. Planning</strong></td>
+                            <td data-label="What Happens Here">Understanding business goals & user needs</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Stage"><strong>2. Analysis</strong></td>
+                            <td data-label="What Happens Here">Gathering requirements & creating documentation</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Stage"><strong>3. Design</strong></td>
+                            <td data-label="What Happens Here">Creating architecture, UI/UX, and technical blueprints
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Stage"><strong>4. Development</strong></td>
+                            <td data-label="What Happens Here">Writing clean, scalable code</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Stage"><strong>5. Testing</strong></td>
+                            <td data-label="What Happens Here">Fixing bugs & ensuring performance/security</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Stage"><strong>6. Deployment</strong></td>
+                            <td data-label="What Happens Here">Launching the software to users</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Stage"><strong>7. Maintenance</strong></td>
+                            <td data-label="What Happens Here">Updates, monitoring & feature improvements</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+            <p class="access_text">This structured flow ensures your software is built correctly from day one</p>
+
+            <div class="pt-3">
+                <h5 class="benefits_title">Types of Software Development</h5>
+                <p class="access_text"> Different projects require different development approaches. Some of the most
+                    common types include:
+                </p>
+                <ul class="benefits_ul">
+                    <li class="benefits_li number_list">Web Development</li>
+                    <p class="benefits_p">Building websites, web apps, and online platforms.
+                    </p>
+
+                    <li class="benefits_li number_list">Mobile App Development</li>
+                    <p class="benefits_p">iOS, Android, and cross-platform applications.
+                    </p>
+                    <li class="benefits_li number_list">Custom Software Development</li>
+                    <p class="benefits_p">Tailor-made software for business-specific needs.
+                    </p>
+                    <li class="benefits_li number_list">Cloud Application Development</li>
+                    <p class="benefits_p">Apps designed for scalability and high availability.
+                    </p>
+                    <li class="benefits_li number_list">API & Integration Development</li>
+                    <p class="benefits_p">Bridging high-performance code into the browser.
+                    </p>
+                    <li class="benefits_li number_list">Serverless Architecture</li>
+                    <p class="benefits_p">Connecting multiple systems for smooth data flow.
+                    </p>
+                </ul>
+            </div>
+
+            <p class="benefits_title pt-3">Core Skills Required for Software Development (Developer’s Perspective)</p>
+
+            <ul class="benefits_ul">
+                <p class="access_text">As experienced developers, we rely on:</p>
+                <li class="benefits_li cricle_list">Programming languages:
+                    <span class="benefits_p">JavaScript, TypeScript, Python, Java, PHP, C#</span>
+                </li>
+                <li class="benefits_li cricle_list">Frameworks:
+                    <span class="benefits_p">React, Node.js, Laravel, .NET, Angular, FastAPI</span>
+                </li>
+                <li class="benefits_li cricle_list">Add Databases Section:
+                    <span class="benefits_p">MySQL, PostgreSQL, MongoDB, Cassandra DB</span>
+                </li>
+                <li class="benefits_li cricle_list">Tools:
+                    <span class="benefits_p">GitHub, VS Code, Docker, CI/CD, Redis, Real-time Systems, Kubernetes
+                    </span>
+                </li>
+                <li class="benefits_li cricle_list">Methodologies:
+                    <span class="benefits_p">Agile, Scrum, DevOps</span>
+                </li>
+                <li class="benefits_li cricle_list">Best practices:
+                    <span class="benefits_p">Clean code, security-first approach, scalability planning</span>
+                </li>
+                <li class="benefits_li cricle_list">Cloud Platforms:
+                    <span class="benefits_p">Amazon Web Services (AWS), MS Azure, Google Cloud (GCP)</span>
+                </li>
+            </ul>
+
+            <p class="access_text">These skills ensure the software we deliver performs exceptionally well—even as your
+                business grows.</p>
+
+            <div class="approach-simple">
+                <h2 class="benefits_title pt-2">Choosing the Right Software Development Approach</h2>
+
+                <p class="access_text pt-2">
+                    There are multiple methodologies, but the two most popular are:
+                </p>
+
+                <!-- Agile -->
+                <div class="approach-item">
+                    <strong>1. Agile Development</strong>
+                    <ul>
+                        <li>Fast delivery</li>
+                        <li>Customer collaboration</li>
+                        <li>Continuous improvement</li>
+                        <li>Ideal for startups & evolving projects</li>
+                    </ul>
+                </div>
+
+                <!-- Waterfall -->
+                <div class="approach-item">
+                    <strong>2. Waterfall Development</strong>
+                    <ul>
+                        <li>Sequential & structured</li>
+                        <li>Ideal for fixed requirements</li>
+                    </ul>
+                </div>
+
+                <p class="approach-note">
+                    At <strong>Transcodezy IT Solutions</strong>, we prefer <strong>Agile</strong> because it ensures
+                    faster
+                    development and real-time improvements.
+                </p>
+            </div>
+
+            <p class="benefits_title pt-3">Benefits of Professional Software Development</p>
+            <ul class="benefits_ul">
+                <p class="access_text">Investing in high-quality development ensures:</p>
+                <li class="benefits_li cricle_list">Better performance and speed</li>
+                <li class="benefits_li cricle_list">Fewer bugs and higher security</li>
+                <li class="benefits_li cricle_list">Easy scalability</li>
+                <li class="benefits_li cricle_list">A smooth user experience</li>
+                <li class="benefits_li cricle_list">Better ROI for your business</li>
+            </ul>
+
+            <p class="access_text">We build software not just to work—but to <strong>grow with your business.</strong>
+            </p>
+
+            <p class="benefits_title pt-3">Real-World Example: How Software Development Helps Businesses</p>
+            <ul class="benefits_ul">
+                <p class="access_text"><strong>Scenario:</strong> A retail company wants to reduce manual billing and
+                    stock management.</p>
+                <p class="access_text"><strong>Solution:</strong>A custom inventory + billing software.</p>
+                <li class="benefits_li cricle_list">Automation reduces human errors</li>
+                <li class="benefits_li cricle_list">Faster billing enhances customer experience</li>
+                <li class="benefits_li cricle_list">Real-time stock tracking saves operational costs</li>
+            </ul>
+
+            <p class="access_text">This is the power of software development when implemented correctly. </p>
+
+            <p class="benefits_title pt-3">Common Mistakes to Avoid</p>
+            <ul class="benefits_ul">
+                <p class="access_text">Many businesses face failure due to:</p>
+                <li class="benefits_li cricle_list">Undefined requirements</li>
+                <li class="benefits_li cricle_list">Poor UI/UX</li>
+                <li class="benefits_li cricle_list">Wrong technology selection</li>
+                <li class="benefits_li cricle_list">No testing</li>
+                <li class="benefits_li cricle_list">Lack of long-term maintenance</li>
+            </ul>
+
+            <p class="access_text">A professional team helps avoid these mistakes.
+            </p>
+
+            <p class="benefits_title pt-3">Why Choose Transcodezy IT Solutions?
+            </p>
+            <ul class="benefits_ul">
+                <p class="access_text">At Transcodezy IT Solutions, we don’t just develop software—we create long-term
+                    digital assets for your business.
+                </p>
+                <p class="access_text">Our development philosophy includes:</p>
+                <li class="benefits_li cricle_list">Experienced full-stack developers</li>
+                <li class="benefits_li cricle_list">Transparent communication</li>
+                <li class="benefits_li cricle_list">Clear workflows & documentation</li>
+                <li class="benefits_li cricle_list">Quality assurance at every stage</li>
+                <li class="benefits_li cricle_list">Scalable & secure technology stack</li>
+                <li class="benefits_li cricle_list">On-time delivery</li>
+            </ul>
+
+            <p class="access_text">We understand the real challenges businesses face, and we design solutions that
+                genuinely help them grow.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- *****************************************************Leave a Reply********************************************* -->
+    <section class="wrapper-section">
+        <div class="custom-container">
+            <h5 class="leave_reply">Leave a Reply</h5>
+            <p class="leave_p">Your email address will not be published. Required fields are marked *</p>
+            <input class="input_leave" type="text" name="name" id="name" placeholder="Name*">
+            <input class="input_leave" type="text" name="Email" id="Email" placeholder="Email*">
+            <textarea class="input_leave" rows="4" name="Comment" id="Comment" placeholder="Comment*"></textarea>
+            <a href="contact-us.html" class="explore_our_services">Post a Comment</a>
+        </div>
+    </section>
+
+    <!-- *************************************************FAQ************************************************* -->
+
+    <section class="wrapper-section mb-4">
+        <div class="custom-container overflow-visible">
+            <div class="faq-con">
+                <h2 class="managed_it_title text_align">Frequently Asked Questions</h2>
+                <div class="faq-list-con">
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>Is software development only about coding?
+                            </p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                No. It includes planning, designing, coding, testing, and maintaining the software.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>How long does software development take?
+                            </p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                Depending on complexity, it may take weeks to months. Agile development ensures faster
+                                delivery.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>What type of software does my business need?
+                            </p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                It depends on your goals. A consultation helps identify whether you need a web app,
+                                mobile app, or a custom tool.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>Is custom software expensive?
+                            </p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                Not necessarily. A well-planned solution saves costs long-term by improving efficiency.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-list-box">
+                        <div class="faq">
+                            <p>Can existing software be upgraded?
+                            </p>
+                            <div class="faq-icons-con">
+                                <i class="fa-solid fa-minus minus-faq"></i>
+                                <i class="fa-solid fa-plus plus-faq"></i>
+                            </div>
+                        </div>
+
+                        <div class="faq-answers">
+                            <p>
+                                Yes. We can modernize outdated software to improve speed, security, and performance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- *****************************************************footer-start********************************************* -->
+
+    <footer id="footer-wrapper">
+        <div class="custom-container">
+            <div class="footer-con">
+                <div class="footer-upper">
+                    <div class="footer-upper-box">
+                        <img class="footer_logo" src="/assets/images/Tc.svg" width="80px" height="80px" loading="lazy"
+                            alt="transcodezy-logo" />
+                        <p>
+                            Contact us today to learn more about our services and how we can
+                            help your business achieve its goals.
+                        </p>
+                        <a href="contact-us.html">
+                            <button class="footer-get-in-touch">Get in Touch</button>
+                        </a>
+                    </div>
+                    <div class="footer-upper-box">
+                        <h4 class="footer-link-heading">Quick Links</h4>
+                        <div class="footer-upper-link-con">
+                            <a href="it-services.html">Services</a>
+                            <a href="it-solutions-for-industries.html">Industries</a>
+                            <a href="technology-consulting-services.html">Technology</a>
+                            <a href="it-services-portfolio.html">Portfolio</a>
+                            <a href="career.html">Career</a>
+                        </div>
+                    </div>
+                    <div class="footer-upper-box">
+                        <h4 class="footer-link-heading">Services</h4>
+                        <div class="footer-upper-link-con">
+                            <a href="custom-software-development.html">Software Development</a>
+                            <a href="custom-web-development.html">Web Development</a>
+                            <a href="custom-app-development.html">Mobile Development</a>
+                            <a href="software-testing.html">Q/A Testing</a>
+                            <a href="hire-dedicated-developers.html">Hire Dedicated Developers</a>
+                            <a href="cyber-security-solutions.html">Cyber Security</a>
+                            <a href="seo-services-usa.html">Search Engine Optimization(SEO)</a>
+                            <a href="devops-development-services.html">DevOps</a>
+                        </div>
+                    </div>
+                    <div class="footer-upper-box footer-upper-last-box">
+                        <h4 class="footer-link-heading">Connect with Us</h4>
+
+                        <div class="footer-contact-info">
+                            <a href="https://maps.app.goo.gl/4vWdtwfgFjZJ38xx8">
+                                <div class="contact-box">
+                                    <img src="./assets/images/location-icon-footer.svg" loading="lazy"
+                                        alt="location-icon" />
+                                    <p>
+                                        301, Ambika Pinnacle, beside Lajamni Chowk, Mota Varachha,
+                                        Surat - 394101
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="tel:+9510249833">
+                                <div class="contact-box">
+                                    <img src="./assets/images/call-icon-footer.svg" loading="lazy"
+                                        alt="location-icon" />
+                                    <p>+91 9510249833 , +91 9879868908</p>
+                                </div>
+                            </a>
+                            <a href="mailto:info@transcodesolution.com">
+                                <div class="contact-box last-contact-box">
+                                    <img src="./assets/images/mail-icon-footer.svg" loading="lazy"
+                                        alt="location-icon" />
+                                    <p>info@transcodesolution.com</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-middle">
+                    <div class="footer-middle-left">
+                        <h2>WE’RE HIRING!</h2>
+                        <p>Learn more about your career opportunities at Transcodezy!</p>
+                    </div>
+
+                    <a href="career.html">
+                        <button class="footer-explore-career">
+                            Explore Career <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="footer-bottom">
+            <div class="custom-container">
+                <div class="footer-bottom-con">
+                    <div class="social-media-link-con">
+                        <div class="footer-social-link">
+                            <a href="https://www.facebook.com/profile.php?id=61560581161343" target="_blank"
+                                rel="noopener">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="footer-social-link">
+                            <a href="https://www.instagram.com/transcodezy_it_solutions/" target="_blank"
+                                rel="noopener">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="footer-social-link">
+                            <a href="https://www.linkedin.com/company/transcodesolution/?viewAsMember=true"
+                                target="_blank" rel="noopener">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Copyrighted © 2025 All Rights Reserved</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- ************************************************END OF THE PAGE********************************************************* -->
+
+    <script src="./js/navBarToggle.js" defer></script>
+    <script src="./js/responsiveNavDropdown.js" defer></script>
+    <script src="js/faqTab.js" defer></script>
+    <script src="./js/script.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentPath = window.location.pathname.split("/").pop();
+            const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > a');
+            const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    link.parentElement.classList.add('active');
+                }
+            });
+
+            dropdownLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    const parentLi = link.closest('li.services-nav');
+                    if (parentLi) {
+                        parentLi.querySelector('a').classList.add('active');
+                        // Add active class to parent <li> with class services-nav
+                        ////parentLi.classList.add('active');
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
