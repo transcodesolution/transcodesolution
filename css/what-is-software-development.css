@@ -187,7 +187,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 32px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #3F3F3F;
     list-style-type: disc;
 }
@@ -395,6 +395,7 @@
 }
 
 .number_list {
+    font-weight: 600;
     list-style-type: decimal !important;
 }
 
@@ -430,9 +431,28 @@
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 32px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #3F3F3F;
     list-style-type: disc;
+}
+
+
+.number_list li {
+    list-style: decimal !important;
+    font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 600;
+        color: #337ab7;
+}
+
+.type_list {
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #337ab7;
 }
 
 .benefits_p {
@@ -447,7 +467,6 @@
 .approach-simple {
     font-family: 'Rubik', sans-serif;
     color: #3F3F3F;
-    padding: 30px 15px;
 }
 
 .approach-item {
