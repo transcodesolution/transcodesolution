@@ -146,6 +146,9 @@
     color: #3F3F3F;
 }
 
+.types_of_software{
+  margin-left: 20px !important;
+}
 
 .number_list {
     list-style-type: decimal !important;
