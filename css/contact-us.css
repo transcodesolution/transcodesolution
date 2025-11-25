@@ -4,6 +4,91 @@
   --white-color: #fff
 }
 
+.contact-us-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  width: 48%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.contact-us-detail-img {
+  height: 50px;
+  width: 50px;
+  background: var(--gradient-color);
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us-detail-img img {
+  height: 30px;
+  width: 30px;
+}
+
+.business-hours img {
+  height: 50px;
+  width: 50px;
+}
+
+.row h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--root-black-color);
+}
+
+.row p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--root-black-color);
+  margin: 0;
+  max-width: 450px;
+}
+
+.link {
+  color: var(--root-black-color);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+
+.divider {
+  height: 1px;
+  background: #494949;
+  margin: 25px 0;
+}
+
+@media (max-width: 768px) {
+  .contact-us-detail {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
 .banner-section-web-developmenttt {
   padding-block: 60px;
   display: flex;
