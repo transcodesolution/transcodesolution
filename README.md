@@ -12,4 +12,4 @@ Let's Collaborate
 We're open to collaborating on MERN stack projects and exploring new opportunities in SaaS and web development. Let’s build something exceptional together!
 
 📫 Contact Us :
-Reach out at info@transcodesolution.com for inquiries or collaboration opportunities.
+Reach out at info@transcodezyitsolutions.com for inquiries or collaboration opportunities.
