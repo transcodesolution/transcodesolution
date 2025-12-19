@@ -1,0 +1,5 @@
+# robots.txt for transcodezyitsolutions.com
+User-agent: *
+Disallow: /thank-you.html
+# Sitemap location
+Sitemap: https://transcodezyitsolutions.com/sitemap.xm
