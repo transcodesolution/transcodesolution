@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/blog/blog_banner.jpg);
+    background: url(../assets/images/blog_detalis/web-dev-vs-software-eng.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,8 +146,8 @@
     color: #3F3F3F;
 }
 
-.types_of_software{
-  margin-left: 20px !important;
+.types_of_software {
+    margin-left: 20px !important;
 }
 
 .number_list {
@@ -182,7 +182,7 @@
     padding-top: 15px;
 }
 
-.pt-3{
+.pt-3 {
     padding-top: 30px !important;
 }
 
@@ -239,7 +239,7 @@
     padding: 30px 0px;
 }
 
-.access_text span{
+.access_text span {
     display: block;
 }
 
@@ -350,7 +350,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-.dev-lifecycle-table td {
+    .dev-lifecycle-table td {
         padding-left: 55%;
         text-wrap: wrap;
     }
@@ -443,10 +443,10 @@
 .number_list li {
     list-style: decimal !important;
     font-family: 'Rubik', sans-serif;
-        font-size: 18px;
-        line-height: 32px;
-        font-weight: 600;
-        color: #337ab7;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #337ab7;
 }
 
 .type_list {
@@ -477,10 +477,10 @@
 }
 
 .approach-item strong {
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 600;
-        color: #3F3F3F;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #3F3F3F;
     display: block;
     margin-bottom: 6px;
 }
