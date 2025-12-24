@@ -337,6 +337,11 @@ ol {
   margin: 0;
 }
 
+.transcodezy-navbar-ul li {
+  position: relative;
+  overflow: visible;
+}
+
 .transcodezy-navbar-ul>li>a {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
@@ -628,8 +633,6 @@ ol {
 .transcodezy-navbar-ul .nav-minus-icon {
   display: none
 }
-
-
 
 .banner-con {
   display: flex;
@@ -1427,6 +1430,44 @@ ol {
   gap: 85px
 }
 
+/* ===== Work Portfolio Carousel Arrows ===== */
+#work-portfolio-carousel {
+  position: relative;
+}
+
+/* Arrow base */
+#work-portfolio-carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  background: #fff !important;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: none;
+  font-size: 22px;
+  color: #333;
+  cursor: pointer;
+  z-index: 20;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left arrow */
+#work-portfolio-carousel .owl-nav .owl-prev {
+  left: -25px;
+  /* INSIDE carousel */
+}
+
+/* Right arrow */
+#work-portfolio-carousel .owl-nav .owl-next {
+  right: -25px;
+  /* INSIDE carousel */
+}
+
 .work-portfolio-card {
   padding: 16px;
   box-shadow: 0 0 15px 0 #00000040;
@@ -2026,8 +2067,15 @@ ol {
   border-radius: 30px
 }
 
+/* Owl nav icon images */
+#work-portfolio-carousel .owl-nav-img {
+  width: auto;
+  height: auto;
+  display: block;
+}
+
 .work-portfolio-card img {
-  max-height: 294px;
+  height: 294px;
   object-fit: cover;
   border-radius: 16px
 }

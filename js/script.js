@@ -254,32 +254,77 @@ tabs.forEach((tab, i) => {
 // handleResize();
 
 // ***************************************************** active class *************************
+// document.addEventListener("DOMContentLoaded", function () {
+//     const currentPath = window.location.pathname.split("/").pop();
+//     const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
+//     const dropdownLinks = document.querySelectorAll('.dropdown-con a');
+
+
+//     navLinks.forEach(link => {
+//         console.log("navLinks", link.getAttribute('href'), currentPath);
+//         if (link.getAttribute('href') === currentPath) {
+//             link.classList.add('active');
+//             link.parentElement.classList.add('active');
+//         }
+//     });
+
+//     dropdownLinks.forEach(link => {
+//         if (link.getAttribute('href') === currentPath) {
+//             link.classList.add('active');
+//             const parentLi = link.closest('li.services-nav');
+//             if (parentLi) {
+//                 parentLi.querySelector('a').classList.add('active');
+//                 // Add active class to parent <li> with class services-nav
+//                 ////parentLi.classList.add('active');
+//             }
+//         }
+//     });
+// });
 document.addEventListener("DOMContentLoaded", function () {
-    const currentPath = window.location.pathname.split("/").pop();
-    const navLinks = document.querySelectorAll('.transcodezy-navbar-ul > li > .flex_wrapper > a');
-    const dropdownLinks = document.querySelectorAll('.dropdown-con a');
 
+  const currentPath = window.location.pathname
+    .replace(/\/$/, "")          // remove trailing slash
+    .replace(".html", "")        // remove .html
+    .split("/")
+    .pop();
 
-    navLinks.forEach(link => {
-        console.log("navLinks", link.getAttribute('href'), currentPath);
-        if (link.getAttribute('href') === currentPath) {
-            link.classList.add('active');
-            link.parentElement.classList.add('active');
-        }
-    });
+  const navLinks = document.querySelectorAll(
+    '.transcodezy-navbar-ul > li > a, .transcodezy-navbar-ul > li > .flex_wrapper > a'
+  );
 
-    dropdownLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-            link.classList.add('active');
-            const parentLi = link.closest('li.services-nav');
-            if (parentLi) {
-                parentLi.querySelector('a').classList.add('active');
-                // Add active class to parent <li> with class services-nav
-                ////parentLi.classList.add('active');
-            }
-        }
-    });
+  const dropdownLinks = document.querySelectorAll(".dropdown-con a");
+
+  function normalizeHref(href) {
+    return href
+      .replace(window.location.origin, "")
+      .replace(/^\//, "")
+      .replace(".html", "")
+      .replace(/\/$/, "");
+  }
+
+  navLinks.forEach(link => {
+    const linkPath = normalizeHref(link.getAttribute("href"));
+
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+    }
+  });
+
+  dropdownLinks.forEach(link => {
+    const linkPath = normalizeHref(link.getAttribute("href"));
+
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+
+      const parentNav = link.closest(".services-nav, .industries-nav, .company-nav");
+      if (parentNav) {
+        parentNav.querySelector(".flex_wrapper a")?.classList.add("active");
+      }
+    }
+  });
+
 });
+
 // ************************************* our portfoliotab *************************************
 let ourWorkHeading = document.querySelectorAll(".our-portfolio-hading");
 let ourWorkCard = document.querySelectorAll(".our-portfolio-cards-con");
