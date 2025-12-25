@@ -29,23 +29,19 @@ let technologyName = document.querySelectorAll(
 );
 let cardTabs = document.querySelectorAll(".frameworks-image-box-con");
 
-// Set initial state
-technologyName[0].style.fontWeight = "600";
+technologyName[0].classList.add("active");
 cardTabs[0].classList.add("active");
 
 for (let i = 0; i < technologyName.length; i++) {
   technologyName[i].addEventListener("click", () => {
-    // Activate the selected tab
-    technologyName[i].style.fontWeight = "600";
-    cardTabs[i].classList.add("active");
-
-    // Deactivate the other tabs
     for (let j = 0; j < technologyName.length; j++) {
-      if (i !== j) {
-        technologyName[j].style.fontWeight = "400";
-        cardTabs[j].classList.remove("active");
-      }
+      technologyName[j].classList.remove("active");
+      cardTabs[j].classList.remove("active");
     }
+
+    technologyName[i].classList.add("active");
+    cardTabs[i].classList.add("active");
   });
 }
+
 

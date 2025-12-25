@@ -1345,7 +1345,7 @@ ol {
   padding: 7px 81px;
   margin-inline: 26px;
   gap: 50px;
-  border-block-end: 1px solid #b0b0b0
+  /* border-block-end: 1px solid #b0b0b0 */
 }
 
 .technology-frameworks-heading {
@@ -1353,6 +1353,8 @@ ol {
 }
 
 .technology-frameworks-heading h3 {
+  position: relative;
+  padding-bottom: 10px;
   font-family: 'Rubik', sans-serif;
   font-size: 26px;
   font-weight: 400;
@@ -1361,6 +1363,23 @@ ol {
   color: #494949;
   cursor: pointer;
   white-space: nowrap
+}
+
+.technology-frameworks-heading h3::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #494949;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.technology-frameworks-heading h3.active::after {
+  width: 100%;
+  max-width: 220px;
 }
 
 .frameworks-image-box-con {
@@ -2030,12 +2049,11 @@ ol {
 
 .technology-frameworks-heading h3 {
   cursor: pointer;
-  transition: font-weight 0.3s ease-in-out
 }
 
-.technology-frameworks-heading h3:hover {
+/* .technology-frameworks-heading h3:hover {
   font-weight: 700
-}
+} */
 
 .percent:after {
   content: "%"
