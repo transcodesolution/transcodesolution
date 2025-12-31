@@ -103,24 +103,38 @@
   <link rel="preload" as="image" href="./assets/images/banner-image.webp" type="image/webp">
 
   <style>
-    .banner-wrapper {
-      /* background: url(/assets/images/banner-bg-3.webp);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      z-index: -99;
-      padding-bottom: 270px
-    }
+  .banner-wrapper {
+  background: url("/assets/images/banner-bg-3.webp") center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media (max-width:425px) {
-      .banner-wrapper {
-        padding-bottom: 100px
-      }
-    }
+  /* Desktop default */
+  min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .banner-wrapper {
+    min-height: 80vh;
+    padding: 48px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-wrapper {
+    min-height: 70vh;
+    padding: 40px 16px;
+    background-position: top center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-wrapper {
+    min-height: 60vh;
+    padding: 32px 14px;
+  }
+}
+
   </style>
 
   <!-- Google Tag Manager -->
@@ -503,8 +517,7 @@
     ./assets/images/banner-image.webp 500w,
     ./assets/images/banner-image.webp 800w
   " sizes="(max-width: 600px) 100vw, 500px" width="500" height="600" loading="eager" alt="hero-section-img" />
-          <!-- <img class="hero_img" src="./assets/images/banner-image.webp" width="500" height="600" loading="eager"
-            alt="hero-section-img" /> -->
+
         </div>
       </div>
     </div>
@@ -1750,7 +1763,7 @@
         <div class="it-sucess-box-left">
           <div class="it-success-box-left-upper">
             <div class="it-sucees-upper-img-left">
-              <img src="./assets/images/it-success-1.svg" loading="lazy" alt="it-related-img" />
+              <img src="./assets/images/it-success-1.webp" loading="lazy" alt="it-related-img" />
             </div>
             <div class="it-sucees-upper-right">
               <div class="number-plus">
@@ -1763,7 +1776,7 @@
           </div>
           <div class="it-success-box-left-bottom">
             <div class="it-sucees-bottom-img-left">
-              <img src="./assets/images/it-success-1.svg" loading="lazy" alt="it-related-img" />
+              <img src="./assets/images/it-success-1.webp" loading="lazy" alt="it-related-img" />
             </div>
             <div class="it-sucees-bottom-img-right">
               <img src="./assets/images/it-success-2.svg" loading="lazy" alt="it-related-img" />

@@ -1,12 +1,4 @@
 @media (max-width:1440px) {
-  .services-wrapper {
-    margin-top: -2%
-  }
-
-  .banner-wrapper {
-    padding-bottom: 120px
-  }
-
   .our-services-con {
     padding: 60px 0 20px 0
   }
@@ -823,7 +815,6 @@
 
   .services-wrapper {
     padding-bottom: 60px;
-    margin-top: -1%
   }
 
   #driving-rapid-change-wrapper {
@@ -904,7 +895,6 @@
   .banner-wrapper {
     justify-content: unset;
     align-items: unset;
-    padding-top: 50px
   }
 
   .service-card-inner-con-left {
@@ -1721,11 +1711,6 @@
     font-size: 25px
   }
 
-  .banner-wrapper {
-    padding-bottom: 50px;
-    padding-top: 10px
-  }
-
   .services-wrapper {
     padding: 40px 0
   }
@@ -2074,10 +2059,6 @@
   .testimonial-card-bottom p {
     font-size: 16px;
     line-height: 19.18px
-  }
-
-  .banner-wrapper {
-    padding-bottom: 70px
   }
 
   .footer-upper-box {
