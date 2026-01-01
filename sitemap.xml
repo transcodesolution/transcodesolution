@@ -118,11 +118,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://transcodezyitsolutions.com/technology-consulting-services.html</loc>
-  <lastmod>2025-07-15T03:43:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://transcodezyitsolutions.com/it-services-portfolio.html</loc>
   <lastmod>2025-07-15T03:43:10+00:00</lastmod>
   <priority>0.80</priority>
@@ -174,11 +169,6 @@
 </url>
 <url>
   <loc>https://transcodezyitsolutions.com/blog-detail4.html</loc>
-  <lastmod>2025-07-15T03:39:35+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://transcodezyitsolutions.com/blog-detail5.html</loc>
   <lastmod>2025-07-15T03:39:35+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -252,6 +242,39 @@
   <lastmod>2025-07-15T03:39:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
+<url>
+  <loc>https://transcodezyitsolutions.com/what-is-software-development.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://transcodezyitsolutions.com/technology-consulting-services.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://casestudy.transcodezyitsolutions.com/project/cosmeticchoice.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://casestudy.transcodezyitsolutions.com/project/synergy.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://transcodezyitsolutions.com/cutting-edge-software-solutions-using-mern-stack.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://transcodezyitsolutions.com/react-node.js-beyond-exploring.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.transcodezyitsolutions.com/blog-detail5.html</loc>
+  <lastmod>2025-07-15T03:39:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 </urlset>
