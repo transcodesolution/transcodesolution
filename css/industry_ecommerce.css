@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/ecommerce/image\ 37.svg);
+  background: url(../assets/images/ecommerce/ecommerce-banner.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,4 +44,11 @@
 .ind-ecomm .technology-frameworks-heading-con {
   padding: 7px 0px;
   margin-inline: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner-section-web-developmenttt {
+    min-height: 200px;
+    height: 200px;
+  }
 }

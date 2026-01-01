@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/healthcare/banner.svg);
+  background: url(../assets/images/healthcare/banner.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1207,7 +1207,10 @@
 }
 
 @media only screen and (max-width: 480px) {
-
+.banner-section-web-development-servicess{
+  min-height: 200px;
+    height: 200px;
+}
   .benefits_text,
   .development-process-con p {
     font-size: 16px;

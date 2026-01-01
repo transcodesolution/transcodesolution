@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/fintech/banner.svg);
+  background: url(../assets/images/fintech/banner.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -382,7 +382,12 @@
   }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+  .banner-section-web-developments{
+        min-height: 200px;
+          height: 200px;
+  }
+}
 
 @media only screen and (max-width: 375px) {
   .why-transcode-box>img {
