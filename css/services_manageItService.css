@@ -8,17 +8,30 @@
 
 /* <!-- ************************************************banner********************************************** --> */
 .banner-section-managed-services {
+  position: relative;
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/managed_services.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../assets/images/managed_services.webp) center / cover no-repeat;
   min-height: 400px;
   height: 400px;
 }
+
+/* Overlay */
+.banner-section-managed-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00000080;
+  z-index: 1;
+}
+
+.banner-section-managed-services>* {
+  position: relative;
+  z-index: 2;
+}
+
 .Success-Stories-services{
   margin-bottom: 40px;
 }
@@ -27,11 +40,17 @@
     font-size: 50px;
     line-height: 77.44px;
 }
-.banner-section-managed-services {
+/* .banner-section-managed-services {
   background-position: left;
-}
+} */
 }
 @media (max-width:480px) {
+
+  .banner-section-managed-services {
+      min-height: 200px;
+      height: 200px;
+  }
+
   .banner-section-about-con h1 {
     font-size: 45px;
     line-height: 50.44px;

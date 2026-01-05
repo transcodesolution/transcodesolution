@@ -704,8 +704,8 @@
 @media only screen and (max-width:480px) {
   .banner-section-about-main {
     padding-block: 50px;
-    min-height: 340px;
-    height: 340px
+    min-height: 200px;
+    height: 200px
   }
 
   /* .banner-section-about-title {

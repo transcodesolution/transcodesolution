@@ -90,16 +90,28 @@ a {
 }
 
 .banner-section-our-services {
+    position: relative;
     padding-block: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/our_services_banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../assets/images/our_services_banner.webp) center / cover no-repeat;
     min-height: 400px;
     height: 400px;
+}
+
+/* Overlay */
+.banner-section-our-services::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00000080;
+    z-index: 1;
+}
+
+.banner-section-our-services>* {
+    position: relative;
+    z-index: 2;
 }
 
 .development-section {
@@ -807,6 +819,12 @@ a {
 }
 
 @media (max-width: 480px) {
+ 
+    .banner-section-our-services {
+            min-height: 200px;
+            height: 200px
+        }
+
     .text_align_center {
         text-align: center;
     }
@@ -823,12 +841,6 @@ a {
         align-items: flex-start !important;
         flex-direction: column;
         gap: 15px;
-    }
-
-    .banner-section-our-services {
-        padding-block: 50px;
-        min-height: 340px;
-        height: 340px;
     }
 
     .empowering_title,

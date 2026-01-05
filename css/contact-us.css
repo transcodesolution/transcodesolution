@@ -90,16 +90,28 @@
 }
 
 .banner-section-web-developmenttt {
+  position: relative;
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/contact_us.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../assets/images/contact_us.webp) center / cover no-repeat;
   min-height: 400px;
   height: 400px
+}
+
+/* Overlay */
+.banner-section-web-developmenttt::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00000080;
+  z-index: 1;
+}
+
+.banner-section-web-developmenttt>* {
+  position: relative;
+  z-index: 2;
 }
 
 .banner-section-about-con h1 {
@@ -770,6 +782,12 @@ span.current {
 }
 
 @media only screen and (max-width:480px) {
+
+.banner-section-web-developmenttt {
+    min-height: 200px;
+    height: 200px;
+  }
+
   .form-field-con {
     flex-direction: column;
     gap: 15px

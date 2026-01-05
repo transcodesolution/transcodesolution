@@ -8,16 +8,28 @@
 
 /* <!-- ************************************************banner********************************************** --> */
 .banner-section-hire-dedicated {
+  position: relative;
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/hire_dedicated_banner.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../assets/images/hire_dedicated_banner.webp)center / cover no-repeat;
   min-height: 400px;
   height: 400px;
+}
+
+/* Overlay */
+.banner-section-hire-dedicated::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00000080;
+  z-index: 1;
+}
+
+.banner-section-hire-dedicated>* {
+  position: relative;
+  z-index: 2;
 }
 
 /* .banner-section-about {
@@ -163,6 +175,10 @@
 }
 
 @media (max-width:480px) {
+  .banner-section-hire-dedicated {
+    height: 200px;
+    min-height: 200px;
+  }
   .ready_hire {
     font-size: 35px;
     line-height: 40.7px;

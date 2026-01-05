@@ -16,18 +16,29 @@
 
 /* <!-- ************************************************technology-banner********************************************** --> */
 .banner-section-web-developmenttt {
+  position: relative;
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/Technology_background_img.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../assets/images/Technology_background_img.webp) center / cover no-repeat;
   min-height: 400px;
   height: 400px;
 }
 
+/* Overlay */
+.banner-section-web-developmenttt::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00000080;
+  z-index: 1;
+}
+
+.banner-section-web-developmenttt>* {
+  position: relative;
+  z-index: 2;
+}
 
 .banner-section-about-con h1 {
   font-family: 'Rajdhani', sans-serif;
@@ -709,6 +720,12 @@
 }
 
 @media only screen and (max-width: 480px) {
+
+  .banner-section-web-developmenttt{
+height: 200px;
+min-height: 200px;
+  }
+
   .technology-page-con p {
     font-size: 16px;
     line-height: 21.46px;
