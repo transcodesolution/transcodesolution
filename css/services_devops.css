@@ -24,16 +24,28 @@ a:hover {
 
 /* *****************************************************banner-section-start***************************************************** */
 .banner-section-web-development {
+    position: relative;
     padding-block: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/devops/banner_devops.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../assets/images/devops/banner_devops.webp)center / cover no-repeat;
     min-height: 400px;
     height: 400px;
+}
+
+/* Overlay */
+.banner-section-web-development::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00000080;
+    z-index: 1;
+}
+
+.banner-section-web-development>* {
+    position: relative;
+    z-index: 2;
 }
 
 .banner-section-about-con h1 {
@@ -258,6 +270,11 @@ a:hover {
 }
 
 @media (max-width:480px) {
+.banner-section-web-development {
+        min-height: 200px;
+        height: 200px;
+    }
+    
     .our_core_title {
         font-size: 35px;
         margin: 0 0 10px 0;

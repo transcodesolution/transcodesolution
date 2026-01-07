@@ -1,17 +1,28 @@
 /* *****************************************************banner-section-start***************************************************** */
 .banner-section-blog {
+    position: relative;
     padding-block: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/blog/blog_banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../assets/images/blog/blog_banner.webp) center / cover no-repeat;
     min-height: 400px;
     height: 400px;
 }
 
+/* Overlay */
+.banner-section-blog::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00000080;
+    z-index: 1;
+}
+
+.banner-section-blog>* {
+    position: relative;
+    z-index: 2;
+}
 
 .banner-section-about-con h1 {
     font-family: 'Rajdhani', sans-serif;
@@ -205,6 +216,10 @@
 }
 
 @media (max-width:480px) {
+    .banner-section-blog{
+        height: 200px;
+        min-height: 200px;
+    }
     .blog_sub_text {
         font-size: 16px;
         line-height: 23px;

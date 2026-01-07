@@ -1,38 +1,46 @@
-/* <!-- ************************************************career-banner********************************************** --> */
 .banner-section-our-team {
+  position: relative;
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/ourteam/ourteam_banner.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../assets/images/ourteam_banner.webp) center / cover no-repeat;
   min-height: 400px;
-  height: 400px;
+  height: 400px
+}
+
+/* Overlay */
+.banner-section-our-team::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00000080;
+  z-index: 1;
+}
+
+.banner-section-our-team>* {
+  position: relative;
+  z-index: 2;
 }
 
 .banner-section-about {
-  background: url(../assets/images/career/banner.svg);
+  background: url(../assets/images/career/banner.svg)
 }
 
-
-
-
 .team_section {
-  padding-block: 70px;
+  padding-block: 70px
 }
 
 .pioneers_box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 100%
 }
 
 .visionaries_box {
   width: 30%;
-  position: relative;
+  position: relative
 }
 
 .visionaries_box::after {
@@ -42,7 +50,7 @@
   top: 0%;
   height: 100%;
   width: 2px;
-  background-color: #3F3F3F;
+  background-color: #3F3F3F
 }
 
 .visionaries_box p {
@@ -50,7 +58,7 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 36px;
-  color: #3F3F3F;
+  color: #3F3F3F
 }
 
 .visionaries_box h5 {
@@ -58,11 +66,11 @@
   font-weight: 700;
   font-family: 'Rajdhani', sans-serif;
   line-height: 38px;
-  margin: 7px 0 0 0;
+  margin: 7px 0 0 0
 }
 
 .visionaries_box_text {
-  width: 70%;
+  width: 70%
 }
 
 .visionaries_box_text p {
@@ -70,7 +78,7 @@
   font-weight: 400;
   line-height: 26px;
   font-family: 'Rubik', sans-serif;
-  padding-left: 50px;
+  padding-left: 50px
 }
 
 .ceo_card h6 {
@@ -80,7 +88,7 @@
   line-height: 36px;
   font-weight: 500;
   color: #3F3F3F;
-  text-align: center;
+  text-align: center
 }
 
 .ceo_card p {
@@ -90,14 +98,14 @@
   line-height: 29.4px;
   color: #3F3F3F;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0
 }
 
 .team_detalis {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
+  gap: 24px
 }
 
 .ceo_card {
@@ -107,11 +115,11 @@
   background: #fff;
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 400px;
+  max-width: 400px
 }
 
 .ceo_card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-6px)
 }
 
 .team_images {
@@ -119,22 +127,20 @@
   max-width: 350px;
   border-radius: 10px;
   margin: 0 auto 15px;
-  display: block;
+  display: block
 }
 
-
 @media (max-width:1200px) {
-
   .team_images {
-    max-width: -webkit-fill-available;
+    max-width: -webkit-fill-available
   }
 
   .ceo_card {
-    padding: 15px;
+    padding: 15px
   }
 
   .team_section {
-    padding-block: 30px;
+    padding-block: 30px
   }
 }
 
@@ -142,29 +148,29 @@
   .ceo_card h6 {
     margin-top: 11px;
     font-size: 24px;
-    line-height: 27px;
+    line-height: 27px
   }
 
   .ceo_card p {
     font-size: 20px;
-    line-height: 22.4px;
+    line-height: 22.4px
   }
 }
 
 @media (max-width:992px) {
   .visionaries_box {
-    width: 50%;
+    width: 50%
   }
 
   .ceo_card h6 {
     margin-top: 11px;
     font-size: 24px;
-    line-height: 27px;
+    line-height: 27px
   }
 
   .ceo_card p {
     font-size: 20px;
-    line-height: 22.4px;
+    line-height: 22.4px
   }
 }
 
@@ -172,54 +178,63 @@
   .visionaries_box_text p {
     font-size: 18px;
     line-height: 26px;
-    padding-left: 0px;
+    padding-left: 0
   }
 
   .pioneers_box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
   }
 
   .visionaries_box {
-    width: 100%;
+    width: 100%
   }
 
   .visionaries_box_text {
-    width: 100%;
+    width: 100%
   }
 
   .visionaries_box::after {
-    content: none;
+    content: none
   }
 
   .visionaries_box h5 {
     font-size: 40px;
-    margin: 7px 0 10px 0;
+    margin: 7px 0 10px 0
   }
 }
+
 @media (max-width:575px) {
   .ceo_card {
-  max-width: 100%;
+    max-width: 100%
+  }
 }
-}
+
 @media (max-width:480px) {
+
+  .banner-section-our-team {
+      min-height: 200px;
+      height: 200px
+    }
+ 
+  .banner-section-our-team {
+      min-height: 200px;
+      height: 200px;
+    }
+
   .visionaries_box_text p {
     font-size: 16px;
     line-height: 26px;
-    padding-left: 0px;
+    padding-left: 0
   }
 
   .visionaries_box h5 {
     font-size: 35px;
-    margin: 7px 0 5px 0;
+    margin: 7px 0 5px 0
   }
 
   .visionaries_box p {
     font-size: 22px;
-    line-height: 25px;
+    line-height: 25px
   }
-  
 }
-
-
-

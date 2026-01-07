@@ -11,19 +11,28 @@ p {
 
 /* *****************************************************banner-section-start***************************************************** */
 .banner-section-web-development-services {
+    position: relative;
     padding-block: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/digital_advertising_banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../assets/images/digital_advertising_banner.webp) center / cover no-repeat;
     min-height: 400px;
     height: 400px;
 }
+/* Overlay */
+.banner-section-web-development-services::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00000080;
+    z-index: 1;
+}
 
-
+.banner-section-web-development-services>* {
+    position: relative;
+    z-index: 2;
+}
 .banner-section-about-con h1 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 64px;
@@ -228,29 +237,6 @@ textarea:-webkit-autofill:focus {
     padding-left: 46px;
     width: calc(100% - 46px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width:1360px) {
     #tile-1 .nav-tabs {
@@ -470,6 +456,11 @@ textarea:-webkit-autofill:focus {
 }
 
 @media (max-width:480px) {
+    .banner-section-web-development-services {
+        min-height: 200px;
+        height: 200px;
+    }
+
     #tile-1 .tab-pane {
         padding: 16px 0 0 0;
     }

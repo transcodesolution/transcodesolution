@@ -13,18 +13,29 @@ li {
 
 /* *****************************************************banner-section-start***************************************************** */
 .banner-section-web-development-services {
+    position: relative;
     padding-block: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/banner_cyber_security.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../assets/images/banner_cyber_security.webp) center / cover no-repeat;
     min-height: 400px;
     height: 400px;
 }
 
+/* Overlay */
+.banner-section-web-development-services::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00000080;
+    z-index: 1;
+}
+
+.banner-section-web-development-services>* {
+    position: relative;
+    z-index: 2;
+}
 
 .banner-section-about-con h1 {
     font-family: 'Rajdhani', sans-serif;
@@ -87,6 +98,11 @@ li {
 }
 
 @media (max-width:575px) {
+    .banner-section-web-development-services {
+            min-height: 200px;
+            height: 200px;
+        }
+        
     .search_ads_box {
         width: 100%;
     }

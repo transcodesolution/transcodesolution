@@ -8,16 +8,28 @@
 
 /* <!-- ************************************************career-banner********************************************** --> */
 .banner-section-career-main {
+  position: relative;
   padding-block: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/images/career_background.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../assets/images/career_background.webp) center / cover no-repeat;
   min-height: 400px;
   height: 400px;
+}
+
+/* Overlay */
+.banner-section-career-main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00000080;
+  z-index: 1;
+}
+
+.banner-section-career-main>* {
+  position: relative;
+  z-index: 2;
 }
 
 .banner-section-about {
@@ -1306,7 +1318,10 @@ button.owl-dot.active {
 }
 
 @media only screen and (max-width: 480px) {
-
+.banner-section-career-main {
+    min-height: 200px;
+    height: 200px;
+  }
   .career-at-transcodezy-con p,
   .join-our-team-right p,
   .why-work-with-us-con p,
