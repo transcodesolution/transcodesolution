@@ -11,7 +11,6 @@ card[0].style.borderInlineStart = "4px solid #63388B";
 cardData[0].style.display = "block";
 
 for (let i = 0; i < 8; i++) {
-  console.log("object",card[i]);
   card[i].addEventListener("click", (e) => {
     card[i].style.backgroundImage = `linear-gradient(
     244.73deg,

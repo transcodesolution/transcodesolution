@@ -9,13 +9,10 @@
   <meta name="robots" content="index,follow" />
   <meta name="author" content="Transcodezy">
   <meta property="og:type" content="website" />
-  <meta property="og:image" content=" https://www.transcodezyitsolutions.com/assets/images/Tc.svg" />
+  <meta property="og:image" content=" https://www.transcodezyitsolutions.com/assets/images/Tc.webp" />
   <title>IT Company in Surat | Transcodezy IT Solutions</title>
   <meta name="description"
     content="Based in Mota Varachha, Surat, our IT company delivers software, web, and app development services across the USA, UK, Europe, and India.">
-  <!-- <meta name="keywords" content="IT Services,  IT Consulting, Software Development Company, 
-  Web Development Company, App Development Company, IT Solution, Business IT Strategy 
-  Experts, Transcodezy "> -->
   <meta property="og:url" content="https://www.transcodezyitsolutions.com/" />
   <meta property="og:title" content=" Strategic IT Services & Expert Consulting | Next-Gen Digital Development 
   Company " />
@@ -28,47 +25,30 @@
   <link rel="icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
 
   <!-- ***************************************css-links******************************************* -->
-
   <link rel="stylesheet" href="./css/style.css" media="all" />
   <link rel="stylesheet" href="./css/responsive.css" media="all" />
   <link rel="stylesheet" href="./css/about.css" media="all" />
   <link rel="stylesheet" href="./css/contact-us.css" media="all" />
 
-  <!-- ******************************************google-fonts-links*********************************** -->
-
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-
-  <!-- <link rel="preload" as="font" type="font/woff2" href="/fonts/MyFont.woff2" crossorigin> -->
-
-  <!-- <link
-    href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet"> -->
-
-
   <!-- **********************************************font-awesome-link*************************** -->
+   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- **********************************************icon link*************************** -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
   <!-- ******************************owl-carousel-slider************************************************* -->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <!-- remove -->
-  <!-- <link rel="stylesheet" href="//bootstrap/3.3.5/css/bootstrap.min.css"> -->
-  <!-- remove -->
-  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-
-
   <link rel="stylesheet" href="https://bootstrap/3.4.1/css/bootstrap.min.css">
-
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Your Website Title">
   <meta property="og:description" content="A short description of your page.">
-  <meta property="og:image" content="https://transcodezyitsolutions.com/assets/images/Tc.svg">
+  <meta property="og:image" content="https://transcodezyitsolutions.com/assets/images/Tc.webp">
   <meta property="og:url" content="https://transcodezyitsolutions.com/">
   <meta property="og:type" content="website">
 
@@ -76,7 +56,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Your Website Title">
   <meta name="twitter:description" content="A short description of your page.">
-  <meta name="twitter:image" content="https://transcodezyitsolutions.com/assets/images/Tc.svg">
+  <meta name="twitter:image" content="https://transcodezyitsolutions.com/assets/images/Tc.webp">
 
   <script type="application/ld+json">
 {
@@ -84,7 +64,7 @@
   "@type": "Organization",
   "name": " transcodezyitsolutions ",
   "url": " https://www.transcodezyitsolutions.com/",
-  "logo": " https://www.transcodezyitsolutions.com/assets/images/Tc.svg",
+  "logo": " https://www.transcodezyitsolutions.com/assets/images/Tc.webp",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+919879868908",
@@ -103,38 +83,35 @@
   <link rel="preload" as="image" href="./assets/images/banner-image.webp" type="image/webp">
 
   <style>
-  .banner-wrapper {
-  background: url("/assets/images/banner-bg-3.webp") center / cover no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    .banner-wrapper {
+      background: url("/assets/images/banner-bg-3.webp") center / cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
-  /* Desktop default */
-  min-height: 100vh;
-}
+    @media (max-width: 1024px) {
+      .banner-wrapper {
+        min-height: 80vh;
+        padding: 48px 20px;
+      }
+    }
 
-@media (max-width: 1024px) {
-  .banner-wrapper {
-    min-height: 80vh;
-    padding: 48px 20px;
-  }
-}
+    @media (max-width: 768px) {
+      .banner-wrapper {
+        min-height: 70vh;
+        padding: 40px 16px;
+        background-position: top center;
+      }
+    }
 
-@media (max-width: 768px) {
-  .banner-wrapper {
-    min-height: 70vh;
-    padding: 40px 16px;
-    background-position: top center;
-  }
-}
-
-@media (max-width: 480px) {
-  .banner-wrapper {
-    min-height: 60vh;
-    padding: 32px 14px;
-  }
-}
-
+    @media (max-width: 480px) {
+      .banner-wrapper {
+        min-height: 60vh;
+        padding: 32px 14px;
+      }
+    }
   </style>
 
   <!-- Google Tag Manager -->
@@ -153,7 +130,7 @@
             "@context": "https://schema.org/",
             "@type": "Product",
             "name": "Transcodezy It Solutions Pvt. Ltd",
-            "image": "https://transcodezyitsolutions.com/assets/images/Tc.svg",
+            "image": "https://transcodezyitsolutions.com/assets/images/Tc.webp",
           "description": " Based in Mota Varachha, Surat, our IT company delivers software, web, and app development services across the USA, UK, Europe, and India.",
             "brand":"Transcodezy It Solutions Pvt. Ltd",
             "aggregateRating": {
@@ -164,8 +141,8 @@
               "ratingCount": "19"
             }
           }
-          </script>
-</head>
+  </script>
+  </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -178,15 +155,12 @@
     <div class="custom-container">
       <div class="header-con">
         <a href="index.html">
-          <img class="home_logo" src="/assets/images/Tc.svg" loading="lazy" alt="transcodezy-logo" />
+          <img class="home_logo" src="/assets/images/Tc.webp" loading="lazy" alt="transcodezy-logo" />
         </a>
         <nav class="transcodezy-navbar">
           <ul class="transcodezy-navbar-ul">
             <li><ion-icon name="close-outline" class="close-icon"></ion-icon></li>
-            <!-- <li><a href="index.html">Home</a></li> -->
-            <!-- <li><a href="about.html">About us</a></li> -->
             <li class="services-nav">
-              <!-- <li class="service_hover"> -->
               <div class="flex_wrapper">
                 <a href="it-services.html">Services</a>
                 <i class="fa-solid fa-plus nav-plus-icon"></i>
@@ -407,7 +381,6 @@
             <li><a href="it-services-portfolio.html">Portfolio</a></li>
             <li><a href="https://casestudy.transcodezyitsolutions.com/" target="_blank" rel="noopener">Case Studies</a>
             </li>
-            <!-- <li><a href="career.html">Career</a></li> -->
             <li class="company-nav">
               <div class="flex_wrapper">
                 <a href="javascript:void(0)">Company</a>
@@ -459,15 +432,6 @@
                     </div>
                   </a>
                 </li>
-                <!-- <li>
-                  <a href="career.html">
-                    <div class="dropdown-list">
-                      <img src="./assets/images/job_opportunities_navbar.svg" loading="lazy"services-icon" class="services-dropdown-gray-icon" />
-                      <img src="./assets/images/id-22.svg" loading="lazy"services-icon" class="services-dropdown-white-icon" />
-                      <p>Job Opportunities</p>
-                    </div>
-                  </a>
-                </li> -->
                 <li>
                   <a href="become-partner.html">
                     <div class="dropdown-list">
@@ -492,9 +456,7 @@
       </div>
     </div>
   </header>
-
   <!-- **********************************************************banner-code-start********************************************** -->
-
   <section class="banner-wrapper">
     <div class="custom-container">
       <div class="banner-con">
@@ -522,9 +484,7 @@
       </div>
     </div>
   </section>
-
   <!-- ********************************************************transcodezy-services-start************************************* -->
-
   <section class="services-wrapper">
     <div class="custom-container services-container">
       <div class="services-con">
@@ -602,9 +562,7 @@
       </div>
     </div>
   </section>
-
   <!-- /* ******************************************************driving-rapid-change-section-start************************** */ -->
-
   <section id="counter" class="driving-rapid-change-wrapper">
     <div class="custom-container">
       <div class="driving-rapid-change-con">
@@ -613,16 +571,6 @@
           enhanced Flexibility and Expansion, focusing on Scalability and
           fostering Growth.
         </h2>
-        <!-- <p>
-          Transcodezy is your trusted partner for digital transformation,
-          offering tailored services in software development, business
-          intelligence, and mobile/web app development. With a proven track
-          record of 30+ global clients in five years, we deliver over 50
-          successful projects with 100% client satisfaction. Our team's
-          extensive 100K+ hours of freelancing experience guarantee the
-          expertise to bring your vision to reality.
-        </p> -->
-
         <div class="driving-rapid-box-con">
           <div class="driving-rapid-box">
             <div class="box-left">
@@ -674,9 +622,7 @@
       </div>
     </div>
   </section>
-
   <!-- ***************************************our-services-section******************************************** -->
-
   <section id="our-services-wrapper">
     <div class="custom-container">
       <div class="our-services-con">
@@ -1186,6 +1132,7 @@
         </div>
 
         <div class="col-md-6 col-sm-6 mobile_view_show">
+          <!-- start of #accordion -->
           <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingOne" tabindex="0" aria-controls="collapseOne"
@@ -1257,7 +1204,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingTwo" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1327,7 +1273,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingThree" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1393,7 +1338,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingFour" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1463,7 +1407,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingFive" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1534,7 +1477,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingSix" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1606,7 +1548,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingSeven" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1677,7 +1618,6 @@
               </div>
             </div>
             <!-- end of panel -->
-
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingEight" tabindex="0" aria-controls="collapseOne"
                 aria-selected="true">
@@ -1754,9 +1694,7 @@
       </div>
     </div>
   </section>
-
   <!-- ************************************************it-success-section********************************************** -->
-
   <section id="it-success-wrapper">
     <div class="custom-container">
       <div class="it-success-con">
@@ -1770,7 +1708,6 @@
                 <h3 class="count" akhi="100">50</h3>
                 <h3>+</h3>
               </div>
-
               <p>Successful Projects</p>
             </div>
           </div>
@@ -1784,7 +1721,7 @@
           </div>
         </div>
         <div class="it-sucess-box-right">
-          <h2>Your Trusted Partner for IT Success</h2>
+          <h3>Your Trusted Partner for IT Success</h3>
 
           <p>
             Transcodezy transformed our business with their innovative
@@ -1835,14 +1772,12 @@
       </div>
     </div>
   </section>
-
   <!-- **************************************************technology-expertise************************************** -->
-
   <section id="technology-expertise-wrapper">
     <div class="custom-container">
       <div class="technology-expertise-container">
         <div class="technology-expertise-con">
-          <h2>Technology Expertise for Digital Innovation</h2>
+          <h3>Technology Expertise for Digital Innovation</h3>
           <p>
             We offer tailor-made solutions with our extensive technology
             expertise to help businesses unlock their true business potential.
@@ -1865,52 +1800,52 @@
             <div class="frameworks-image-box-con" id="frontend-con">
               <div class="frameworks-image-box">
                 <p>Next JS</p>
-                <img src="./assets/images/nextjs.svg" loading="lazy" Next Js" />
+                <img src="./assets/images/nextjs.svg" loading="lazy" Next Js" alt="nextjs"/>
               </div>
               <div class="frameworks-image-box">
                 <p>React JS</p>
-                <img src="./assets/images/react.svg" loading="lazy" React" />
+                <img src="./assets/images/react.svg" loading="lazy" React" alt="react"/>
               </div>
               <div class="frameworks-image-box">
                 <p>Node JS</p>
-                <img src="./assets/images/nodejs.svg" loading="lazy" Node JS" />
+                <img src="./assets/images/nodejs.svg" loading="lazy" Node JS" alt="nodejs"/>
               </div>
               <div class="frameworks-image-box">
                 <p>Nest JS</p>
-                <img src="./assets/images/nest.svg" loading="lazy" Nest Js" />
+                <img src="./assets/images/nest.svg" loading="lazy" Nest Js" alt="nest"/>
               </div>
             </div>
 
             <div class="frameworks-image-box-con">
               <div class="frameworks-image-box">
                 <p>Android</p>
-                <img src="./assets/images/android.svg" loading="lazy" Android" />
+                <img src="./assets/images/android.svg" loading="lazy" Android" alt="android"/>
               </div>
               <div class="frameworks-image-box">
                 <p>IOS</p>
-                <img src="./assets/images/ios.svg" loading="lazy" IOS" />
+                <img src="./assets/images/ios.svg" loading="lazy" IOS" alt="ios"/>
               </div>
               <div class="frameworks-image-box">
                 <p>Flutter</p>
-                <img src="./assets/images/flutter.svg" loading="lazy" Flutter" />
+                <img src="./assets/images/flutter.svg" loading="lazy" Flutter" alt="flutter"/>
               </div>
             </div>
             <div class="frameworks-image-box-con">
               <div class="frameworks-image-box">
                 <p>Figma</p>
-                <img src="./assets/images/figma.svg" loading="lazy" Figma" />
+                <img src="./assets/images/figma.svg" loading="lazy" Figma" alt="figma"/>
               </div>
               <div class="frameworks-image-box">
                 <p>Photoshop</p>
-                <img src="./assets/images/photoshop.svg" loading="lazy" Photoshop" />
+                <img src="./assets/images/photoshop.svg" loading="lazy" Photoshop" alt="photoshop"/>
               </div>
               <div class="frameworks-image-box">
                 <p>Illustrator</p>
-                <img src="./assets/images/illustrator.svg" loading="lazy" Illustrator" />
+                <img src="./assets/images/illustrator.svg" loading="lazy" Illustrator" alt="illustrator"/>
               </div>
               <div class="frameworks-image-box">
                 <p>Xd</p>
-                <img src="./assets/images/xd.svg" loading="lazy" Xd" />
+                <img src="./assets/images/xd.svg" loading="lazy" Xd" alt="xd"/>
               </div>
             </div>
           </div>
@@ -1918,13 +1853,11 @@
       </div>
     </div>
   </section>
-
   <!-- ********************************************************work-portfolio****************************************** -->
-
   <section id="work-portfolio-wrapper">
     <div class="custom-container">
       <div class="work-portfolio-con">
-        <h2>Work Portfolio</h2>
+        <h3>Work Portfolio</h3>
         <p>
           With expertise in both Android and iOS platforms, Transcodezy
           creates mobile applications that are user-friendly and feature-rich.
@@ -1933,7 +1866,6 @@
         <div id="work-portfolio-carousel" class="owl-carousel owl-theme">
           <div class="item">
             <div class="work-portfolio-card">
-              <!-- <img src="./assets/images/work-portfolio-1.svg" loading="lazy"work-portfolio" /> -->
               <img class="work_portfolio" src="./assets/images/portfolio/portfolio-feeturre.jpg" loading="lazy"
                 alt="work-portfolio" width="350px" height="294px" />
               <div class="work-portfolio-card-heading">
@@ -2087,13 +2019,11 @@
       </div>
     </div>
   </section>
-
   <!-- *************************************************************industries-we-serve-section***************************** -->
-
   <section id="industries-we-serve-wrapper">
     <div class="custom-container">
       <div class="industries-we-serve-con">
-        <h2>Industries We Serve</h2>
+        <h3>Industries We Serve</h3>
         <p>
           We have worked with many clients in the past 6 years across various
           industries resolving complexities and differentiating them with
@@ -2103,51 +2033,51 @@
         <div class="industries-we-serve-cards-con">
           <div class="industries-we-serve-cards">
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-1.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-1.svg" loading="lazy" Healthcare" alt="serve-1"/>
               <p>Healthcare</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-2.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-2.svg" loading="lazy" Banking" alt="serve-2"/>
               <p>Banking & Fintech</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-3.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-3.svg" loading="lazy" Retail" alt="serve-3"/>
               <p>Retail & E-Commerce</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-4.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-4.svg" loading="lazy" Travel" alt="serve-4"/>
               <p>Travel & Hospitality</p>
             </div>
           </div>
           <div class="industries-we-serve-cards industries-we-serve-cards-middle">
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-5.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-5.svg" loading="lazy" Real" alt="serve-5"/>
               <p>Real Estate</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-6.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-6.svg" loading="lazy" Education" alt="serve-6"/>
               <p>Education</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-7.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-7.svg" loading="lazy" Media" alt="serve-7"/>
               <p>Media & Entertainment</p>
             </div>
           </div>
           <div class="industries-we-serve-cards">
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-8.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-8.svg" loading="lazy" Fitness" alt="serve-8"/>
               <p>Fitness & Wellness</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-9.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-9.svg" loading="lazy" Productivity" alt="serve-9"/>
               <p>Productivity</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-10.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-10.svg" loading="lazy" Gems" alt="serve-10"/>
               <p>Gems and Jewellery</p>
             </div>
             <div class="industries-we-serve-subcard">
-              <img src="./assets/images/serve-11.svg" loading="lazy" Healthcare" />
+              <img src="./assets/images/serve-11.svg" loading="lazy" Enterprise" alt="serve-11"/>
               <p>Enterprise Solution</p>
             </div>
           </div>
@@ -2155,14 +2085,12 @@
       </div>
     </div>
   </section>
-
   <!-- *******************************************************testimonial-section*************************************** -->
-
   <section id="testimonial-wrapper">
     <div class="custom-container">
       <div class="testimonial-container">
         <div class="testimonial-con">
-          <h2>Client Testimonial</h2>
+          <h3>Client Testimonial</h3>
           <p>
             The company emphasises continuous learning and development, ensuring
             its team stays updated with the latest industry trends to give the
@@ -2171,6 +2099,7 @@
 
           <div class="testimonial-cards-con">
             <div id="id1" class="owl-carousel owl-theme">
+              <!-- ------------card 1 -------- -->
               <div class="item">
                 <div class="testimonial-card">
                   <div class="testimonial-card-upper">
@@ -2193,7 +2122,7 @@
                   </div>
                   <div class="testimonial-card-bottom">
                     <div class="testimonial-card-bottom-img">
-                      <img class="client_img" src="./assets/images/two_img.webp" loading="lazy" client-photo" />
+                      <img class="client_img" src="./assets/images/two_img.webp" loading="lazy" client-photo" alt="two_img"/>
                     </div>
                     <div class="testimonial-card-bottom-text">
                       <h3>Christopher Frederickson</h3>
@@ -2239,13 +2168,11 @@
       </div>
     </div>
   </section>
-
   <!-- **********************************************cutting-edge-it-solution-section-start************************************ -->
-
   <section id="cutting-edge-wrapper">
     <div class="custom-container">
       <div class="cutting-edge-con">
-        <h2>Empower Your Business with Cutting-Edge IT Solutions</h2>
+        <h3>Empower Your Business with Cutting-Edge IT Solutions</h3>
         <p>
           If you are searching online for the best IT company in Surat or a reliable partner in Mota Varachha,
           Transcodezy is your trusted choice.
@@ -2256,15 +2183,13 @@
       </div>
     </div>
   </section>
-
   <!-- *****************************************************footer-start********************************************* -->
-
   <footer id="footer-wrapper">
     <div class="custom-container">
       <div class="footer-con">
         <div class="footer-upper">
           <div class="footer-upper-box">
-            <img class="footer_logo" src="/assets/images/Tc.svg" width="80px" height="80px" loading="lazy"
+            <img class="footer_logo" src="/assets/images/Tc.webp" width="80px" height="80px" loading="lazy"
               alt="transcodezy-logo" />
             <p>
               Contact us today to learn more about our services and how we can
@@ -2303,7 +2228,7 @@
             <div class="footer-contact-info">
               <a href="https://maps.app.goo.gl/4vWdtwfgFjZJ38xx8">
                 <div class="contact-box">
-                  <img src="./assets/images/location-icon-footer.svg" loading="lazy" location-icon" />
+                  <img src="./assets/images/location-icon-footer.svg" loading="lazy" location-icon" alt="location-icon-footer"/>
                   <p>
                     301, Ambika Pinnacle, beside Lajamni Chowk, Mota Varachha,
                     Surat - 394101
@@ -2312,13 +2237,13 @@
               </a>
               <a href="tel:+9510249833">
                 <div class="contact-box">
-                  <img src="./assets/images/call-icon-footer.svg" loading="lazy" location-icon" />
+                  <img src="./assets/images/call-icon-footer.svg" loading="lazy" location-icon" alt="call-icon-footer"/>
                   <p>+91 9510249833 , +91 9879868908</p>
                 </div>
               </a>
               <a href="mailto:info@transcodezyitsolutions.com">
                 <div class="contact-box last-contact-box">
-                  <img src="./assets/images/mail-icon-footer.svg" loading="lazy" location-icon" />
+                  <img src="./assets/images/mail-icon-footer.svg" loading="lazy" location-icon" alt="mail-icon-footer"/>
                   <p>info@transcodezyitsolutions.com</p>
                 </div>
               </a>
@@ -2327,7 +2252,7 @@
         </div>
         <div class="footer-middle">
           <div class="footer-middle-left">
-            <h2>WE’RE HIRING!</h2>
+            <h4>WE’RE HIRING!</h4>
             <p>Learn more about your career opportunities at Transcodezy!</p>
           </div>
 
@@ -2339,8 +2264,8 @@
         </div>
       </div>
     </div>
-    <section id="footer-slider" class="footer-slider owl-carousel owl-theme owl-loaded owl-drag">
 
+    <section id="footer-slider" class="footer-slider owl-carousel owl-theme owl-loaded owl-drag">
       <div class="owl-stage-outer">
         <div class="owl-stage">
           <div class="owl-item">
@@ -2351,29 +2276,23 @@
           </div>
           <div class="owl-item">
             <div class="item ">
-              <img src="assets/images/topal_slider.svg" class="object-fit-contain" loading="lazy" topal_slider" />
+              <img src="assets/images/topal_slider.svg" class="object-fit-contain" loading="lazy" topal_slider" alt="topal_slider"/>
             </div>
           </div>
           <div class="owl-item">
             <div class="item  object-fit-contain">
-              <img src="assets/images/clutch_slider.svg" loading="lazy" clutch_slider" />
+              <img src="assets/images/clutch_slider.svg" loading="lazy" clutch_slider" alt="clutch_slider"/>
             </div>
           </div>
-          <!-- <div class="owl-item">
-            <div class="item  object-fit-contain">
-              <img src="assets/images/sliders/cofounderslab_slider.png" loading="lazy"
-                alt="cofounderslab_slider" />
-            </div>
-          </div> -->
           <div class="owl-item">
             <div class="item  object-fit-contain">
-              <img src="assets/images/freelancer_slider.svg" loading="lazy" alt="freelancer_slider" />
+              <img src="assets/images/freelancer_slider.svg" loading="lazy" alt="freelancer_slider" alt="freelancer_slider"/>
             </div>
           </div>
         </div>
       </div>
-
     </section>
+
     <section class="footer-bottom">
       <div class="custom-container">
         <div class="footer-bottom-con">
@@ -2402,36 +2321,18 @@
       </div>
     </section>
   </footer>
-
   <!-- ************************************************END OF THE PAGE********************************************************* -->
-
   <!-- *******************************************js-script-file************************************************ -->
-
-  <script src="./js/workPortfolioSlider.js" defer></script>
   <script src="./js/techonologyTab.js" defer></script>
   <script src="./js/ourServicesTab.js" defer></script>
   <script src="./js/navBarToggle.js" defer></script>
-  <script src="./js/technologyPageSlider.js" defer></script>
   <script src="./js/faqTab.js" defer></script>
   <script src="./js/responsiveNavDropdown.js" defer></script>
   <script src="js/script.js" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-  <!-- remove -->
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-
   <script src="https://bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <!-- remove -->
-  <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
-
-  <!-- <script>function loadScript(a) { var b = document.getElementsByTagName("head")[0], c = document.createElement("script"); c.type = "text/javascript", c.src = "https://tracker.metricool.com/resources/be.js", c.onreadystatechange = a, c.onload = a, b.appendChild(c) } loadScript(function () { beTracker.t({ hash: "7778e1652859ec3406ae0696f45efbf9" }) });</script> -->
-
-
   <!-- **********************************************************owl-carousel-cdn-links****************************************** -->
-
   <script src="js/owl.carousel.min.js"></script>
-
   <script>
     document.querySelectorAll('.owl-dot').forEach((btn, index) => {
       btn.setAttribute('aria-label', `Go to slide ${index + 1}`);
@@ -2463,11 +2364,6 @@
         "<img src='/assets/images/prev.svg' class='owl-nav-img' alt='Previous'>",
         "<img src='/assets/images/next.svg' class='owl-nav-img' alt='Next'>"
       ],
-      // nav: false,
-      // dots: true,
-      // autoplay: true,
-      // autoplayTimeout: 3000,
-      // autoplayHoverPause: true,
       responsive: {
         0: {
           items: 1
@@ -2584,8 +2480,6 @@
           const parentLi = link.closest('li.services-nav');
           if (parentLi) {
             parentLi.querySelector('a').classList.add('active');
-            // Add active class to parent <li> with class services-nav
-            ////parentLi.classList.add('active');
           }
         }
       });
@@ -2675,15 +2569,21 @@
     });
   </script>
 
-  <script>
+ <script>
+  const cookieBox = document.getElementById("cookieConsent");
+  const acceptBtn = document.getElementById("acceptCookies");
+
+  if (cookieBox && acceptBtn) {
     if (!localStorage.getItem("cookieConsent")) {
-      document.getElementById("cookieConsent").style.display = "block";
+      cookieBox.style.display = "block";
     }
-    document.getElementById("acceptCookies").onclick = function () {
-      localStorage.setItem("cookieConsent", true);
-      document.getElementById("cookieConsent").style.display = "none";
-    }
-  </script>
+
+    acceptBtn.addEventListener("click", () => {
+      localStorage.setItem("cookieConsent", "true");
+      cookieBox.style.display = "none";
+    });
+  }
+</script>
 
 </body>
 
