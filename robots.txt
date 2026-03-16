@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: /thank-you.html
 # Sitemap location
-Sitemap: https://transcodezyitsolutions.com/sitemap.xm
+Sitemap: https://transcodezyitsolutions.com/sitemap.xml
