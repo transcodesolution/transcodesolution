@@ -464,6 +464,10 @@ a {
     margin: 0;
 }
 
+.technology-expertise-con ,.testimonial-con h2{
+    text-align: center;
+}
+
 /* .wrapper-section{
     padding-block: 60px;
 } */
