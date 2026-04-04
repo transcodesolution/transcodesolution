@@ -55,6 +55,13 @@ li {
     justify-content: center;
 }
 
+.security-services-card-list li{
+    list-style-type: disc;
+    font-size: 16px;
+    color: #3f3f3f;
+    font-weight: 500;
+}
+
 @media (max-width:1360px) {
     .search_campaigns_box {
         width: 219px;
