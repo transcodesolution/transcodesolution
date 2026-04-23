@@ -4007,6 +4007,12 @@ textarea:-webkit-autofill:hover {
   font-family: Rajdhani
 }
 
+.healthcare_p{
+  font-size: 20px;
+  color: #3f3f3f;
+  font-weight: 500;
+}
+
 .healthcare_li,
 .our_text_1 {
   color: #3f3f3f;
