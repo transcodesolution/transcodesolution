@@ -1232,6 +1232,11 @@ body {
   text-align: center
 }
 
+.technology-expertise-con>h2 {
+  text-align: center;
+  font-size:32px;
+}
+
 .technology-expertise-con>p {
   font-size: 18px;
   line-height: 30.58px;
@@ -1413,6 +1418,9 @@ body {
   -webkit-box-orient: vertical
 }
 
+.testimonial-con>h2{
+  text-align: center;
+}
 .industries-we-serve-con>p,
 .testimonial-con>p {
   font-size: 18px;

@@ -146,6 +146,16 @@
   color: var(--root-black-color);
 }
 
+.healthcare-card-list li{
+  font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.22px;
+    text-align: left;
+    color: var(--root-black-color);
+    list-style: disc;
+}
+
 /* <!-- ************************************************healthcare-technology********************************************** --> */
 
 /* .healthcare-technology-wrapper .container {
