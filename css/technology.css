@@ -60,7 +60,7 @@
 
 /* <!-- *************************************************technology-page************************************************ --> */
 
-.technology-page-con h2 {
+.technology-page-con h1 {
   font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
@@ -72,7 +72,7 @@
   width: fit-content;
 }
 
-.technology-page-con h2::after {
+.technology-page-con h1::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -517,12 +517,12 @@
     padding-block: 40px;
   }
 
-  .technology-page-con h2 {
+  .technology-page-con h1 {
     /* text-align: center; */
     padding-left: 0px;
   }
 
-  .technology-page-con h2::after {
+  .technology-page-con h1::after {
     width: 100%;
     bottom: -4px;
   }
@@ -586,7 +586,7 @@
     padding-block: 40px;
   }
 
-  .technology-page-con h2 {
+  .technology-page-con h1 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -741,11 +741,11 @@ min-height: 200px;
     line-height: 23px;
   }
 
-  .technology-page-con h2::after {
+  .technology-page-con h1::after {
     bottom: -10px;
   }
 
-  .technology-page-con h2 {
+  .technology-page-con h1 {
     font-size: 35px;
   }
 

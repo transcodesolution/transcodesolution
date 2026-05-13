@@ -465,7 +465,7 @@ textarea:-webkit-autofill:focus {
         padding: 16px 0 0 0;
     }
 
-    .advance-healthcare-con h3 {
+    .advance-healthcare-con h1 {
         font-size: 25px;
         line-height: 31.3px;
     }
@@ -573,7 +573,7 @@ textarea:-webkit-autofill:focus {
         flex-direction: column;
     }
 
-    .advance-healthcare-con h3 {
+    .advance-healthcare-con h1 {
         font-size: 20px;
         line-height: 26.3px;
     }

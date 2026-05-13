@@ -51,7 +51,7 @@
   gap: 20px;
 }
 
-.career-at-transcodezy-con h2 {
+.career-at-transcodezy-con h1 {
   font-family: 'Rajdhani', sans-serif;
   font-size: 44px;
   font-weight: 700;
@@ -1127,7 +1127,7 @@ button.owl-dot.active {
 }
 
 @media only screen and (max-width: 768px) {
-  .career-at-transcodezy-con h2 {
+  .career-at-transcodezy-con h1 {
     font-size: 40px;
     line-height: 40.24px;
   }
@@ -1375,7 +1375,7 @@ button.owl-dot.active {
     width: unset;
   }
 
-  .career-at-transcodezy-con h2,
+  .career-at-transcodezy-con h1,
   .join-our-team-left h2,
   .why-work-with-us-con>h2,
   .our-current-openings-con>h2,
@@ -1459,7 +1459,7 @@ button.owl-dot.active {
     font-size: 20px;
   }
 
-  .career-at-transcodezy-con h2,
+  .career-at-transcodezy-con h1,
   .join-our-team-left h2,
   .why-work-with-us-con>h2,
   .our-current-openings-con>h2,

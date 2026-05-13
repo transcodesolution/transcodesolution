@@ -3053,7 +3053,7 @@ h2.heading.how_text_mobile_view {
   gap: 25px
 }
 
-.advance-healthcare-con h3 {
+.advance-healthcare-con h1 {
   font-family: Rajdhani, sans-serif;
   font-size: 30px;
   font-weight: 600;
@@ -3065,7 +3065,7 @@ h2.heading.how_text_mobile_view {
   position: relative
 }
 
-.advance-healthcare-con h3::after {
+.advance-healthcare-con h1::after {
   content: "";
   position: absolute;
   width: 100%;
