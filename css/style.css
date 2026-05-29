@@ -2337,6 +2337,13 @@ a:hover {
   color: var(--root-black-color)
 }
 
+.managed_it_p{
+  text-align: center;
+  font-size: 18px;
+  color: var(--root-black-color);
+  font-weight: 400;
+}
+
 .managed_line {
   width: 370px;
   height: 2px;

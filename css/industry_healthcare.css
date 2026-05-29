@@ -91,6 +91,14 @@
   padding-inline: 5%;
 }
 
+.advance-healthcare-con h3{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--root-black-color);
+}
+
 /* <!-- ************************************************our-healthcare-it-service********************************************** --> */
 .our-healthcare-it-service-wrapper .container {
   overflow: visible;
